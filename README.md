@@ -2,7 +2,7 @@
 
 This is the repository of the course object-oriented modeling in GIS at the Geodetic Institute in Karlsruhe. It contains Java-Code for several geodetic transformations integrated in a single programm. The course focuses on learning software engineering skills and focuses on design patterns such as singleton or factory method (creational patterns). The program is based on a structure design pattern of a Model View Controller.
 
-This code is open source and everyone is invited to partipitate to this repository.
+This code is open source and everyone is invited to participate to this repository.
 
 ## Getting Started
 
