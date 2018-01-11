@@ -59,7 +59,7 @@ For the versions available, see the [tags on this repository](https://github.com
 
 * **Norbert Rösch** - *Initial work* -
 
-See also the list of [contributors](https://github.com/muma1918/7-Parameter-Koordinatentransformation/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/Course-OO-modeling/Trafo/contributors) who participated in this project.
 
 ## License
 
