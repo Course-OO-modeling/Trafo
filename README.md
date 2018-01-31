@@ -2,7 +2,7 @@
 
 This is the repository of the course object-oriented modeling in GIS at the Geodetic Institute in Karlsruhe. It contains Java-Code for several geodetic transformations integrated in a single programm. The course focuses on learning software engineering skills and focuses on design patterns such as singleton or factory method (creational patterns). The program is based on a structure design pattern of a Model View Controller.
 
-This code is open source and everyone is invited to participate to this repository.
+This code is open source and everyone is invited to participate to this repository. Please feel free to pick open Issues and send Pull Requests (see section Contributing below).
 
 ## Getting Started
 
@@ -18,18 +18,19 @@ JUnit (at least Version 3 is recommended)  to run the implemented tests.
 
 Just clone the repository.
 
-Todo: set correct repository link
 ```
-git clone https://github.com/muma1018/7-Parameter-Koordinatentransformation.git
+git clone https://github.com/Course-OO-modeling/Trafo.git
 ```
 
 And start as a Java project with your favorite compiler/IDE (e.g. Eclipse).
 
+The project should run without any Errors.
+
 ## Running the tests
 
-Explain how to run the automated tests for this system
+Several Unit tests are already implemented. 
 
-### Break down into end to end tests
+### Break down into end to end tests (Todo: Delete this section?)
 
 Explain what these tests test and why
 
@@ -37,7 +38,7 @@ Explain what these tests test and why
 Give an example
 ```
 
-### And coding style tests
+### And coding style tests (Todo: Delete this section?)
 
 Explain what these tests test and why
 
@@ -53,7 +54,7 @@ When contributing to this repository, please first discuss the change you wish t
 
 ## Versioning
 
-For the versions available, see the [tags on this repository](https://github.com/muma1018/7-Parameter-Koordinatentransformation/tags). 
+For the versions available, see the [tags on this repository](https://github.com/Course-OO-modeling/Trafo//tags). 
 
 ## Authors
 
@@ -67,7 +68,5 @@ This project is licensed under the GNU License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* We acknowledge all authors and participants, which contributed to this project. Thank You.
 
