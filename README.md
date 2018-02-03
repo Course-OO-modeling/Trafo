@@ -1,6 +1,6 @@
 # Trafo
 
-This is the repository of the course object-oriented modeling in GIS at the Geodetic Institute in Karlsruhe. It contains Java-Code for several geodetic transformations integrated in a single programm. The course focuses on learning software engineering skills and focuses on design patterns such as singleton or factory method (creational patterns). The program is based on a structure design pattern of a Model View Controller.
+This is the repository of the course object-oriented modeling in GIS at the Geodetic Institute in Karlsruhe. It contains Java code for several geodetic transformations integrated in a single programm. The course focuses on learning software engineering skills and design patterns such as singleton or factory method (creational patterns). The program is based on a structure design pattern of a Model View Controller.
 
 This code is open source and everyone is invited to participate to this repository. Please feel free to pick open Issues and send Pull Requests (see section Contributing below).
 
@@ -68,5 +68,5 @@ This project is licensed under the GNU License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* We acknowledge all authors and participants, which contributed to this project. Thank You.
+* We acknowledge all authors and participants who contributed to this project. Thank You.
 
