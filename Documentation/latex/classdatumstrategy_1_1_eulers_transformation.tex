@@ -1,0 +1,136 @@
+\hypertarget{classdatumstrategy_1_1_eulers_transformation}{}\section{datumstrategy.\+Eulers\+Transformation Class Reference}
+\label{classdatumstrategy_1_1_eulers_transformation}\index{datumstrategy.\+Eulers\+Transformation@{datumstrategy.\+Eulers\+Transformation}}
+
+
+Algorithmic realization of the Euler\textquotesingle{}s transformation.  
+
+
+Inheritance diagram for datumstrategy.\+Eulers\+Transformation\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classdatumstrategy_1_1_eulers_transformation}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classdatumstrategy_1_1_eulers_transformation_a37661559087a055288365ddebea5d699}{transform} (\hyperlink{classcoordinates_1_1_geographic_coordinate_interface}{Geographic\+Coordinate\+Interface} geo)
+\begin{DoxyCompactList}\small\item\em Use Euler angles to transform the geographic coordinate. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{classdatumstrategy_1_1_eulers_transformation_a2e8c6f2458ddf01b4b46bc3800c13363}{e1}
+\item 
+double \hyperlink{classdatumstrategy_1_1_eulers_transformation_a2337790869ae44252d7ac574bb748fad}{e2}
+\item 
+double \hyperlink{classdatumstrategy_1_1_eulers_transformation_a6e1425d38cd9762dc299779981fc1abe}{e3}
+\item 
+double \hyperlink{classdatumstrategy_1_1_eulers_transformation_a75850bab8cf460223edd241724c0fc65}{e4}
+\item 
+double \hyperlink{classdatumstrategy_1_1_eulers_transformation_aa9f067a6e627854bbcc06f9606535ad0}{e5}
+\item 
+double \hyperlink{classdatumstrategy_1_1_eulers_transformation_a4bf6b7004de7c30697305f2d306a28e9}{e6}
+\item 
+double \hyperlink{classdatumstrategy_1_1_eulers_transformation_a4faa97a258a45ffc8e3e2f801964b000}{e7}
+\item 
+double \hyperlink{classdatumstrategy_1_1_eulers_transformation_aa8c2fddfc3d1b5190eabe3ec5edc4aa3}{e8}
+\item 
+double \hyperlink{classdatumstrategy_1_1_eulers_transformation_a978ca17f76ae4e8497ca75010bf54b46}{e9}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Algorithmic realization of the Euler\textquotesingle{}s transformation. 
+
+The method takes all needed parameters from the class Control\+Parms that extends the class Ellipsoid\+Parms. Needed parameter for the \hyperlink{classdatumstrategy_1_1_eulers_transformation}{Eulers\+Transformation}\+: 3 translation-\/, 1 scale-\/ and 3 rotation -\/parameters. The start coordinates are taken from the class Geographic\+Coordinate and have to be converted into cartesian coordinates to realize the transformation. The Translation is done with cartesian coordinates and the rotation is implemented with trigonometric function. After the \hyperlink{class_transformation}{Transformation}, the new cartesian coordinates are converted into ellipsoidal coordinates by an iterative process.
+
+source of \hyperlink{classdatumstrategy_1_1_eulers_transformation}{Eulers\+Transformation}\+: \href{https://en.wikipedia.org/wiki/Euler_angles}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Euler\+\_\+angles} \begin{DoxyAuthor}{Author}
+Yucheng Luo 
+\end{DoxyAuthor}
+\begin{DoxyRemark}{Remarks}
+Euler\textquotesingle{}s angle added on 01.\+02.\+2018 by Yucheng Luo 
+\end{DoxyRemark}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classdatumstrategy_1_1_eulers_transformation_a37661559087a055288365ddebea5d699}\label{classdatumstrategy_1_1_eulers_transformation_a37661559087a055288365ddebea5d699}} 
+\index{datumstrategy\+::\+Eulers\+Transformation@{datumstrategy\+::\+Eulers\+Transformation}!transform@{transform}}
+\index{transform@{transform}!datumstrategy\+::\+Eulers\+Transformation@{datumstrategy\+::\+Eulers\+Transformation}}
+\subsubsection{\texorpdfstring{transform()}{transform()}}
+{\footnotesize\ttfamily void datumstrategy.\+Eulers\+Transformation.\+transform (\begin{DoxyParamCaption}\item[{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface}{Geographic\+Coordinate\+Interface}}]{geo }\end{DoxyParamCaption})}
+
+
+
+Use Euler angles to transform the geographic coordinate. 
+
+Translation \+: Cartesian coordinates are used. Rotation \+: rotate with principle of conventional Euler\textquotesingle{}s Standard-\/x-\/convention (Rz1,Rx2,Rz3). Algorithm explanation \+: Rotate first about Z-\/axis ,after first step rotate about current X-\/axis, at end rotate about current Z-\/axis. Link to the Algorithm \+: \href{https://de.wikipedia.org/wiki/Eulersche_Winkel}{\tt https\+://de.\+wikipedia.\+org/wiki/\+Eulersche\+\_\+\+Winkel}
+
+\begin{DoxyAuthor}{Author}
+Yucheng Luo 
+\end{DoxyAuthor}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classdatumstrategy_1_1_eulers_transformation_a2e8c6f2458ddf01b4b46bc3800c13363}\label{classdatumstrategy_1_1_eulers_transformation_a2e8c6f2458ddf01b4b46bc3800c13363}} 
+\index{datumstrategy\+::\+Eulers\+Transformation@{datumstrategy\+::\+Eulers\+Transformation}!e1@{e1}}
+\index{e1@{e1}!datumstrategy\+::\+Eulers\+Transformation@{datumstrategy\+::\+Eulers\+Transformation}}
+\subsubsection{\texorpdfstring{e1}{e1}}
+{\footnotesize\ttfamily double datumstrategy.\+Eulers\+Transformation.\+e1\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classdatumstrategy_1_1_eulers_transformation_a2337790869ae44252d7ac574bb748fad}\label{classdatumstrategy_1_1_eulers_transformation_a2337790869ae44252d7ac574bb748fad}} 
+\index{datumstrategy\+::\+Eulers\+Transformation@{datumstrategy\+::\+Eulers\+Transformation}!e2@{e2}}
+\index{e2@{e2}!datumstrategy\+::\+Eulers\+Transformation@{datumstrategy\+::\+Eulers\+Transformation}}
+\subsubsection{\texorpdfstring{e2}{e2}}
+{\footnotesize\ttfamily double datumstrategy.\+Eulers\+Transformation.\+e2\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classdatumstrategy_1_1_eulers_transformation_a6e1425d38cd9762dc299779981fc1abe}\label{classdatumstrategy_1_1_eulers_transformation_a6e1425d38cd9762dc299779981fc1abe}} 
+\index{datumstrategy\+::\+Eulers\+Transformation@{datumstrategy\+::\+Eulers\+Transformation}!e3@{e3}}
+\index{e3@{e3}!datumstrategy\+::\+Eulers\+Transformation@{datumstrategy\+::\+Eulers\+Transformation}}
+\subsubsection{\texorpdfstring{e3}{e3}}
+{\footnotesize\ttfamily double datumstrategy.\+Eulers\+Transformation.\+e3\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classdatumstrategy_1_1_eulers_transformation_a75850bab8cf460223edd241724c0fc65}\label{classdatumstrategy_1_1_eulers_transformation_a75850bab8cf460223edd241724c0fc65}} 
+\index{datumstrategy\+::\+Eulers\+Transformation@{datumstrategy\+::\+Eulers\+Transformation}!e4@{e4}}
+\index{e4@{e4}!datumstrategy\+::\+Eulers\+Transformation@{datumstrategy\+::\+Eulers\+Transformation}}
+\subsubsection{\texorpdfstring{e4}{e4}}
+{\footnotesize\ttfamily double datumstrategy.\+Eulers\+Transformation.\+e4\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classdatumstrategy_1_1_eulers_transformation_aa9f067a6e627854bbcc06f9606535ad0}\label{classdatumstrategy_1_1_eulers_transformation_aa9f067a6e627854bbcc06f9606535ad0}} 
+\index{datumstrategy\+::\+Eulers\+Transformation@{datumstrategy\+::\+Eulers\+Transformation}!e5@{e5}}
+\index{e5@{e5}!datumstrategy\+::\+Eulers\+Transformation@{datumstrategy\+::\+Eulers\+Transformation}}
+\subsubsection{\texorpdfstring{e5}{e5}}
+{\footnotesize\ttfamily double datumstrategy.\+Eulers\+Transformation.\+e5\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classdatumstrategy_1_1_eulers_transformation_a4bf6b7004de7c30697305f2d306a28e9}\label{classdatumstrategy_1_1_eulers_transformation_a4bf6b7004de7c30697305f2d306a28e9}} 
+\index{datumstrategy\+::\+Eulers\+Transformation@{datumstrategy\+::\+Eulers\+Transformation}!e6@{e6}}
+\index{e6@{e6}!datumstrategy\+::\+Eulers\+Transformation@{datumstrategy\+::\+Eulers\+Transformation}}
+\subsubsection{\texorpdfstring{e6}{e6}}
+{\footnotesize\ttfamily double datumstrategy.\+Eulers\+Transformation.\+e6\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classdatumstrategy_1_1_eulers_transformation_a4faa97a258a45ffc8e3e2f801964b000}\label{classdatumstrategy_1_1_eulers_transformation_a4faa97a258a45ffc8e3e2f801964b000}} 
+\index{datumstrategy\+::\+Eulers\+Transformation@{datumstrategy\+::\+Eulers\+Transformation}!e7@{e7}}
+\index{e7@{e7}!datumstrategy\+::\+Eulers\+Transformation@{datumstrategy\+::\+Eulers\+Transformation}}
+\subsubsection{\texorpdfstring{e7}{e7}}
+{\footnotesize\ttfamily double datumstrategy.\+Eulers\+Transformation.\+e7\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classdatumstrategy_1_1_eulers_transformation_aa8c2fddfc3d1b5190eabe3ec5edc4aa3}\label{classdatumstrategy_1_1_eulers_transformation_aa8c2fddfc3d1b5190eabe3ec5edc4aa3}} 
+\index{datumstrategy\+::\+Eulers\+Transformation@{datumstrategy\+::\+Eulers\+Transformation}!e8@{e8}}
+\index{e8@{e8}!datumstrategy\+::\+Eulers\+Transformation@{datumstrategy\+::\+Eulers\+Transformation}}
+\subsubsection{\texorpdfstring{e8}{e8}}
+{\footnotesize\ttfamily double datumstrategy.\+Eulers\+Transformation.\+e8\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classdatumstrategy_1_1_eulers_transformation_a978ca17f76ae4e8497ca75010bf54b46}\label{classdatumstrategy_1_1_eulers_transformation_a978ca17f76ae4e8497ca75010bf54b46}} 
+\index{datumstrategy\+::\+Eulers\+Transformation@{datumstrategy\+::\+Eulers\+Transformation}!e9@{e9}}
+\index{e9@{e9}!datumstrategy\+::\+Eulers\+Transformation@{datumstrategy\+::\+Eulers\+Transformation}}
+\subsubsection{\texorpdfstring{e9}{e9}}
+{\footnotesize\ttfamily double datumstrategy.\+Eulers\+Transformation.\+e9\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+datumstrategy/\hyperlink{_eulers_transformation_8java}{Eulers\+Transformation.\+java}\end{DoxyCompactItemize}

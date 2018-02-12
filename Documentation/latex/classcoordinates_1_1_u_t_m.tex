@@ -1,0 +1,158 @@
+\hypertarget{classcoordinates_1_1_u_t_m}{}\section{coordinates.\+U\+TM Class Reference}
+\label{classcoordinates_1_1_u_t_m}\index{coordinates.\+U\+TM@{coordinates.\+U\+TM}}
+
+
+Class \hyperlink{classcoordinates_1_1_u_t_m}{U\+TM} extends class \hyperlink{classcoordinates_1_1_gauss}{Gauss}.  
+
+
+Inheritance diagram for coordinates.\+U\+TM\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=5.000000cm]{classcoordinates_1_1_u_t_m}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcoordinates_1_1_u_t_m_a073084a261396fbd5c408c6af8740b18}{U\+TM} ()
+\item 
+void \hyperlink{classcoordinates_1_1_u_t_m_acc60077a37c7b6f1d24c00401e97064d}{init} ()
+\item 
+void \hyperlink{classcoordinates_1_1_u_t_m_a40435144851f7e23b573debd797e0e97}{print} ()
+\begin{DoxyCompactList}\small\item\em prints \hyperlink{classcoordinates_1_1_u_t_m}{U\+TM} coordinates \end{DoxyCompactList}\item 
+\hyperlink{classcoordinates_1_1_geographic_coordinate_interface}{Geographic\+Coordinate\+Interface} \hyperlink{classcoordinates_1_1_u_t_m_a007d51832fcdc5eb721f04f23d4be8f9}{get\+As\+Geographic\+Interface} (\hyperlink{classparams_1_1_ellipsoid_parms}{Ellipsoid\+Parms} ell)
+\begin{DoxyCompactList}\small\item\em get\+As\+Geographic returns a \hyperlink{classcoordinates_1_1_geographic_coordinate}{Geographic\+Coordinate} object \end{DoxyCompactList}\item 
+void \hyperlink{classcoordinates_1_1_u_t_m_a8ce35fab81c41da52a3e006dd37c48b5}{from\+Geographic\+Interface} (\hyperlink{classparams_1_1_ellipsoid_parms}{Ellipsoid\+Parms} ell, \hyperlink{classcoordinates_1_1_geographic_coordinate_interface}{Geographic\+Coordinate\+Interface} geocoord)
+\begin{DoxyCompactList}\small\item\em from\+Geographic calculates \hyperlink{classcoordinates_1_1_u_t_m}{U\+TM} coordinate from geographic coordinate \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{classcoordinates_1_1_u_t_m_adb4ff0c8fbf9f7829c23fb4ca2abba64}{east}
+\item 
+double \hyperlink{classcoordinates_1_1_u_t_m_a74bc382b61e98b1438c07e101de460e9}{north}
+\item 
+int \hyperlink{classcoordinates_1_1_u_t_m_a895d50db8cc3e81cb4d8ec1142a6939d}{zone}
+\item 
+boolean \hyperlink{classcoordinates_1_1_u_t_m_adb335a29a61081a69f82fb18047b2533}{northhem}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Class \hyperlink{classcoordinates_1_1_u_t_m}{U\+TM} extends class \hyperlink{classcoordinates_1_1_gauss}{Gauss}. 
+
+\begin{DoxyAuthor}{Author}
+unknown 
+\end{DoxyAuthor}
+\begin{DoxyRemark}{Remarks}
+updated header on 2017-\/11-\/29 by Markus Mueller 
+\end{DoxyRemark}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+
+\begin{DoxyParams}{Parameters}
+{\em east} & -\/ easting as double \\
+\hline
+{\em north} & -\/ Northing as double \\
+\hline
+{\em zone} & -\/ U\+T\+M-\/\+Zone as integer \\
+\hline
+{\em northhem} & -\/ hemisphere (0\+: North or 1\+:South) as boolean \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classcoordinates_1_1_u_t_m_a073084a261396fbd5c408c6af8740b18}\label{classcoordinates_1_1_u_t_m_a073084a261396fbd5c408c6af8740b18}} 
+\index{coordinates\+::\+U\+TM@{coordinates\+::\+U\+TM}!U\+TM@{U\+TM}}
+\index{U\+TM@{U\+TM}!coordinates\+::\+U\+TM@{coordinates\+::\+U\+TM}}
+\subsubsection{\texorpdfstring{U\+T\+M()}{UTM()}}
+{\footnotesize\ttfamily coordinates.\+U\+T\+M.\+U\+TM (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classcoordinates_1_1_u_t_m_a8ce35fab81c41da52a3e006dd37c48b5}\label{classcoordinates_1_1_u_t_m_a8ce35fab81c41da52a3e006dd37c48b5}} 
+\index{coordinates\+::\+U\+TM@{coordinates\+::\+U\+TM}!from\+Geographic\+Interface@{from\+Geographic\+Interface}}
+\index{from\+Geographic\+Interface@{from\+Geographic\+Interface}!coordinates\+::\+U\+TM@{coordinates\+::\+U\+TM}}
+\subsubsection{\texorpdfstring{from\+Geographic\+Interface()}{fromGeographicInterface()}}
+{\footnotesize\ttfamily void coordinates.\+U\+T\+M.\+from\+Geographic\+Interface (\begin{DoxyParamCaption}\item[{\hyperlink{classparams_1_1_ellipsoid_parms}{Ellipsoid\+Parms}}]{ell,  }\item[{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface}{Geographic\+Coordinate\+Interface}}]{geocoord }\end{DoxyParamCaption})}
+
+
+
+from\+Geographic calculates \hyperlink{classcoordinates_1_1_u_t_m}{U\+TM} coordinate from geographic coordinate 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ell} & -\/ the ellipsoidal parameters as an instance of Ellipsoid\+Parms \\
+\hline
+{\em geocoord} & -\/ a geographic coordinate as an instance of \hyperlink{classcoordinates_1_1_geographic_coordinate}{Geographic\+Coordinate} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcoordinates_1_1_u_t_m_a007d51832fcdc5eb721f04f23d4be8f9}\label{classcoordinates_1_1_u_t_m_a007d51832fcdc5eb721f04f23d4be8f9}} 
+\index{coordinates\+::\+U\+TM@{coordinates\+::\+U\+TM}!get\+As\+Geographic\+Interface@{get\+As\+Geographic\+Interface}}
+\index{get\+As\+Geographic\+Interface@{get\+As\+Geographic\+Interface}!coordinates\+::\+U\+TM@{coordinates\+::\+U\+TM}}
+\subsubsection{\texorpdfstring{get\+As\+Geographic\+Interface()}{getAsGeographicInterface()}}
+{\footnotesize\ttfamily \hyperlink{classcoordinates_1_1_geographic_coordinate_interface}{Geographic\+Coordinate\+Interface} coordinates.\+U\+T\+M.\+get\+As\+Geographic\+Interface (\begin{DoxyParamCaption}\item[{\hyperlink{classparams_1_1_ellipsoid_parms}{Ellipsoid\+Parms}}]{ell }\end{DoxyParamCaption})}
+
+
+
+get\+As\+Geographic returns a \hyperlink{classcoordinates_1_1_geographic_coordinate}{Geographic\+Coordinate} object 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ell} & -\/ ellipsoidal parameters \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+geo -\/ output\+: \hyperlink{classcoordinates_1_1_geographic_coordinate}{Geographic\+Coordinate} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcoordinates_1_1_u_t_m_acc60077a37c7b6f1d24c00401e97064d}\label{classcoordinates_1_1_u_t_m_acc60077a37c7b6f1d24c00401e97064d}} 
+\index{coordinates\+::\+U\+TM@{coordinates\+::\+U\+TM}!init@{init}}
+\index{init@{init}!coordinates\+::\+U\+TM@{coordinates\+::\+U\+TM}}
+\subsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily void coordinates.\+U\+T\+M.\+init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classcoordinates_1_1_u_t_m_a40435144851f7e23b573debd797e0e97}\label{classcoordinates_1_1_u_t_m_a40435144851f7e23b573debd797e0e97}} 
+\index{coordinates\+::\+U\+TM@{coordinates\+::\+U\+TM}!print@{print}}
+\index{print@{print}!coordinates\+::\+U\+TM@{coordinates\+::\+U\+TM}}
+\subsubsection{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily void coordinates.\+U\+T\+M.\+print (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+prints \hyperlink{classcoordinates_1_1_u_t_m}{U\+TM} coordinates 
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classcoordinates_1_1_u_t_m_adb4ff0c8fbf9f7829c23fb4ca2abba64}\label{classcoordinates_1_1_u_t_m_adb4ff0c8fbf9f7829c23fb4ca2abba64}} 
+\index{coordinates\+::\+U\+TM@{coordinates\+::\+U\+TM}!east@{east}}
+\index{east@{east}!coordinates\+::\+U\+TM@{coordinates\+::\+U\+TM}}
+\subsubsection{\texorpdfstring{east}{east}}
+{\footnotesize\ttfamily double coordinates.\+U\+T\+M.\+east\hspace{0.3cm}{\ttfamily [private]}}
+
+Easting \mbox{\Hypertarget{classcoordinates_1_1_u_t_m_a74bc382b61e98b1438c07e101de460e9}\label{classcoordinates_1_1_u_t_m_a74bc382b61e98b1438c07e101de460e9}} 
+\index{coordinates\+::\+U\+TM@{coordinates\+::\+U\+TM}!north@{north}}
+\index{north@{north}!coordinates\+::\+U\+TM@{coordinates\+::\+U\+TM}}
+\subsubsection{\texorpdfstring{north}{north}}
+{\footnotesize\ttfamily double coordinates.\+U\+T\+M.\+north\hspace{0.3cm}{\ttfamily [private]}}
+
+Northing \mbox{\Hypertarget{classcoordinates_1_1_u_t_m_adb335a29a61081a69f82fb18047b2533}\label{classcoordinates_1_1_u_t_m_adb335a29a61081a69f82fb18047b2533}} 
+\index{coordinates\+::\+U\+TM@{coordinates\+::\+U\+TM}!northhem@{northhem}}
+\index{northhem@{northhem}!coordinates\+::\+U\+TM@{coordinates\+::\+U\+TM}}
+\subsubsection{\texorpdfstring{northhem}{northhem}}
+{\footnotesize\ttfamily boolean coordinates.\+U\+T\+M.\+northhem\hspace{0.3cm}{\ttfamily [private]}}
+
+Hemisphere\+: 0 =$>$ North, 1 =$>$ South \mbox{\Hypertarget{classcoordinates_1_1_u_t_m_a895d50db8cc3e81cb4d8ec1142a6939d}\label{classcoordinates_1_1_u_t_m_a895d50db8cc3e81cb4d8ec1142a6939d}} 
+\index{coordinates\+::\+U\+TM@{coordinates\+::\+U\+TM}!zone@{zone}}
+\index{zone@{zone}!coordinates\+::\+U\+TM@{coordinates\+::\+U\+TM}}
+\subsubsection{\texorpdfstring{zone}{zone}}
+{\footnotesize\ttfamily int coordinates.\+U\+T\+M.\+zone\hspace{0.3cm}{\ttfamily [private]}}
+
+\hyperlink{classcoordinates_1_1_u_t_m}{coordinates.\+U\+TM}-\/\+Zone 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+coordinates/\hyperlink{_u_t_m_8java}{U\+T\+M.\+java}\end{DoxyCompactItemize}
