@@ -67,9 +67,10 @@ public final class Soldner extends Coordinate {
      * @brief prints Soldner coordinates with reference longitude, -latitude, abscissa, ordinate and height
      */
     public void print() {
+    	final double RHO = 180. / Math.PI;
         System.out.println("Soldner coordinate:");
-        System.out.println("Reference longitude:" + l0 * rho);
-        System.out.println("Reference latitude:" + b0 * rho);
+        System.out.println("Reference longitude:" + l0 * RHO);
+        System.out.println("Reference latitude:" + b0 * RHO);
         System.out.println("Abcissa:" + abszisse);
         System.out.println("Ordinate:" + ordinate);
         System.out.println("Height:" + height);

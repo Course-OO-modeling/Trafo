@@ -5,9 +5,8 @@ import coordinates.GaussKrueger;
 import coordinates.*;
 import org.junit.Test;
 import params.*;
-import services.SharedValues;
 
-public class fromGeographicTest extends GaussKrueger implements SharedValues {
+public class fromGeographicTest extends GaussKrueger {
 
     /**
      * @brief Testing of the method fromGeographic from the class coordinates.GausKrueger.java
@@ -15,10 +14,12 @@ public class fromGeographicTest extends GaussKrueger implements SharedValues {
 	@Test
 	public void testFromGeographic() {
 		
+		final double RHO = 180. / Math.PI;
+		
 		
 		EllipsoidParms EP1 =  new EllipsoidParms();
 		
-		GeographicCoordinateInterface GC1 = GeographicCoordinateInterface.getInstance(8.40447 / rho, 49.01398 / rho, 114.23);
+		GeographicCoordinateInterface GC1 = GeographicCoordinateInterface.getInstance(8.40447 / RHO, 49.01398 / RHO, 114.23);
 
 		GaussKrueger GK1 = new GaussKrueger();
 		

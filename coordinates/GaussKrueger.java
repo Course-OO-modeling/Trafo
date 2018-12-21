@@ -4,7 +4,6 @@ package coordinates;
 import params.ControlParms;
 import params.EllipsoidParms;
 import params.LatParm;
-import services.CalculationService;
 import coordinates.Gauss;
 
 /**
@@ -68,12 +67,13 @@ public class GaussKrueger extends Gauss {
     public GeographicCoordinateInterface getAsGeographicInterface(EllipsoidParms ell) {
         double lao, kennlao;
         double xg, yg, l0;
+        final double RHO = 180. / Math.PI;
         GeographicCoordinateInterface geographic = CoordinateFactory.getGeographicCoordinateInterface();
 
         xg = hoch;
         kennlao = (int) ((rechts) / 1e+6);
         lao = 3 * kennlao;
-        l0 = lao / rho;
+        l0 = lao / RHO;
 
         yg = rechts - kennlao * 1e+6 - 5e+5;
 
@@ -96,12 +96,13 @@ public class GaussKrueger extends Gauss {
         double hnull = 0., lo;
         double cdl, dl;
         LatParm latparm = new LatParm();
+        final double RHO = 180. / Math.PI;
 
         kennlao = (int) ell.getGK_refmer() / 3;
-        lo = ell.getGK_refmer() / rho;
+        lo = ell.getGK_refmer() / RHO;
 
         /* meridian arc length */
-        hnull = CalculationService.meridianLength(geocoord.getLatitude(), ell);
+        hnull = Gauss.meridianLength(geocoord.getLatitude(), ell);
 
         latparm.Constant(ell, geocoord.getLatitude());
 

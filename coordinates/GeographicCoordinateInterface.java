@@ -143,11 +143,12 @@ public final class GeographicCoordinateInterface extends Coordinate {
      * @brief prints a string representation of the particular GeographicCoordinate instance into the console
      */
     public void print() {
+    	final double RHO = 180. / Math.PI;
         System.out.println("Geographic coordinates:");
         System.out.println("Point ID: " + getPointid());
         System.out.println("Point Number: " + point_number);
-        System.out.println("Longitude: " + longitude * rho);
-        System.out.println("Latitude: " + latitude * rho);
+        System.out.println("Longitude: " + longitude * RHO);
+        System.out.println("Latitude: " + latitude * RHO);
         System.out.println("Height: " + height);
     } // end print
 

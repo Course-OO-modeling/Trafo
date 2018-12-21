@@ -18,10 +18,9 @@ package datumstrategy;
 
 import params.ControlParms;
 import coordinates.GeographicCoordinateInterface;
-import services.SharedValues;
 import datumstrategy.TransformationStrategy;
 
-public class MolodenskiiTransformationStandard extends TransformationStrategy implements SharedValues {
+public class MolodenskiiTransformationStandard extends TransformationStrategy {
 
     private static MolodenskiiTransformationStandard myInstance = null;
 
@@ -71,12 +70,5 @@ public class MolodenskiiTransformationStandard extends TransformationStrategy im
         geo.setLatitude(geo.getLatitude() + db);
         geo.setLongitude(geo.getLongitude() + dl);
         geo.setHeight(geo.getHeight() + dh);
-
-        if (TEST) {
-            System.out.println("Begin Molodenskii");
-            control.print();
-            System.out.println("db =" + db + " dl =" + dl + " dh =" + dh);
-            System.out.println("End  Molodenskii");
-        }
     }
 }

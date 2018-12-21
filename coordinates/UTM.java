@@ -2,7 +2,6 @@ package coordinates;
 
 import params.EllipsoidParms;
 import params.LatParm;
-import services.CalculationService;
 import coordinates.Gauss;
 import coordinates.GeographicCoordinateInterface;
 
@@ -65,6 +64,7 @@ public class UTM extends Gauss {
     @Override
     public GeographicCoordinateInterface getAsGeographicInterface(EllipsoidParms ell) {
         double xg, yg, l0;
+        final double RHO = 180. / Math.PI;
         GeographicCoordinateInterface geo = CoordinateFactory.getGeographicCoordinateInterface();
 
         xg = north;
@@ -73,7 +73,7 @@ public class UTM extends Gauss {
         if (northhem == false)
             xg = xg - 1.e+7;
         xg /= getScale();
-        l0 = ((double) (6 * (zone - 30) - 3)) / rho;
+        l0 = ((double) (6 * (zone - 30) - 3)) / RHO;
         yg -= 5.e+5;
 
         geo.GeographicLongitudeLatitude(xg, yg, ell, getScale(), l0);
@@ -90,14 +90,15 @@ public class UTM extends Gauss {
     @Override
     public void fromGeographicInterface(EllipsoidParms ell, GeographicCoordinateInterface geocoord) {
         double hnull, l0, cdl, dl;
+        final double RHO = 180. / Math.PI;
 
         LatParm bz = new LatParm();
 
-        zone = (int) (((geocoord.getLongitude() * rho + 3.0) / 6.0 + 30.0) + 0.5);
-        l0 = (double) (6 * (zone - 30) - 3) / rho;
+        zone = (int) (((geocoord.getLongitude() * RHO + 3.0) / 6.0 + 30.0) + 0.5);
+        l0 = (double) (6 * (zone - 30) - 3) / RHO;
 
         /* meridian arc length */
-        hnull = CalculationService.meridianLength(geocoord.getLatitude(), ell);
+        hnull = Gauss.meridianLength(geocoord.getLatitude(), ell);
 
         bz.Constant(ell, geocoord.getLatitude());
 

@@ -36,21 +36,21 @@ public final class GeographicCoordinate extends Coordinate {
 
     
 
-    private GeographicCoordinate() 
+    public GeographicCoordinate() 
     {
         longitude = -1.;
         latitude = -1.;
         height = -10000.;
     } // end Constructor
 
-    private GeographicCoordinate(double longitude, double latitude) 
+    public GeographicCoordinate(double longitude, double latitude) 
     {
         this.longitude = longitude;
         this.latitude = latitude;
         height = 0.;
     } // end Constructor
 
-    private GeographicCoordinate(double longitude, double latitude, double height) 
+    public GeographicCoordinate(double longitude, double latitude, double height) 
     {
         this.longitude = longitude;
         this.latitude = latitude;
@@ -67,20 +67,20 @@ public final class GeographicCoordinate extends Coordinate {
     /**
      * @brief factory method that returns the singular instance of the singleton class initialized with default constructor
      */
-    public static GeographicCoordinate getInstance() 
-    {
-        if (myInstance == null) {
-            myInstance = new GeographicCoordinate();
-        } else {
-            myInstance.resetState();
-
-            myInstance.longitude = -1.;
-            myInstance.latitude = -1.;
-            myInstance.height = -10000.;
-        }
-
-        return myInstance;
-    }
+//    public static GeographicCoordinate getInstance() 
+//    {
+//        if (myInstance == null) {
+//            myInstance = new GeographicCoordinate();
+//        } else {
+//            myInstance.resetState();
+//
+//            myInstance.longitude = -1.;
+//            myInstance.latitude = -1.;
+//            myInstance.height = -10000.;
+//        }
+//
+//        return myInstance;
+//    }
 
     /**
      * @brief sets all parameters of the instance to default value 0, needed because only one instance of the class can exist (singleton class)
@@ -144,11 +144,12 @@ public final class GeographicCoordinate extends Coordinate {
      * @brief prints a string representation of the particular GeographicCoordinate instance into the console
      */
     public void print() {
+    	final double RHO = 180. / Math.PI;
         System.out.println("Geographic coordinate:");
         System.out.println("Point ID: " + getPointid());
         System.out.println("Point Number: " + point_number);
-        System.out.println("Longitude: " + longitude * rho);
-        System.out.println("Latitude: " + latitude * rho);
+        System.out.println("Longitude: " + longitude * RHO);
+        System.out.println("Latitude: " + latitude * RHO);
         System.out.println("Height: " + height);
     } // end print
 

@@ -32,8 +32,8 @@ public class CoordinateFactory {
             return new UTM();
         else if (object.equals("soldner"))
             return new Soldner();
-        //else if (object.equals("geo"))
-            //return new GeographicCoordinate();
+        else if (object.equals("geo"))
+            return new GeographicCoordinate();
         else if (object.equals("xyz"))
             return new XYZCoordinate();
         else

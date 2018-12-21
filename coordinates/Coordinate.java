@@ -1,7 +1,7 @@
 package coordinates;
 
 import params.EllipsoidParms;
-import services.SharedValues;
+
 
 /** 
  *  @class Coordinate
@@ -13,7 +13,7 @@ import services.SharedValues;
  *	@version 0.1
  *	@param pointid - string representing the point identification number
  */
-public abstract class Coordinate implements SharedValues {
+public abstract class Coordinate {
     private String pointid;
     
     /**
