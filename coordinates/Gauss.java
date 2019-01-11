@@ -146,7 +146,7 @@ public abstract class Gauss extends Coordinate {
         this.ellipsoidal = ellipsoidal;
     }
 
-	public double meridianLength(double latitude, EllipsoidParms ell) {
+	public static double meridianLength(double latitude, EllipsoidParms ell) {
 	
 	    final int NUMAX = 10, MUMAX = 10;
 	    int nu, mu;

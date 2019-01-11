@@ -8,7 +8,7 @@ Class \hyperlink{classcoordinates_1_1_gauss}{Gauss} extends class \hyperlink{cla
 Inheritance diagram for coordinates.\+Gauss\+:\begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[height=5.000000cm]{classcoordinates_1_1_gauss}
+\includegraphics[height=4.000000cm]{classcoordinates_1_1_gauss}
 \end{center}
 \end{figure}
 \subsection*{Public Member Functions}
@@ -38,6 +38,11 @@ int \hyperlink{classcoordinates_1_1_gauss_a5c6271983e9bb69b8d024158397f5882}{get
 \begin{DoxyCompactList}\small\item\em getter method that returns the the ellipsoidal of the particular \hyperlink{classcoordinates_1_1_gauss}{Gauss} coordinate \end{DoxyCompactList}\item 
 void \hyperlink{classcoordinates_1_1_gauss_a2bfa95e5913df58667cf5c15db228db8}{set\+Ellipsoidal} (int \hyperlink{classcoordinates_1_1_gauss_a08582ecf17604f8330df079ce234008c}{ellipsoidal})
 \begin{DoxyCompactList}\small\item\em setter method that accepts the ellipsoidal of the particular \hyperlink{classcoordinates_1_1_gauss}{Gauss} coordinate \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static double \hyperlink{classcoordinates_1_1_gauss_a622fa98764e45111e58a44c82f4dc5cd}{meridian\+Length} (double latitude, \hyperlink{classparams_1_1_ellipsoid_parms}{Ellipsoid\+Parms} ell)
+\end{DoxyCompactItemize}
 \subsection*{Protected Member Functions}
 \begin{DoxyCompactItemize}
 \item 
@@ -56,7 +61,6 @@ double \hyperlink{classcoordinates_1_1_gauss_ad1543fe8a30e7f6dab1d0486bb5a935d}{
 \item 
 int \hyperlink{classcoordinates_1_1_gauss_a08582ecf17604f8330df079ce234008c}{ellipsoidal}
 \end{DoxyCompactItemize}
-\subsection*{Additional Inherited Members}
 
 
 \subsection{Detailed Description}
@@ -183,6 +187,12 @@ getter method that returns the the scale of the particular \hyperlink{classcoord
 \begin{DoxyReturn}{Returns}
 scale -\/ returns the ordinate of the particular \hyperlink{classcoordinates_1_1_gauss}{Gauss} coordinate as double as double 
 \end{DoxyReturn}
+\mbox{\Hypertarget{classcoordinates_1_1_gauss_a622fa98764e45111e58a44c82f4dc5cd}\label{classcoordinates_1_1_gauss_a622fa98764e45111e58a44c82f4dc5cd}} 
+\index{coordinates\+::\+Gauss@{coordinates\+::\+Gauss}!meridian\+Length@{meridian\+Length}}
+\index{meridian\+Length@{meridian\+Length}!coordinates\+::\+Gauss@{coordinates\+::\+Gauss}}
+\subsubsection{\texorpdfstring{meridian\+Length()}{meridianLength()}}
+{\footnotesize\ttfamily static double coordinates.\+Gauss.\+meridian\+Length (\begin{DoxyParamCaption}\item[{double}]{latitude,  }\item[{\hyperlink{classparams_1_1_ellipsoid_parms}{Ellipsoid\+Parms}}]{ell }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
 \mbox{\Hypertarget{classcoordinates_1_1_gauss_aa088aa6fb796aa873b19ee2c1ef42468}\label{classcoordinates_1_1_gauss_aa088aa6fb796aa873b19ee2c1ef42468}} 
 \index{coordinates\+::\+Gauss@{coordinates\+::\+Gauss}!print@{print}}
 \index{print@{print}!coordinates\+::\+Gauss@{coordinates\+::\+Gauss}}

@@ -1,7 +1,6 @@
 var searchData=
 [
   ['scale',['scale',['../classcoordinates_1_1_gauss.html#aea6297c71e9258a7dfb80a823048dc0d',1,'coordinates.Gauss.scale()'],['../classparams_1_1_spatial_similarity_transform_parm.html#af481ab8897e883489a144acfb6257220',1,'params.SpatialSimilarityTransformParm.scale()']]],
-  ['services',['services',['../namespaceservices.html',1,'']]],
   ['seta',['setA',['../classparams_1_1_ellipsoid_parms.html#a993f560b3d057d7f5675cb0dbc2f43cc',1,'params::EllipsoidParms']]],
   ['setabszisse',['setAbszisse',['../classcoordinates_1_1_gauss.html#a82bc0ee0a9fae9bef4e3400615d50c58',1,'coordinates.Gauss.setAbszisse()'],['../classcoordinates_1_1_soldner.html#ab1de539c6b4d0855debaa87339edbedd',1,'coordinates.Soldner.setAbszisse()']]],
   ['setalpha',['setAlpha',['../classparams_1_1_spatial_similarity_transform_parm.html#ae5ed35054bccb93612ed02174c83ad2c',1,'params::SpatialSimilarityTransformParm']]],
@@ -92,8 +91,6 @@ var searchData=
   ['setzihoehe',['setZihoehe',['../classparams_1_1_control_parms.html#ae77b5d713891b289145e548a5c05d67e',1,'params::ControlParms']]],
   ['setzipkt',['setZipkt',['../classparams_1_1_control_parms.html#afea7f5a4ce364f172fc3dbc4daf9ecd7',1,'params::ControlParms']]],
   ['setzitausch',['setZitausch',['../classparams_1_1_control_parms.html#adb5c016b189b75a4a2e3c1b314769db2',1,'params::ControlParms']]],
-  ['sharedvalues',['SharedValues',['../interfaceservices_1_1_shared_values.html',1,'services']]],
-  ['sharedvalues_2ejava',['SharedValues.java',['../_shared_values_8java.html',1,'']]],
   ['soldner',['Soldner',['../classcoordinates_1_1_soldner.html',1,'coordinates.Soldner'],['../classcoordinates_1_1_soldner.html#ab3e2a2c0566f9f12fa5d9c3460440a1a',1,'coordinates.Soldner.Soldner(double l0, double b0, double abszisse, double ordinate, double height, int ellipsoidal)'],['../classcoordinates_1_1_soldner.html#a92132f86c35d526b8419f8bde4e0bc0e',1,'coordinates.Soldner.Soldner(double l0, double b0)'],['../classcoordinates_1_1_soldner.html#a01998c873e25c1fbefb3aba8d1d24cdd',1,'coordinates.Soldner.Soldner()']]],
   ['soldner_2ejava',['Soldner.java',['../_soldner_8java.html',1,'']]],
   ['soldner_5fb0',['Soldner_b0',['../classparams_1_1_ellipsoid_parms.html#a600fb2e197a0cce391abf04cbbd2bfa4',1,'params::EllipsoidParms']]],

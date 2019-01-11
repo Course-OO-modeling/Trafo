@@ -3,15 +3,12 @@ var searchData=
   ['c',['c',['../classparams_1_1_ellipsoid_parms.html#a8c4aea13fd32cd84761c5fa923a3b56a',1,'params::EllipsoidParms']]],
   ['calculateabszisseordinate',['CalculateAbszisseOrdinate',['../classcoordinates_1_1_gauss.html#a1e810f7e3af643a8c0525485d9133276',1,'coordinates::Gauss']]],
   ['calculatelongitudeparms',['calculatelongitudeParms',['../classparams_1_1_ellipsoid_parms.html#ad33cde2be306e100c10b186416864d36',1,'params::EllipsoidParms']]],
-  ['calculationservice',['CalculationService',['../classservices_1_1_calculation_service.html',1,'services']]],
-  ['calculationservice_2ejava',['CalculationService.java',['../_calculation_service_8java.html',1,'']]],
-  ['calculationservicetest',['CalculationServiceTest',['../classtest_1_1services_1_1_calculation_service_test.html',1,'test::services']]],
-  ['calculationservicetest_2ejava',['CalculationServiceTest.java',['../_calculation_service_test_8java.html',1,'']]],
   ['cardanstransformation',['CardansTransformation',['../classdatumstrategy_1_1_cardans_transformation.html',1,'datumstrategy']]],
   ['cardanstransformation_2ejava',['CardansTransformation.java',['../_cardans_transformation_8java.html',1,'']]],
   ['cbr',['cbr',['../classparams_1_1_lat_parm.html#ad93beb21879792881ced00e13af2dc60',1,'params::LatParm']]],
   ['centralmeridian',['centralMeridian',['../classcoordinates_1_1_gauss_krueger.html#a8118e7f54b47ed00d9ba473f381392c0',1,'coordinates::GaussKrueger']]],
   ['changedatum',['changedatum',['../classparams_1_1_control_parms.html#a863cdfdf5647ef0c8f9864cae1dfc753',1,'params::ControlParms']]],
+  ['code_5fof_5fconduct_2emd',['CODE_OF_CONDUCT.md',['../_c_o_d_e___o_f___c_o_n_d_u_c_t_8md.html',1,'']]],
   ['constant',['Constant',['../classparams_1_1_lat_parm.html#ab81d2c45f65a3a260dd99fcc49235e8b',1,'params::LatParm']]],
   ['controlparms',['ControlParms',['../classparams_1_1_control_parms.html',1,'params.ControlParms'],['../classparams_1_1_control_parms.html#a8684e9cf600ad6c4356eeca30133b147',1,'params.ControlParms.ControlParms()']]],
   ['controlparms_2ejava',['ControlParms.java',['../_control_parms_8java.html',1,'']]],
@@ -19,7 +16,10 @@ var searchData=
   ['coordinate_2ejava',['Coordinate.java',['../_coordinate_8java.html',1,'']]],
   ['coordinatefactory',['CoordinateFactory',['../classcoordinates_1_1_coordinate_factory.html',1,'coordinates']]],
   ['coordinatefactory_2ejava',['CoordinateFactory.java',['../_coordinate_factory_8java.html',1,'']]],
+  ['coordinatefactorytest',['CoordinateFactoryTest',['../classtest_1_1coordinates_1_1_coordinate_factory_test.html',1,'test::coordinates']]],
+  ['coordinatefactorytest_2ejava',['CoordinateFactoryTest.java',['../_coordinate_factory_test_8java.html',1,'']]],
   ['coordinates',['coordinates',['../namespacecoordinates.html',1,'']]],
   ['copy',['copy',['../classcoordinates_1_1_geographic_coordinate_interface.html#a4c99b99a9e6e653b72cf0da99f603a19',1,'coordinates::GeographicCoordinateInterface']]],
-  ['coordinate_20transformation',['Coordinate Transformation',['../index.html',1,'']]]
+  ['coordinate_20transformation',['Coordinate Transformation',['../index.html',1,'']]],
+  ['contributor_20covenant_20code_20of_20conduct',['Contributor Covenant Code of Conduct',['../md__c_o_d_e__o_f__c_o_n_d_u_c_t.html',1,'']]]
 ];

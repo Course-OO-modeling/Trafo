@@ -1,0 +1,89 @@
+\hypertarget{classdatumstrategy_1_1_transformation_strategy}{}\section{datumstrategy.\+Transformation\+Strategy Class Reference}
+\label{classdatumstrategy_1_1_transformation_strategy}\index{datumstrategy.\+Transformation\+Strategy@{datumstrategy.\+Transformation\+Strategy}}
+
+
+abstract class that encapsulates transformation algorithms for different coordinates~\newline
+ the concrete transformation algorithms that are implemented by the child classes of \hyperlink{classdatumstrategy_1_1_transformation_strategy}{Transformation\+Strategy} implement the abstract method \hyperlink{classdatumstrategy_1_1_transformation_strategy_a0fd1d6fbba01e5222360740e34eae786}{transform(\+Geographic\+Coordinate\+Interface)} that performs the transformation with geographic coordinates as input/output  
+
+
+Inheritance diagram for datumstrategy.\+Transformation\+Strategy\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=0.921053cm]{classdatumstrategy_1_1_transformation_strategy}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classdatumstrategy_1_1_transformation_strategy_a99e23d291f37ed720a9e31d33f54c834}{transform} (\hyperlink{classcoordinates_1_1_coordinate}{Coordinate} from\+Coordinate, \hyperlink{classcoordinates_1_1_coordinate}{Coordinate} to\+Coordinate)
+\begin{DoxyCompactList}\small\item\em transformation method that transforms the Coordinate from\+Coordinate according to algorithm of concrete implementation of \hyperlink{classdatumstrategy_1_1_transformation_strategy}{Transformation\+Strategy} and specifications in control\+Parms and saves result to Coordinate to\+Coordinate~\newline
+ uses abstract method \hyperlink{classdatumstrategy_1_1_transformation_strategy_a0fd1d6fbba01e5222360740e34eae786}{transform(\+Geographic\+Coordinate\+Interface)} to perform the transformation \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+abstract void \hyperlink{classdatumstrategy_1_1_transformation_strategy_a0fd1d6fbba01e5222360740e34eae786}{transform} (\hyperlink{classcoordinates_1_1_geographic_coordinate_interface}{Geographic\+Coordinate\+Interface} geographic\+Coordinate)
+\begin{DoxyCompactList}\small\item\em abstract method for the transformation of a geographic coordinate \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+abstract class that encapsulates transformation algorithms for different coordinates~\newline
+ the concrete transformation algorithms that are implemented by the child classes of \hyperlink{classdatumstrategy_1_1_transformation_strategy}{Transformation\+Strategy} implement the abstract method \hyperlink{classdatumstrategy_1_1_transformation_strategy_a0fd1d6fbba01e5222360740e34eae786}{transform(\+Geographic\+Coordinate\+Interface)} that performs the transformation with geographic coordinates as input/output 
+
+\begin{DoxyRemark}{Remarks}
+last refactored 26.\+11.\+2016 by Patrick Huebner ~\newline
+ 
+\begin{DoxyItemize}
+\item changed from interface to abstract class 
+\item renamed to \hyperlink{classdatumstrategy_1_1_transformation_strategy}{Transformation\+Strategy} 
+\item renamed method datum to \hyperlink{classdatumstrategy_1_1_transformation_strategy_a99e23d291f37ed720a9e31d33f54c834}{transform(\+Coordinate, Coordinate)} and made it protected 
+\item added abstract method \hyperlink{classdatumstrategy_1_1_transformation_strategy_a0fd1d6fbba01e5222360740e34eae786}{transform(\+Geographic\+Coordinate\+Interface)} 
+\end{DoxyItemize}
+
+last refactored 11.\+12.\+2017 by Eva Majer ~\newline
+ 
+\begin{DoxyItemize}
+\item adaptions for Control\+Parms Singleton 
+\item Translation of some comments 
+\end{DoxyItemize}
+\end{DoxyRemark}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classdatumstrategy_1_1_transformation_strategy_a99e23d291f37ed720a9e31d33f54c834}\label{classdatumstrategy_1_1_transformation_strategy_a99e23d291f37ed720a9e31d33f54c834}} 
+\index{datumstrategy\+::\+Transformation\+Strategy@{datumstrategy\+::\+Transformation\+Strategy}!transform@{transform}}
+\index{transform@{transform}!datumstrategy\+::\+Transformation\+Strategy@{datumstrategy\+::\+Transformation\+Strategy}}
+\subsubsection{\texorpdfstring{transform()}{transform()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void datumstrategy.\+Transformation\+Strategy.\+transform (\begin{DoxyParamCaption}\item[{\hyperlink{classcoordinates_1_1_coordinate}{Coordinate}}]{from\+Coordinate,  }\item[{\hyperlink{classcoordinates_1_1_coordinate}{Coordinate}}]{to\+Coordinate }\end{DoxyParamCaption})}
+
+
+
+transformation method that transforms the Coordinate from\+Coordinate according to algorithm of concrete implementation of \hyperlink{classdatumstrategy_1_1_transformation_strategy}{Transformation\+Strategy} and specifications in control\+Parms and saves result to Coordinate to\+Coordinate~\newline
+ uses abstract method \hyperlink{classdatumstrategy_1_1_transformation_strategy_a0fd1d6fbba01e5222360740e34eae786}{transform(\+Geographic\+Coordinate\+Interface)} to perform the transformation 
+
+
+\begin{DoxyParams}{Parameters}
+{\em from\+Coordinate} & -\/ an object of abstract type Coordinate that represents the coordinate to be transformed\\
+\hline
+{\em to\+Coordinate} & -\/ an object of abstract type Coordinate that represents the coordinate in which the results should be stored \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classdatumstrategy_1_1_transformation_strategy_a0fd1d6fbba01e5222360740e34eae786}\label{classdatumstrategy_1_1_transformation_strategy_a0fd1d6fbba01e5222360740e34eae786}} 
+\index{datumstrategy\+::\+Transformation\+Strategy@{datumstrategy\+::\+Transformation\+Strategy}!transform@{transform}}
+\index{transform@{transform}!datumstrategy\+::\+Transformation\+Strategy@{datumstrategy\+::\+Transformation\+Strategy}}
+\subsubsection{\texorpdfstring{transform()}{transform()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily abstract void datumstrategy.\+Transformation\+Strategy.\+transform (\begin{DoxyParamCaption}\item[{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface}{Geographic\+Coordinate\+Interface}}]{geographic\+Coordinate }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}, {\ttfamily [protected]}}
+
+
+
+abstract method for the transformation of a geographic coordinate 
+
+
+\begin{DoxyParams}{Parameters}
+{\em geographic\+Coordinate} & -\/ an object of type Geographic\+Coordinate\+Interface which is used for input/output for the transformation algorithm \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+datumstrategy/\hyperlink{_transformation_strategy_8java}{Transformation\+Strategy.\+java}\end{DoxyCompactItemize}
