@@ -60,7 +60,7 @@ public class Transformation {
         /* Define users' output coordinate system */
         Coordinate tocoord = CoordinateFactory.getCoord(control.getToprojection());
         /* Perform change of datum */
-        dat.transform(fromcoord, tocoord);        
+        dat.transform(geographic);        
         /* Test the result, may be removed later - see above */
         geographic.print();        
         /* Transformation back from geographic to plane */

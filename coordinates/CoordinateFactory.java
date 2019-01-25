@@ -5,7 +5,7 @@ package coordinates;
 /**
  *  @class CoordinateFactory
  *  @brief Coordinate factory for plane coordinates and geographic coordinates
- *  @author unknown
+ *  @author Norbert Rösch
  *  @remark updated header on 2017-11-29 by Markus Mueller
  *  @remark last refactored 11.12.2017 by Eva Majer <br/>
  *  <ul>
@@ -14,7 +14,7 @@ package coordinates;
  *  </ul>
  *  @remark 2018-01-06 add comments by Yunhao Huang
  *  @remark 2018-01-12 added new GeographicCoordinate as comment by Johanna Stoetzer
- *  @remark 2018-01-25 added XYZ-Coordinate to getCoord by Markus MÃ¼ller
+ *  @remark 2018-01-25 added XYZ-Coordinate to getCoord by Markus Mueller
  *  @version 0.1
  *  @param Coordinate - the plane coordinates GaussKrueger, UTM and Soldner
  *  @param GeographicCoordinateInterface - the geographic coordinate interface

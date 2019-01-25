@@ -4,6 +4,8 @@ var searchData=
   ['main',['main',['../class_transformation.html#afe43b1123ddd254a15446af548bd251f',1,'Transformation']]],
   ['massstab',['massstab',['../classparams_1_1_control_parms.html#a7d7e220c8bacb270d2f0760b4230df04',1,'params::ControlParms']]],
   ['meridianlength',['meridianLength',['../classcoordinates_1_1_gauss.html#a622fa98764e45111e58a44c82f4dc5cd',1,'coordinates::Gauss']]],
+  ['mockstrategy',['MockStrategy',['../classdatumstrategy_1_1_mock_strategy.html',1,'datumstrategy']]],
+  ['mockstrategy_2ejava',['MockStrategy.java',['../_mock_strategy_8java.html',1,'']]],
   ['molodenskiitransformationstandard',['MolodenskiiTransformationStandard',['../classdatumstrategy_1_1_molodenskii_transformation_standard.html',1,'datumstrategy.MolodenskiiTransformationStandard'],['../classdatumstrategy_1_1_molodenskii_transformation_standard.html#a57734f96ea69c6d385ce682a41427ac6',1,'datumstrategy.MolodenskiiTransformationStandard.MolodenskiiTransformationStandard()']]],
   ['molodenskiitransformationstandard_2ejava',['MolodenskiiTransformationStandard.java',['../_molodenskii_transformation_standard_8java.html',1,'']]],
   ['molodenskyparm',['MolodenskyParm',['../classparams_1_1_molodensky_parm.html',1,'params.MolodenskyParm'],['../classparams_1_1_molodensky_parm.html#a991a43b0db63761d8e98f3c22b67ac5e',1,'params.MolodenskyParm.MolodenskyParm()']]],

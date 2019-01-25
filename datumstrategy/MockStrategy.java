@@ -15,7 +15,7 @@ public class MockStrategy extends TransformationStrategy {
 	
 	
 	@Override
-	protected void transform(GeographicCoordinateInterface geographicCoordinate) {
+	public void transform(GeographicCoordinateInterface geographicCoordinate) {
 		// Do nothing!	
 	}
 }
