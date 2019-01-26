@@ -20,7 +20,7 @@ import params.EllipsoidParms;
 
 public class GaussKruegerTest {
 	private static final double RHO = 180/Math.PI;
-	private static final double DELTA = 0.0001;
+	private static final double EPSILON = 0.0001;
 
 	/**
      * @brief tests method getAsGeographic from class GaussKrueger, overwritten from abstract class coordinate
@@ -43,12 +43,12 @@ public class GaussKruegerTest {
 		
 		Assert.assertEquals(
 				String.format("Latitude %s of result coordinate does't match expected value %s.", resultLatitude, expectedLatitude), 
-				expectedLatitude, resultLatitude, DELTA);
+				expectedLatitude, resultLatitude, EPSILON);
 		Assert.assertEquals(
 				String.format("Longitude %s of result coordinate does't match expected value %s.", resultLongitude, expectedLongitude), 
-				expectedLongitude, resultLongitude, DELTA);
+				expectedLongitude, resultLongitude, EPSILON);
 		Assert.assertEquals(
 				String.format("Height %s of result coordinate does't match expected value %s.", resultHeight, expectedHeight), 
-				expectedHeight, resultHeight, DELTA);
+				expectedHeight, resultHeight, EPSILON);
 	}
 }

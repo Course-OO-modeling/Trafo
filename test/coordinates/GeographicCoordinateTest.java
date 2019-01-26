@@ -9,7 +9,7 @@ import org.junit.Test;
 
 public class GeographicCoordinateTest {
 	
-	final double epsilonForDegree = 5.e-10;
+	private static final double EPSILONFORDEGREE = 5.e-10;
 	
 	/**
 	 *  @class GeographicCoordinateInterfaceTest
@@ -26,8 +26,8 @@ public class GeographicCoordinateTest {
 		GeographicCoordinate inputGeographic = new GeographicCoordinate(8.0,49.0);
 		GeographicCoordinateInterface geographicInterface = new GeographicCoordinateInterface(0.,0.);
 		geographicInterface = inputGeographic.getAsGeographicInterface(ellipsoidParms);
-		assertEquals(geographicInterface.getLatitude(), inputGeographic.getLatitude(), epsilonForDegree);
-		assertEquals(geographicInterface.getLongitude(), inputGeographic.getLongitude(), epsilonForDegree);
+		assertEquals(geographicInterface.getLatitude(), inputGeographic.getLatitude(), EPSILONFORDEGREE);
+		assertEquals(geographicInterface.getLongitude(), inputGeographic.getLongitude(), EPSILONFORDEGREE);
 	}
 
 	@Test
@@ -36,8 +36,8 @@ public class GeographicCoordinateTest {
 		GeographicCoordinate outputGeographic = new GeographicCoordinate(8.0,49.0);
 		GeographicCoordinateInterface geographicInterface = new GeographicCoordinateInterface(0.,0.);
 		outputGeographic.fromGeographicInterface(ellipsoidParms, geographicInterface);
-		assertEquals(geographicInterface.getLatitude(), outputGeographic.getLatitude(), epsilonForDegree);
-		assertEquals(geographicInterface.getLongitude(), outputGeographic.getLongitude(), epsilonForDegree);
+		assertEquals(geographicInterface.getLatitude(), outputGeographic.getLatitude(), EPSILONFORDEGREE);
+		assertEquals(geographicInterface.getLongitude(), outputGeographic.getLongitude(), EPSILONFORDEGREE);
 	}
 
 }

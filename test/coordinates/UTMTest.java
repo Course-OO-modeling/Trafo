@@ -8,16 +8,18 @@ import coordinates.UTM;
 import params.EllipsoidParms;
 
 public class UTMTest {
-	private static final double RHO = 180/Math.PI;
-	private static final double DELTA = 0.0001;
+	private final double RHO = 180/Math.PI;
+	private final double EPSILON = 0.0001;
 
 	/**
      * @brief tests method fromGeographic from class UTM, overwritten from abstract class coordinate
      * 	expected values and input values are taken from book "Rechenformeln und Rechenbeispiele zur Landesvermessung - Teil 2" 
-     *  from Prof.Dr.-Ing. Albert Schoedlbauer, Robert Wichmann Verlag Karlsruhe, page 51  
+     *  from Prof.Dr.-Ing. Albert Schoedlbauer, Robert Wichmann Verlag Karlsruhe, page 51 
      *  
-     *  CURRENTLY FAILS!
+     * @remark currently fails! 
+     *   
      */
+	
 	@Test
 	public void fromGeographicTest() {
 		final double inputLongitude = 10.716273056/RHO;
@@ -42,12 +44,12 @@ public class UTMTest {
 		
 		Assert.assertEquals(
 				String.format("Rechtswert %s of result coordinate does't match expected value %s.", resultRechtswert, expectedRechtsWert), 
-				expectedRechtsWert, resultRechtswert, DELTA);
+				expectedRechtsWert, resultRechtswert, EPSILON);
 		Assert.assertEquals(
 				String.format("Hochwert %s of result coordinate does't match expected value %s.", resultHochwert, expectedHochWert), 
-				expectedHochWert, resultHochwert, DELTA);
+				expectedHochWert, resultHochwert, EPSILON);
 		Assert.assertEquals(
 				String.format("Height %s of result coordinate does't match expected value %s.", resultHeight, expectedHeight), 
-				expectedHeight, resultHeight, DELTA);
+				expectedHeight, resultHeight, EPSILON);
 	}
 }

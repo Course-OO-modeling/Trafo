@@ -8,6 +8,15 @@ import coordinates.GaussKrueger;
 import coordinates.UTM;
 import coordinates.Soldner;
 import coordinates.GeographicCoordinate;
+import coordinates.XYZCoordinate;
+
+/**
+ *  @class CoordinateFactoryTest
+ *  @brief Coordinate factory for plane coordinates and geographic coordinates
+ *  @author Norbert Rösch
+ *  @remark January 2019 ensure the factory produces the right objects
+ *  @version 0.1
+*/
 
 public class CoordinateFactoryTest {
 
@@ -37,5 +46,12 @@ public class CoordinateFactoryTest {
 		final String kindOfCoordinate = "geo";
 		Coordinate testCoordinate = CoordinateFactory.getCoord(kindOfCoordinate);
 		assertTrue(testCoordinate instanceof GeographicCoordinate);
+	}
+	
+	@Test
+	public void testGetXYZ() {
+		final String kindOfCoordinate = "xyz";
+		Coordinate testCoordinate = CoordinateFactory.getCoord(kindOfCoordinate);
+		assertTrue(testCoordinate instanceof XYZCoordinate);
 	}
 }
