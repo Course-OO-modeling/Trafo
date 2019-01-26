@@ -41,8 +41,12 @@ public final class GeographicCoordinateInterface extends Coordinate {
         latitude = -1.;
         height = -10000.;
     } // end Constructor
-
-    private GeographicCoordinateInterface(double longitude, double latitude) 
+/**
+ * @remark public/visible due to testing
+ * @param longitude
+ * @param latitude
+ */
+    public GeographicCoordinateInterface(double longitude, double latitude) 
     {
         this.longitude = longitude;
         this.latitude = latitude;
