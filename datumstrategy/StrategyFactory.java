@@ -21,7 +21,7 @@ public class StrategyFactory {
     public static TransformationStrategy getStrategy() {
         ControlParms control = ControlParms.getInstance();
         if (control.getKindoftrafo() == null) // kein Wechsel des Datums
-            return null;
+            return new MockStrategy();
         else if (control.getKindoftrafo() == "mol_stand")
             return MolodenskiiTransformationStandard.getInstance();
         else if (control.getKindoftrafo() == "3D_infin")
