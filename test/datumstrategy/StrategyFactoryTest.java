@@ -7,7 +7,8 @@ import org.junit.Test;
 public class StrategyFactoryTest {
 
 	@Test
-	public void testGetStrategy() {
+	public void testSpatialSimilarityTransformationInfin() {
+		
 		fail("Not yet implemented");
 	}
 
