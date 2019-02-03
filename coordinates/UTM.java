@@ -31,7 +31,7 @@ public class UTM extends Gauss {
         setScale(.9996);
         zone = 32;
         northhem = true;
-    } // end Konstruktor
+    } // end Constructor
 
     public void init() {
         setAbszisse(0.);
@@ -114,7 +114,38 @@ public class UTM extends Gauss {
         east = getOrdinate() + 5.e+5;
 
         setHeight(geocoord.getHeight());
-    } // end geo2utm
+    } // end
 
+	public double getEast() {
+		return east;
+	}
+
+	public void setEast(double east) {
+		this.east = east;
+	}
+
+	public double getNorth() {
+		return north;
+	}
+
+	public void setNorth(double north) {
+		this.north = north;
+	}
+
+	public int getZone() {
+		return zone;
+	}
+
+	public void setZone(int zone) {
+		this.zone = zone;
+	}
+
+	public boolean isNorthhem() {
+		return northhem;
+	}
+
+	public void setNorthhem(boolean northhem) {
+		this.northhem = northhem;
+	}
 
 } // end coordinates.UTM

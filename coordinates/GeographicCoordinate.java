@@ -62,25 +62,6 @@ public final class GeographicCoordinate extends Coordinate {
     /******************************************************************************************************************
     * DESTRUCTORS                                                                                                   *
     ******************************************************************************************************************/
-    
-    
-    /**
-     * @brief factory method that returns the singular instance of the singleton class initialized with default constructor
-     */
-//    public static GeographicCoordinate getInstance() 
-//    {
-//        if (myInstance == null) {
-//            myInstance = new GeographicCoordinate();
-//        } else {
-//            myInstance.resetState();
-//
-//            myInstance.longitude = -1.;
-//            myInstance.latitude = -1.;
-//            myInstance.height = -10000.;
-//        }
-//
-//        return myInstance;
-//    }
 
     /**
      * @brief sets all parameters of the instance to default value 0, needed because only one instance of the class can exist (singleton class)
