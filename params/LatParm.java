@@ -37,7 +37,7 @@ public final class LatParm {
 
     public void Constant(EllipsoidParms ell, double latitude) {
         cbr = Math.cos(latitude);
-        etabr = ell.getEs2() * cbr * cbr;
+        etabr = ell.getSecondEccentricity() * cbr * cbr;
         vbr2 = 1 + etabr;
         vbr = Math.sqrt(vbr2);
         radn = ell.getC() / vbr;

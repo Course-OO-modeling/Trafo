@@ -102,7 +102,7 @@ public final class XYZCoordinate extends Coordinate {
 
         for (int i = 1; i < maxIteration; i++) {
             latparm.Constant(ell, latitude);
-            ellipsoidLat = Math.atan2(z + ell.getE2() * latparm.getRadn() * Math.sin(latitude), xydist);
+            ellipsoidLat = Math.atan2(z + ell.getFirstEccentricity() * latparm.getRadn() * Math.sin(latitude), xydist);
 
             help = (ellipsoidLat - latitude);
             if (help < 0) help = help * (-1);
@@ -142,7 +142,7 @@ public final class XYZCoordinate extends Coordinate {
 
         this.x = (latparm.getRadn() + geocoord.getHeight()) * Math.cos(geocoord.getLatitude()) * Math.cos(geocoord.getLongitude());
         this.y = (latparm.getRadn() + geocoord.getHeight()) * Math.cos(geocoord.getLatitude()) * Math.sin(geocoord.getLongitude());
-        this.z = (latparm.getRadn() / (1.0 + ell.getEs2()) + geocoord.getHeight()) * Math.sin(geocoord.getLatitude());
+        this.z = (latparm.getRadn() / (1.0 + ell.getSecondEccentricity()) + geocoord.getHeight()) * Math.sin(geocoord.getLatitude());
 
     } 
 

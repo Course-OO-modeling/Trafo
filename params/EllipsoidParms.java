@@ -13,12 +13,12 @@ import coordinates.GeographicCoordinateInterface;
 public class EllipsoidParms {
     private String id;	/**< ID */
     private double c;   /**< Radius of curvature */
-    private double es2; /**< Second eccentricity */
-    private double a;   /**< Semi-major axis */
-    private double b;   /**< Semi-minor axis */
-    private double f;   /**< Flattening */
-    private double e2;  /**< First eccentricity */
-    // if change of datum
+    private double secondEccentricity;
+    private double semiMajorAxis;
+    private double semiMinorAxis;
+    private double flattening;
+    private double firstEccentricity;
+    // in the case of change of datum
     private String toid;	/**< ID (if change of datum) */
     private double toc;   /**< Radius of curvature (if change of datum) */
     private double toes2; /**< Second eccentricity (if change of datum) */
@@ -44,12 +44,12 @@ public class EllipsoidParms {
      */
     public EllipsoidParms() {
         id = "bessel";
-        es2 = 0.0067192188;
+        secondEccentricity = 0.0067192188;
         c = 6398786.849;
-        a = c / Math.sqrt(1. + es2);
-        b = c / (1. + es2);
-        f = 1 - (b / a);
-        e2 = es2 / (1. + es2);
+        semiMajorAxis = c / Math.sqrt(1. + secondEccentricity);
+        semiMinorAxis = c / (1. + secondEccentricity);
+        flattening = 1 - (semiMinorAxis / semiMajorAxis);
+        firstEccentricity = secondEccentricity / (1. + secondEccentricity);
     } // end of Constructor
 
     /**
@@ -59,12 +59,12 @@ public class EllipsoidParms {
      */
     public EllipsoidParms(double es2, double c) { // 
         id = "unknown";
-        this.es2 = es2;
+        this.secondEccentricity = es2;
         this.c = c;
-        a = c / Math.sqrt(1 + es2);
-        b = c / (1 + es2);
-        f = 1 - (b / a);
-        e2 = es2 / (1 + es2);
+        semiMajorAxis = c / Math.sqrt(1 + es2);
+        semiMinorAxis = c / (1 + es2);
+        flattening = 1 - (semiMinorAxis / semiMajorAxis);
+        firstEccentricity = es2 / (1 + es2);
     } // end of Constructor
 
 /******************************************************************************************************************
@@ -73,7 +73,7 @@ public class EllipsoidParms {
     public void calculatelongitudeParms(GeographicCoordinateInterface geo) {
         double cbr, etabr, vbr, vbr2;
         cbr = Math.cos(geo.getLatitude());
-        etabr = es2 * cbr * cbr;
+        etabr = secondEccentricity * cbr * cbr;
         vbr2 = 1 + etabr;
         vbr = Math.sqrt(vbr2);
         N = c / vbr;
@@ -83,12 +83,12 @@ public class EllipsoidParms {
     public void print() {
         System.out.println("Konstanten");
         System.out.println("Ellipsoid: " + id);
-        System.out.println("es2: " + es2);
-        System.out.println("e2 : " + e2);
+        System.out.println("secondEccentricity: " + secondEccentricity);
+        System.out.println("firstEccentricity : " + firstEccentricity);
         System.out.println("c  : " + c);
-        System.out.println("a  : " + a);
-        System.out.println("b  : " + b);
-        System.out.println("f  : " + f);
+        System.out.println("semiMajorAxis  : " + semiMajorAxis);
+        System.out.println("semiMinorAxis  : " + semiMinorAxis);
+        System.out.println("flattening  : " + flattening);
     } // end print
 
 
@@ -112,44 +112,44 @@ public class EllipsoidParms {
         this.c = c;
     }
 
-    public double getEs2() {
-        return es2;
+    public double getSecondEccentricity() {
+        return secondEccentricity;
     }
 
-    public void setEs2(double es2) {
-        this.es2 = es2;
+    public void setSecondEccentricity(double es2) {
+        this.secondEccentricity = es2;
     }
 
-    public double getA() {
-        return a;
+    public double getSemiMajorAxis() {
+        return semiMajorAxis;
     }
 
-    public void setA(double a) {
-        this.a = a;
+    public void setSemiMajorAxis(double a) {
+        this.semiMajorAxis = a;
     }
 
-    public double getB() {
-        return b;
+    public double getSemiMinorAxis() {
+        return semiMinorAxis;
     }
 
-    public void setB(double b) {
-        this.b = b;
+    public void setSemiMinorAxis(double b) {
+        this.semiMinorAxis = b;
     }
 
-    public double getF() {
-        return f;
+    public double getFlattening() {
+        return flattening;
     }
 
-    public void setF(double f) {
-        this.f = f;
+    public void setFlattening(double f) {
+        this.flattening = f;
     }
 
-    public double getE2() {
-        return e2;
+    public double getFirstEccentricity() {
+        return firstEccentricity;
     }
 
-    public void setE2(double e2) {
-        this.e2 = e2;
+    public void setFirstEccentricity(double e2) {
+        this.firstEccentricity = e2;
     }
 
     public String getToid() {

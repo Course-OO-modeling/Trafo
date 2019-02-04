@@ -195,8 +195,8 @@ public final class GeographicCoordinateInterface extends Coordinate {
         db = (-trafoparameter.getTransx() * Math.sin(latitude) * Math.cos(longitude)
                 - trafoparameter.getTransy() * Math.sin(latitude) * Math.sin(longitude)
                 + trafoparameter.getTransz() * Math.cos(latitude)
-                + trafoparameter.getDa() * (latparm.getRadn() * ell.getE2() * Math.sin(latitude) * Math.cos(latitude)) / ell.getA()
-                + trafoparameter.getDf() * (latparm.getRadm() * (ell.getA() / ell.getB()) + latparm.getRadn() * (ell.getB() / ell.getA())) *
+                + trafoparameter.getDa() * (latparm.getRadn() * ell.getFirstEccentricity() * Math.sin(latitude) * Math.cos(latitude)) / ell.getSemiMajorAxis()
+                + trafoparameter.getDf() * (latparm.getRadm() * (ell.getSemiMajorAxis() / ell.getSemiMinorAxis()) + latparm.getRadn() * (ell.getSemiMinorAxis() / ell.getSemiMajorAxis())) *
                 Math.sin(latitude) * Math.cos(latitude)) / (latparm.getRadm() + height);
 
         dl = (-trafoparameter.getTransx() * Math.sin(longitude)
@@ -206,8 +206,8 @@ public final class GeographicCoordinateInterface extends Coordinate {
         dh = trafoparameter.getTransx() * Math.cos(latitude) * Math.cos(longitude)
                 + trafoparameter.getTransy() * Math.cos(latitude) * Math.sin(longitude)
                 + trafoparameter.getTransz() * Math.sin(latitude)
-                - trafoparameter.getDa() * (ell.getA() / latparm.getRadn())
-                + trafoparameter.getDf() * (ell.getB() / ell.getA()) * latparm.getRadn() * Math.pow(Math.sin(latitude), 2);
+                - trafoparameter.getDa() * (ell.getSemiMajorAxis() / latparm.getRadn())
+                + trafoparameter.getDf() * (ell.getSemiMinorAxis() / ell.getSemiMajorAxis()) * latparm.getRadn() * Math.pow(Math.sin(latitude), 2);
 
         geo_p2.latitude = latitude + db;
         geo_p2.longitude = longitude + dl;
@@ -229,7 +229,7 @@ public final class GeographicCoordinateInterface extends Coordinate {
         double sigma, n, nhilf, n2, n3, n4, b0, b2, b4, b6, sisi, cosi, cosi2;
         double alf[] = new double[11], alfq, br = 0.;
 
-        nhilf = Math.sqrt(1. + ell.getEs2());
+        nhilf = Math.sqrt(1. + ell.getSecondEccentricity());
         n = (nhilf - 1.) / (nhilf + 1.);
         n2 = n * n;
         n3 = n2 * n;
@@ -249,7 +249,7 @@ public final class GeographicCoordinateInterface extends Coordinate {
         alf[0] = 1.;
 
         for (nu = 0; nu <= 9; nu++)
-            alf[nu + 1] = -(1. - 0.25 / Math.pow((nu + 1), 2)) * ell.getEs2() * alf[nu];
+            alf[nu + 1] = -(1. - 0.25 / Math.pow((nu + 1), 2)) * ell.getSecondEccentricity() * alf[nu];
 
         alfq = 0.;
 

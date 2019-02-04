@@ -50,10 +50,10 @@ public class MolodenskiiTransformationStandard extends TransformationStrategy {
         db = (-control.getDx() * Math.sin(geo.getLatitude()) * Math.cos(geo.getLongitude())
                 - control.getDy() * Math.sin(geo.getLatitude()) * Math.sin(geo.getLongitude())
                 + control.getDz() * Math.cos(geo.getLatitude())
-                + control.getDa() * (control.getN() * control.getE2() * Math.sin(geo.getLatitude())
-                * Math.cos(geo.getLatitude())) / control.getA()
-                + control.getDf() * (control.getM() * (control.getA() / control.getB()) + control.getN() * (control.getB()
-                / control.getA())) * Math.sin(geo.getLatitude()) * Math.cos(geo.getLatitude()))
+                + control.getDa() * (control.getN() * control.getFirstEccentricity() * Math.sin(geo.getLatitude())
+                * Math.cos(geo.getLatitude())) / control.getSemiMajorAxis()
+                + control.getDf() * (control.getM() * (control.getSemiMajorAxis() / control.getSemiMinorAxis()) + control.getN() * (control.getSemiMinorAxis()
+                / control.getSemiMajorAxis())) * Math.sin(geo.getLatitude()) * Math.cos(geo.getLatitude()))
                 / (control.getM() + geo.getHeight());
 
         dl = (-control.getDx() * Math.sin(geo.getLongitude())
@@ -63,8 +63,8 @@ public class MolodenskiiTransformationStandard extends TransformationStrategy {
         dh = control.getDx() * Math.cos(geo.getLatitude()) * Math.cos(geo.getLongitude())
                 + control.getDy() * Math.cos(geo.getLatitude()) * Math.sin(geo.getLongitude())
                 + control.getDz() * Math.sin(geo.getLatitude())
-                - control.getDa() * (control.getA() / control.getN())
-                + control.getDf() * (control.getB() / control.getA())
+                - control.getDa() * (control.getSemiMajorAxis() / control.getN())
+                + control.getDf() * (control.getSemiMinorAxis() / control.getSemiMajorAxis())
                 * control.getN() * Math.pow(Math.sin(geo.getLatitude()), 2);
 
         geo.setLatitude(geo.getLatitude() + db);

@@ -10,7 +10,7 @@ public class UTMasGeographicTest extends UTM {
 	@Test
 	public void testGetAsGeographic() {
 		final double RHO = 180. / Math.PI;
-		EllipsoidParms ell = new EllipsoidParms();
+		EllipsoidParms ell = new EllipsoidParms(0.0067394968, 6399593.626);
 		UTM UTM1 = new UTM();
 		UTM1.setEast(651416.090);
 		UTM1.setNorth(5408463.070);
@@ -19,8 +19,8 @@ public class UTMasGeographicTest extends UTM {
 		UTM1.setScale(0.9996);
 		UTM1.getAsGeographicInterface(ell);
 		
-		assertEquals(48.810694, UTM1.getAsGeographicInterface(ell).getLatitude() * RHO, 0.001);
-		assertEquals(11.062405, UTM1.getAsGeographicInterface(ell).getLongitude() * RHO, 0.00001);
+		assertEquals(48.810694, UTM1.getAsGeographicInterface(ell).getLatitude() * RHO, 0.000001);
+		assertEquals(11.062405, UTM1.getAsGeographicInterface(ell).getLongitude() * RHO, 0.000001);
 	}
 
 }

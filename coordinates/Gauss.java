@@ -155,13 +155,13 @@ public abstract class Gauss extends Coordinate {
 	    double gam[][] = new double[(NUMAX + 1) * 2][NUMAX + 1];
 	
 	    alf[0] = 1.;
-	    gam[0][1] = -0.75 * ell.getEs2();
+	    gam[0][1] = -0.75 * ell.getSecondEccentricity();
 	    
 	    for (nu = 0; nu <= (NUMAX - 1); nu++) { // see Heck formulae 7.28a,b
-	        alf[nu + 1] = -(1. - 0.25 / (Math.pow((nu + 1), 2))) * ell.getEs2() * alf[nu];
+	        alf[nu + 1] = -(1. - 0.25 / (Math.pow((nu + 1), 2))) * ell.getSecondEccentricity() * alf[nu];
 	        for (mu = 1; mu <= (MUMAX - 1); mu++) {
-	            gam[2 * (nu + 1)][1] = -(1. - 1. / (nu + 2)) * (1. + 0.5 / (nu + 2)) * ell.getEs2() * gam[2 * nu][1];
-	            gam[2 * nu][mu + 1] = -(1. - 0.25 / Math.pow((nu + mu + 1), 2)) * ell.getEs2() * gam[2 * nu][mu];
+	            gam[2 * (nu + 1)][1] = -(1. - 1. / (nu + 2)) * (1. + 0.5 / (nu + 2)) * ell.getSecondEccentricity() * gam[2 * nu][1];
+	            gam[2 * nu][mu + 1] = -(1. - 0.25 / Math.pow((nu + mu + 1), 2)) * ell.getSecondEccentricity() * gam[2 * nu][mu];
 	        }
 	    }
 	

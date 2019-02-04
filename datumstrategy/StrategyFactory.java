@@ -28,5 +28,4 @@ public class StrategyFactory {
             return new SpatialSimilarityTransformationInfin();
         return null;
     } // end get_strategy
-
 } // end coordinates.CoordinateFactory
