@@ -20,7 +20,7 @@ import params.EllipsoidParms;
 
 public class GaussKruegerTest {
 	private static final double RHO = 180/Math.PI;
-	private static final double EPSILON = 0.0001;
+	private static final double EPSILON = 0.001;
 
 	/**
      * @brief tests method getAsGeographic from class GaussKrueger, overwritten from abstract class coordinate
@@ -29,12 +29,16 @@ public class GaussKruegerTest {
      */
 	@Test
 	public void getAsGeographicTest() {
-		final double expectedLatitude = (48.445954311)/RHO;
-		final double expectedLongitude = (10.716478196)/RHO;
+		final double expectedLatitude = (48.44595431)/RHO;
+		final double expectedLongitude = (10.71647819)/RHO;
 		final double expectedHeight = 0.;
 
 		GaussKrueger testCoordinate = new GaussKrueger();
-		EllipsoidParms ellipsoidParameters = new EllipsoidParms();
+		testCoordinate.setHoch(5368263.249);
+		testCoordinate.setRechts(4405057.629);
+		testCoordinate.setHeight(0.);
+		// Bessel is assumed
+		EllipsoidParms ellipsoidParameters = new EllipsoidParms(0.0067192188, 6398786.849);
 		GeographicCoordinateInterface resultGeographicCoordinateInterface = testCoordinate.getAsGeographicInterface(ellipsoidParameters);
 		
 		double resultLatitude = resultGeographicCoordinateInterface.getLatitude();
