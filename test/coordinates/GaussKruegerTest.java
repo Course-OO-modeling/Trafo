@@ -19,8 +19,9 @@ import params.EllipsoidParms;
  */
 
 public class GaussKruegerTest {
-	private static final double RHO = 180/Math.PI;
-	private static final double EPSILON = 0.001;
+	private final double RHO = 180/Math.PI;
+	private final double EPSILON_IN_METER = 0.005;
+	private final double EPSILON_IN_DEGREE = 0.00000001;
 
 	/**
      * @brief tests method getAsGeographic from class GaussKrueger, overwritten from abstract class coordinate
@@ -28,7 +29,7 @@ public class GaussKruegerTest {
      *  from Prof.Dr.-Ing. Albert Schoedlbauer, Robert Wichmann Verlag Karlsruhe, page 88  
      */
 	@Test
-	public void getAsGeographicTest() {
+	public void getAsGeographic() {
 		final double expectedLatitude = (48.44595431)/RHO;
 		final double expectedLongitude = (10.71647819)/RHO;
 		final double expectedHeight = 0.;
@@ -47,12 +48,33 @@ public class GaussKruegerTest {
 		
 		Assert.assertEquals(
 				String.format("Latitude %s of result coordinate does't match expected value %s.", resultLatitude, expectedLatitude), 
-				expectedLatitude, resultLatitude, EPSILON);
+				expectedLatitude, resultLatitude, EPSILON_IN_DEGREE);
 		Assert.assertEquals(
 				String.format("Longitude %s of result coordinate does't match expected value %s.", resultLongitude, expectedLongitude), 
-				expectedLongitude, resultLongitude, EPSILON);
+				expectedLongitude, resultLongitude, EPSILON_IN_DEGREE);
 		Assert.assertEquals(
 				String.format("Height %s of result coordinate does't match expected value %s.", resultHeight, expectedHeight), 
-				expectedHeight, resultHeight, EPSILON);
+				expectedHeight, resultHeight, EPSILON_IN_DEGREE);
+	}
+	
+	@Test
+	public void getAsGaussKrueger() {
+		double expectedHoch = 5368263.249;
+		double expectedRechts = 4405057.629;
+		double expectedHeight = 0.;
+
+		GaussKrueger testCoordinate = new GaussKrueger();
+		GeographicCoordinateInterface geographicCoordinateInterface = new GeographicCoordinateInterface();
+		geographicCoordinateInterface.setLongitude(10.71647819/RHO);
+		geographicCoordinateInterface.setLatitude(48.44595431/RHO);
+		geographicCoordinateInterface.setHeight(0.);
+		// Bessel is assumed
+		EllipsoidParms ellipsoidParameters = new EllipsoidParms(0.0067192188, 6398786.849);
+		ellipsoidParameters.setGK_refmer(12);
+		testCoordinate.getAsTargetCoordinate(ellipsoidParameters, geographicCoordinateInterface);
+		
+		Assert.assertEquals(expectedHoch, testCoordinate.getHoch(), EPSILON_IN_METER);
+		Assert.assertEquals(expectedRechts, testCoordinate.getRechts(), EPSILON_IN_METER);
+		Assert.assertEquals(expectedHeight, testCoordinate.getHeight(), EPSILON_IN_METER);
 	}
 }

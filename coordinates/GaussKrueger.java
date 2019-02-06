@@ -21,8 +21,8 @@ import coordinates.Gauss;
 public class GaussKrueger extends Gauss {
 	
 	
-    private double rechts;          /**< 'rechts' is the official term by the german survey admistration ('easting') */
-    private double hoch; 			/**< 'hoch' is the official term by the german survey admistration ('northing') */
+    private double rechts;          /**< 'rechts' is the official term used by the German survey admistration ('easting') */
+    private double hoch; 			/**< 'hoch' is the official term used by the German survey admistration ('northing') */
     private int centralMeridian;    /**< central meridian */
 
 
