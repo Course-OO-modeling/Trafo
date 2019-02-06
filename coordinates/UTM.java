@@ -88,7 +88,7 @@ public class UTM extends Gauss {
 	 * @param geocoord - a geographic coordinate as an instance of GeographicCoordinate
      */
     @Override
-    public void fromGeographicInterface(EllipsoidParms ell, GeographicCoordinateInterface geocoord) {
+    public void getAsTargetCoordinate(EllipsoidParms ell, GeographicCoordinateInterface geocoord) {
         double hnull, l0, cdl, dl;
         final double RHO = 180. / Math.PI;
 

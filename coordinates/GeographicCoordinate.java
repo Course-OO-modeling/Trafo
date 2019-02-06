@@ -157,7 +157,7 @@ public final class GeographicCoordinate extends Coordinate {
      * @param ellipsoidParms - an object of type EllipsoidParms that contains details about the ellipsoid the GeographicCoordinate refers to
      */
 	@Override
-	public void fromGeographicInterface(EllipsoidParms ellipsoidParms, GeographicCoordinateInterface geoCoordInt) {
+	public void getAsTargetCoordinate(EllipsoidParms ellipsoidParms, GeographicCoordinateInterface geoCoordInt) {
 		
 	    this.setPoint_number(geoCoordInt.getPoint_number());
 	    this.setEllipsoidal(geoCoordInt.getEllipsoidal());

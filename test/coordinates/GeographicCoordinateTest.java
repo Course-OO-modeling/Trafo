@@ -35,7 +35,7 @@ public class GeographicCoordinateTest {
 		EllipsoidParms ellipsoidParms = new EllipsoidParms();
 		GeographicCoordinate outputGeographic = new GeographicCoordinate(8.0,49.0);
 		GeographicCoordinateInterface geographicInterface = new GeographicCoordinateInterface(0.,0.);
-		outputGeographic.fromGeographicInterface(ellipsoidParms, geographicInterface);
+		outputGeographic.getAsTargetCoordinate(ellipsoidParms, geographicInterface);
 		assertEquals(geographicInterface.getLatitude(), outputGeographic.getLatitude(), EPSILONFORDEGREE);
 		assertEquals(geographicInterface.getLongitude(), outputGeographic.getLongitude(), EPSILONFORDEGREE);
 	}

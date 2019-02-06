@@ -55,7 +55,7 @@ public class CardansTransformation extends TransformationStrategy {
     	XYZCoordinate XYZDestination = new XYZCoordinate();
     	    	
     	// Conversion Ellipsoidal --> Cartesian
-    	XYZSource.fromGeographicInterface(control, geo);
+    	XYZSource.getAsTargetCoordinate(control, geo);
     	
     	// 9 elements in rotation matrix e0-e9
     	e1 =  Math.cos(control.getWy())*Math.cos(control.getWz()) ;

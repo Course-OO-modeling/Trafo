@@ -90,7 +90,7 @@ public class GaussKrueger extends Gauss {
      * @param geocoord - an object of type GeographicCoordinate that contains the geographic coordinates to be transformed in GaussKrueger coordinates
      */
     @Override
-    public void fromGeographicInterface(EllipsoidParms ell, GeographicCoordinateInterface geocoord) {
+    public void getAsTargetCoordinate(EllipsoidParms ell, GeographicCoordinateInterface geocoord) {
 
         int kennlao = 0;
         double hnull = 0., lo;

@@ -119,7 +119,7 @@ public final class Soldner extends Coordinate {
 	 * @param ell - the ellipsoidal parameters as an instance of EllipsoidParms
 	 * @param geocoord - a geographic coordinate as an instance of GeographicCoordinate
      */
-    public void fromGeographicInterface(EllipsoidParms ell, GeographicCoordinateInterface geocoord) {
+    public void getAsTargetCoordinate(EllipsoidParms ell, GeographicCoordinateInterface geocoord) {
         double dl, brm, db, db2, hilf, dxbo, sb, sbdl, sbdl2, cb, cbdl, cbdl2;
 
         this.l0 = ell.getSoldner_l0();

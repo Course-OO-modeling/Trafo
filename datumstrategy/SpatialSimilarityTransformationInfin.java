@@ -38,7 +38,7 @@ public class SpatialSimilarityTransformationInfin extends TransformationStrategy
     	XYZCoordinate XYZDestination = new XYZCoordinate();
     	    	
     	// Conversion Ellipsoidal --> Cartesian
-    	XYZSource.fromGeographicInterface(control, geo);
+    	XYZSource.getAsTargetCoordinate(control, geo);
     	
     	// 7-Param-Transformation
     	XYZDestination.setX(control.getDx() + control.getMassstab() * (XYZSource.getX() + control.getWz() * XYZSource.getY() - control.getWy() * XYZSource.getZ()));

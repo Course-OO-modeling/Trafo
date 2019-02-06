@@ -1,55 +1,40 @@
 package test.coordinates;
 
-import org.junit.Assert;
+import static org.junit.Assert.*;
 import org.junit.Test;
-
-import coordinates.GeographicCoordinateInterface;
 import coordinates.UTM;
+import coordinates.GeographicCoordinateInterface;
 import params.EllipsoidParms;
 
-public class UTMTest {
-	private final double RHO = 180/Math.PI;
-	private final double EPSILON = 0.0001;
+public class UTMTest extends UTM {
 
-	/**
-     * @brief tests method fromGeographic from class UTM, overwritten from abstract class coordinate
-     * 	expected values and input values are taken from book "Rechenformeln und Rechenbeispiele zur Landesvermessung - Teil 2" 
-     *  from Prof.Dr.-Ing. Albert Schoedlbauer, Robert Wichmann Verlag Karlsruhe, page 51 
-     *  
-     * @remark currently fails! 
-     *   
-     */
-	
 	@Test
-	public void fromGeographicTest() {
-		final double inputLongitude = 10.716273056/RHO;
-		final double inputLatitude = 48.445827528/RHO;
-		final double inputHeight = 0.0;
-		final double inputEs2 = 0.00676817;
-		final double inputC = 6397376.633;
+	public void testGetAsGeographicInterface() {
+		final double RHO = 180. / Math.PI;
+		EllipsoidParms ell = new EllipsoidParms(0.0067394968, 6399593.626);
+		UTM UTM1 = new UTM();
+		UTM1.setEast(651416.090);
+		UTM1.setNorth(5408463.070);
+		UTM1.setNorthhem(true);
+		UTM1.setZone(32);
+		UTM1.setScale(0.9996);
+		UTM1.getAsGeographicInterface(ell);
 		
-		final double expectedRechtsWert = 126923.0496;
-		final double expectedHochWert = 5367382.31;
-		final double expectedHeight = 0.0;
+		assertEquals(48.810694, UTM1.getAsGeographicInterface(ell).getLatitude() * RHO, 0.000001);
+		assertEquals(11.062405, UTM1.getAsGeographicInterface(ell).getLongitude() * RHO, 0.000001);
+	}
+	@Test
+	public void testGetAsUTM() {
+		final double RHO = 180. / Math.PI;
+		EllipsoidParms ell = new EllipsoidParms(0.0067394968, 6399593.626);
+		GeographicCoordinateInterface geographicCoodrdinateInterface = new GeographicCoordinateInterface();
+		geographicCoodrdinateInterface.setLongitude(11.062405/RHO);
+		geographicCoodrdinateInterface.setLatitude(48.810694/RHO);
+		geographicCoodrdinateInterface.setHeight(0.0);
+		UTM UTM1 = new UTM();
+		UTM1.getAsTargetCoordinate(ell,geographicCoodrdinateInterface);
 		
-		GeographicCoordinateInterface geographicCoordinateInterface = GeographicCoordinateInterface.getInstance(
-				inputLongitude, inputLatitude, inputHeight);
-		EllipsoidParms ellipsoidParameters = new EllipsoidParms(inputEs2, inputC);
-		UTM utmResult = new UTM();
-		utmResult.fromGeographicInterface(ellipsoidParameters, geographicCoordinateInterface);
-		
-		double resultRechtswert = utmResult.getOrdinate();
-		double resultHochwert = utmResult.getAbszisse();
-		double resultHeight = utmResult.getHeight();
-		
-		Assert.assertEquals(
-				String.format("Rechtswert %s of result coordinate does't match expected value %s.", resultRechtswert, expectedRechtsWert), 
-				expectedRechtsWert, resultRechtswert, EPSILON);
-		Assert.assertEquals(
-				String.format("Hochwert %s of result coordinate does't match expected value %s.", resultHochwert, expectedHochWert), 
-				expectedHochWert, resultHochwert, EPSILON);
-		Assert.assertEquals(
-				String.format("Height %s of result coordinate does't match expected value %s.", resultHeight, expectedHeight), 
-				expectedHeight, resultHeight, EPSILON);
+		assertEquals(5408463.070, UTM1.getNorth(), 0.02);
+		assertEquals(651416.090, UTM1.getEast(), 0.02);
 	}
 }

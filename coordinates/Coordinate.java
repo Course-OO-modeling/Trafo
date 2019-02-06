@@ -9,7 +9,7 @@ import params.EllipsoidParms;
  *	@author unknown on 2016-11
  *  @remark updated header on 2017-11-29 by Markus Mueller
  *  @remark renamed to Coordinate (was Coordinates) on 2016-11-26 by Patrick Huebner
- *  @remark added abstract methods {@link #getAsGeographicInterface(EllipsoidParms) getAsGeographic} and {@link #fromGeographicInterface(EllipsoidParms, GeographicCoordinateInterface) fromGeographic} to enable any concrete Coordinate class be used as input for TransformationStrategy which relies on geographic coordinates as input/output on 2016-11-26 by Patrick Huebner 
+ *  @remark added abstract methods {@link #getAsGeographicInterface(EllipsoidParms) getAsGeographic} and {@link #getAsTargetCoordinate(EllipsoidParms, GeographicCoordinateInterface) fromGeographic} to enable any concrete Coordinate class be used as input for TransformationStrategy which relies on geographic coordinates as input/output on 2016-11-26 by Patrick Huebner 
  *	@version 0.1
  *	@param pointid - string representing the point identification number
  */
@@ -27,9 +27,9 @@ public abstract class Coordinate {
      * @param geographicCoordinate - an object of type GeographicCoordinate that represents the geographic coordinate the concrete Coordinate instance should be converted from
      * @param ellipsoidParms - an object of type EllipsoidParms that contains details about the ellipsoid the GeographicCoordinate refers to
      */
-    public abstract void fromGeographicInterface(EllipsoidParms ellipsoidParms, GeographicCoordinateInterface geographicCoordinate);
+    public abstract void getAsTargetCoordinate(EllipsoidParms ellipsoidParms, GeographicCoordinateInterface geographicCoordinate);
     /**
-     * @brief abstract methond that allows the concrete Coordinate to be output on screen 
+     * @brief abstract methnd that allows the concrete Coordinate to be output on screen 
      */
     public abstract void print();
     /******************************************************************************************************************

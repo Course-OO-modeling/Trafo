@@ -47,25 +47,25 @@ public class Transformation {
         GeographicCoordinateInterface geographic = CoordinateFactory.getGeographicCoordinateInterface();
         /* The Factory gives back an appropriate coordinate (depending on the
          * users input) **/
-        Coordinate fromcoord = CoordinateFactory.getCoord(control.getFromprojection());
+        Coordinate sourceCoord = CoordinateFactory.getCoord(control.getFromprojection());
         /* This line can be omitted after a test strategy is introduced  * */
-        fromcoord.print();
+        sourceCoord.print();
         /* The input coordinate is converted into a geographic coordinate (interface)
          **/ 
-        geographic = fromcoord.getAsGeographicInterface(control);
+        geographic = sourceCoord.getAsGeographicInterface(control);
         /* Only for testing purposes */
         geographic.print();
         /* Change of datum is invoked */
         TransformationStrategy dat = StrategyFactory.getStrategy();
         /* Define users' output coordinate system */
-        Coordinate tocoord = CoordinateFactory.getCoord(control.getToprojection());
+        Coordinate targetCoord = CoordinateFactory.getCoord(control.getToprojection());
         /* Perform change of datum */
         dat.transform(geographic);        
         /* Test the result, may be removed later - see above */
         geographic.print();        
         /* Transformation back from geographic to plane */
-        tocoord.fromGeographicInterface(control, geographic);
+        targetCoord.getAsTargetCoordinate(control, geographic);
         /* Again a testing statement - may be removed too */
-        tocoord.print();
+        targetCoord.print();
     } // end main
 } // end class Transformation

@@ -135,7 +135,7 @@ public final class XYZCoordinate extends Coordinate {
      * @param geocoord - an object of type GeographicCoordinate that represents the geographic coordinate to transform
      */
     @Override
-    public void fromGeographicInterface(EllipsoidParms ell, GeographicCoordinateInterface geocoord) {
+    public void getAsTargetCoordinate(EllipsoidParms ell, GeographicCoordinateInterface geocoord) {
         LatParm latparm = new LatParm();
 
         latparm.Constant(ell, geocoord.getLatitude());

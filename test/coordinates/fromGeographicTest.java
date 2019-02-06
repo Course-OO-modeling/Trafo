@@ -24,7 +24,7 @@ public class fromGeographicTest extends GaussKrueger {
 		GaussKrueger GK1 = new GaussKrueger();
 		
 		
-		GK1.fromGeographicInterface(EP1, GC1);
+		GK1.getAsTargetCoordinate(EP1, GC1);
 			
 		//assertEquals(114.23, GK1.getHeight(), 0.001);
 		//assertEquals(3456512.492, GK1.getRechts(),0.001);

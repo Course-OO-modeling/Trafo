@@ -35,17 +35,19 @@ public final class GeographicCoordinateInterface extends Coordinate {
     * CONSTRUCTORS                                                                                                    *
     ******************************************************************************************************************/
 
-    private GeographicCoordinateInterface() 
+    /**
+     * @remark public/visible due to testing
+     * @param longitude
+     * @param latitude
+     */
+    
+    public GeographicCoordinateInterface() 
     {
         longitude = -1.;
         latitude = -1.;
         height = -10000.;
     } // end Constructor
-/**
- * @remark public/visible due to testing
- * @param longitude
- * @param latitude
- */
+
     public GeographicCoordinateInterface(double longitude, double latitude) 
     {
         this.longitude = longitude;
@@ -171,7 +173,7 @@ public final class GeographicCoordinateInterface extends Coordinate {
      * @param ellipsoidParms - an object of type EllipsoidParms that contains details about the ellipsoid the GeographicCoordinate refers to
      */
 	@Override
-	public void fromGeographicInterface(EllipsoidParms ellipsoidParms, GeographicCoordinateInterface geographicCoordinate) {
+	public void getAsTargetCoordinate(EllipsoidParms ellipsoidParms, GeographicCoordinateInterface geographicCoordinate) {
 	    copy(geographicCoordinate);
 	}
 
