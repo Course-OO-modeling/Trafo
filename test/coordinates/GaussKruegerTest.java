@@ -20,7 +20,7 @@ import params.EllipsoidParms;
 
 public class GaussKruegerTest {
 	private final double RHO = 180/Math.PI;
-	private final double EPSILON_IN_METER = 0.005;
+	private final double EPSILON_IN_METER = 0.001;
 	private final double EPSILON_IN_DEGREE = 0.00000001;
 
 	/**
