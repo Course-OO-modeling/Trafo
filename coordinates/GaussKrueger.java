@@ -111,7 +111,7 @@ public class GaussKrueger extends Gauss {
         
         this.CalculateAbszisseOrdinate(cdl, hnull, latparm);
 
-        this.rechts = this.getOrdinate() + (kennlao + .5) * 1e+6;
+        this.setRechts(this.getOrdinate() + (kennlao + .5) * 1e+6);
         this.setHeight(geocoord.getHeight());
 
     }

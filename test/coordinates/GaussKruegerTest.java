@@ -70,9 +70,10 @@ public class GaussKruegerTest {
 		geographicCoordinateInterface.setHeight(0.);
 		// Bessel is assumed
 		EllipsoidParms ellipsoidParameters = new EllipsoidParms(0.0067192188, 6398786.849);
-		ellipsoidParameters.setGK_refmer(12);
+		ellipsoidParameters.setGK_refmer(12.);
 		testCoordinate.getAsTargetCoordinate(ellipsoidParameters, geographicCoordinateInterface);
 		
+		//Assert.assertEquals(12, testCoordinate.getIlao());
 		Assert.assertEquals(expectedHoch, testCoordinate.getHoch(), EPSILON_IN_METER);
 		Assert.assertEquals(expectedRechts, testCoordinate.getRechts(), EPSILON_IN_METER);
 		Assert.assertEquals(expectedHeight, testCoordinate.getHeight(), EPSILON_IN_METER);
