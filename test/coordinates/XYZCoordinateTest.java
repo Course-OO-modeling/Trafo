@@ -28,8 +28,20 @@ public class XYZCoordinateTest {
 
 	@Test
 	public void testGetAsTargetCoordinate() {
+		final double RHO = 180. / Math.PI;
+		GeographicCoordinateInterface geo = CoordinateFactory.getGeographicCoordinateInterface();
+		EllipsoidParms ell = new EllipsoidParms(0.0067192188, 6398786.849);
+		XYZCoordinate xyzCoordinate = new XYZCoordinate();
+				
+		geo.setLatitude(49.0/RHO);
+		geo.setLongitude(8.5/RHO);
+		geo.setHeight(120.);
 		
-		fail("Not yet implemented");
+		xyzCoordinate.getAsTargetCoordinate(ell, geo);
+		
+		assertEquals(4145957.8404159, xyzCoordinate.getX(), 0.001);
+		assertEquals(619617.55080143, xyzCoordinate.getY(), 0.001);
+		assertEquals(4790162.7065932, xyzCoordinate.getZ(), 0.001);
 	}
 
 }

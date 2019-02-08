@@ -6,7 +6,7 @@ import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
 @SuiteClasses({ CoordinateFactoryTest.class, GaussKruegerTest.class, GaussTest.class, GeographicCoordinateTest.class,
-		UTMTest.class })
+		UTMTest.class, XYZCoordinateTest.class })
 public class AllTests {
 
 }
