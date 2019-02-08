@@ -42,16 +42,13 @@ public class Transformation {
     	/* First of all a class encompassing the data of the controller is needed */
         ControlParms control = ControlParms.getInstance();
         /* A geographic coordinate is always needed
-         * it represents the interface for the strategy class
-         */
+         * it represents the interface for the strategy class        */
         GeographicCoordinateInterface geographic = CoordinateFactory.getGeographicCoordinateInterface();
-        /* The Factory gives back an appropriate coordinate (depending on the
-         * users input) **/
+        /* The Factory gives back an appropriate coordinate (depending on the users input) **/
         Coordinate sourceCoord = CoordinateFactory.getCoord(control.getFromprojection());
         /* This line can be omitted after a test strategy is introduced  * */
         sourceCoord.print();
-        /* The input coordinate is converted into a geographic coordinate (interface)
-         **/ 
+        /* The input coordinate is converted into a geographic coordinate (interface)     **/ 
         geographic = sourceCoord.getAsGeographicInterface(control);
         /* Only for testing purposes */
         geographic.print();

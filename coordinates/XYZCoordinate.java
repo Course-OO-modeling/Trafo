@@ -83,20 +83,14 @@ public final class XYZCoordinate extends Coordinate {
     @Override
     public GeographicCoordinateInterface getAsGeographicInterface(EllipsoidParms ell) {
         double ellipsoidLat = 0., longitude = 0., ellispoidHeight = 0.;
-
         double xydist, latitude, help;
         GeographicCoordinateInterface geo = CoordinateFactory.getGeographicCoordinateInterface();
         LatParm latparm = new LatParm();
-
-        /* critera for stopping the iteration */
-       
+        /* criterion for stopping the iteration */     
         double maxLonLatDistance = 1.0e-14;
         double maxIteration = 100;
-
-        /* * * * Iterative solution * * * */
-        
-        /* A-priori-Besetzung */
-
+        /* * * * Iterative solution *** 
+         * A-priori-allocation       **/
         xydist = Math.sqrt(x * x + y * y);
         latitude = Math.atan2(z, xydist);
 
@@ -107,7 +101,6 @@ public final class XYZCoordinate extends Coordinate {
             help = (ellipsoidLat - latitude);
             if (help < 0) help = help * (-1);
             if (help < maxLonLatDistance) break;
-  
             
             latitude = ellipsoidLat;
         } 
@@ -117,9 +110,7 @@ public final class XYZCoordinate extends Coordinate {
         geo.setLatitude(latitude);
         geo.setLongitude(longitude);
         geo.setHeight(ellispoidHeight);
-
         return geo;
-
     } 
 
 
