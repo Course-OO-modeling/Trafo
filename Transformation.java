@@ -5,7 +5,7 @@ import coordinates.CoordinateFactory;
 import coordinates.GeographicCoordinateInterface;
 import coordinates.Coordinate;
 import datumstrategy.TransformationStrategy;
-import datumstrategy.StrategyFactory;
+import datumstrategy.GetAppropriateTransformationAlgorithm;
 /**
  * @mainpage Coordinate Transformation
  * @note For educational purposes only
@@ -53,7 +53,7 @@ public class Transformation {
         /* Only for testing purposes */
         geographic.print();
         /* Change of datum is invoked */
-        TransformationStrategy dat = StrategyFactory.getStrategy();
+        TransformationStrategy dat = GetAppropriateTransformationAlgorithm.getStrategy();
         /* Define users' output coordinate system */
         Coordinate targetCoord = CoordinateFactory.getCoord(control.getToprojection());
         /* Perform change of datum */

@@ -10,7 +10,7 @@ package params;
  */
 public class MolodenskyParm {
     private double transx, transy, transz;	// Translation
-    private double da, df;									// Rotation
+    private double da, df;					// Rotation
 
 /******************************************************************************************************************
 * KONSTRUKTOREN                                                                                                   *
