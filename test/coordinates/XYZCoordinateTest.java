@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import coordinates.CoordinateFactory;
+import coordinates.GetAppropriateCoordinate;
 import coordinates.GeographicCoordinateInterface;
 import coordinates.XYZCoordinate;
 import params.EllipsoidParms;
@@ -16,7 +16,7 @@ public class XYZCoordinateTest {
 	public void testGetAsGeographicInterface() {
 		/** @remark got reference data from www.sapos-bw.de/trafoErg_B_X.php **/
 		final double RHO = 180. / Math.PI;
-		GeographicCoordinateInterface geo = CoordinateFactory.getGeographicCoordinateInterface();
+		GeographicCoordinateInterface geo = GetAppropriateCoordinate.getGeographicCoordinateInterface();
 		XYZCoordinate xyzCoordinate = new XYZCoordinate(4145957.8404159, 619617.55080143, 4790162.7065932);
 		EllipsoidParms ell = new EllipsoidParms(0.0067192188, 6398786.849);
 		
@@ -29,7 +29,7 @@ public class XYZCoordinateTest {
 	@Test
 	public void testGetAsTargetCoordinate() {
 		final double RHO = 180. / Math.PI;
-		GeographicCoordinateInterface geo = CoordinateFactory.getGeographicCoordinateInterface();
+		GeographicCoordinateInterface geo = GetAppropriateCoordinate.getGeographicCoordinateInterface();
 		EllipsoidParms ell = new EllipsoidParms(0.0067192188, 6398786.849);
 		XYZCoordinate xyzCoordinate = new XYZCoordinate();
 				

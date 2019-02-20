@@ -187,7 +187,7 @@ public final class GeographicCoordinateInterface extends Coordinate {
             trafoparameter) {
 
         double dl, db, dh;
-        GeographicCoordinateInterface geo_p2 = CoordinateFactory.getGeographicCoordinateInterface();
+        GeographicCoordinateInterface geo_p2 = GetAppropriateCoordinate.getGeographicCoordinateInterface();
         LatParm latparm = new LatParm();
 
         latparm.Constant(ell, latitude);

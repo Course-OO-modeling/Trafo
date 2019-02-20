@@ -601,7 +601,7 @@ coordinates.Soldner\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAFG \\*MERGEF
 coordinates.XYZCoordinate\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGP \\*MERGEFORMAT}{\fldrslt pagenum}}
 \par
 }\par
-coordinates.CoordinateFactory\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+coordinates.GetAppropriateCoordinate\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABQ \\*MERGEFORMAT}{\fldrslt pagenum}}
 \par
 test.coordinates.CoordinateFactoryTest\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAASJ \\*MERGEFORMAT}{\fldrslt pagenum}}
 \par
@@ -666,7 +666,7 @@ Class {\b ControlParms} extends class {\b EllipsoidParms} })} \tab {\field\flded
 {\b {\b coordinates.Coordinate} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
 Abstract class that represents a coordinate. Enables any concrete {\b Coordinate} class be used as input for TransformationStrategy which relies on geographic coordinates as input/output })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABJ \\*MERGEFORMAT}{\fldrslt pagenum}}
 \par
-{\b {\b coordinates.CoordinateFactory} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\b {\b coordinates.GetAppropriateCoordinate} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
 {\b Coordinate} factory for plane coordinates and geographic coordinates })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABQ \\*MERGEFORMAT}{\fldrslt pagenum}}
 \par
 {\b {\b test.coordinates.CoordinateFactoryTest} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAASJ \\*MERGEFORMAT}{\fldrslt pagenum}}
@@ -697,7 +697,7 @@ Concrete implementation of abstract class {\b Coordinate}, represents a geograph
  })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEB \\*MERGEFORMAT}{\fldrslt pagenum}}
 \par
 {\b {\b test.coordinates.getCoordTest} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
-Testing of the method getCoord from the class coordinates.CoordinateFactory.java })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAASU \\*MERGEFORMAT}{\fldrslt pagenum}}
+Testing of the method getCoord from the class coordinates.GetAppropriateCoordinate.java })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAASU \\*MERGEFORMAT}{\fldrslt pagenum}}
 \par
 {\b {\b params.LatParm} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
 Latitude Parameters })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAPV \\*MERGEFORMAT}{\fldrslt pagenum}}
@@ -1009,7 +1009,7 @@ Test class with unit tests to test behavior class GaussKrueger. }}}
 class {\b getCoordTest}\par
 {
 \pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
-Testing of the method getCoord from the class coordinates.CoordinateFactory.java. }}}
+Testing of the method getCoord from the class coordinates.GetAppropriateCoordinate.java. }}}
 \pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
 class {\b UTMasGeographic}\par
 \pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
@@ -3327,9 +3327,9 @@ coordinates/{\b Coordinate.java}\par
 \pard\plain \sect\sbkpage
 \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
 \pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
-coordinates.CoordinateFactory Class Reference\par \pard\plain 
-{\tc\tcl2 \v coordinates.CoordinateFactory}
-{\xe \v coordinates.CoordinateFactory}
+coordinates.GetAppropriateCoordinate Class Reference\par \pard\plain 
+{\tc\tcl2 \v coordinates.GetAppropriateCoordinate}
+{\xe \v coordinates.GetAppropriateCoordinate}
 {\bkmkstart AAAAAAAABQ}
 {\bkmkend AAAAAAAABQ}
 \par
@@ -3402,7 +3402,7 @@ Member Function Documentation\par
 {\xe \v coordinates::CoordinateFactory\:getCoord}
 \pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
 {\b 
-static {\b Coordinate} coordinates.CoordinateFactory.getCoord (String  {\i object}){\f2 [static]}}}
+static {\b Coordinate} coordinates.GetAppropriateCoordinate.getCoord (String  {\i object}){\f2 [static]}}}
 \par
 {\bkmkstart AAAAAAAABR}
 {\bkmkend AAAAAAAABR}
@@ -3428,7 +3428,7 @@ Parameters:\par}
 {\xe \v coordinates::CoordinateFactory\:getGeographicCoordinateInterface}
 \pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
 {\b 
-static {\b GeographicCoordinateInterface} coordinates.CoordinateFactory.getGeographicCoordinateInterface (){\f2 [static]}}}
+static {\b GeographicCoordinateInterface} coordinates.GetAppropriateCoordinate.getGeographicCoordinateInterface (){\f2 [static]}}}
 \par
 {\bkmkstart AAAAAAAABS}
 {\bkmkend AAAAAAAABS}
@@ -7460,7 +7460,7 @@ test.coordinates.getCoordTest Class Reference\par \pard\plain
 \par
 {
 {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
-Testing of the method getCoord from the class coordinates.CoordinateFactory.java. }}\par
+Testing of the method getCoord from the class coordinates.GetAppropriateCoordinate.java. }}\par
 \pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
 Public Member Functions\par
 \pard\plain 
@@ -7475,7 +7475,7 @@ Detailed Description\par
 \pard\plain 
 {
 \pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
-Testing of the method getCoord from the class coordinates.CoordinateFactory.java. \par
+Testing of the method getCoord from the class coordinates.GetAppropriateCoordinate.java. \par
 }
 
 {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
@@ -10694,7 +10694,7 @@ Classes\par
 
 {
 \pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
-class {\b coordinates.CoordinateFactory}\par
+class {\b coordinates.GetAppropriateCoordinate}\par
 {
 \pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
 {\b Coordinate} factory for plane coordinates and geographic coordinates. }}}
@@ -11391,7 +11391,7 @@ Classes\par
 class {\b test.coordinates.getCoordTest}\par
 {
 \pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
-Testing of the method getCoord from the class coordinates.CoordinateFactory.java. }}}
+Testing of the method getCoord from the class coordinates.GetAppropriateCoordinate.java. }}}
 }
 \pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
 Packages\par

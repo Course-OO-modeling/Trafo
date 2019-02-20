@@ -3,7 +3,7 @@ package coordinates;
 // package Classes;
 
 /**
- *  @class CoordinateFactory
+ *  @class GetAppropriateCoordinate
  *  @brief Coordinate factory for plane coordinates and geographic coordinates
  *  @author Norbert Rösch
  *  @remark updated header on 2017-11-29 by Markus Mueller
@@ -20,7 +20,7 @@ package coordinates;
  *  @param GeographicCoordinateInterface - the geographic coordinate interface
 */
 
-public class CoordinateFactory {
+public class GetAppropriateCoordinate {
 	/**
      * @brief getter method that returns an appropriate coordinate depending on the users input
      * @param object - string representing the type of the coordinate
@@ -45,4 +45,4 @@ public class CoordinateFactory {
       return GeographicCoordinateInterface.getInstance();
     }
 
-} // end coordinates.CoordinateFactory
+} // end coordinates.GetAppropriateCoordinate

@@ -84,7 +84,7 @@ public final class XYZCoordinate extends Coordinate {
     public GeographicCoordinateInterface getAsGeographicInterface(EllipsoidParms ell) {
         double ellipsoidLat = 0., longitude = 0., ellispoidHeight = 0.;
         double xydist, latitude, help;
-        GeographicCoordinateInterface geo = CoordinateFactory.getGeographicCoordinateInterface();
+        GeographicCoordinateInterface geo = GetAppropriateCoordinate.getGeographicCoordinateInterface();
         LatParm latparm = new LatParm();
         /* criterion for stopping the iteration */     
         double maxLonLatDistance = 1.0e-14;

@@ -1,7 +1,7 @@
 // package Klassen;
 
 import params.ControlParms;
-import coordinates.CoordinateFactory;
+import coordinates.GetAppropriateCoordinate;
 import coordinates.GeographicCoordinateInterface;
 import coordinates.Coordinate;
 import datumstrategy.TransformationStrategy;
@@ -43,9 +43,9 @@ public class Transformation {
         ControlParms control = ControlParms.getInstance();
         /* A geographic coordinate is always needed
          * it represents the interface for the strategy class        */
-        GeographicCoordinateInterface geographic = CoordinateFactory.getGeographicCoordinateInterface();
+        GeographicCoordinateInterface geographic = GetAppropriateCoordinate.getGeographicCoordinateInterface();
         /* The Factory gives back an appropriate coordinate (depending on the users input) **/
-        Coordinate sourceCoord = CoordinateFactory.getCoord(control.getFromprojection());
+        Coordinate sourceCoord = GetAppropriateCoordinate.getCoord(control.getFromprojection());
         /* This line can be omitted after a test strategy is introduced  * */
         sourceCoord.print();
         /* The input coordinate is converted into a geographic coordinate (interface)     **/ 
@@ -55,7 +55,7 @@ public class Transformation {
         /* Change of datum is invoked */
         TransformationStrategy dat = GetAppropriateTransformationAlgorithm.getStrategy();
         /* Define users' output coordinate system */
-        Coordinate targetCoord = CoordinateFactory.getCoord(control.getToprojection());
+        Coordinate targetCoord = GetAppropriateCoordinate.getCoord(control.getToprojection());
         /* Perform change of datum */
         dat.transform(geographic);        
         /* Test the result, may be removed later - see above */

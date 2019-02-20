@@ -68,7 +68,7 @@ public class GaussKrueger extends Gauss {
         double lao, kennlao;
         double xg, yg, l0;
         final double RHO = 180. / Math.PI;
-        GeographicCoordinateInterface geographic = CoordinateFactory.getGeographicCoordinateInterface();
+        GeographicCoordinateInterface geographic = GetAppropriateCoordinate.getGeographicCoordinateInterface();
 
         xg = hoch;
         kennlao = (int) ((rechts) / 1e+6);

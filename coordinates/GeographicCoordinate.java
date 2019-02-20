@@ -140,7 +140,7 @@ public final class GeographicCoordinate extends Coordinate {
      */
     @Override
 	public GeographicCoordinateInterface getAsGeographicInterface(EllipsoidParms ellipsoidParms) {
-    	GeographicCoordinateInterface geographic = CoordinateFactory.getGeographicCoordinateInterface();
+    	GeographicCoordinateInterface geographic = GetAppropriateCoordinate.getGeographicCoordinateInterface();
     	
     	geographic.setPoint_number(this.point_number);
     	geographic.setEllipsoidal(this.ellipsoidal);

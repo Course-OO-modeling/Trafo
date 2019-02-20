@@ -65,7 +65,7 @@ public class UTM extends Gauss {
     public GeographicCoordinateInterface getAsGeographicInterface(EllipsoidParms ell) {
         double xg, yg, l0;
         final double RHO = 180. / Math.PI;
-        GeographicCoordinateInterface geo = CoordinateFactory.getGeographicCoordinateInterface();
+        GeographicCoordinateInterface geo = GetAppropriateCoordinate.getGeographicCoordinateInterface();
 
         xg = north;
         yg = east;

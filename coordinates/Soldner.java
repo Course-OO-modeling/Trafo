@@ -84,7 +84,7 @@ public final class Soldner extends Coordinate {
     public GeographicCoordinateInterface getAsGeographicInterface(EllipsoidParms ell) {
         double xs, ys, ys2, dl;
         double hilf, hilf2, bf;
-        GeographicCoordinateInterface geo = CoordinateFactory.getGeographicCoordinateInterface();
+        GeographicCoordinateInterface geo = GetAppropriateCoordinate.getGeographicCoordinateInterface();
         LatParm bz0 = new LatParm(), bzf = new LatParm();
 
         bz0.Constant(ell, b0);

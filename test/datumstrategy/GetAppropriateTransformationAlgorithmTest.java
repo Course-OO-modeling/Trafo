@@ -23,8 +23,6 @@ public class GetAppropriateTransformationAlgorithmTest {
 		assertEquals(49., geographic.getLatitude(), 0.000000001);
 		assertEquals(8., geographic.getLongitude(),0.000000001);
 		assertEquals(120.,geographic.getHeight(), 0.0001);
-		
-		// fail("Not yet implemented");
 	}
-
+	
 }
