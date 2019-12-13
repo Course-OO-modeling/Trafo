@@ -1,0 +1,155 @@
+\hypertarget{classcoordinates_1_1_coordinate}{}\doxysection{coordinates.\+Coordinate Class Reference}
+\label{classcoordinates_1_1_coordinate}\index{coordinates.Coordinate@{coordinates.Coordinate}}
+
+
+Abstract class that represents a coordinate. Enables any concrete \mbox{\hyperlink{classcoordinates_1_1_coordinate}{Coordinate}} class be used as input for Transformation\+Strategy which relies on geographic coordinates as input/output ~\newline
+  
+
+
+Inheritance diagram for coordinates.\+Coordinate\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.393035cm]{classcoordinates_1_1_coordinate}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+abstract \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface}{Geographic\+Coordinate\+Interface}} \mbox{\hyperlink{classcoordinates_1_1_coordinate_a97342479914743d999cef4b38f9124ed}{get\+As\+Geographic\+Interface}} (\mbox{\hyperlink{classparams_1_1_ellipsoid_parms}{Ellipsoid\+Parms}} ellipsoid\+Parms)
+\begin{DoxyCompactList}\small\item\em abstract method that allows the concrete \mbox{\hyperlink{classcoordinates_1_1_coordinate}{Coordinate}} instance to be convertable to \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate}{Geographic\+Coordinate}} \end{DoxyCompactList}\item 
+abstract void \mbox{\hyperlink{classcoordinates_1_1_coordinate_a998872a624f0394829f4c405f7a6f803}{get\+As\+Target\+Coordinate}} (\mbox{\hyperlink{classparams_1_1_ellipsoid_parms}{Ellipsoid\+Parms}} ellipsoid\+Parms, \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface}{Geographic\+Coordinate\+Interface}} geographic\+Coordinate)
+\begin{DoxyCompactList}\small\item\em abstract method that allows the concrete \mbox{\hyperlink{classcoordinates_1_1_coordinate}{Coordinate}} instance to be convertable from \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate}{Geographic\+Coordinate}} \end{DoxyCompactList}\item 
+abstract void \mbox{\hyperlink{classcoordinates_1_1_coordinate_af2882da7117d4a312faf707df681042c}{print}} ()
+\begin{DoxyCompactList}\small\item\em abstract methnd that allows the concrete \mbox{\hyperlink{classcoordinates_1_1_coordinate}{Coordinate}} to be output on screen \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classcoordinates_1_1_coordinate_ab0b1d8dc4fe371a2425e0cb505effafd}{get\+Pointid}} ()
+\begin{DoxyCompactList}\small\item\em getter method that returns the id of the particular \mbox{\hyperlink{classcoordinates_1_1_coordinate}{Coordinate}} point \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcoordinates_1_1_coordinate_a14f00383b5a41df79220112a12ef1cbf}{set\+Pointid}} (String \mbox{\hyperlink{classcoordinates_1_1_coordinate_a871c4eb3e8771b3e59f26c8e573d6aa0}{pointid}})
+\begin{DoxyCompactList}\small\item\em setter method that accepts id for the particular \mbox{\hyperlink{classcoordinates_1_1_coordinate}{Coordinate}} point \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classcoordinates_1_1_coordinate_a871c4eb3e8771b3e59f26c8e573d6aa0}{pointid}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Abstract class that represents a coordinate. Enables any concrete \mbox{\hyperlink{classcoordinates_1_1_coordinate}{Coordinate}} class be used as input for Transformation\+Strategy which relies on geographic coordinates as input/output ~\newline
+ 
+
+\begin{DoxyAuthor}{Author}
+unknown on 2016-\/11 
+\end{DoxyAuthor}
+\begin{DoxyRemark}{Remarks}
+updated header on 2017-\/11-\/29 by Markus Mueller 
+
+renamed to \mbox{\hyperlink{classcoordinates_1_1_coordinate}{Coordinate}} (was Coordinates) on 2016-\/11-\/26 by Patrick Huebner 
+
+added abstract methods \mbox{\hyperlink{classcoordinates_1_1_coordinate_a97342479914743d999cef4b38f9124ed}{get\+As\+Geographic}} and \mbox{\hyperlink{classcoordinates_1_1_coordinate_a998872a624f0394829f4c405f7a6f803}{from\+Geographic}} to enable any concrete \mbox{\hyperlink{classcoordinates_1_1_coordinate}{Coordinate}} class be used as input for Transformation\+Strategy which relies on geographic coordinates as input/output on 2016-\/11-\/26 by Patrick Huebner 
+\end{DoxyRemark}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+
+\begin{DoxyParams}{Parameters}
+{\em pointid} & -\/ string representing the point identification number \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcoordinates_1_1_coordinate_a97342479914743d999cef4b38f9124ed}\label{classcoordinates_1_1_coordinate_a97342479914743d999cef4b38f9124ed}} 
+\index{coordinates.Coordinate@{coordinates.Coordinate}!getAsGeographicInterface@{getAsGeographicInterface}}
+\index{getAsGeographicInterface@{getAsGeographicInterface}!coordinates.Coordinate@{coordinates.Coordinate}}
+\doxysubsubsection{\texorpdfstring{getAsGeographicInterface()}{getAsGeographicInterface()}}
+{\footnotesize\ttfamily abstract \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface}{Geographic\+Coordinate\+Interface}} coordinates.\+Coordinate.\+get\+As\+Geographic\+Interface (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classparams_1_1_ellipsoid_parms}{Ellipsoid\+Parms}}}]{ellipsoid\+Parms }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+
+
+abstract method that allows the concrete \mbox{\hyperlink{classcoordinates_1_1_coordinate}{Coordinate}} instance to be convertable to \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate}{Geographic\+Coordinate}} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ellipsoid\+Parms} & -\/ an object of type Ellipsoid\+Parms that contains details about the ellipsoid the \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate}{Geographic\+Coordinate}} should refer to \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface_a5a7c2ad22340e5337db778034c732ac8}{coordinates.\+Geographic\+Coordinate\+Interface}}, \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_ae316c889f13670bd69d621858495e2f3}{coordinates.\+Geographic\+Coordinate}}, \mbox{\hyperlink{classcoordinates_1_1_soldner_ab87732c40411256ffd5cfba0ad4bd2cc}{coordinates.\+Soldner}}, \mbox{\hyperlink{classcoordinates_1_1_x_y_z_coordinate_add6f4e104b8f7c0dfc2f7d63594abe0d}{coordinates.\+X\+Y\+Z\+Coordinate}}, \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger_a3b7d9043de1a8cbff07dd692244938d5}{coordinates.\+Gauss\+Krueger}}, \mbox{\hyperlink{classcoordinates_1_1_u_t_m_a007d51832fcdc5eb721f04f23d4be8f9}{coordinates.\+U\+TM}}, and \mbox{\hyperlink{classcoordinates_1_1_gauss_adb944679772bf8b4101b075247dd0fd0}{coordinates.\+Gauss}}.
+
+\mbox{\Hypertarget{classcoordinates_1_1_coordinate_a998872a624f0394829f4c405f7a6f803}\label{classcoordinates_1_1_coordinate_a998872a624f0394829f4c405f7a6f803}} 
+\index{coordinates.Coordinate@{coordinates.Coordinate}!getAsTargetCoordinate@{getAsTargetCoordinate}}
+\index{getAsTargetCoordinate@{getAsTargetCoordinate}!coordinates.Coordinate@{coordinates.Coordinate}}
+\doxysubsubsection{\texorpdfstring{getAsTargetCoordinate()}{getAsTargetCoordinate()}}
+{\footnotesize\ttfamily abstract void coordinates.\+Coordinate.\+get\+As\+Target\+Coordinate (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classparams_1_1_ellipsoid_parms}{Ellipsoid\+Parms}}}]{ellipsoid\+Parms,  }\item[{\mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface}{Geographic\+Coordinate\+Interface}}}]{geographic\+Coordinate }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+
+
+abstract method that allows the concrete \mbox{\hyperlink{classcoordinates_1_1_coordinate}{Coordinate}} instance to be convertable from \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate}{Geographic\+Coordinate}} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em geographic\+Coordinate} & -\/ an object of type \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate}{Geographic\+Coordinate}} that represents the geographic coordinate the concrete \mbox{\hyperlink{classcoordinates_1_1_coordinate}{Coordinate}} instance should be converted from \\
+\hline
+{\em ellipsoid\+Parms} & -\/ an object of type Ellipsoid\+Parms that contains details about the ellipsoid the \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate}{Geographic\+Coordinate}} refers to \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface_acc9324b94c545f0d2d9e34ff9eae6046}{coordinates.\+Geographic\+Coordinate\+Interface}}, \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_a31aa30555bf11a9965ff717946430cce}{coordinates.\+Geographic\+Coordinate}}, \mbox{\hyperlink{classcoordinates_1_1_x_y_z_coordinate_a565677c6fc44b6241255d0733e72e048}{coordinates.\+X\+Y\+Z\+Coordinate}}, \mbox{\hyperlink{classcoordinates_1_1_soldner_a5681bdb4c77cb4e6e483abca00758a48}{coordinates.\+Soldner}}, \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger_ab25a4a0c8fadac6c9f1653227427efd7}{coordinates.\+Gauss\+Krueger}}, and \mbox{\hyperlink{classcoordinates_1_1_u_t_m_a2f86a0eacc36537c221bedb7381aa77b}{coordinates.\+U\+TM}}.
+
+\mbox{\Hypertarget{classcoordinates_1_1_coordinate_ab0b1d8dc4fe371a2425e0cb505effafd}\label{classcoordinates_1_1_coordinate_ab0b1d8dc4fe371a2425e0cb505effafd}} 
+\index{coordinates.Coordinate@{coordinates.Coordinate}!getPointid@{getPointid}}
+\index{getPointid@{getPointid}!coordinates.Coordinate@{coordinates.Coordinate}}
+\doxysubsubsection{\texorpdfstring{getPointid()}{getPointid()}}
+{\footnotesize\ttfamily String coordinates.\+Coordinate.\+get\+Pointid (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+getter method that returns the id of the particular \mbox{\hyperlink{classcoordinates_1_1_coordinate}{Coordinate}} point 
+
+\begin{DoxyReturn}{Returns}
+pointid -\/ string representing the point identification number 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcoordinates_1_1_coordinate_af2882da7117d4a312faf707df681042c}\label{classcoordinates_1_1_coordinate_af2882da7117d4a312faf707df681042c}} 
+\index{coordinates.Coordinate@{coordinates.Coordinate}!print@{print}}
+\index{print@{print}!coordinates.Coordinate@{coordinates.Coordinate}}
+\doxysubsubsection{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily abstract void coordinates.\+Coordinate.\+print (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+
+
+abstract methnd that allows the concrete \mbox{\hyperlink{classcoordinates_1_1_coordinate}{Coordinate}} to be output on screen 
+
+
+
+Reimplemented in \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface_a8d32481c2a4f1134d73cd05e2837e8d1}{coordinates.\+Geographic\+Coordinate\+Interface}}, \mbox{\hyperlink{classcoordinates_1_1_x_y_z_coordinate_a4ff7f1c0dee75f3c60dc735c26129761}{coordinates.\+X\+Y\+Z\+Coordinate}}, \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_a1cbf537f61d51979a831b2f018d28897}{coordinates.\+Geographic\+Coordinate}}, \mbox{\hyperlink{classcoordinates_1_1_soldner_a672aec8c4424e5a066f272d4864e8813}{coordinates.\+Soldner}}, \mbox{\hyperlink{classcoordinates_1_1_gauss_aa088aa6fb796aa873b19ee2c1ef42468}{coordinates.\+Gauss}}, \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger_a68b8bf6307cf0c9732f5034d8cf70df8}{coordinates.\+Gauss\+Krueger}}, and \mbox{\hyperlink{classcoordinates_1_1_u_t_m_a40435144851f7e23b573debd797e0e97}{coordinates.\+U\+TM}}.
+
+\mbox{\Hypertarget{classcoordinates_1_1_coordinate_a14f00383b5a41df79220112a12ef1cbf}\label{classcoordinates_1_1_coordinate_a14f00383b5a41df79220112a12ef1cbf}} 
+\index{coordinates.Coordinate@{coordinates.Coordinate}!setPointid@{setPointid}}
+\index{setPointid@{setPointid}!coordinates.Coordinate@{coordinates.Coordinate}}
+\doxysubsubsection{\texorpdfstring{setPointid()}{setPointid()}}
+{\footnotesize\ttfamily void coordinates.\+Coordinate.\+set\+Pointid (\begin{DoxyParamCaption}\item[{String}]{pointid }\end{DoxyParamCaption})}
+
+
+
+setter method that accepts id for the particular \mbox{\hyperlink{classcoordinates_1_1_coordinate}{Coordinate}} point 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pointid} & -\/ string representing the point identification number \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classcoordinates_1_1_coordinate_a871c4eb3e8771b3e59f26c8e573d6aa0}\label{classcoordinates_1_1_coordinate_a871c4eb3e8771b3e59f26c8e573d6aa0}} 
+\index{coordinates.Coordinate@{coordinates.Coordinate}!pointid@{pointid}}
+\index{pointid@{pointid}!coordinates.Coordinate@{coordinates.Coordinate}}
+\doxysubsubsection{\texorpdfstring{pointid}{pointid}}
+{\footnotesize\ttfamily String coordinates.\+Coordinate.\+pointid\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+coordinates/\mbox{\hyperlink{_coordinate_8java}{Coordinate.\+java}}\end{DoxyCompactItemize}

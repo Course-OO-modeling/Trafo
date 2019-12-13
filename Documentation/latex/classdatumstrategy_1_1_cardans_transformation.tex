@@ -1,0 +1,139 @@
+\hypertarget{classdatumstrategy_1_1_cardans_transformation}{}\doxysection{datumstrategy.\+Cardans\+Transformation Class Reference}
+\label{classdatumstrategy_1_1_cardans_transformation}\index{datumstrategy.CardansTransformation@{datumstrategy.CardansTransformation}}
+
+
+Algorithmic realization of Translation and the Cardan\textquotesingle{}s Rotation.  
+
+
+Inheritance diagram for datumstrategy.\+Cardans\+Transformation\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classdatumstrategy_1_1_cardans_transformation}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classdatumstrategy_1_1_cardans_transformation_addccd1b729d860e578cd11154d8f63e2}{transform}} (\mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface}{Geographic\+Coordinate\+Interface}} geo)
+\begin{DoxyCompactList}\small\item\em Use Cardan\textquotesingle{}s Rotation to transform the geographic coordinate. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{classdatumstrategy_1_1_cardans_transformation_a046bfbee5b4f44c7a610dda57535fd48}{e1}}
+\item 
+double \mbox{\hyperlink{classdatumstrategy_1_1_cardans_transformation_a432075c182e72c4513c507e68207270e}{e2}}
+\item 
+double \mbox{\hyperlink{classdatumstrategy_1_1_cardans_transformation_a07926f1115857a14d2ccd9ac05ddb17b}{e3}}
+\item 
+double \mbox{\hyperlink{classdatumstrategy_1_1_cardans_transformation_a50920df59cf915ff50950f21e974551b}{e4}}
+\item 
+double \mbox{\hyperlink{classdatumstrategy_1_1_cardans_transformation_a99129fc5d3eeef62bdaa85d944d1fe90}{e5}}
+\item 
+double \mbox{\hyperlink{classdatumstrategy_1_1_cardans_transformation_a7d122d0c257e3f729d0ee4899c00fa83}{e6}}
+\item 
+double \mbox{\hyperlink{classdatumstrategy_1_1_cardans_transformation_ac04153c0bcafda4b5fec06aae13af1fa}{e7}}
+\item 
+double \mbox{\hyperlink{classdatumstrategy_1_1_cardans_transformation_a53aec6feed61d2e32caeb429c832ab6b}{e8}}
+\item 
+double \mbox{\hyperlink{classdatumstrategy_1_1_cardans_transformation_ace8c836c980cd25298796b2cde125c6b}{e9}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Algorithmic realization of Translation and the Cardan\textquotesingle{}s Rotation. 
+
+The method takes all needed parameters from the class Control\+Parms that extends the class Ellipsoid\+Parms. Needed parameter for the \mbox{\hyperlink{class_transformation}{Transformation}}\+: 3 translation-\/, 1 scale-\/ and 3 rotation -\/parameters. The start coordinates are taken from the class Geographic\+Coordinate and have to be converted into cartesian coordinates to realize the transformation. The Cardan\textquotesingle{}s Rotation is done with trigonometric funtion. After the \mbox{\hyperlink{class_transformation}{Transformation}}, the new coordinates are converted into ellipsoidal coordinates by an iterative process.
+
+source of cardan\textquotesingle{}s rotation\+: \href{http://www.itm.uni-stuttgart.de/courses/madyn/Merkblaetter/M08.pdf}{\texttt{ http\+://www.\+itm.\+uni-\/stuttgart.\+de/courses/madyn/\+Merkblaetter/\+M08.\+pdf}} (in Germany) Concept explanation \+: \href{http://n.ethz.ch/~roclaudi/download/4.Semster/glossarium\%20h\%F7ge.pdf}{\texttt{ http\+://n.\+ethz.\+ch/$\sim$roclaudi/download/4.\+Semster/glossarium\%20h\%\+F7ge.\+pdf}} \begin{DoxyAuthor}{Author}
+Yucheng Luo 
+\end{DoxyAuthor}
+\begin{DoxyRemark}{Remarks}
+Cardan\textquotesingle{}s rotation matrix added on 01.\+02.\+2018 by Yucheng Luo 
+\end{DoxyRemark}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classdatumstrategy_1_1_cardans_transformation_addccd1b729d860e578cd11154d8f63e2}\label{classdatumstrategy_1_1_cardans_transformation_addccd1b729d860e578cd11154d8f63e2}} 
+\index{datumstrategy.CardansTransformation@{datumstrategy.CardansTransformation}!transform@{transform}}
+\index{transform@{transform}!datumstrategy.CardansTransformation@{datumstrategy.CardansTransformation}}
+\doxysubsubsection{\texorpdfstring{transform()}{transform()}}
+{\footnotesize\ttfamily void datumstrategy.\+Cardans\+Transformation.\+transform (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface}{Geographic\+Coordinate\+Interface}}}]{geo }\end{DoxyParamCaption})}
+
+
+
+Use Cardan\textquotesingle{}s Rotation to transform the geographic coordinate. 
+
+Translation \+: Cartesian coordinates are used. Rotation \+: rotate with principle of conventional Cardan\textquotesingle{}s Rotation (Wx,Wy,Wz). Algorithm explanation \+: Rotate first about X-\/axis ,after first step rotate about current Y-\/axis ,at end rotate about current Z-\/axis.
+
+\begin{DoxyAuthor}{Author}
+Yucheng Luo 
+\end{DoxyAuthor}
+
+
+Reimplemented from \mbox{\hyperlink{classdatumstrategy_1_1_transformation_strategy_a0fd1d6fbba01e5222360740e34eae786}{datumstrategy.\+Transformation\+Strategy}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classdatumstrategy_1_1_cardans_transformation_a046bfbee5b4f44c7a610dda57535fd48}\label{classdatumstrategy_1_1_cardans_transformation_a046bfbee5b4f44c7a610dda57535fd48}} 
+\index{datumstrategy.CardansTransformation@{datumstrategy.CardansTransformation}!e1@{e1}}
+\index{e1@{e1}!datumstrategy.CardansTransformation@{datumstrategy.CardansTransformation}}
+\doxysubsubsection{\texorpdfstring{e1}{e1}}
+{\footnotesize\ttfamily double datumstrategy.\+Cardans\+Transformation.\+e1\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classdatumstrategy_1_1_cardans_transformation_a432075c182e72c4513c507e68207270e}\label{classdatumstrategy_1_1_cardans_transformation_a432075c182e72c4513c507e68207270e}} 
+\index{datumstrategy.CardansTransformation@{datumstrategy.CardansTransformation}!e2@{e2}}
+\index{e2@{e2}!datumstrategy.CardansTransformation@{datumstrategy.CardansTransformation}}
+\doxysubsubsection{\texorpdfstring{e2}{e2}}
+{\footnotesize\ttfamily double datumstrategy.\+Cardans\+Transformation.\+e2\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classdatumstrategy_1_1_cardans_transformation_a07926f1115857a14d2ccd9ac05ddb17b}\label{classdatumstrategy_1_1_cardans_transformation_a07926f1115857a14d2ccd9ac05ddb17b}} 
+\index{datumstrategy.CardansTransformation@{datumstrategy.CardansTransformation}!e3@{e3}}
+\index{e3@{e3}!datumstrategy.CardansTransformation@{datumstrategy.CardansTransformation}}
+\doxysubsubsection{\texorpdfstring{e3}{e3}}
+{\footnotesize\ttfamily double datumstrategy.\+Cardans\+Transformation.\+e3\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classdatumstrategy_1_1_cardans_transformation_a50920df59cf915ff50950f21e974551b}\label{classdatumstrategy_1_1_cardans_transformation_a50920df59cf915ff50950f21e974551b}} 
+\index{datumstrategy.CardansTransformation@{datumstrategy.CardansTransformation}!e4@{e4}}
+\index{e4@{e4}!datumstrategy.CardansTransformation@{datumstrategy.CardansTransformation}}
+\doxysubsubsection{\texorpdfstring{e4}{e4}}
+{\footnotesize\ttfamily double datumstrategy.\+Cardans\+Transformation.\+e4\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classdatumstrategy_1_1_cardans_transformation_a99129fc5d3eeef62bdaa85d944d1fe90}\label{classdatumstrategy_1_1_cardans_transformation_a99129fc5d3eeef62bdaa85d944d1fe90}} 
+\index{datumstrategy.CardansTransformation@{datumstrategy.CardansTransformation}!e5@{e5}}
+\index{e5@{e5}!datumstrategy.CardansTransformation@{datumstrategy.CardansTransformation}}
+\doxysubsubsection{\texorpdfstring{e5}{e5}}
+{\footnotesize\ttfamily double datumstrategy.\+Cardans\+Transformation.\+e5\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classdatumstrategy_1_1_cardans_transformation_a7d122d0c257e3f729d0ee4899c00fa83}\label{classdatumstrategy_1_1_cardans_transformation_a7d122d0c257e3f729d0ee4899c00fa83}} 
+\index{datumstrategy.CardansTransformation@{datumstrategy.CardansTransformation}!e6@{e6}}
+\index{e6@{e6}!datumstrategy.CardansTransformation@{datumstrategy.CardansTransformation}}
+\doxysubsubsection{\texorpdfstring{e6}{e6}}
+{\footnotesize\ttfamily double datumstrategy.\+Cardans\+Transformation.\+e6\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classdatumstrategy_1_1_cardans_transformation_ac04153c0bcafda4b5fec06aae13af1fa}\label{classdatumstrategy_1_1_cardans_transformation_ac04153c0bcafda4b5fec06aae13af1fa}} 
+\index{datumstrategy.CardansTransformation@{datumstrategy.CardansTransformation}!e7@{e7}}
+\index{e7@{e7}!datumstrategy.CardansTransformation@{datumstrategy.CardansTransformation}}
+\doxysubsubsection{\texorpdfstring{e7}{e7}}
+{\footnotesize\ttfamily double datumstrategy.\+Cardans\+Transformation.\+e7\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classdatumstrategy_1_1_cardans_transformation_a53aec6feed61d2e32caeb429c832ab6b}\label{classdatumstrategy_1_1_cardans_transformation_a53aec6feed61d2e32caeb429c832ab6b}} 
+\index{datumstrategy.CardansTransformation@{datumstrategy.CardansTransformation}!e8@{e8}}
+\index{e8@{e8}!datumstrategy.CardansTransformation@{datumstrategy.CardansTransformation}}
+\doxysubsubsection{\texorpdfstring{e8}{e8}}
+{\footnotesize\ttfamily double datumstrategy.\+Cardans\+Transformation.\+e8\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classdatumstrategy_1_1_cardans_transformation_ace8c836c980cd25298796b2cde125c6b}\label{classdatumstrategy_1_1_cardans_transformation_ace8c836c980cd25298796b2cde125c6b}} 
+\index{datumstrategy.CardansTransformation@{datumstrategy.CardansTransformation}!e9@{e9}}
+\index{e9@{e9}!datumstrategy.CardansTransformation@{datumstrategy.CardansTransformation}}
+\doxysubsubsection{\texorpdfstring{e9}{e9}}
+{\footnotesize\ttfamily double datumstrategy.\+Cardans\+Transformation.\+e9\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+datumstrategy/\mbox{\hyperlink{_cardans_transformation_8java}{Cardans\+Transformation.\+java}}\end{DoxyCompactItemize}

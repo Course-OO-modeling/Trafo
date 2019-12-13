@@ -1,0 +1,73 @@
+\hypertarget{classdatumstrategy_1_1_transformation_strategy}{}\doxysection{datumstrategy.\+Transformation\+Strategy Class Reference}
+\label{classdatumstrategy_1_1_transformation_strategy}\index{datumstrategy.TransformationStrategy@{datumstrategy.TransformationStrategy}}
+
+
+abstract class that encapsulates transformation algorithms for different coordinates~\newline
+ the concrete transformation algorithms that are implemented by the child classes of \mbox{\hyperlink{classdatumstrategy_1_1_transformation_strategy}{Transformation\+Strategy}} implement the abstract method \mbox{\hyperlink{classdatumstrategy_1_1_transformation_strategy_a0fd1d6fbba01e5222360740e34eae786}{transform(\+Geographic\+Coordinate\+Interface)}} that performs the transformation with geographic coordinates as input/output ~\newline
+  
+
+
+Inheritance diagram for datumstrategy.\+Transformation\+Strategy\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=0.736842cm]{classdatumstrategy_1_1_transformation_strategy}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+abstract void \mbox{\hyperlink{classdatumstrategy_1_1_transformation_strategy_a0fd1d6fbba01e5222360740e34eae786}{transform}} (\mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface}{Geographic\+Coordinate\+Interface}} geographic\+Coordinate)
+\begin{DoxyCompactList}\small\item\em abstract method for the transformation of a geographic coordinate \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+abstract class that encapsulates transformation algorithms for different coordinates~\newline
+ the concrete transformation algorithms that are implemented by the child classes of \mbox{\hyperlink{classdatumstrategy_1_1_transformation_strategy}{Transformation\+Strategy}} implement the abstract method \mbox{\hyperlink{classdatumstrategy_1_1_transformation_strategy_a0fd1d6fbba01e5222360740e34eae786}{transform(\+Geographic\+Coordinate\+Interface)}} that performs the transformation with geographic coordinates as input/output ~\newline
+ 
+
+\begin{DoxyRemark}{Remarks}
+last refactored 26.\+11.\+2016 by Patrick Huebner ~\newline
+ 
+\begin{DoxyItemize}
+\item changed from interface to abstract class 
+\item renamed to \mbox{\hyperlink{classdatumstrategy_1_1_transformation_strategy}{Transformation\+Strategy}} 
+\item renamed method datum to \mbox{\hyperlink{}{transform(\+Coordinate, Coordinate)}} and made it protected 
+\item added abstract method \mbox{\hyperlink{classdatumstrategy_1_1_transformation_strategy_a0fd1d6fbba01e5222360740e34eae786}{transform(\+Geographic\+Coordinate\+Interface)}} 
+\end{DoxyItemize}
+
+last refactored 11.\+12.\+2017 by Eva Majer ~\newline
+ 
+
+last refactored 21.\+01.\+2019 by Norbert Rösch (now only object of Geographic\+Coordinate\+Interface are allowed to communicate with the different strategies 
+\begin{DoxyItemize}
+\item adaptions for Control\+Parms Singleton 
+\item Translation of some comments 
+\end{DoxyItemize}
+\end{DoxyRemark}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classdatumstrategy_1_1_transformation_strategy_a0fd1d6fbba01e5222360740e34eae786}\label{classdatumstrategy_1_1_transformation_strategy_a0fd1d6fbba01e5222360740e34eae786}} 
+\index{datumstrategy.TransformationStrategy@{datumstrategy.TransformationStrategy}!transform@{transform}}
+\index{transform@{transform}!datumstrategy.TransformationStrategy@{datumstrategy.TransformationStrategy}}
+\doxysubsubsection{\texorpdfstring{transform()}{transform()}}
+{\footnotesize\ttfamily abstract void datumstrategy.\+Transformation\+Strategy.\+transform (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface}{Geographic\+Coordinate\+Interface}}}]{geographic\+Coordinate }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+
+
+abstract method for the transformation of a geographic coordinate 
+
+
+\begin{DoxyParams}{Parameters}
+{\em geographic\+Coordinate} & -\/ an object of type Geographic\+Coordinate\+Interface which is used for input/output for the transformation algorithm \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{classdatumstrategy_1_1_mock_strategy_a8f1bcf75604b78411e8f995d85b8f917}{datumstrategy.\+Mock\+Strategy}}, \mbox{\hyperlink{classdatumstrategy_1_1_cardans_transformation_addccd1b729d860e578cd11154d8f63e2}{datumstrategy.\+Cardans\+Transformation}}, \mbox{\hyperlink{classdatumstrategy_1_1_eulers_transformation_a37661559087a055288365ddebea5d699}{datumstrategy.\+Eulers\+Transformation}}, \mbox{\hyperlink{classdatumstrategy_1_1_molodenskii_transformation_standard_a8a1d2f121cb0484a0ba2ddee678d8276}{datumstrategy.\+Molodenskii\+Transformation\+Standard}}, and \mbox{\hyperlink{classdatumstrategy_1_1_spatial_similarity_transformation_infin_a10a133bbcba0dec7e7bdff6a430087b5}{datumstrategy.\+Spatial\+Similarity\+Transformation\+Infin}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+datumstrategy/\mbox{\hyperlink{_transformation_strategy_8java}{Transformation\+Strategy.\+java}}\end{DoxyCompactItemize}

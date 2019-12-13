@@ -4,6 +4,7 @@ import params.ControlParms;
 import coordinates.GeographicCoordinateInterface;
 import coordinates.XYZCoordinate;
 import datumstrategy.TransformationStrategy;
+import Jama.Matrix;
 
 /**
  * @class SpatialSimilarityTransformationInfin
@@ -21,8 +22,10 @@ import datumstrategy.TransformationStrategy;
  * @remark adaptions for ControlParms Singleton on 11.12.2017 by Eva Majer
  * @remark use the methods of class XYZCoordinate to convert between ellipsoidal and cartesian coordinates on 19.12.17 by Markus Hillemann
  * @remark changed the class name (CamelCase) on 20.12.17 by Markus Hillemann
+ * @remark implemented the calculation of the 7-Param-Transformation with matrices instead of singular values on 11.12.2019 by Steven Landgraf
  * @version 0.1
  */
+ 
 public class SpatialSimilarityTransformationInfin extends TransformationStrategy {
 	
 	@Override
@@ -36,18 +39,29 @@ public class SpatialSimilarityTransformationInfin extends TransformationStrategy
     	
     	// New cartesian Coordinates of Point B
     	XYZCoordinate XYZDestination = new XYZCoordinate();
-    	    	
+    	
     	// Conversion Ellipsoidal --> Cartesian
     	XYZSource.getAsTargetCoordinate(control, geo);
     	
     	// 7-Param-Transformation
-    	XYZDestination.setX(control.getDx() + control.getMassstab() * (XYZSource.getX() + control.getWz() * XYZSource.getY() - control.getWy() * XYZSource.getZ()));
-    	XYZDestination.setY(control.getDy() + control.getMassstab() * (-control.getWz() * XYZSource.getX() + XYZSource.getY() + control.getWx() * XYZSource.getZ()));
-    	XYZDestination.setZ(control.getDz() + control.getMassstab() * (control.getWy() * XYZSource.getX() - control.getWx() * XYZSource.getY() + XYZSource.getZ()));
+    	double[][] anglesOfRotation = {{1., control.getWz(), -control.getWy()},{-control.getWz(), 1., control.getWx()},{control.getWy(), -control.getWx(), 1.}};
+    	double[] translationVector = {control.getDx(), control.getDy(), control.getDz()};
+    	double[] sourceCoord = {XYZSource.getX(), XYZSource.getY(), XYZSource.getZ()};
+    	
+    	Matrix destination = new Matrix(3,1);
+    	Matrix translation = new Matrix(translationVector, 3);
+    	Matrix rotation = new Matrix(anglesOfRotation);
+    	Matrix source = new Matrix(sourceCoord, 3);
+    	
+    	destination = translation.plus(rotation.times(control.getMassstab()).times(source));
+    	
+    	XYZDestination.setX(destination.get(0, 0));
+    	XYZDestination.setY(destination.get(1, 0));
+    	XYZDestination.setZ(destination.get(2, 0));
     	
     	// Conversion Cartesian --> Ellipsoidal
-    	geo = XYZDestination.getAsGeographicInterface(control); 	
+    	geo = XYZDestination.getAsGeographicInterface(control);
+ 
     	
-        System.out.println("3D infinitesimal");
     }
 }

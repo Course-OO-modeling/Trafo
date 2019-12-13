@@ -1,0 +1,256 @@
+\hypertarget{classcoordinates_1_1_gauss_krueger}{}\doxysection{coordinates.\+Gauss\+Krueger Class Reference}
+\label{classcoordinates_1_1_gauss_krueger}\index{coordinates.GaussKrueger@{coordinates.GaussKrueger}}
+
+
+\mbox{\hyperlink{classcoordinates_1_1_coordinate}{Coordinate}} point relating to a certain Gauss-\/\+Krueger reference meridian.  
+
+
+Inheritance diagram for coordinates.\+Gauss\+Krueger\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classcoordinates_1_1_gauss_krueger}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcoordinates_1_1_gauss_krueger_a59a320d5d406e0e88df19f2a1c6cc9fc}{Gauss\+Krueger}} ()
+\begin{DoxyCompactList}\small\item\em main constructor to set the coordinates and reference meridian \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger_a68b8bf6307cf0c9732f5034d8cf70df8}{print}} ()
+\begin{DoxyCompactList}\small\item\em prints a string representation of the Gauss-\/\+Krueger object into the console \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface}{Geographic\+Coordinate\+Interface}} \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger_a3b7d9043de1a8cbff07dd692244938d5}{get\+As\+Geographic\+Interface}} (\mbox{\hyperlink{classparams_1_1_ellipsoid_parms}{Ellipsoid\+Parms}} ell)
+\begin{DoxyCompactList}\small\item\em transforms the coordinates of the current \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger}{Gauss\+Krueger}} instance into geographic coordinates \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger_ab25a4a0c8fadac6c9f1653227427efd7}{get\+As\+Target\+Coordinate}} (\mbox{\hyperlink{classparams_1_1_ellipsoid_parms}{Ellipsoid\+Parms}} ell, \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface}{Geographic\+Coordinate\+Interface}} geocoord)
+\begin{DoxyCompactList}\small\item\em transforms geographic coordinates into \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger}{Gauss\+Krueger}} coordinates and stores them in the current \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger}{Gauss\+Krueger}} instance \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger_a11b882d972f2068f8447ea07df0bd4db}{get\+Rechts}} ()
+\begin{DoxyCompactList}\small\item\em getter method that returns the the northing of the particular \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger}{Gauss\+Krueger}} instance \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger_aae6034f16ac245dac1c1d84722048894}{set\+Rechts}} (double \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger_a7b3a7878b5c0e9af6afee712997630b7}{rechts}})
+\begin{DoxyCompactList}\small\item\em setter method that accepts the easting of the particular \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger}{Gauss\+Krueger}} instance \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger_ac6dfe7a78850b5aa7c69e1e5d2a0b3cf}{get\+Hoch}} ()
+\begin{DoxyCompactList}\small\item\em getter method for the northing of the current \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger}{Gauss\+Krueger}} instance \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger_acf100c94ccd6ce16857ec83876578aa5}{set\+Hoch}} (double \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger_ad0effac6a487835234850d6dc8805843}{hoch}})
+\begin{DoxyCompactList}\small\item\em setter method that accepts the northing of the particular \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger}{Gauss\+Krueger}} instance \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger_a3052602f8c5575a22cc7a1a63c5cb063}{get\+Ilao}} ()
+\begin{DoxyCompactList}\small\item\em getter method for the reference meridian of the current \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger}{Gauss\+Krueger}} instance \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger_a9dc35489df5fd3430d61f0d47ca27b82}{set\+Ilao}} (int ilao)
+\begin{DoxyCompactList}\small\item\em setter method for the number of the reference meridian of the current \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger}{Gauss\+Krueger}} instance \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger_a7b3a7878b5c0e9af6afee712997630b7}{rechts}}
+\item 
+double \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger_ad0effac6a487835234850d6dc8805843}{hoch}}
+\item 
+int \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger_a8118e7f54b47ed00d9ba473f381392c0}{central\+Meridian}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classcoordinates_1_1_coordinate}{Coordinate}} point relating to a certain Gauss-\/\+Krueger reference meridian. 
+
+\begin{DoxyAuthor}{Author}
+unknown 
+\end{DoxyAuthor}
+\begin{DoxyRemark}{Remarks}
+updated header on 2017-\/11-\/29 by Markus Mueller 
+
+change comment of attribute \textquotesingle{}hoch\textquotesingle{} 2017-\/12-\/19 by Markus Hillemann 
+
+change attribute name ilao to central\+Meridian 2017-\/12-\/19 by Markus Hillemann 
+\end{DoxyRemark}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+
+\begin{DoxyParams}{Parameters}
+{\em rechts} & -\/ Easting as double \\
+\hline
+{\em hoch} & -\/ Northing as double \\
+\hline
+{\em central\+Meridian} & -\/ Central meridian as integer \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classcoordinates_1_1_gauss_krueger_a59a320d5d406e0e88df19f2a1c6cc9fc}\label{classcoordinates_1_1_gauss_krueger_a59a320d5d406e0e88df19f2a1c6cc9fc}} 
+\index{coordinates.GaussKrueger@{coordinates.GaussKrueger}!GaussKrueger@{GaussKrueger}}
+\index{GaussKrueger@{GaussKrueger}!coordinates.GaussKrueger@{coordinates.GaussKrueger}}
+\doxysubsubsection{\texorpdfstring{GaussKrueger()}{GaussKrueger()}}
+{\footnotesize\ttfamily coordinates.\+Gauss\+Krueger.\+Gauss\+Krueger (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+main constructor to set the coordinates and reference meridian 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcoordinates_1_1_gauss_krueger_a3b7d9043de1a8cbff07dd692244938d5}\label{classcoordinates_1_1_gauss_krueger_a3b7d9043de1a8cbff07dd692244938d5}} 
+\index{coordinates.GaussKrueger@{coordinates.GaussKrueger}!getAsGeographicInterface@{getAsGeographicInterface}}
+\index{getAsGeographicInterface@{getAsGeographicInterface}!coordinates.GaussKrueger@{coordinates.GaussKrueger}}
+\doxysubsubsection{\texorpdfstring{getAsGeographicInterface()}{getAsGeographicInterface()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface}{Geographic\+Coordinate\+Interface}} coordinates.\+Gauss\+Krueger.\+get\+As\+Geographic\+Interface (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classparams_1_1_ellipsoid_parms}{Ellipsoid\+Parms}}}]{ell }\end{DoxyParamCaption})}
+
+
+
+transforms the coordinates of the current \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger}{Gauss\+Krueger}} instance into geographic coordinates 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ell} & -\/ an object of type Ellipsoid\+Params that stores information about the reference ellipsoid used for the geographic coordinates \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+geographic -\/ returns an object of type \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate}{Geographic\+Coordinate}} that represents the current \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger}{Gauss\+Krueger}} instance transformed to geographic coordinates 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classcoordinates_1_1_gauss_adb944679772bf8b4101b075247dd0fd0}{coordinates.\+Gauss}}.
+
+\mbox{\Hypertarget{classcoordinates_1_1_gauss_krueger_ab25a4a0c8fadac6c9f1653227427efd7}\label{classcoordinates_1_1_gauss_krueger_ab25a4a0c8fadac6c9f1653227427efd7}} 
+\index{coordinates.GaussKrueger@{coordinates.GaussKrueger}!getAsTargetCoordinate@{getAsTargetCoordinate}}
+\index{getAsTargetCoordinate@{getAsTargetCoordinate}!coordinates.GaussKrueger@{coordinates.GaussKrueger}}
+\doxysubsubsection{\texorpdfstring{getAsTargetCoordinate()}{getAsTargetCoordinate()}}
+{\footnotesize\ttfamily void coordinates.\+Gauss\+Krueger.\+get\+As\+Target\+Coordinate (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classparams_1_1_ellipsoid_parms}{Ellipsoid\+Parms}}}]{ell,  }\item[{\mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface}{Geographic\+Coordinate\+Interface}}}]{geocoord }\end{DoxyParamCaption})}
+
+
+
+transforms geographic coordinates into \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger}{Gauss\+Krueger}} coordinates and stores them in the current \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger}{Gauss\+Krueger}} instance 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ell} & -\/ an object of type Ellipsoid\+Params that stores information about the reference ellipsoid used for the geographic coordinates \\
+\hline
+{\em geocoord} & -\/ an object of type \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate}{Geographic\+Coordinate}} that contains the geographic coordinates to be transformed in \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger}{Gauss\+Krueger}} coordinates \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classcoordinates_1_1_coordinate_a998872a624f0394829f4c405f7a6f803}{coordinates.\+Coordinate}}.
+
+\mbox{\Hypertarget{classcoordinates_1_1_gauss_krueger_ac6dfe7a78850b5aa7c69e1e5d2a0b3cf}\label{classcoordinates_1_1_gauss_krueger_ac6dfe7a78850b5aa7c69e1e5d2a0b3cf}} 
+\index{coordinates.GaussKrueger@{coordinates.GaussKrueger}!getHoch@{getHoch}}
+\index{getHoch@{getHoch}!coordinates.GaussKrueger@{coordinates.GaussKrueger}}
+\doxysubsubsection{\texorpdfstring{getHoch()}{getHoch()}}
+{\footnotesize\ttfamily double coordinates.\+Gauss\+Krueger.\+get\+Hoch (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+getter method for the northing of the current \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger}{Gauss\+Krueger}} instance 
+
+\begin{DoxyReturn}{Returns}
+hoch -\/ returns the northing of the current \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger}{Gauss\+Krueger}} instance as double 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcoordinates_1_1_gauss_krueger_a3052602f8c5575a22cc7a1a63c5cb063}\label{classcoordinates_1_1_gauss_krueger_a3052602f8c5575a22cc7a1a63c5cb063}} 
+\index{coordinates.GaussKrueger@{coordinates.GaussKrueger}!getIlao@{getIlao}}
+\index{getIlao@{getIlao}!coordinates.GaussKrueger@{coordinates.GaussKrueger}}
+\doxysubsubsection{\texorpdfstring{getIlao()}{getIlao()}}
+{\footnotesize\ttfamily int coordinates.\+Gauss\+Krueger.\+get\+Ilao (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+getter method for the reference meridian of the current \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger}{Gauss\+Krueger}} instance 
+
+\begin{DoxyReturn}{Returns}
+central\+Meridian -\/ returns the reference meridian of the current \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger}{Gauss\+Krueger}} instance as integer 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcoordinates_1_1_gauss_krueger_a11b882d972f2068f8447ea07df0bd4db}\label{classcoordinates_1_1_gauss_krueger_a11b882d972f2068f8447ea07df0bd4db}} 
+\index{coordinates.GaussKrueger@{coordinates.GaussKrueger}!getRechts@{getRechts}}
+\index{getRechts@{getRechts}!coordinates.GaussKrueger@{coordinates.GaussKrueger}}
+\doxysubsubsection{\texorpdfstring{getRechts()}{getRechts()}}
+{\footnotesize\ttfamily double coordinates.\+Gauss\+Krueger.\+get\+Rechts (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+getter method that returns the the northing of the particular \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger}{Gauss\+Krueger}} instance 
+
+\begin{DoxyReturn}{Returns}
+rechts -\/ returns the northing of the particular \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger}{Gauss\+Krueger}} instance as double 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcoordinates_1_1_gauss_krueger_a68b8bf6307cf0c9732f5034d8cf70df8}\label{classcoordinates_1_1_gauss_krueger_a68b8bf6307cf0c9732f5034d8cf70df8}} 
+\index{coordinates.GaussKrueger@{coordinates.GaussKrueger}!print@{print}}
+\index{print@{print}!coordinates.GaussKrueger@{coordinates.GaussKrueger}}
+\doxysubsubsection{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily void coordinates.\+Gauss\+Krueger.\+print (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+prints a string representation of the Gauss-\/\+Krueger object into the console 
+
+
+
+Reimplemented from \mbox{\hyperlink{classcoordinates_1_1_gauss_aa088aa6fb796aa873b19ee2c1ef42468}{coordinates.\+Gauss}}.
+
+\mbox{\Hypertarget{classcoordinates_1_1_gauss_krueger_acf100c94ccd6ce16857ec83876578aa5}\label{classcoordinates_1_1_gauss_krueger_acf100c94ccd6ce16857ec83876578aa5}} 
+\index{coordinates.GaussKrueger@{coordinates.GaussKrueger}!setHoch@{setHoch}}
+\index{setHoch@{setHoch}!coordinates.GaussKrueger@{coordinates.GaussKrueger}}
+\doxysubsubsection{\texorpdfstring{setHoch()}{setHoch()}}
+{\footnotesize\ttfamily void coordinates.\+Gauss\+Krueger.\+set\+Hoch (\begin{DoxyParamCaption}\item[{double}]{hoch }\end{DoxyParamCaption})}
+
+
+
+setter method that accepts the northing of the particular \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger}{Gauss\+Krueger}} instance 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hoch} & -\/ sets a double representing the northing for the particular \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger}{Gauss\+Krueger}} instance \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcoordinates_1_1_gauss_krueger_a9dc35489df5fd3430d61f0d47ca27b82}\label{classcoordinates_1_1_gauss_krueger_a9dc35489df5fd3430d61f0d47ca27b82}} 
+\index{coordinates.GaussKrueger@{coordinates.GaussKrueger}!setIlao@{setIlao}}
+\index{setIlao@{setIlao}!coordinates.GaussKrueger@{coordinates.GaussKrueger}}
+\doxysubsubsection{\texorpdfstring{setIlao()}{setIlao()}}
+{\footnotesize\ttfamily void coordinates.\+Gauss\+Krueger.\+set\+Ilao (\begin{DoxyParamCaption}\item[{int}]{ilao }\end{DoxyParamCaption})}
+
+
+
+setter method for the number of the reference meridian of the current \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger}{Gauss\+Krueger}} instance 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ilao} & -\/ sets an integer as the number of the reference meridian of the current \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger}{Gauss\+Krueger}} instance \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcoordinates_1_1_gauss_krueger_aae6034f16ac245dac1c1d84722048894}\label{classcoordinates_1_1_gauss_krueger_aae6034f16ac245dac1c1d84722048894}} 
+\index{coordinates.GaussKrueger@{coordinates.GaussKrueger}!setRechts@{setRechts}}
+\index{setRechts@{setRechts}!coordinates.GaussKrueger@{coordinates.GaussKrueger}}
+\doxysubsubsection{\texorpdfstring{setRechts()}{setRechts()}}
+{\footnotesize\ttfamily void coordinates.\+Gauss\+Krueger.\+set\+Rechts (\begin{DoxyParamCaption}\item[{double}]{rechts }\end{DoxyParamCaption})}
+
+
+
+setter method that accepts the easting of the particular \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger}{Gauss\+Krueger}} instance 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rechts} & -\/ sets a double representing the easting for the particular \mbox{\hyperlink{classcoordinates_1_1_gauss_krueger}{Gauss\+Krueger}} instance \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classcoordinates_1_1_gauss_krueger_a8118e7f54b47ed00d9ba473f381392c0}\label{classcoordinates_1_1_gauss_krueger_a8118e7f54b47ed00d9ba473f381392c0}} 
+\index{coordinates.GaussKrueger@{coordinates.GaussKrueger}!centralMeridian@{centralMeridian}}
+\index{centralMeridian@{centralMeridian}!coordinates.GaussKrueger@{coordinates.GaussKrueger}}
+\doxysubsubsection{\texorpdfstring{centralMeridian}{centralMeridian}}
+{\footnotesize\ttfamily int coordinates.\+Gauss\+Krueger.\+central\+Meridian\hspace{0.3cm}{\ttfamily [private]}}
+
+central meridian \mbox{\Hypertarget{classcoordinates_1_1_gauss_krueger_ad0effac6a487835234850d6dc8805843}\label{classcoordinates_1_1_gauss_krueger_ad0effac6a487835234850d6dc8805843}} 
+\index{coordinates.GaussKrueger@{coordinates.GaussKrueger}!hoch@{hoch}}
+\index{hoch@{hoch}!coordinates.GaussKrueger@{coordinates.GaussKrueger}}
+\doxysubsubsection{\texorpdfstring{hoch}{hoch}}
+{\footnotesize\ttfamily double coordinates.\+Gauss\+Krueger.\+hoch\hspace{0.3cm}{\ttfamily [private]}}
+
+\textquotesingle{}hoch\textquotesingle{} is the official term used by the German survey admistration (\textquotesingle{}northing\textquotesingle{}) \mbox{\Hypertarget{classcoordinates_1_1_gauss_krueger_a7b3a7878b5c0e9af6afee712997630b7}\label{classcoordinates_1_1_gauss_krueger_a7b3a7878b5c0e9af6afee712997630b7}} 
+\index{coordinates.GaussKrueger@{coordinates.GaussKrueger}!rechts@{rechts}}
+\index{rechts@{rechts}!coordinates.GaussKrueger@{coordinates.GaussKrueger}}
+\doxysubsubsection{\texorpdfstring{rechts}{rechts}}
+{\footnotesize\ttfamily double coordinates.\+Gauss\+Krueger.\+rechts\hspace{0.3cm}{\ttfamily [private]}}
+
+\textquotesingle{}rechts\textquotesingle{} is the official term used by the German survey admistration (\textquotesingle{}easting\textquotesingle{}) 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+coordinates/\mbox{\hyperlink{_gauss_krueger_8java}{Gauss\+Krueger.\+java}}\end{DoxyCompactItemize}

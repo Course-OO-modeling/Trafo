@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['coordinates',['coordinates',['../namespacecoordinates.html',1,'']]]
+  ['coordinates_426',['coordinates',['../namespacecoordinates.html',1,'']]]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['fromgeographictest',['fromGeographicTest',['../classtest_1_1coordinates_1_1from_geographic_test.html',1,'test::coordinates']]]
+  ['ellipsoidparms_400',['EllipsoidParms',['../classparams_1_1_ellipsoid_parms.html',1,'params']]],
+  ['eulerstransformation_401',['EulersTransformation',['../classdatumstrategy_1_1_eulers_transformation.html',1,'datumstrategy']]]
 ];
