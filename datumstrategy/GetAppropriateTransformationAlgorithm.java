@@ -28,6 +28,8 @@ public class GetAppropriateTransformationAlgorithm {
             return MolodenskiiTransformationStandard.getInstance();
         else if (control.getKindoftrafo() == "3D_infin")
             return new SpatialSimilarityTransformationInfin();
+        else if (control.getKindoftrafo() == "3D_trig")
+            return new SpatialSimilarityTransformationTrig();
         return null;
     }
 }
