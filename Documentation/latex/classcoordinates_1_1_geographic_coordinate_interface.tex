@@ -1,4 +1,4 @@
-\hypertarget{classcoordinates_1_1_geographic_coordinate_interface}{}\doxysection{coordinates.\+Geographic\+Coordinate\+Interface Class Reference}
+\hypertarget{classcoordinates_1_1_geographic_coordinate_interface}{}\doxysection{coordinates.\+Geographic\+Coordinate\+Interface Klassenreferenz}
 \label{classcoordinates_1_1_geographic_coordinate_interface}\index{coordinates.GeographicCoordinateInterface@{coordinates.GeographicCoordinateInterface}}
 
 
@@ -6,13 +6,13 @@ concrete implementation of abstract class \mbox{\hyperlink{classcoordinates_1_1_
   
 
 
-Inheritance diagram for coordinates.\+Geographic\+Coordinate\+Interface\+:\begin{figure}[H]
+Klassendiagramm für coordinates.\+Geographic\+Coordinate\+Interface\+:\begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[height=2.000000cm]{classcoordinates_1_1_geographic_coordinate_interface}
 \end{center}
 \end{figure}
-\doxysubsection*{Public Member Functions}
+\doxysubsection*{Öffentliche Methoden}
 \begin{DoxyCompactItemize}
 \item 
 \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface_a99505d4e0e605d32d8cfc6c5a631eed4}{Geographic\+Coordinate\+Interface}} ()
@@ -53,7 +53,7 @@ int \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface_a76520
 \begin{DoxyCompactList}\small\item\em getter method that returns the height above ellipsoid \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface_a860c713488cf7e9d607c640893d2e4e9}{set\+Ellipsoidal}} (int \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface_a9e462122f55a06ade4c805d389e432f2}{ellipsoidal}})
 \begin{DoxyCompactList}\small\item\em setter method accepts the height above ellipsoid \end{DoxyCompactList}\end{DoxyCompactItemize}
-\doxysubsection*{Static Public Member Functions}
+\doxysubsection*{Öffentliche, statische Methoden}
 \begin{DoxyCompactItemize}
 \item 
 static \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface}{Geographic\+Coordinate\+Interface}} \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface_a954409872a73cc8c7fc49f87d17f88b5}{get\+Instance}} ()
@@ -62,14 +62,14 @@ static \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface}{Ge
 \begin{DoxyCompactList}\small\item\em factory method that returns the singular instance of the singleton class initialized with constructor that accepts values for longitude and latitude \end{DoxyCompactList}\item 
 static \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface}{Geographic\+Coordinate\+Interface}} \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface_a38627aff97345b4ae6c87e37e8a5e406}{get\+Instance}} (double \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface_ae82d3ae4819bc8e243ca54f6568ec005}{longitude}}, double \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface_a80705d81d2b4631d1ac928f703715d0c}{latitude}}, double \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface_a172154f497767cdc832c1a851552bd8b}{height}})
 \begin{DoxyCompactList}\small\item\em factory method that returns the singular instance of the singleton class initialized with constructor that accepts values for longitude, latitude and height \end{DoxyCompactList}\end{DoxyCompactItemize}
-\doxysubsection*{Private Member Functions}
+\doxysubsection*{Private Methoden}
 \begin{DoxyCompactItemize}
 \item 
 \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface_a3ab0e13cfbc6c8dd266f63d74464354c}{Geographic\+Coordinate\+Interface}} (double \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface_ae82d3ae4819bc8e243ca54f6568ec005}{longitude}}, double \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface_a80705d81d2b4631d1ac928f703715d0c}{latitude}}, double \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface_a172154f497767cdc832c1a851552bd8b}{height}})
 \item 
 void \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface_a9a5372c4b3b53a601a047a4de276a591}{reset\+State}} ()
 \begin{DoxyCompactList}\small\item\em sets all parameters of the instance to default value 0, needed because only one instance of the class can exist (singleton class) \end{DoxyCompactList}\end{DoxyCompactItemize}
-\doxysubsection*{Private Attributes}
+\doxysubsection*{Private Attribute}
 \begin{DoxyCompactItemize}
 \item 
 long \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface_abfad220dc359597518b9f199be6b957a}{point\+\_\+number}}
@@ -82,21 +82,21 @@ double \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface_a17
 \item 
 int \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface_a9e462122f55a06ade4c805d389e432f2}{ellipsoidal}}
 \end{DoxyCompactItemize}
-\doxysubsection*{Static Private Attributes}
+\doxysubsection*{Statische, private Attribute}
 \begin{DoxyCompactItemize}
 \item 
 static \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface}{Geographic\+Coordinate\+Interface}} \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface_a8dca565dec7a9f95c0366e9345dc6f62}{my\+Instance}} = null
 \end{DoxyCompactItemize}
 
 
-\doxysubsection{Detailed Description}
+\doxysubsection{Ausführliche Beschreibung}
 concrete implementation of abstract class \mbox{\hyperlink{classcoordinates_1_1_coordinate}{Coordinate}}, represents a geographic coordinate (As interface for strategy)~\newline
  
 
-\begin{DoxyAuthor}{Author}
+\begin{DoxyAuthor}{Autor}
 unknown as of 2016-\/11 
 \end{DoxyAuthor}
-\begin{DoxyRemark}{Remarks}
+\begin{DoxyRemark}{Bemerkungen}
 renamed to \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface}{Geographic\+Coordinate\+Interface}}. Class is now separated into \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate}{Geographic\+Coordinate}} (only input coordinate) and \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface}{Geographic\+Coordinate\+Interface}} (Interface for strategy) on 2018-\/01-\/12 by Johanna Stoetzer 
 
 updated header on 2017-\/11-\/29 by Markus Mueller 
@@ -107,7 +107,7 @@ renamed to \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate}{Geograph
 0.\+1 
 \end{DoxyVersion}
 
-\begin{DoxyParams}{Parameters}
+\begin{DoxyParams}{Parameter}
 {\em point} & number -\/ Point identification number of the \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate}{Geographic\+Coordinate}} as long \\
 \hline
 {\em longitude} & -\/ Longitude of the \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate}{Geographic\+Coordinate}} as double \\
@@ -121,18 +121,18 @@ renamed to \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate}{Geograph
 \end{DoxyParams}
 
 
-\doxysubsection{Constructor \& Destructor Documentation}
+\doxysubsection{Beschreibung der Konstruktoren und Destruktoren}
 \mbox{\Hypertarget{classcoordinates_1_1_geographic_coordinate_interface_a99505d4e0e605d32d8cfc6c5a631eed4}\label{classcoordinates_1_1_geographic_coordinate_interface_a99505d4e0e605d32d8cfc6c5a631eed4}} 
 \index{coordinates.GeographicCoordinateInterface@{coordinates.GeographicCoordinateInterface}!GeographicCoordinateInterface@{GeographicCoordinateInterface}}
 \index{GeographicCoordinateInterface@{GeographicCoordinateInterface}!coordinates.GeographicCoordinateInterface@{coordinates.GeographicCoordinateInterface}}
 \doxysubsubsection{\texorpdfstring{GeographicCoordinateInterface()}{GeographicCoordinateInterface()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily coordinates.\+Geographic\+Coordinate\+Interface.\+Geographic\+Coordinate\+Interface (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-\begin{DoxyRemark}{Remarks}
+\begin{DoxyRemark}{Bemerkungen}
 public/visible due to testing 
 \end{DoxyRemark}
 
-\begin{DoxyParams}{Parameters}
+\begin{DoxyParams}{Parameter}
 {\em longitude} & \\
 \hline
 {\em latitude} & \\
@@ -152,7 +152,7 @@ public/visible due to testing
 
 
 
-\doxysubsection{Member Function Documentation}
+\doxysubsection{Dokumentation der Elementfunktionen}
 \mbox{\Hypertarget{classcoordinates_1_1_geographic_coordinate_interface_a4c99b99a9e6e653b72cf0da99f603a19}\label{classcoordinates_1_1_geographic_coordinate_interface_a4c99b99a9e6e653b72cf0da99f603a19}} 
 \index{coordinates.GeographicCoordinateInterface@{coordinates.GeographicCoordinateInterface}!copy@{copy}}
 \index{copy@{copy}!coordinates.GeographicCoordinateInterface@{coordinates.GeographicCoordinateInterface}}
@@ -164,7 +164,7 @@ public/visible due to testing
 works like a copy constructor, initializes particular instance with the values of the instance passed as parameter 
 
 
-\begin{DoxyParams}{Parameters}
+\begin{DoxyParams}{Parameter}
 {\em geo} & -\/ the \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate}{Geographic\+Coordinate}} to initialize the particular instance with \\
 \hline
 \end{DoxyParams}
@@ -179,13 +179,13 @@ works like a copy constructor, initializes particular instance with the values o
 calculates pulse width (Fusspunktbreite) for a given range 
 
 
-\begin{DoxyParams}{Parameters}
+\begin{DoxyParams}{Parameter}
 {\em s} & -\/ double value for the range \\
 \hline
 {\em ell} & -\/ an object of type Ellipsoid\+Parms that contains details about the ellipsoid the pulse width calculation refers to \\
 \hline
 \end{DoxyParams}
-\begin{DoxyReturn}{Returns}
+\begin{DoxyReturn}{Rückgabe}
 br -\/ returns the pulse width (Fusspunktbreite) as double value 
 \end{DoxyReturn}
 \mbox{\Hypertarget{classcoordinates_1_1_geographic_coordinate_interface_a1054ed7d1c0497e91fcc4f098c06e1e5}\label{classcoordinates_1_1_geographic_coordinate_interface_a1054ed7d1c0497e91fcc4f098c06e1e5}} 
@@ -199,7 +199,7 @@ br -\/ returns the pulse width (Fusspunktbreite) as double value
 sets longitude and latitude according to given parameters 
 
 
-\begin{DoxyParams}{Parameters}
+\begin{DoxyParams}{Parameter}
 {\em xg} & -\/ double value representing geographic decimal coordinate? \\
 \hline
 {\em yg} & -\/ double value representing geographic decimal coordinate? \\
@@ -222,13 +222,13 @@ sets longitude and latitude according to given parameters
 allows the particular \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate}{Geographic\+Coordinate}} instance to be converted to \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate}{Geographic\+Coordinate}}. simply returns this reference 
 
 
-\begin{DoxyParams}{Parameters}
+\begin{DoxyParams}{Parameter}
 {\em ellipsoid\+Parms} & -\/ an object of type Ellipsoid\+Parms that contains details about the ellipsoid the \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate}{Geographic\+Coordinate}} should refer to \\
 \hline
 \end{DoxyParams}
 
 
-Reimplemented from \mbox{\hyperlink{classcoordinates_1_1_coordinate_a97342479914743d999cef4b38f9124ed}{coordinates.\+Coordinate}}.
+Erneute Implementation von \mbox{\hyperlink{classcoordinates_1_1_coordinate_a97342479914743d999cef4b38f9124ed}{coordinates.\+Coordinate}}.
 
 \mbox{\Hypertarget{classcoordinates_1_1_geographic_coordinate_interface_acc9324b94c545f0d2d9e34ff9eae6046}\label{classcoordinates_1_1_geographic_coordinate_interface_acc9324b94c545f0d2d9e34ff9eae6046}} 
 \index{coordinates.GeographicCoordinateInterface@{coordinates.GeographicCoordinateInterface}!getAsTargetCoordinate@{getAsTargetCoordinate}}
@@ -241,7 +241,7 @@ Reimplemented from \mbox{\hyperlink{classcoordinates_1_1_coordinate_a97342479914
 allows the the particular \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate}{Geographic\+Coordinate}} instance to be converted from \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate}{Geographic\+Coordinate}}. simply uses copy method 
 
 
-\begin{DoxyParams}{Parameters}
+\begin{DoxyParams}{Parameter}
 {\em geographic\+Coordinate} & -\/ an object of type \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate}{Geographic\+Coordinate}} that represents the geographic coordinate the concrete \mbox{\hyperlink{classcoordinates_1_1_coordinate}{Coordinate}} instance should be converted from \\
 \hline
 {\em ellipsoid\+Parms} & -\/ an object of type Ellipsoid\+Parms that contains details about the ellipsoid the \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate}{Geographic\+Coordinate}} refers to \\
@@ -249,7 +249,7 @@ allows the the particular \mbox{\hyperlink{classcoordinates_1_1_geographic_coord
 \end{DoxyParams}
 
 
-Reimplemented from \mbox{\hyperlink{classcoordinates_1_1_coordinate_a998872a624f0394829f4c405f7a6f803}{coordinates.\+Coordinate}}.
+Erneute Implementation von \mbox{\hyperlink{classcoordinates_1_1_coordinate_a998872a624f0394829f4c405f7a6f803}{coordinates.\+Coordinate}}.
 
 \mbox{\Hypertarget{classcoordinates_1_1_geographic_coordinate_interface_a76520d9a7902acdfe223d848eb784fc1}\label{classcoordinates_1_1_geographic_coordinate_interface_a76520d9a7902acdfe223d848eb784fc1}} 
 \index{coordinates.GeographicCoordinateInterface@{coordinates.GeographicCoordinateInterface}!getEllipsoidal@{getEllipsoidal}}
@@ -261,7 +261,7 @@ Reimplemented from \mbox{\hyperlink{classcoordinates_1_1_coordinate_a998872a624f
 
 getter method that returns the height above ellipsoid 
 
-\begin{DoxyReturn}{Returns}
+\begin{DoxyReturn}{Rückgabe}
 ellipsoidal -\/ returns a double value representing the height above ellipsoid 
 \end{DoxyReturn}
 \mbox{\Hypertarget{classcoordinates_1_1_geographic_coordinate_interface_aa74362408871d3bf33e69f6e2ffa52b6}\label{classcoordinates_1_1_geographic_coordinate_interface_aa74362408871d3bf33e69f6e2ffa52b6}} 
@@ -274,7 +274,7 @@ ellipsoidal -\/ returns a double value representing the height above ellipsoid
 
 getter method that returns the height 
 
-\begin{DoxyReturn}{Returns}
+\begin{DoxyReturn}{Rückgabe}
 height -\/ returns a double value representing the height 
 \end{DoxyReturn}
 \mbox{\Hypertarget{classcoordinates_1_1_geographic_coordinate_interface_a954409872a73cc8c7fc49f87d17f88b5}\label{classcoordinates_1_1_geographic_coordinate_interface_a954409872a73cc8c7fc49f87d17f88b5}} 
@@ -298,7 +298,7 @@ factory method that returns the singular instance of the singleton class initial
 factory method that returns the singular instance of the singleton class initialized with constructor that accepts values for longitude and latitude 
 
 
-\begin{DoxyParams}{Parameters}
+\begin{DoxyParams}{Parameter}
 {\em longitude} & -\/ double value of the geographical longitude the \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate}{Geographic\+Coordinate}} instance should be initialized with \\
 \hline
 {\em latitude} & -\/ double value of the geographical latitude the \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate}{Geographic\+Coordinate}} instance should be initialized with \\
@@ -315,7 +315,7 @@ factory method that returns the singular instance of the singleton class initial
 factory method that returns the singular instance of the singleton class initialized with constructor that accepts values for longitude, latitude and height 
 
 
-\begin{DoxyParams}{Parameters}
+\begin{DoxyParams}{Parameter}
 {\em longitude} & -\/ double value of the geographical longitude the \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate}{Geographic\+Coordinate}} instance should be initialized with \\
 \hline
 {\em latitude} & -\/ double value of the geographical latitude the \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate}{Geographic\+Coordinate}} instance should be initialized with \\
@@ -333,7 +333,7 @@ factory method that returns the singular instance of the singleton class initial
 
 getter method that returns the geographical latitude 
 
-\begin{DoxyReturn}{Returns}
+\begin{DoxyReturn}{Rückgabe}
 latitude -\/ returns a double value representing the geographical latitude 
 \end{DoxyReturn}
 \mbox{\Hypertarget{classcoordinates_1_1_geographic_coordinate_interface_a4b2903f951a7ec80608cf6eb307a1991}\label{classcoordinates_1_1_geographic_coordinate_interface_a4b2903f951a7ec80608cf6eb307a1991}} 
@@ -346,7 +346,7 @@ latitude -\/ returns a double value representing the geographical latitude
 
 getter method that returns the geographical longitude 
 
-\begin{DoxyReturn}{Returns}
+\begin{DoxyReturn}{Rückgabe}
 longitude -\/ returns a double value representing the geographical longitude 
 \end{DoxyReturn}
 \mbox{\Hypertarget{classcoordinates_1_1_geographic_coordinate_interface_acdd7ae9bfafda4672d697221bd9b0bd2}\label{classcoordinates_1_1_geographic_coordinate_interface_acdd7ae9bfafda4672d697221bd9b0bd2}} 
@@ -359,7 +359,7 @@ longitude -\/ returns a double value representing the geographical longitude
 
 getter method that returns point number of the particular Geographic \mbox{\hyperlink{classcoordinates_1_1_coordinate}{Coordinate}} point 
 
-\begin{DoxyReturn}{Returns}
+\begin{DoxyReturn}{Rückgabe}
 point\+\_\+number -\/ returns the point number of the particular Geographic \mbox{\hyperlink{classcoordinates_1_1_coordinate}{Coordinate}} point as long value 
 \end{DoxyReturn}
 \mbox{\Hypertarget{classcoordinates_1_1_geographic_coordinate_interface_ac9c19d2f8667c6eecb0674106cabbe63}\label{classcoordinates_1_1_geographic_coordinate_interface_ac9c19d2f8667c6eecb0674106cabbe63}} 
@@ -373,13 +373,13 @@ point\+\_\+number -\/ returns the point number of the particular Geographic \mbo
 calculates a Molodensky transformation 
 
 
-\begin{DoxyParams}{Parameters}
+\begin{DoxyParams}{Parameter}
 {\em ell} & -\/ an object of type Ellipsoid\+Parms that contains details about the ellipsoid the transformation refers to \\
 \hline
 {\em trafoparameter} & -\/ an object of type Molodensky\+Parm that contains the parameters of the Molodenskij transformation \\
 \hline
 \end{DoxyParams}
-\begin{DoxyReturn}{Returns}
+\begin{DoxyReturn}{Rückgabe}
 geo\+\_\+p2 -\/ returns a transformed geographic coordinate 
 \end{DoxyReturn}
 \mbox{\Hypertarget{classcoordinates_1_1_geographic_coordinate_interface_a8d32481c2a4f1134d73cd05e2837e8d1}\label{classcoordinates_1_1_geographic_coordinate_interface_a8d32481c2a4f1134d73cd05e2837e8d1}} 
@@ -394,7 +394,7 @@ prints a string representation of the particular \mbox{\hyperlink{classcoordinat
 
 
 
-Reimplemented from \mbox{\hyperlink{classcoordinates_1_1_coordinate_af2882da7117d4a312faf707df681042c}{coordinates.\+Coordinate}}.
+Erneute Implementation von \mbox{\hyperlink{classcoordinates_1_1_coordinate_af2882da7117d4a312faf707df681042c}{coordinates.\+Coordinate}}.
 
 \mbox{\Hypertarget{classcoordinates_1_1_geographic_coordinate_interface_a9a5372c4b3b53a601a047a4de276a591}\label{classcoordinates_1_1_geographic_coordinate_interface_a9a5372c4b3b53a601a047a4de276a591}} 
 \index{coordinates.GeographicCoordinateInterface@{coordinates.GeographicCoordinateInterface}!resetState@{resetState}}
@@ -417,7 +417,7 @@ sets all parameters of the instance to default value 0, needed because only one 
 setter method accepts the height above ellipsoid 
 
 
-\begin{DoxyParams}{Parameters}
+\begin{DoxyParams}{Parameter}
 {\em ellipsoidal} & -\/ double value representing the height above ellipsoid \\
 \hline
 \end{DoxyParams}
@@ -432,7 +432,7 @@ setter method accepts the height above ellipsoid
 setter method accepts the height 
 
 
-\begin{DoxyParams}{Parameters}
+\begin{DoxyParams}{Parameter}
 {\em height} & -\/ double value representing the height \\
 \hline
 \end{DoxyParams}
@@ -447,7 +447,7 @@ setter method accepts the height
 setter method that accepts the geographical latitude 
 
 
-\begin{DoxyParams}{Parameters}
+\begin{DoxyParams}{Parameter}
 {\em latitude} & -\/ double value representing the geographical latitude \\
 \hline
 \end{DoxyParams}
@@ -462,7 +462,7 @@ setter method that accepts the geographical latitude
 setter method that accepts the geographical longitude 
 
 
-\begin{DoxyParams}{Parameters}
+\begin{DoxyParams}{Parameter}
 {\em longitude} & -\/ double value representing the geographical longitude \\
 \hline
 \end{DoxyParams}
@@ -477,13 +477,13 @@ setter method that accepts the geographical longitude
 setter method that accepts point number for the particular Geographic \mbox{\hyperlink{classcoordinates_1_1_coordinate}{Coordinate}} point 
 
 
-\begin{DoxyParams}{Parameters}
+\begin{DoxyParams}{Parameter}
 {\em point\+\_\+number} & -\/ a long value representing the point number for the particular Geographic \mbox{\hyperlink{classcoordinates_1_1_coordinate}{Coordinate}} point \\
 \hline
 \end{DoxyParams}
 
 
-\doxysubsection{Member Data Documentation}
+\doxysubsection{Dokumentation der Datenelemente}
 \mbox{\Hypertarget{classcoordinates_1_1_geographic_coordinate_interface_a9e462122f55a06ade4c805d389e432f2}\label{classcoordinates_1_1_geographic_coordinate_interface_a9e462122f55a06ade4c805d389e432f2}} 
 \index{coordinates.GeographicCoordinateInterface@{coordinates.GeographicCoordinateInterface}!ellipsoidal@{ellipsoidal}}
 \index{ellipsoidal@{ellipsoidal}!coordinates.GeographicCoordinateInterface@{coordinates.GeographicCoordinateInterface}}
@@ -522,6 +522,6 @@ Height above ellipsoid\+: 0 =$>$ no height (not defined), 1 =$>$ ellipsoidal, 2 
 
 
 
-The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+Die Dokumentation für diese Klasse wurde erzeugt aufgrund der Datei\+:\begin{DoxyCompactItemize}
 \item 
 coordinates/\mbox{\hyperlink{_geographic_coordinate_interface_8java}{Geographic\+Coordinate\+Interface.\+java}}\end{DoxyCompactItemize}

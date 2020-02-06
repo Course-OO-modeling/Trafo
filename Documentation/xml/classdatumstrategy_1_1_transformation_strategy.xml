@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classdatumstrategy_1_1_transformation_strategy" kind="class" language="Java" prot="public" abstract="yes">
+    <compoundname>datumstrategy::TransformationStrategy</compoundname>
+    <derivedcompoundref refid="classdatumstrategy_1_1_cardans_transformation" prot="public" virt="non-virtual">datumstrategy.CardansTransformation</derivedcompoundref>
+    <derivedcompoundref refid="classdatumstrategy_1_1_eulers_transformation" prot="public" virt="non-virtual">datumstrategy.EulersTransformation</derivedcompoundref>
+    <derivedcompoundref refid="classdatumstrategy_1_1_mock_strategy" prot="public" virt="non-virtual">datumstrategy.MockStrategy</derivedcompoundref>
+    <derivedcompoundref refid="classdatumstrategy_1_1_molodenskii_transformation_abridged" prot="public" virt="non-virtual">datumstrategy.MolodenskiiTransformationAbridged</derivedcompoundref>
+    <derivedcompoundref refid="classdatumstrategy_1_1_molodenskii_transformation_standard" prot="public" virt="non-virtual">datumstrategy.MolodenskiiTransformationStandard</derivedcompoundref>
+    <derivedcompoundref refid="classdatumstrategy_1_1_spatial_similarity_transformation_infin" prot="public" virt="non-virtual">datumstrategy.SpatialSimilarityTransformationInfin</derivedcompoundref>
+    <derivedcompoundref refid="classdatumstrategy_1_1_spatial_similarity_transformation_trig" prot="public" virt="non-virtual">datumstrategy.SpatialSimilarityTransformationTrig</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdatumstrategy_1_1_transformation_strategy_1a0fd1d6fbba01e5222360740e34eae786" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>abstract void</type>
+        <definition>abstract void datumstrategy.TransformationStrategy.transform</definition>
+        <argsstring>(GeographicCoordinateInterface geographicCoordinate)</argsstring>
+        <name>transform</name>
+        <reimplementedby refid="classdatumstrategy_1_1_spatial_similarity_transformation_trig_1a026ecdb781e479e89d09cd51ea9869c0">transform</reimplementedby>
+        <reimplementedby refid="classdatumstrategy_1_1_spatial_similarity_transformation_infin_1a10a133bbcba0dec7e7bdff6a430087b5">transform</reimplementedby>
+        <reimplementedby refid="classdatumstrategy_1_1_molodenskii_transformation_abridged_1a719bbb938c82de0bee45d3570e9e9444">transform</reimplementedby>
+        <reimplementedby refid="classdatumstrategy_1_1_molodenskii_transformation_standard_1a8a1d2f121cb0484a0ba2ddee678d8276">transform</reimplementedby>
+        <reimplementedby refid="classdatumstrategy_1_1_eulers_transformation_1a37661559087a055288365ddebea5d699">transform</reimplementedby>
+        <reimplementedby refid="classdatumstrategy_1_1_cardans_transformation_1addccd1b729d860e578cd11154d8f63e2">transform</reimplementedby>
+        <reimplementedby refid="classdatumstrategy_1_1_mock_strategy_1a8f1bcf75604b78411e8f995d85b8f917">transform</reimplementedby>
+        <param>
+          <type><ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref></type>
+          <declname>geographicCoordinate</declname>
+        </param>
+        <briefdescription>
+<para>abstract method for the transformation of a geographic coordinate </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>geographicCoordinate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- an object of type GeographicCoordinateInterface which is used for input/output for the transformation algorithm </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="datumstrategy/TransformationStrategy.java" line="45" column="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>abstract class that encapsulates transformation algorithms for different coordinates<linebreak/>
+ the concrete transformation algorithms that are implemented by the child classes of <ref refid="classdatumstrategy_1_1_transformation_strategy" kindref="compound">TransformationStrategy</ref> implement the abstract method <ref refid="classdatumstrategy_1_1_transformation_strategy_1a0fd1d6fbba01e5222360740e34eae786" kindref="member">transform(GeographicCoordinateInterface)</ref> that performs the transformation with geographic coordinates as input/output <linebreak/>
+ </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="remark"><para>last refactored 26.11.2016 by Patrick Huebner <linebreak/>
+ <itemizedlist>
+<listitem>
+<para>changed from interface to abstract class </para>
+</listitem>
+<listitem>
+<para>renamed to <ref refid="classdatumstrategy_1_1_transformation_strategy" kindref="compound">TransformationStrategy</ref> </para>
+</listitem>
+<listitem>
+<para>renamed method datum to <ref refid="" kindref="compound">transform(Coordinate, Coordinate)</ref> and made it protected </para>
+</listitem>
+<listitem>
+<para>added abstract method <ref refid="classdatumstrategy_1_1_transformation_strategy_1a0fd1d6fbba01e5222360740e34eae786" kindref="member">transform(GeographicCoordinateInterface)</ref> </para>
+</listitem>
+</itemizedlist>
+</para>
+</simplesect>
+<simplesect kind="remark"><para>last refactored 11.12.2017 by Eva Majer <linebreak/>
+ </para>
+</simplesect>
+<simplesect kind="remark"><para>last refactored 21.01.2019 by Norbert Rösch (now only object of GeographicCoordinateInterface are allowed to communicate with the different strategies <itemizedlist>
+<listitem>
+<para>adaptions for ControlParms Singleton </para>
+</listitem>
+<listitem>
+<para>Translation of some comments </para>
+</listitem>
+</itemizedlist>
+</para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="8">
+        <label>datumstrategy.SpatialSimilarityTransformationTrig</label>
+        <link refid="classdatumstrategy_1_1_spatial_similarity_transformation_trig"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>datumstrategy.SpatialSimilarityTransformationInfin</label>
+        <link refid="classdatumstrategy_1_1_spatial_similarity_transformation_infin"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>datumstrategy.MolodenskiiTransformationStandard</label>
+        <link refid="classdatumstrategy_1_1_molodenskii_transformation_standard"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>datumstrategy.MockStrategy</label>
+        <link refid="classdatumstrategy_1_1_mock_strategy"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>datumstrategy.CardansTransformation</label>
+        <link refid="classdatumstrategy_1_1_cardans_transformation"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>datumstrategy.EulersTransformation</label>
+        <link refid="classdatumstrategy_1_1_eulers_transformation"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>datumstrategy.TransformationStrategy</label>
+        <link refid="classdatumstrategy_1_1_transformation_strategy"/>
+      </node>
+      <node id="5">
+        <label>datumstrategy.MolodenskiiTransformationAbridged</label>
+        <link refid="classdatumstrategy_1_1_molodenskii_transformation_abridged"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="datumstrategy/TransformationStrategy.java" line="38" column="45" bodyfile="datumstrategy/TransformationStrategy.java" bodystart="38" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classdatumstrategy_1_1_transformation_strategy_1a0fd1d6fbba01e5222360740e34eae786" prot="public" virt="non-virtual"><scope>datumstrategy::TransformationStrategy</scope><name>transform</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

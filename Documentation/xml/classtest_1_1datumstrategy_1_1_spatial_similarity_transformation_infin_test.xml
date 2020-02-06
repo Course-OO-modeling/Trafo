@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_infin_test" kind="class" language="Java" prot="public">
+    <compoundname>test::datumstrategy::SpatialSimilarityTransformationInfinTest</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_infin_test_1aa016edf6bf224002040583f752176963" prot="private" static="no" mutable="no">
+        <type>final double</type>
+        <definition>final double test.datumstrategy.SpatialSimilarityTransformationInfinTest.RHO</definition>
+        <argsstring></argsstring>
+        <name>RHO</name>
+        <initializer>= 180/Math.PI</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/datumstrategy/SpatialSimilarityTransformationInfinTest.java" line="22" column="22" bodyfile="test/datumstrategy/SpatialSimilarityTransformationInfinTest.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_infin_test_1a467025b4955fd900f73ef4caff6ecfbf" prot="private" static="no" mutable="no">
+        <type>final double</type>
+        <definition>final double test.datumstrategy.SpatialSimilarityTransformationInfinTest.EPSILON_IN_METER</definition>
+        <argsstring></argsstring>
+        <name>EPSILON_IN_METER</name>
+        <initializer>= 0.001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/datumstrategy/SpatialSimilarityTransformationInfinTest.java" line="23" column="22" bodyfile="test/datumstrategy/SpatialSimilarityTransformationInfinTest.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_infin_test_1ad96e520f6a2da758d637c04d1dd1d170" prot="private" static="no" mutable="no">
+        <type>final double</type>
+        <definition>final double test.datumstrategy.SpatialSimilarityTransformationInfinTest.EPSILON_IN_RAD</definition>
+        <argsstring></argsstring>
+        <name>EPSILON_IN_RAD</name>
+        <initializer>= 0.00000001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/datumstrategy/SpatialSimilarityTransformationInfinTest.java" line="24" column="22" bodyfile="test/datumstrategy/SpatialSimilarityTransformationInfinTest.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_infin_test_1a24855428393085e2381fc70954f033b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void test.datumstrategy.SpatialSimilarityTransformationInfinTest.testTransform</definition>
+        <argsstring>()</argsstring>
+        <name>testTransform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/datumstrategy/SpatialSimilarityTransformationInfinTest.java" line="27" column="13" bodyfile="test/datumstrategy/SpatialSimilarityTransformationInfinTest.java" bodystart="27" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Tests the Spatial Similarity <ref refid="class_transformation" kindref="compound">Transformation</ref> as a Datum Strategy. Input values and expected values were calculated by hand. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Steven Landgraf </para>
+</simplesect>
+<simplesect kind="date"><para>December 2019 </para>
+</simplesect>
+<simplesect kind="version"><para>0.1 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="test/datumstrategy/SpatialSimilarityTransformationInfinTest.java" line="20" column="54" bodyfile="test/datumstrategy/SpatialSimilarityTransformationInfinTest.java" bodystart="20" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_infin_test_1a467025b4955fd900f73ef4caff6ecfbf" prot="private" virt="non-virtual"><scope>test::datumstrategy::SpatialSimilarityTransformationInfinTest</scope><name>EPSILON_IN_METER</name></member>
+      <member refid="classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_infin_test_1ad96e520f6a2da758d637c04d1dd1d170" prot="private" virt="non-virtual"><scope>test::datumstrategy::SpatialSimilarityTransformationInfinTest</scope><name>EPSILON_IN_RAD</name></member>
+      <member refid="classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_infin_test_1aa016edf6bf224002040583f752176963" prot="private" virt="non-virtual"><scope>test::datumstrategy::SpatialSimilarityTransformationInfinTest</scope><name>RHO</name></member>
+      <member refid="classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_infin_test_1a24855428393085e2381fc70954f033b2" prot="public" virt="non-virtual"><scope>test::datumstrategy::SpatialSimilarityTransformationInfinTest</scope><name>testTransform</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,679 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.17">
+  <compound refid="classtest_1_1coordinates_1_1_all_tests" kind="class"><name>test::coordinates::AllTests</name>
+  </compound>
+  <compound refid="classdatumstrategy_1_1_cardans_transformation" kind="class"><name>datumstrategy::CardansTransformation</name>
+    <member refid="classdatumstrategy_1_1_cardans_transformation_1a046bfbee5b4f44c7a610dda57535fd48" kind="variable"><name>e1</name></member>
+    <member refid="classdatumstrategy_1_1_cardans_transformation_1a432075c182e72c4513c507e68207270e" kind="variable"><name>e2</name></member>
+    <member refid="classdatumstrategy_1_1_cardans_transformation_1a07926f1115857a14d2ccd9ac05ddb17b" kind="variable"><name>e3</name></member>
+    <member refid="classdatumstrategy_1_1_cardans_transformation_1a50920df59cf915ff50950f21e974551b" kind="variable"><name>e4</name></member>
+    <member refid="classdatumstrategy_1_1_cardans_transformation_1a99129fc5d3eeef62bdaa85d944d1fe90" kind="variable"><name>e5</name></member>
+    <member refid="classdatumstrategy_1_1_cardans_transformation_1a7d122d0c257e3f729d0ee4899c00fa83" kind="variable"><name>e6</name></member>
+    <member refid="classdatumstrategy_1_1_cardans_transformation_1ac04153c0bcafda4b5fec06aae13af1fa" kind="variable"><name>e7</name></member>
+    <member refid="classdatumstrategy_1_1_cardans_transformation_1a53aec6feed61d2e32caeb429c832ab6b" kind="variable"><name>e8</name></member>
+    <member refid="classdatumstrategy_1_1_cardans_transformation_1ace8c836c980cd25298796b2cde125c6b" kind="variable"><name>e9</name></member>
+    <member refid="classdatumstrategy_1_1_cardans_transformation_1addccd1b729d860e578cd11154d8f63e2" kind="function"><name>transform</name></member>
+  </compound>
+  <compound refid="classparams_1_1_control_parms" kind="class"><name>params::ControlParms</name>
+    <member refid="classparams_1_1_control_parms_1aa4531a579e0d7ae5f07853ac5f4141a2" kind="variable"><name>pointid</name></member>
+    <member refid="classparams_1_1_control_parms_1a3af78a8732b0695526059f88e10d7e9e" kind="variable"><name>point_number</name></member>
+    <member refid="classparams_1_1_control_parms_1af020acb1b072ddea3560e25cac18ac3f" kind="variable"><name>fromprojection</name></member>
+    <member refid="classparams_1_1_control_parms_1aad346084aae4e796320eae7c950ce914" kind="variable"><name>fromdatum</name></member>
+    <member refid="classparams_1_1_control_parms_1ae0a950871fef34d367d8a70e80fc0fd0" kind="variable"><name>fromawert</name></member>
+    <member refid="classparams_1_1_control_parms_1ad4f4af5989abca7c5616feb442c2e7c0" kind="variable"><name>frombwert</name></member>
+    <member refid="classparams_1_1_control_parms_1a2688293d730d637a973567b209289996" kind="variable"><name>sourceCoordinateX</name></member>
+    <member refid="classparams_1_1_control_parms_1a3e2c396bf201d9c84f4efdf8dfef51d1" kind="variable"><name>sourceCoordinateY</name></member>
+    <member refid="classparams_1_1_control_parms_1ae3c3b4ee3fb2bef870380e13e573aec2" kind="variable"><name>sourceCoordinateZ</name></member>
+    <member refid="classparams_1_1_control_parms_1ad4c562a7ccfd2c0909af99b2555f7c12" kind="variable"><name>toprojection</name></member>
+    <member refid="classparams_1_1_control_parms_1a930769d55920443b555a18d86f79a410" kind="variable"><name>todatum</name></member>
+    <member refid="classparams_1_1_control_parms_1a15c11042320f3bdcc8da8d2cc885b975" kind="variable"><name>toawert</name></member>
+    <member refid="classparams_1_1_control_parms_1a1d7775bde246e74d651d87ca38e247ba" kind="variable"><name>tobwert</name></member>
+    <member refid="classparams_1_1_control_parms_1a863cdfdf5647ef0c8f9864cae1dfc753" kind="variable"><name>changedatum</name></member>
+    <member refid="classparams_1_1_control_parms_1a1b7d4bdc68c2531026174a04ad715cbf" kind="variable"><name>northhem</name></member>
+    <member refid="classparams_1_1_control_parms_1a639927766fce23759b47659a9abf0e6f" kind="variable"><name>kindofhoehe</name></member>
+    <member refid="classparams_1_1_control_parms_1afcfdabbc39158e0ae25e47d76a6dc2a4" kind="variable"><name>kindoftrafo</name></member>
+    <member refid="classparams_1_1_control_parms_1ac33290885ff9f6559cb4864a5fbaedb0" kind="variable"><name>dx</name></member>
+    <member refid="classparams_1_1_control_parms_1ab6b652d7f1f9ac1dba4a12c2cf2696cb" kind="variable"><name>dy</name></member>
+    <member refid="classparams_1_1_control_parms_1aa3bc4f90d701204615fc84404b5c47f0" kind="variable"><name>dz</name></member>
+    <member refid="classparams_1_1_control_parms_1af7874df2feb2be8ca0f3a7f1250ef7fd" kind="variable"><name>da</name></member>
+    <member refid="classparams_1_1_control_parms_1a3dfb56045add56099f7321b470f5d9fe" kind="variable"><name>df</name></member>
+    <member refid="classparams_1_1_control_parms_1a08c3a014edb82ee19a2b046a07efbac5" kind="variable"><name>wx</name></member>
+    <member refid="classparams_1_1_control_parms_1a35defe66635bc8e2aaa05c146dc5e4ac" kind="variable"><name>wy</name></member>
+    <member refid="classparams_1_1_control_parms_1ad948128a938b351f23b1d7aee4ae1cb3" kind="variable"><name>wz</name></member>
+    <member refid="classparams_1_1_control_parms_1a0501dbc13102eff28a1e15e005e73c26" kind="variable"><name>Rz1</name></member>
+    <member refid="classparams_1_1_control_parms_1af114ca71c4fdd82a3f056807591efdb0" kind="variable"><name>Rx2</name></member>
+    <member refid="classparams_1_1_control_parms_1a60fdffbd1fadf6b1a7a0372939337131" kind="variable"><name>Rz3</name></member>
+    <member refid="classparams_1_1_control_parms_1a7d7e220c8bacb270d2f0760b4230df04" kind="variable"><name>massstab</name></member>
+    <member refid="classparams_1_1_control_parms_1aeaf9b43a90b6126041788042b28951be" kind="variable"><name>destinationCoordinateX</name></member>
+    <member refid="classparams_1_1_control_parms_1a90bb6214dd6ee9d4f02aa7cf58d915bb" kind="variable"><name>destinationCoordinateY</name></member>
+    <member refid="classparams_1_1_control_parms_1a08120c4eed68ad7702c1916abaaa16db" kind="variable"><name>destinationCoordinateZ</name></member>
+    <member refid="classparams_1_1_control_parms_1a8f7f249d73a5315f42f96ad5e844714e" kind="variable"><name>fileinput</name></member>
+    <member refid="classparams_1_1_control_parms_1a46c822bd308f3cf5593519a9b1421a07" kind="variable"><name>fileoutput</name></member>
+    <member refid="classparams_1_1_control_parms_1a289a0ed91250fd5f28210158775de95c" kind="variable"><name>qupkt</name></member>
+    <member refid="classparams_1_1_control_parms_1a8ede5bb2ec22052831dcac27853ef668" kind="variable"><name>qutausch</name></member>
+    <member refid="classparams_1_1_control_parms_1a614f382326dedabe279d8c79abf6b507" kind="variable"><name>ausgabetyp</name></member>
+    <member refid="classparams_1_1_control_parms_1a5796bbd6b3b407130074d89b85c183d6" kind="variable"><name>zipkt</name></member>
+    <member refid="classparams_1_1_control_parms_1a780c529e507f496ccb69f6b9b3ddce62" kind="variable"><name>zihoehe</name></member>
+    <member refid="classparams_1_1_control_parms_1afeb9c826d60a837625db477d1e836880" kind="variable"><name>zitausch</name></member>
+    <member refid="classparams_1_1_control_parms_1ae1673336e84a96b7c381c651f5e1c57a" kind="variable"><name>instance</name></member>
+    <member refid="classparams_1_1_control_parms_1a8684e9cf600ad6c4356eeca30133b147" kind="function"><name>ControlParms</name></member>
+    <member refid="classparams_1_1_control_parms_1a34463dd11453c5f45660efaabbe826f7" kind="function"><name>getInstance</name></member>
+    <member refid="classparams_1_1_control_parms_1af1a625fc2adabd5ec8a2af31f93d3278" kind="function"><name>print</name></member>
+    <member refid="classparams_1_1_control_parms_1a0a9e4c1b1507109c2af9362c76f152b5" kind="function"><name>getPointid</name></member>
+    <member refid="classparams_1_1_control_parms_1a801da8ace900553603da73d988c16ea6" kind="function"><name>setPointid</name></member>
+    <member refid="classparams_1_1_control_parms_1a4849978cd3cad0b731e744d16ff90c97" kind="function"><name>getPoint_number</name></member>
+    <member refid="classparams_1_1_control_parms_1a28dd663a60ecea831af1955e43155f49" kind="function"><name>setPoint_number</name></member>
+    <member refid="classparams_1_1_control_parms_1a040d46279514db25122b3230087da9cc" kind="function"><name>getFromprojection</name></member>
+    <member refid="classparams_1_1_control_parms_1ab7f98c31662cc19a37c38630c7652d16" kind="function"><name>setFromprojection</name></member>
+    <member refid="classparams_1_1_control_parms_1a351a1525bef8a4e648bc2d79f57079a7" kind="function"><name>getFromdatum</name></member>
+    <member refid="classparams_1_1_control_parms_1a126be81b5ff3d178bc8c5c932433a6dc" kind="function"><name>setFromdatum</name></member>
+    <member refid="classparams_1_1_control_parms_1a059d3a66ef8da8b3735b204026cbdf62" kind="function"><name>getFromawert</name></member>
+    <member refid="classparams_1_1_control_parms_1a7074fde2b7e5a80c50cb997d78786668" kind="function"><name>setFromawert</name></member>
+    <member refid="classparams_1_1_control_parms_1a53c75f21640c052696f9c0c249847706" kind="function"><name>getFrombwert</name></member>
+    <member refid="classparams_1_1_control_parms_1aaf0d60a3e1b3362be227d9721537a424" kind="function"><name>setFrombwert</name></member>
+    <member refid="classparams_1_1_control_parms_1a983d9ff3981b01e4fc538626a50bdd30" kind="function"><name>getSourceCoordinateX</name></member>
+    <member refid="classparams_1_1_control_parms_1af40634625631868be25843439ef54567" kind="function"><name>setSourceCoordinateX</name></member>
+    <member refid="classparams_1_1_control_parms_1a0260c671857a637b51ddc23af52ad71d" kind="function"><name>getSourceCoordinateY</name></member>
+    <member refid="classparams_1_1_control_parms_1a54d42ffa9c74db6b5c3ee1d2544c5e21" kind="function"><name>setSourceCoordinateY</name></member>
+    <member refid="classparams_1_1_control_parms_1a67542179daef32a9001cee0862832858" kind="function"><name>getSourceCoordinateZ</name></member>
+    <member refid="classparams_1_1_control_parms_1ae0a1b0117d381b3005fd567cb3e0c647" kind="function"><name>setSourceCoordinateZ</name></member>
+    <member refid="classparams_1_1_control_parms_1a2d485a515e99332d5c1712f298ccabc1" kind="function"><name>getToprojection</name></member>
+    <member refid="classparams_1_1_control_parms_1aa1c2641c116c78d09adf7fcd36f1e646" kind="function"><name>setToprojection</name></member>
+    <member refid="classparams_1_1_control_parms_1a44eaedb52a3f19108a3458ce918e73ee" kind="function"><name>getTodatum</name></member>
+    <member refid="classparams_1_1_control_parms_1a13d42878222bafbe8d3c48fdd3955220" kind="function"><name>setTodatum</name></member>
+    <member refid="classparams_1_1_control_parms_1a39ce573f000eb18b6cf676e1f43fb0b5" kind="function"><name>getToawert</name></member>
+    <member refid="classparams_1_1_control_parms_1a1cbbd11c3436b09ac7063fef1c2149bb" kind="function"><name>setToawert</name></member>
+    <member refid="classparams_1_1_control_parms_1ad2092609e231fabe769def50523a206e" kind="function"><name>getTobwert</name></member>
+    <member refid="classparams_1_1_control_parms_1af66e9cb53a14ea90d0f61e3d8649be38" kind="function"><name>setTobwert</name></member>
+    <member refid="classparams_1_1_control_parms_1ab1496ac78857153a556b98b357595e1b" kind="function"><name>isChangedatum</name></member>
+    <member refid="classparams_1_1_control_parms_1a5e5239551fb75c863e259c27ddd375b1" kind="function"><name>setChangedatum</name></member>
+    <member refid="classparams_1_1_control_parms_1a29550d5e3b87f28380b8d0db21c49840" kind="function"><name>getNorthhem</name></member>
+    <member refid="classparams_1_1_control_parms_1a58f9db5f3fc7cfae594313291bc3b4e3" kind="function"><name>setNorthhem</name></member>
+    <member refid="classparams_1_1_control_parms_1af15591462a29b3376f5e6008683d8855" kind="function"><name>getKindofhoehe</name></member>
+    <member refid="classparams_1_1_control_parms_1af6c0cee9ad8df502734e0679cdc6b283" kind="function"><name>setKindofhoehe</name></member>
+    <member refid="classparams_1_1_control_parms_1ab0e48205eade41505b94b657f2140f10" kind="function"><name>getKindoftrafo</name></member>
+    <member refid="classparams_1_1_control_parms_1ac6f495c9f6f219b55a689cbac7b6da36" kind="function"><name>setKindoftrafo</name></member>
+    <member refid="classparams_1_1_control_parms_1a5abf1cdcdffb8d4f7083ddcd0782b89a" kind="function"><name>getDx</name></member>
+    <member refid="classparams_1_1_control_parms_1af79a3047660dd028f9b68cb6726ca185" kind="function"><name>setDx</name></member>
+    <member refid="classparams_1_1_control_parms_1a0b3471d9fb26c5e9fcbc7933fa84faf8" kind="function"><name>getDy</name></member>
+    <member refid="classparams_1_1_control_parms_1a17584fe9dae43307ba1c060986ca1c7f" kind="function"><name>setDy</name></member>
+    <member refid="classparams_1_1_control_parms_1afa1b48294cf0a1355ec97eb139eee4d1" kind="function"><name>getDz</name></member>
+    <member refid="classparams_1_1_control_parms_1a90515ffb3445da1c793b30bd39403d83" kind="function"><name>setDz</name></member>
+    <member refid="classparams_1_1_control_parms_1a4252f7cdf5b712aa872beaf0af90a0f0" kind="function"><name>getDa</name></member>
+    <member refid="classparams_1_1_control_parms_1a5dbf6d0fcc824987a05fd389690009ef" kind="function"><name>setDa</name></member>
+    <member refid="classparams_1_1_control_parms_1aac8835837cbd44642c4f99a2e4432d88" kind="function"><name>getDf</name></member>
+    <member refid="classparams_1_1_control_parms_1a6454d68b7f953a28d11b54e141a92e30" kind="function"><name>setDf</name></member>
+    <member refid="classparams_1_1_control_parms_1a421e53e86089f32021bec5dbcd4954ef" kind="function"><name>getWx</name></member>
+    <member refid="classparams_1_1_control_parms_1a997a3be490eaf52c7a3a24c7e459debe" kind="function"><name>setWx</name></member>
+    <member refid="classparams_1_1_control_parms_1a892195e5364a123dbf317acf782eb2e9" kind="function"><name>getWy</name></member>
+    <member refid="classparams_1_1_control_parms_1a62167ea52e9ae9c67bdd7f01d84d9338" kind="function"><name>setWy</name></member>
+    <member refid="classparams_1_1_control_parms_1a3968b56fc06aae0f01a3e3cc0bf5d7fc" kind="function"><name>getWz</name></member>
+    <member refid="classparams_1_1_control_parms_1a79521a33aa8a2e38aba29e77ce052714" kind="function"><name>setWz</name></member>
+    <member refid="classparams_1_1_control_parms_1afd005a609a5850cce818d703c6d7d0ee" kind="function"><name>getRz1</name></member>
+    <member refid="classparams_1_1_control_parms_1a4c0dc142e134c041a8a4c571051135db" kind="function"><name>setRz1</name></member>
+    <member refid="classparams_1_1_control_parms_1a0f81b48dce0456c2c3e558d816cd6421" kind="function"><name>getRx2</name></member>
+    <member refid="classparams_1_1_control_parms_1aa4ed8164ad987716fb33b950698717ae" kind="function"><name>setRx2</name></member>
+    <member refid="classparams_1_1_control_parms_1a1a21b81af2b6f4b8e6b4384fc4fc3147" kind="function"><name>getRz3</name></member>
+    <member refid="classparams_1_1_control_parms_1adb205b83347ef1c8b3996976cb9994d4" kind="function"><name>setRz3</name></member>
+    <member refid="classparams_1_1_control_parms_1aa58394ff038d3975c7978196f501ac20" kind="function"><name>getMassstab</name></member>
+    <member refid="classparams_1_1_control_parms_1afafdea373a656d6dec1f39d7abfe4bf7" kind="function"><name>setMassstab</name></member>
+    <member refid="classparams_1_1_control_parms_1aa23beea311a95495623a6940fb190361" kind="function"><name>getDestinationCoordinateX</name></member>
+    <member refid="classparams_1_1_control_parms_1a9cb313fe0bdb0301e97f6270420960ac" kind="function"><name>setDestinationCoordinateX</name></member>
+    <member refid="classparams_1_1_control_parms_1a055cab8e112537f78077721cc08d1180" kind="function"><name>getDestinationCoordinateY</name></member>
+    <member refid="classparams_1_1_control_parms_1abb6dad3385885ee866020022ea8a2686" kind="function"><name>setDestinationCoordinateY</name></member>
+    <member refid="classparams_1_1_control_parms_1a495fb5cc9b4a503506b684a699ecb625" kind="function"><name>getDestinationCoordinateZ</name></member>
+    <member refid="classparams_1_1_control_parms_1a803ea3480b1a8b08dd39b43911e4c649" kind="function"><name>setDestinationCoordinateZ</name></member>
+    <member refid="classparams_1_1_control_parms_1aad161acbe2c3e412ad077e3319c914cf" kind="function"><name>getFileinput</name></member>
+    <member refid="classparams_1_1_control_parms_1a609480f3c26381da7f897c481a7f684c" kind="function"><name>setFileinput</name></member>
+    <member refid="classparams_1_1_control_parms_1ac022aba6ce9fc9cc2db653d4b33cf30c" kind="function"><name>getFileoutput</name></member>
+    <member refid="classparams_1_1_control_parms_1acb93361691fe1af23a8d840629f5f796" kind="function"><name>setFileoutput</name></member>
+    <member refid="classparams_1_1_control_parms_1af6ac66a15401db24a578c5ad863df54e" kind="function"><name>getQupkt</name></member>
+    <member refid="classparams_1_1_control_parms_1a80c2c269b374d89c053bfd4ec569bc0d" kind="function"><name>setQupkt</name></member>
+    <member refid="classparams_1_1_control_parms_1a8700a8ee5b82ed97b607ee070596ad4c" kind="function"><name>getQutausch</name></member>
+    <member refid="classparams_1_1_control_parms_1a2a551f64ac811a40f1a1fef83793f94d" kind="function"><name>setQutausch</name></member>
+    <member refid="classparams_1_1_control_parms_1a310f3b5a8fa32f4810cebe7354d8b6fb" kind="function"><name>getAusgabetyp</name></member>
+    <member refid="classparams_1_1_control_parms_1ae4add7088c814512790397af2e582997" kind="function"><name>setAusgabetyp</name></member>
+    <member refid="classparams_1_1_control_parms_1a12aec04726c89c78fffbe2f7c0148cfd" kind="function"><name>getZipkt</name></member>
+    <member refid="classparams_1_1_control_parms_1afea7f5a4ce364f172fc3dbc4daf9ecd7" kind="function"><name>setZipkt</name></member>
+    <member refid="classparams_1_1_control_parms_1a3ff4bfa2904c4f485a20f6fb864557b4" kind="function"><name>getZihoehe</name></member>
+    <member refid="classparams_1_1_control_parms_1ae77b5d713891b289145e548a5c05d67e" kind="function"><name>setZihoehe</name></member>
+    <member refid="classparams_1_1_control_parms_1ab99b444c9b8cfd2b54b384c8e3ad5e7e" kind="function"><name>getZitausch</name></member>
+    <member refid="classparams_1_1_control_parms_1adb5c016b189b75a4a2e3c1b314769db2" kind="function"><name>setZitausch</name></member>
+  </compound>
+  <compound refid="classcoordinates_1_1_coordinate" kind="class"><name>coordinates::Coordinate</name>
+    <member refid="classcoordinates_1_1_coordinate_1a871c4eb3e8771b3e59f26c8e573d6aa0" kind="variable"><name>pointid</name></member>
+    <member refid="classcoordinates_1_1_coordinate_1a97342479914743d999cef4b38f9124ed" kind="function"><name>getAsGeographicInterface</name></member>
+    <member refid="classcoordinates_1_1_coordinate_1a998872a624f0394829f4c405f7a6f803" kind="function"><name>getAsTargetCoordinate</name></member>
+    <member refid="classcoordinates_1_1_coordinate_1af2882da7117d4a312faf707df681042c" kind="function"><name>print</name></member>
+    <member refid="classcoordinates_1_1_coordinate_1ab0b1d8dc4fe371a2425e0cb505effafd" kind="function"><name>getPointid</name></member>
+    <member refid="classcoordinates_1_1_coordinate_1a14f00383b5a41df79220112a12ef1cbf" kind="function"><name>setPointid</name></member>
+  </compound>
+  <compound refid="classtest_1_1coordinates_1_1_coordinate_factory_test" kind="class"><name>test::coordinates::CoordinateFactoryTest</name>
+    <member refid="classtest_1_1coordinates_1_1_coordinate_factory_test_1a81785f2e27095044bf840af1bd7c4318" kind="function"><name>testGetCoordGK</name></member>
+    <member refid="classtest_1_1coordinates_1_1_coordinate_factory_test_1acf98b157e3fd1cc08ba0c606a1dc0cb6" kind="function"><name>testGetCoordUTM</name></member>
+    <member refid="classtest_1_1coordinates_1_1_coordinate_factory_test_1ae193c135bac34e54987262ea1811e9ae" kind="function"><name>testGetCoordSoldner</name></member>
+    <member refid="classtest_1_1coordinates_1_1_coordinate_factory_test_1abf343cdc1f007982306646bb8a4096fb" kind="function"><name>testGetCoordGeographic</name></member>
+    <member refid="classtest_1_1coordinates_1_1_coordinate_factory_test_1a86b71bd7d1c48449f8fbec64a3e47c63" kind="function"><name>testGetXYZ</name></member>
+  </compound>
+  <compound refid="classparams_1_1_ellipsoid_parms" kind="class"><name>params::EllipsoidParms</name>
+    <member refid="classparams_1_1_ellipsoid_parms_1a0dc788084fb0dd603ace16e936382883" kind="variable"><name>id</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1a8c4aea13fd32cd84761c5fa923a3b56a" kind="variable"><name>c</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1adcc0bf7ab5ecf57524183e296d356e44" kind="variable"><name>secondEccentricity</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1ade0c44ec7d1b96b92e0596e2ffd36ff9" kind="variable"><name>semiMajorAxis</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1ac6a5a05c596ba1581bbda76fe87ee43b" kind="variable"><name>semiMinorAxis</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1a75cc9d5d8459811e32022f5028626f0c" kind="variable"><name>flattening</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1aa20a57453ee89effbe7a0058103f30a4" kind="variable"><name>firstEccentricity</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1a1b4082c660ebfbb0e6ee77a6d3b24944" kind="variable"><name>toid</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1a54bfe0d39a76ddebbd5a39f372171633" kind="variable"><name>toc</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1a83a125728bc8d0f2d1935148ab97867d" kind="variable"><name>toes2</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1a6778e1b5d14507d1485a5e49a0935b8a" kind="variable"><name>toa</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1a440e25ee5cdf6444267c3f4dec8d5c4d" kind="variable"><name>tob</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1a97a668f9510e875e9542e7ec9d66b2ed" kind="variable"><name>tof</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1a185fd33e0e636da454abd7d6526d19d6" kind="variable"><name>toe2</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1a0828d1c17e1154e96745e1a327d4065c" kind="variable"><name>N</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1a883bc11eefefe2015268f12f6f392d02" kind="variable"><name>M</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1ae589624b96dcf9f152cdd13f5fc2b813" kind="variable"><name>Soldner_l0</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1a600fb2e197a0cce391abf04cbbd2bfa4" kind="variable"><name>Soldner_b0</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1a86b4e7b5eb4b4f2f671e61e75e0dc7f9" kind="variable"><name>GK_refmer</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1ae8dcc24aa03ce1f0c6ccd2daf1c549fc" kind="function"><name>EllipsoidParms</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1a76412304312a0a253086d195874110c0" kind="function"><name>EllipsoidParms</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1ad33cde2be306e100c10b186416864d36" kind="function"><name>calculatelongitudeParms</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1a8b38d69a8ce2fe13c763c4dec003caa3" kind="function"><name>print</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1aba1d562097bdfbdca02d1297bb7eef40" kind="function"><name>getId</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1a39defb526e42409be9d233cc5f51d17c" kind="function"><name>setId</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1ac6d2d8e560b2c5f93f1eae7e47da312e" kind="function"><name>getC</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1a290c9540675e92d4fe57b6d8c99a6864" kind="function"><name>setC</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1a247439302e5081a009d1316d777f87e8" kind="function"><name>getSecondEccentricity</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1a1053dddae8b704f666d40407be5f90ee" kind="function"><name>setSecondEccentricity</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1a068f04b524a696a0d328089a90de728b" kind="function"><name>getSemiMajorAxis</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1ac8c7b6c628123f8e7bbe9a3433d73255" kind="function"><name>setSemiMajorAxis</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1a5542f3e4c1e37c27f616afefc66f7d6f" kind="function"><name>getSemiMinorAxis</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1a1bb1c00f1745417ba061a4ff458d2ead" kind="function"><name>setSemiMinorAxis</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1a59e492be1d59af1f0ac89c82f4bf12ed" kind="function"><name>getFlattening</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1aecd855e7bf03309adf8edc75042b7383" kind="function"><name>setFlattening</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1acf91ad0a9927986a49f095d6f771e3e5" kind="function"><name>getFirstEccentricity</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1a27962849b946e3ba291ab15856083ced" kind="function"><name>setFirstEccentricity</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1a3bb0244d95115ff0163ce7f6679b8036" kind="function"><name>getToid</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1a1ff0ff030ab98abd9e1cb14f7f2d55d0" kind="function"><name>setToid</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1ab17b1913708fbd2fc66fc7b3d33383bc" kind="function"><name>getToc</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1a9f7db01c2f444ead5d5e36cb73563bd0" kind="function"><name>setToc</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1a575681020e0d8f808fc078e56051c198" kind="function"><name>getToes2</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1aeeff1d0b99befdcc75383e3e9f475c58" kind="function"><name>setToes2</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1ab9fb994a17b8b561d22be1de0b31f287" kind="function"><name>getToa</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1afa3004dc536f9098e902be0dfe5c1a5b" kind="function"><name>setToa</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1ade69e57694ce4b388c6c75078875aee8" kind="function"><name>getTob</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1a0f7664b1d2c2c20aec2b059e62cbe00f" kind="function"><name>setTob</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1a60fccf6eb2260e97082bb6789204f141" kind="function"><name>getTof</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1a4dfc1bf7517139c222bbc4f5704eeeb1" kind="function"><name>setTof</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1ad150fd728cb5c16bba1716b5c17547ba" kind="function"><name>getToe2</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1ac2a0d6cf273845316fd87f9a2cc47ff9" kind="function"><name>setToe2</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1abb15b257c76e9880ed28c854a4731c0d" kind="function"><name>getN</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1a498387541756991907783083c45a457c" kind="function"><name>setN</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1aceac84961ab929328c39afc3357519c7" kind="function"><name>getM</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1ad33bd8b9852b20794f1c5b5cd024e51c" kind="function"><name>setM</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1afe6b1d0500228058310947eedeee20b7" kind="function"><name>getSoldner_l0</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1a44b6361a151c89c4eb9425a9a19e6766" kind="function"><name>setSoldner_l0</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1a2d57a7d2449fb7bbf6fbc0f66ae85848" kind="function"><name>getSoldner_b0</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1a0ab99cecabf398adc130b15c8f3e23c5" kind="function"><name>setSoldner_b0</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1aaa87eb361d5f0be95d014842b8201cea" kind="function"><name>getGK_refmer</name></member>
+    <member refid="classparams_1_1_ellipsoid_parms_1a711a94a4e810fa3acd91cabc94ef8b73" kind="function"><name>setGK_refmer</name></member>
+  </compound>
+  <compound refid="classdatumstrategy_1_1_eulers_transformation" kind="class"><name>datumstrategy::EulersTransformation</name>
+    <member refid="classdatumstrategy_1_1_eulers_transformation_1a2e8c6f2458ddf01b4b46bc3800c13363" kind="variable"><name>e1</name></member>
+    <member refid="classdatumstrategy_1_1_eulers_transformation_1a2337790869ae44252d7ac574bb748fad" kind="variable"><name>e2</name></member>
+    <member refid="classdatumstrategy_1_1_eulers_transformation_1a6e1425d38cd9762dc299779981fc1abe" kind="variable"><name>e3</name></member>
+    <member refid="classdatumstrategy_1_1_eulers_transformation_1a75850bab8cf460223edd241724c0fc65" kind="variable"><name>e4</name></member>
+    <member refid="classdatumstrategy_1_1_eulers_transformation_1aa9f067a6e627854bbcc06f9606535ad0" kind="variable"><name>e5</name></member>
+    <member refid="classdatumstrategy_1_1_eulers_transformation_1a4bf6b7004de7c30697305f2d306a28e9" kind="variable"><name>e6</name></member>
+    <member refid="classdatumstrategy_1_1_eulers_transformation_1a4faa97a258a45ffc8e3e2f801964b000" kind="variable"><name>e7</name></member>
+    <member refid="classdatumstrategy_1_1_eulers_transformation_1aa8c2fddfc3d1b5190eabe3ec5edc4aa3" kind="variable"><name>e8</name></member>
+    <member refid="classdatumstrategy_1_1_eulers_transformation_1a978ca17f76ae4e8497ca75010bf54b46" kind="variable"><name>e9</name></member>
+    <member refid="classdatumstrategy_1_1_eulers_transformation_1a37661559087a055288365ddebea5d699" kind="function"><name>transform</name></member>
+  </compound>
+  <compound refid="classcoordinates_1_1_gauss" kind="class"><name>coordinates::Gauss</name>
+    <member refid="classcoordinates_1_1_gauss_1a9bd37a096f53a9e443570ec5748f95d8" kind="variable"><name>abszisse</name></member>
+    <member refid="classcoordinates_1_1_gauss_1ab156b1da518d7637dacef40489a0dba4" kind="variable"><name>ordinate</name></member>
+    <member refid="classcoordinates_1_1_gauss_1aea6297c71e9258a7dfb80a823048dc0d" kind="variable"><name>scale</name></member>
+    <member refid="classcoordinates_1_1_gauss_1ad1543fe8a30e7f6dab1d0486bb5a935d" kind="variable"><name>height</name></member>
+    <member refid="classcoordinates_1_1_gauss_1a08582ecf17604f8330df079ce234008c" kind="variable"><name>ellipsoidal</name></member>
+    <member refid="classcoordinates_1_1_gauss_1a1e810f7e3af643a8c0525485d9133276" kind="function"><name>CalculateAbszisseOrdinate</name></member>
+    <member refid="classcoordinates_1_1_gauss_1aa088aa6fb796aa873b19ee2c1ef42468" kind="function"><name>print</name></member>
+    <member refid="classcoordinates_1_1_gauss_1adb944679772bf8b4101b075247dd0fd0" kind="function"><name>getAsGeographicInterface</name></member>
+    <member refid="classcoordinates_1_1_gauss_1ad11601b119b190bd9d61f71df6b53038" kind="function"><name>getAbszisse</name></member>
+    <member refid="classcoordinates_1_1_gauss_1a82bc0ee0a9fae9bef4e3400615d50c58" kind="function"><name>setAbszisse</name></member>
+    <member refid="classcoordinates_1_1_gauss_1a751c889d6cc9b2acb5eeb42d888efc0f" kind="function"><name>getOrdinate</name></member>
+    <member refid="classcoordinates_1_1_gauss_1a3afbbdd05c3a68dd778760cb824b0b03" kind="function"><name>setOrdinate</name></member>
+    <member refid="classcoordinates_1_1_gauss_1ab0d10005ccb914af91c8afc28d2ed836" kind="function"><name>getScale</name></member>
+    <member refid="classcoordinates_1_1_gauss_1a5f0cc370abdab913a51a7395bc54ff24" kind="function"><name>setScale</name></member>
+    <member refid="classcoordinates_1_1_gauss_1a3bc39fe23752a9bccac68015c799f3fc" kind="function"><name>getHeight</name></member>
+    <member refid="classcoordinates_1_1_gauss_1a3af44a951b3cb9ea5f5cf143b1cb2253" kind="function"><name>setHeight</name></member>
+    <member refid="classcoordinates_1_1_gauss_1a5c6271983e9bb69b8d024158397f5882" kind="function"><name>getEllipsoidal</name></member>
+    <member refid="classcoordinates_1_1_gauss_1a2bfa95e5913df58667cf5c15db228db8" kind="function"><name>setEllipsoidal</name></member>
+    <member refid="classcoordinates_1_1_gauss_1a622fa98764e45111e58a44c82f4dc5cd" kind="function"><name>meridianLength</name></member>
+  </compound>
+  <compound refid="classcoordinates_1_1_gauss_krueger" kind="class"><name>coordinates::GaussKrueger</name>
+    <member refid="classcoordinates_1_1_gauss_krueger_1a7b3a7878b5c0e9af6afee712997630b7" kind="variable"><name>rechts</name></member>
+    <member refid="classcoordinates_1_1_gauss_krueger_1ad0effac6a487835234850d6dc8805843" kind="variable"><name>hoch</name></member>
+    <member refid="classcoordinates_1_1_gauss_krueger_1a8118e7f54b47ed00d9ba473f381392c0" kind="variable"><name>centralMeridian</name></member>
+    <member refid="classcoordinates_1_1_gauss_krueger_1a59a320d5d406e0e88df19f2a1c6cc9fc" kind="function"><name>GaussKrueger</name></member>
+    <member refid="classcoordinates_1_1_gauss_krueger_1a68b8bf6307cf0c9732f5034d8cf70df8" kind="function"><name>print</name></member>
+    <member refid="classcoordinates_1_1_gauss_krueger_1a3b7d9043de1a8cbff07dd692244938d5" kind="function"><name>getAsGeographicInterface</name></member>
+    <member refid="classcoordinates_1_1_gauss_krueger_1ab25a4a0c8fadac6c9f1653227427efd7" kind="function"><name>getAsTargetCoordinate</name></member>
+    <member refid="classcoordinates_1_1_gauss_krueger_1a11b882d972f2068f8447ea07df0bd4db" kind="function"><name>getRechts</name></member>
+    <member refid="classcoordinates_1_1_gauss_krueger_1aae6034f16ac245dac1c1d84722048894" kind="function"><name>setRechts</name></member>
+    <member refid="classcoordinates_1_1_gauss_krueger_1ac6dfe7a78850b5aa7c69e1e5d2a0b3cf" kind="function"><name>getHoch</name></member>
+    <member refid="classcoordinates_1_1_gauss_krueger_1acf100c94ccd6ce16857ec83876578aa5" kind="function"><name>setHoch</name></member>
+    <member refid="classcoordinates_1_1_gauss_krueger_1a3052602f8c5575a22cc7a1a63c5cb063" kind="function"><name>getIlao</name></member>
+    <member refid="classcoordinates_1_1_gauss_krueger_1a9dc35489df5fd3430d61f0d47ca27b82" kind="function"><name>setIlao</name></member>
+  </compound>
+  <compound refid="classtest_1_1coordinates_1_1_gauss_krueger_test" kind="class"><name>test::coordinates::GaussKruegerTest</name>
+    <member refid="classtest_1_1coordinates_1_1_gauss_krueger_test_1aa03e906f12c6081dcd86c456f3a7b8f0" kind="variable"><name>RHO</name></member>
+    <member refid="classtest_1_1coordinates_1_1_gauss_krueger_test_1a6e85a27ed2aecfc31241c7d2a241031b" kind="variable"><name>EPSILON_IN_METER</name></member>
+    <member refid="classtest_1_1coordinates_1_1_gauss_krueger_test_1aa5744aa1588cee16e75613c3c87ffa95" kind="variable"><name>EPSILON_IN_DEGREE</name></member>
+    <member refid="classtest_1_1coordinates_1_1_gauss_krueger_test_1a62853f3343d509800d24d65098a532c1" kind="function"><name>getAsGeographic</name></member>
+    <member refid="classtest_1_1coordinates_1_1_gauss_krueger_test_1a9d6f53566a17ffa437f244668187f1c3" kind="function"><name>getAsGaussKrueger</name></member>
+  </compound>
+  <compound refid="classtest_1_1coordinates_1_1_gauss_test" kind="class"><name>test::coordinates::GaussTest</name>
+    <member refid="classtest_1_1coordinates_1_1_gauss_test_1abcdd8ef6d02de1e64fa094430e77a1c5" kind="variable"><name>RHO</name></member>
+    <member refid="classtest_1_1coordinates_1_1_gauss_test_1a34d31e051fa1d22700dd999b9bf71d78" kind="variable"><name>EPSILON_IN_METER</name></member>
+    <member refid="classtest_1_1coordinates_1_1_gauss_test_1ad0a5b9f9d57dc28bbef8c8725b12e7d7" kind="function"><name>testMeridianLength</name></member>
+  </compound>
+  <compound refid="classcoordinates_1_1_geographic_coordinate" kind="class"><name>coordinates::GeographicCoordinate</name>
+    <member refid="classcoordinates_1_1_geographic_coordinate_1a7d7384b678b1b189a8a023653f9d3c19" kind="variable"><name>point_number</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_1a1ffbbfc5c01ab766af1d32bcc8cb42ad" kind="variable"><name>longitude</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_1a07a18abcc3cd691d4d8821a875dabbd6" kind="variable"><name>latitude</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_1a928334b65b117d99cd724d2c0b9b7ee0" kind="variable"><name>height</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_1ab14ea3abf8e94174e4eff69ab983282e" kind="variable"><name>ellipsoidal</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_1a53dc73fad8c6e068de7792a5c886f78f" kind="variable"><name>myInstance</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_1a418ad8644fdc6d927a1eb8d57aeac922" kind="function"><name>GeographicCoordinate</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_1ae6e385071fe5663e16b344571b0131d0" kind="function"><name>GeographicCoordinate</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_1a41a98dc4f0a463d9b1584856da4ca9d0" kind="function"><name>GeographicCoordinate</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_1a1cbf537f61d51979a831b2f018d28897" kind="function"><name>print</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_1ae316c889f13670bd69d621858495e2f3" kind="function"><name>getAsGeographicInterface</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_1a31aa30555bf11a9965ff717946430cce" kind="function"><name>getAsTargetCoordinate</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_1a68208a97e0db4620dce1163bafdcab06" kind="function"><name>getPoint_number</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_1a60674b3195f4470485e62005e90eb141" kind="function"><name>setPoint_number</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_1a1f6aea00058a08a23191930436cb5ef7" kind="function"><name>getLongitude</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_1a72cfb2c3bcafcee1eff0da6b8e9da8fb" kind="function"><name>setLongitude</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_1a7c030f592a3644f178c07d79b89382a0" kind="function"><name>getLatitude</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_1a8baf5c2c81a9cd60ca73f74d63509775" kind="function"><name>setLatitude</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_1aea53916d3d136bf18262dc096c468104" kind="function"><name>getHeight</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_1ab4d53507e2fb93d1e16bffffcf21ecb4" kind="function"><name>setHeight</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_1a1e330f3f407a29251d66204401e80e85" kind="function"><name>getEllipsoidal</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_1a1c76ad1e5e1cd8c9ff738d3cdf1c4d0a" kind="function"><name>setEllipsoidal</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_1ae489c187a21fc058b5af3d7d7ff1e5e7" kind="function"><name>resetState</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_1a29ced8017420b012f7bd5749ed6ba600" kind="function"><name>getInstance</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_1afa986233325df2fb8a8b47d4ddeaee46" kind="function"><name>getInstance</name></member>
+  </compound>
+  <compound refid="classcoordinates_1_1_geographic_coordinate_interface" kind="class"><name>coordinates::GeographicCoordinateInterface</name>
+    <member refid="classcoordinates_1_1_geographic_coordinate_interface_1abfad220dc359597518b9f199be6b957a" kind="variable"><name>point_number</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_interface_1ae82d3ae4819bc8e243ca54f6568ec005" kind="variable"><name>longitude</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a80705d81d2b4631d1ac928f703715d0c" kind="variable"><name>latitude</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a172154f497767cdc832c1a851552bd8b" kind="variable"><name>height</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a9e462122f55a06ade4c805d389e432f2" kind="variable"><name>ellipsoidal</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a8dca565dec7a9f95c0366e9345dc6f62" kind="variable"><name>myInstance</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a99505d4e0e605d32d8cfc6c5a631eed4" kind="function"><name>GeographicCoordinateInterface</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a52a34d3fd3e4b664da7ea64a6b9c5f80" kind="function"><name>GeographicCoordinateInterface</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a8d32481c2a4f1134d73cd05e2837e8d1" kind="function"><name>print</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a5a7c2ad22340e5337db778034c732ac8" kind="function"><name>getAsGeographicInterface</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_interface_1acc9324b94c545f0d2d9e34ff9eae6046" kind="function"><name>getAsTargetCoordinate</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_interface_1ac9c19d2f8667c6eecb0674106cabbe63" kind="function"><name>molodenskytrafo</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a221ccb34f7c04980aec4af015b1c2789" kind="function"><name>fupubre</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a1054ed7d1c0497e91fcc4f098c06e1e5" kind="function"><name>GeographicLongitudeLatitude</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a4c99b99a9e6e653b72cf0da99f603a19" kind="function"><name>copy</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_interface_1acdd7ae9bfafda4672d697221bd9b0bd2" kind="function"><name>getPoint_number</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a50835144a956800c57f7a5a9d3491cb6" kind="function"><name>setPoint_number</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a4b2903f951a7ec80608cf6eb307a1991" kind="function"><name>getLongitude</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a37768130dfa4697eebbb93dbb639b78c" kind="function"><name>setLongitude</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a6c287f3c85afe73a269165862ec267fb" kind="function"><name>getLatitude</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_interface_1ab10e03a921d5c7e821dda05d258628db" kind="function"><name>setLatitude</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_interface_1aa74362408871d3bf33e69f6e2ffa52b6" kind="function"><name>getHeight</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a10e3f8411fd7085cd4abbb86e1d15891" kind="function"><name>setHeight</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a76520d9a7902acdfe223d848eb784fc1" kind="function"><name>getEllipsoidal</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a860c713488cf7e9d607c640893d2e4e9" kind="function"><name>setEllipsoidal</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a3ab0e13cfbc6c8dd266f63d74464354c" kind="function"><name>GeographicCoordinateInterface</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a9a5372c4b3b53a601a047a4de276a591" kind="function"><name>resetState</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a954409872a73cc8c7fc49f87d17f88b5" kind="function"><name>getInstance</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_interface_1acb73fce8bcd43035599dd462dbee2509" kind="function"><name>getInstance</name></member>
+    <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a38627aff97345b4ae6c87e37e8a5e406" kind="function"><name>getInstance</name></member>
+  </compound>
+  <compound refid="class_geographic_coordinate_interface_test" kind="class"><name>GeographicCoordinateInterfaceTest</name>
+  </compound>
+  <compound refid="classtest_1_1coordinates_1_1_geographic_coordinate_test" kind="class"><name>test::coordinates::GeographicCoordinateTest</name>
+    <member refid="classtest_1_1coordinates_1_1_geographic_coordinate_test_1abd685d9d9cb8e98ac046ac39db09a72c" kind="variable"><name>EPSILONFORDEGREE</name></member>
+    <member refid="classtest_1_1coordinates_1_1_geographic_coordinate_test_1a01218c0d348b52918840ed54534ee941" kind="function"><name>testGetAsGeographicInterface</name></member>
+    <member refid="classtest_1_1coordinates_1_1_geographic_coordinate_test_1a0b163bb72f3d29aa3067d42c6247ded7" kind="function"><name>testFromGeographicInterface</name></member>
+  </compound>
+  <compound refid="classcoordinates_1_1_get_appropriate_coordinate" kind="class"><name>coordinates::GetAppropriateCoordinate</name>
+    <member refid="classcoordinates_1_1_get_appropriate_coordinate_1a22f95481b92a2a5816db4ea9eb3ad6bb" kind="function"><name>getCoord</name></member>
+    <member refid="classcoordinates_1_1_get_appropriate_coordinate_1a50a0af7a152e133a8b8ae2d734fe14e5" kind="function"><name>getGeographicCoordinateInterface</name></member>
+  </compound>
+  <compound refid="classdatumstrategy_1_1_get_appropriate_transformation_algorithm" kind="class"><name>datumstrategy::GetAppropriateTransformationAlgorithm</name>
+    <member refid="classdatumstrategy_1_1_get_appropriate_transformation_algorithm_1a5dae4ffa1ae0ccc9e24ff4d3469b3286" kind="function"><name>getStrategy</name></member>
+  </compound>
+  <compound refid="classtest_1_1datumstrategy_1_1_get_appropriate_transformation_algorithm_test" kind="class"><name>test::datumstrategy::GetAppropriateTransformationAlgorithmTest</name>
+    <member refid="classtest_1_1datumstrategy_1_1_get_appropriate_transformation_algorithm_test_1ab67bd3e54dcc11a23c10745959bacdb0" kind="function"><name>testSpatialSimilarityTransformationInfin</name></member>
+  </compound>
+  <compound refid="classparams_1_1_lat_parm" kind="class"><name>params::LatParm</name>
+    <member refid="classparams_1_1_lat_parm_1ad4a3a2c6c45ffe5b13b953a639f3771f" kind="variable"><name>radm</name></member>
+    <member refid="classparams_1_1_lat_parm_1ad3b2a94593c3527d6e5bcb7a4f5008d0" kind="variable"><name>radn</name></member>
+    <member refid="classparams_1_1_lat_parm_1ac80005b5ba749048ae964321cfe5760d" kind="variable"><name>radg</name></member>
+    <member refid="classparams_1_1_lat_parm_1a9a38ab3ef2e8fafcf667aa32e714ea33" kind="variable"><name>tbr</name></member>
+    <member refid="classparams_1_1_lat_parm_1ab4fe89614c538fbc5135ff84699ade62" kind="variable"><name>vbr</name></member>
+    <member refid="classparams_1_1_lat_parm_1a00ff451cea882b0e828a53836433e3ac" kind="variable"><name>etabr</name></member>
+    <member refid="classparams_1_1_lat_parm_1ad93beb21879792881ced00e13af2dc60" kind="variable"><name>cbr</name></member>
+    <member refid="classparams_1_1_lat_parm_1a52fefff9985ee28085b9d81675289631" kind="variable"><name>vbr2</name></member>
+    <member refid="classparams_1_1_lat_parm_1a56f01ceb263bd4c0693d76de38ef0ec7" kind="variable"><name>tbr2</name></member>
+    <member refid="classparams_1_1_lat_parm_1ac972450505dda8d2633ee4c293339f4d" kind="function"><name>LatParm</name></member>
+    <member refid="classparams_1_1_lat_parm_1ab81d2c45f65a3a260dd99fcc49235e8b" kind="function"><name>Constant</name></member>
+    <member refid="classparams_1_1_lat_parm_1ab29d1d8f8fdec25662aef30d992b820b" kind="function"><name>getRadm</name></member>
+    <member refid="classparams_1_1_lat_parm_1a00c0204cb9ef92752ffd4a869b780360" kind="function"><name>setRadm</name></member>
+    <member refid="classparams_1_1_lat_parm_1a6d929177720c027458ebdf315f184a16" kind="function"><name>getRadn</name></member>
+    <member refid="classparams_1_1_lat_parm_1a59b9f34911eaf1358f7b5b409d7bf0b4" kind="function"><name>setRadn</name></member>
+    <member refid="classparams_1_1_lat_parm_1a25b420d545fbfc3b0663f2db9b8d639b" kind="function"><name>getRadg</name></member>
+    <member refid="classparams_1_1_lat_parm_1afb0ecd1622a4d32f82e62c4a7b20b82c" kind="function"><name>setRadg</name></member>
+    <member refid="classparams_1_1_lat_parm_1a08d8466c691aff294ec925b2ad5fbca7" kind="function"><name>getTbr</name></member>
+    <member refid="classparams_1_1_lat_parm_1a91313d31ec47399198769d5c8dc7c8ca" kind="function"><name>setTbr</name></member>
+    <member refid="classparams_1_1_lat_parm_1a3ad1b1f03ea01388668de0b1b906eb15" kind="function"><name>getVbr</name></member>
+    <member refid="classparams_1_1_lat_parm_1aaf1c583db5fdaa2c56b0ba680645a005" kind="function"><name>setVbr</name></member>
+    <member refid="classparams_1_1_lat_parm_1a3129de4a7b41e7e39f0f302c8635ed08" kind="function"><name>getEtabr</name></member>
+    <member refid="classparams_1_1_lat_parm_1a3f86420da4799d6bcd4237527fa716f7" kind="function"><name>setEtabr</name></member>
+    <member refid="classparams_1_1_lat_parm_1a63babf6e5b7aaa6cbfc7c2a4297236df" kind="function"><name>getCbr</name></member>
+    <member refid="classparams_1_1_lat_parm_1a563e6ca04658d03f1fdaaf4a24111433" kind="function"><name>setCbr</name></member>
+    <member refid="classparams_1_1_lat_parm_1a03c6d6be6e563232771067e77ce36c83" kind="function"><name>getVbr2</name></member>
+    <member refid="classparams_1_1_lat_parm_1a005ff41d71ddaec6e5d88bb29f9db65d" kind="function"><name>setVbr2</name></member>
+    <member refid="classparams_1_1_lat_parm_1a9d722976aed615a2652a439d05e9e808" kind="function"><name>getTbr2</name></member>
+    <member refid="classparams_1_1_lat_parm_1a4822893eea55552bac1de0e7dbefce3a" kind="function"><name>setTbr2</name></member>
+  </compound>
+  <compound refid="classtest_1_1params_1_1_lat_parm_test" kind="class"><name>test::params::LatParmTest</name>
+    <member refid="classtest_1_1params_1_1_lat_parm_test_1a86997d211c22da67b66dccea5af09e90" kind="function"><name>test</name></member>
+  </compound>
+  <compound refid="classdatumstrategy_1_1_mock_strategy" kind="class"><name>datumstrategy::MockStrategy</name>
+    <member refid="classdatumstrategy_1_1_mock_strategy_1a8f1bcf75604b78411e8f995d85b8f917" kind="function"><name>transform</name></member>
+  </compound>
+  <compound refid="classtest_1_1datumstrategy_1_1_mock_strategy_test" kind="class"><name>test::datumstrategy::MockStrategyTest</name>
+    <member refid="classtest_1_1datumstrategy_1_1_mock_strategy_test_1a22c23073602efc489f11cef72e4e31ff" kind="variable"><name>EPSILON_IN_METER</name></member>
+    <member refid="classtest_1_1datumstrategy_1_1_mock_strategy_test_1a55919249fc0fe25fb14af6dafe1103e9" kind="function"><name>testTransformGaussKruegerStrip3ToStrip4</name></member>
+    <member refid="classtest_1_1datumstrategy_1_1_mock_strategy_test_1a47ca9d2fa0cd85efb7d206c4c6c311fc" kind="function"><name>testTransformGaussKruegerStrip4ToStrip3</name></member>
+  </compound>
+  <compound refid="class_moc_strategy" kind="class"><name>MocStrategy</name>
+  </compound>
+  <compound refid="classdatumstrategy_1_1_molodenskii_transformation_abridged" kind="class"><name>datumstrategy::MolodenskiiTransformationAbridged</name>
+    <member refid="classdatumstrategy_1_1_molodenskii_transformation_abridged_1a39fb3d476cafb18df89db3236d76be92" kind="variable"><name>myInstance</name></member>
+    <member refid="classdatumstrategy_1_1_molodenskii_transformation_abridged_1a3c8eaf6d91d1e92bdd5091289c793cc7" kind="function"><name>MolodenskiiTransformationAbridged</name></member>
+    <member refid="classdatumstrategy_1_1_molodenskii_transformation_abridged_1a4537ec33b23bb164c5f43703c3f249fd" kind="function"><name>getInstance</name></member>
+    <member refid="classdatumstrategy_1_1_molodenskii_transformation_abridged_1a719bbb938c82de0bee45d3570e9e9444" kind="function"><name>transform</name></member>
+  </compound>
+  <compound refid="classtest_1_1datumstrategy_1_1_molodenskii_transformation_abridged_test" kind="class"><name>test::datumstrategy::MolodenskiiTransformationAbridgedTest</name>
+    <member refid="classtest_1_1datumstrategy_1_1_molodenskii_transformation_abridged_test_1a610979b0a53f204205e168292b759b7d" kind="variable"><name>RHO</name></member>
+    <member refid="classtest_1_1datumstrategy_1_1_molodenskii_transformation_abridged_test_1a3283f62836a504d9e5d14e79dc515af3" kind="variable"><name>EPSILON_meter</name></member>
+    <member refid="classtest_1_1datumstrategy_1_1_molodenskii_transformation_abridged_test_1a972fdaab19230f0a1cd6b1d8db069fb8" kind="variable"><name>EPSILON_rad</name></member>
+    <member refid="classtest_1_1datumstrategy_1_1_molodenskii_transformation_abridged_test_1a3d826c624212bd11262a17bda7614dbd" kind="function"><name>testMolodenskiiTransformationAbridged</name></member>
+  </compound>
+  <compound refid="classdatumstrategy_1_1_molodenskii_transformation_standard" kind="class"><name>datumstrategy::MolodenskiiTransformationStandard</name>
+    <member refid="classdatumstrategy_1_1_molodenskii_transformation_standard_1adf5e42e21481a8c9d0f3f70606ccbbbd" kind="variable"><name>myInstance</name></member>
+    <member refid="classdatumstrategy_1_1_molodenskii_transformation_standard_1a57734f96ea69c6d385ce682a41427ac6" kind="function"><name>MolodenskiiTransformationStandard</name></member>
+    <member refid="classdatumstrategy_1_1_molodenskii_transformation_standard_1a09d8ecc0b04ffbfeb3b4ef4a6024e3f6" kind="function"><name>getInstance</name></member>
+    <member refid="classdatumstrategy_1_1_molodenskii_transformation_standard_1a8a1d2f121cb0484a0ba2ddee678d8276" kind="function"><name>transform</name></member>
+  </compound>
+  <compound refid="classtest_1_1datumstrategy_1_1_molodenskii_transformation_standard_test" kind="class"><name>test::datumstrategy::MolodenskiiTransformationStandardTest</name>
+    <member refid="classtest_1_1datumstrategy_1_1_molodenskii_transformation_standard_test_1a5990a0ae43f891b15a9e2929ab45dff1" kind="variable"><name>RHO</name></member>
+    <member refid="classtest_1_1datumstrategy_1_1_molodenskii_transformation_standard_test_1a9c5344289519713727e90009b0a5d7aa" kind="variable"><name>EPSILON_IN_METER</name></member>
+    <member refid="classtest_1_1datumstrategy_1_1_molodenskii_transformation_standard_test_1aaff58952998f8e7d66c882d393adaa75" kind="variable"><name>EPSILON_IN_RAD</name></member>
+    <member refid="classtest_1_1datumstrategy_1_1_molodenskii_transformation_standard_test_1a2ffa0ad2e5287e5b4d54532653562161" kind="function"><name>testTransform</name></member>
+  </compound>
+  <compound refid="classparams_1_1_molodensky_parm" kind="class"><name>params::MolodenskyParm</name>
+    <member refid="classparams_1_1_molodensky_parm_1a398db3a8717a07b0ba3bead52a2ab328" kind="variable"><name>transx</name></member>
+    <member refid="classparams_1_1_molodensky_parm_1a1c88f8e58b8c4c702938f7ca54730dfb" kind="variable"><name>da</name></member>
+    <member refid="classparams_1_1_molodensky_parm_1adf7db552a2c437916331f8929199b069" kind="variable"><name>transy</name></member>
+    <member refid="classparams_1_1_molodensky_parm_1a9621ac79f19f314e86f8f52b233af51e" kind="variable"><name>transz</name></member>
+    <member refid="classparams_1_1_molodensky_parm_1a62bb8c414dbb36ff451cffa72927fbff" kind="variable"><name>df</name></member>
+    <member refid="classparams_1_1_molodensky_parm_1a991a43b0db63761d8e98f3c22b67ac5e" kind="function"><name>MolodenskyParm</name></member>
+    <member refid="classparams_1_1_molodensky_parm_1ae36f49d94cce595bbcc54f415b067090" kind="function"><name>getTransx</name></member>
+    <member refid="classparams_1_1_molodensky_parm_1a9a411659ba7a29544f291e1df02a6dff" kind="function"><name>setTransx</name></member>
+    <member refid="classparams_1_1_molodensky_parm_1aa5b210eca194d5b29d094af041b58c4d" kind="function"><name>getTransy</name></member>
+    <member refid="classparams_1_1_molodensky_parm_1a70a7882c10ac21dcae11c3485686a346" kind="function"><name>setTransy</name></member>
+    <member refid="classparams_1_1_molodensky_parm_1ab2aad11feb07ccae05114a4824f99b1d" kind="function"><name>getTransz</name></member>
+    <member refid="classparams_1_1_molodensky_parm_1a1268b870dd08c2807b791e0ca4899585" kind="function"><name>setTransz</name></member>
+    <member refid="classparams_1_1_molodensky_parm_1a16e2ec3bd6a408184f8495ca52345b28" kind="function"><name>getDa</name></member>
+    <member refid="classparams_1_1_molodensky_parm_1abacc786b70e541407bce9adfc1334a21" kind="function"><name>setDa</name></member>
+    <member refid="classparams_1_1_molodensky_parm_1a1bfa75066b9281ce813c952bb4a777eb" kind="function"><name>getDf</name></member>
+    <member refid="classparams_1_1_molodensky_parm_1a67e79048894ac79ae6ed2f3161cbd659" kind="function"><name>setDf</name></member>
+  </compound>
+  <compound refid="classcoordinates_1_1_soldner" kind="class"><name>coordinates::Soldner</name>
+    <member refid="classcoordinates_1_1_soldner_1a4d8a0b1f4fce55f1d8be6433a2160b17" kind="variable"><name>l0</name></member>
+    <member refid="classcoordinates_1_1_soldner_1a489fa7e9e4c0c09e502bbbf2fb7ad689" kind="variable"><name>b0</name></member>
+    <member refid="classcoordinates_1_1_soldner_1ab1bec5d8a11e84c0cdc3154fd1abf843" kind="variable"><name>abszisse</name></member>
+    <member refid="classcoordinates_1_1_soldner_1ab13e1d9275b47a0754ed33c572dba57a" kind="variable"><name>ordinate</name></member>
+    <member refid="classcoordinates_1_1_soldner_1a4db9877edcf2391422fe532bd7131856" kind="variable"><name>height</name></member>
+    <member refid="classcoordinates_1_1_soldner_1abef9061e0e316de4bba8f5e99292a2b5" kind="variable"><name>ellipsoidal</name></member>
+    <member refid="classcoordinates_1_1_soldner_1ab3e2a2c0566f9f12fa5d9c3460440a1a" kind="function"><name>Soldner</name></member>
+    <member refid="classcoordinates_1_1_soldner_1a92132f86c35d526b8419f8bde4e0bc0e" kind="function"><name>Soldner</name></member>
+    <member refid="classcoordinates_1_1_soldner_1a01998c873e25c1fbefb3aba8d1d24cdd" kind="function"><name>Soldner</name></member>
+    <member refid="classcoordinates_1_1_soldner_1a672aec8c4424e5a066f272d4864e8813" kind="function"><name>print</name></member>
+    <member refid="classcoordinates_1_1_soldner_1ab87732c40411256ffd5cfba0ad4bd2cc" kind="function"><name>getAsGeographicInterface</name></member>
+    <member refid="classcoordinates_1_1_soldner_1a5681bdb4c77cb4e6e483abca00758a48" kind="function"><name>getAsTargetCoordinate</name></member>
+    <member refid="classcoordinates_1_1_soldner_1a58e4fa59465e0953f6302ea668f2d270" kind="function"><name>getL0</name></member>
+    <member refid="classcoordinates_1_1_soldner_1abc6b1143ff0485b110cdc7b33f712ed3" kind="function"><name>setL0</name></member>
+    <member refid="classcoordinates_1_1_soldner_1a6ab74bfedc2b81db5ec9b40228b5a51c" kind="function"><name>getB0</name></member>
+    <member refid="classcoordinates_1_1_soldner_1a597b8292c312c36e547df97285e55d4a" kind="function"><name>setB0</name></member>
+    <member refid="classcoordinates_1_1_soldner_1a1bb5f8b49d0f2858f22028f3532d1ee3" kind="function"><name>getAbszisse</name></member>
+    <member refid="classcoordinates_1_1_soldner_1ab1de539c6b4d0855debaa87339edbedd" kind="function"><name>setAbszisse</name></member>
+    <member refid="classcoordinates_1_1_soldner_1abb044e1be4724e6cd0ee72083a6245d0" kind="function"><name>getOrdinate</name></member>
+    <member refid="classcoordinates_1_1_soldner_1a991dbfcef201d4740613960da3794bf6" kind="function"><name>setOrdinate</name></member>
+    <member refid="classcoordinates_1_1_soldner_1a0b9ff78b3e7f94bef19549746c67ea92" kind="function"><name>getHeight</name></member>
+    <member refid="classcoordinates_1_1_soldner_1afc305a8276613f55b9aa79638a514789" kind="function"><name>setHeight</name></member>
+    <member refid="classcoordinates_1_1_soldner_1ace54cd7d0157cf876c22e7877fc65c01" kind="function"><name>getEllipsoidal</name></member>
+    <member refid="classcoordinates_1_1_soldner_1abf6ceb3d9b6edd741fdd05580b0593fa" kind="function"><name>setEllipsoidal</name></member>
+  </compound>
+  <compound refid="classdatumstrategy_1_1_spatial_similarity_transformation_infin" kind="class"><name>datumstrategy::SpatialSimilarityTransformationInfin</name>
+    <member refid="classdatumstrategy_1_1_spatial_similarity_transformation_infin_1a10a133bbcba0dec7e7bdff6a430087b5" kind="function"><name>transform</name></member>
+  </compound>
+  <compound refid="classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_infin_test" kind="class"><name>test::datumstrategy::SpatialSimilarityTransformationInfinTest</name>
+    <member refid="classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_infin_test_1aa016edf6bf224002040583f752176963" kind="variable"><name>RHO</name></member>
+    <member refid="classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_infin_test_1a467025b4955fd900f73ef4caff6ecfbf" kind="variable"><name>EPSILON_IN_METER</name></member>
+    <member refid="classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_infin_test_1ad96e520f6a2da758d637c04d1dd1d170" kind="variable"><name>EPSILON_IN_RAD</name></member>
+    <member refid="classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_infin_test_1a24855428393085e2381fc70954f033b2" kind="function"><name>testTransform</name></member>
+  </compound>
+  <compound refid="classdatumstrategy_1_1_spatial_similarity_transformation_trig" kind="class"><name>datumstrategy::SpatialSimilarityTransformationTrig</name>
+    <member refid="classdatumstrategy_1_1_spatial_similarity_transformation_trig_1a026ecdb781e479e89d09cd51ea9869c0" kind="function"><name>transform</name></member>
+  </compound>
+  <compound refid="classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_trig_test" kind="class"><name>test::datumstrategy::SpatialSimilarityTransformationTrigTest</name>
+    <member refid="classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_trig_test_1a5e78111ac0602013a3f6d69095701d8c" kind="variable"><name>RHO</name></member>
+    <member refid="classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_trig_test_1a5eb06f4f83b6d03070341107520f3eed" kind="variable"><name>EPSILON_IN_METER</name></member>
+    <member refid="classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_trig_test_1a634fa20b244fa32474282e106a0f207d" kind="variable"><name>EPSILON_IN_RAD</name></member>
+    <member refid="classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_trig_test_1aaba8cd634d7c737b2f4cd7860230c356" kind="function"><name>testTransform</name></member>
+  </compound>
+  <compound refid="classparams_1_1_spatial_similarity_transform_parm" kind="class"><name>params::SpatialSimilarityTransformParm</name>
+    <member refid="classparams_1_1_spatial_similarity_transform_parm_1aca67c037fdd9703e00d1b2a01e4c34b7" kind="variable"><name>transx</name></member>
+    <member refid="classparams_1_1_spatial_similarity_transform_parm_1a4f23eb3e8b5fc1b10958fd60b6484a77" kind="variable"><name>alpha</name></member>
+    <member refid="classparams_1_1_spatial_similarity_transform_parm_1af481ab8897e883489a144acfb6257220" kind="variable"><name>scale</name></member>
+    <member refid="classparams_1_1_spatial_similarity_transform_parm_1a79c758206551aee1178f8bdab3ecb488" kind="variable"><name>formula</name></member>
+    <member refid="classparams_1_1_spatial_similarity_transform_parm_1ac0fc69adf9f30ede924ca99951f45608" kind="variable"><name>transy</name></member>
+    <member refid="classparams_1_1_spatial_similarity_transform_parm_1a00d66e8addc643f393cc091bb3f077a6" kind="variable"><name>transz</name></member>
+    <member refid="classparams_1_1_spatial_similarity_transform_parm_1a1b22cc4115a083b88f4b18ebdf15c7bb" kind="variable"><name>beta</name></member>
+    <member refid="classparams_1_1_spatial_similarity_transform_parm_1a39658a6676a9e89a3f84d0f338c559c2" kind="variable"><name>gamma</name></member>
+    <member refid="classparams_1_1_spatial_similarity_transform_parm_1a99b66f5f68f75d9a24a2e25455b18817" kind="function"><name>SpatialSimilarityTransformParm</name></member>
+    <member refid="classparams_1_1_spatial_similarity_transform_parm_1a37fd744ccbc74031df2da8f098815332" kind="function"><name>getTransx</name></member>
+    <member refid="classparams_1_1_spatial_similarity_transform_parm_1aba92ce1ddf711516948e45ac4f324d2b" kind="function"><name>setTransx</name></member>
+    <member refid="classparams_1_1_spatial_similarity_transform_parm_1aad089a34d066807c564cd52d38a6eb1d" kind="function"><name>getTransy</name></member>
+    <member refid="classparams_1_1_spatial_similarity_transform_parm_1a95abfe42f6dbacca540045bd351e2f8a" kind="function"><name>setTransy</name></member>
+    <member refid="classparams_1_1_spatial_similarity_transform_parm_1a1a1bdcbebcd6d163e10ca26adfdc38af" kind="function"><name>getTransz</name></member>
+    <member refid="classparams_1_1_spatial_similarity_transform_parm_1ae24da150263352bbf42c86eb994b3e92" kind="function"><name>setTransz</name></member>
+    <member refid="classparams_1_1_spatial_similarity_transform_parm_1a216da0bc2f6cbb4ed137e2146527b42b" kind="function"><name>getAlpha</name></member>
+    <member refid="classparams_1_1_spatial_similarity_transform_parm_1ae5ed35054bccb93612ed02174c83ad2c" kind="function"><name>setAlpha</name></member>
+    <member refid="classparams_1_1_spatial_similarity_transform_parm_1ae9e8e3926d4f2909d772f3bd6018ea99" kind="function"><name>getBeta</name></member>
+    <member refid="classparams_1_1_spatial_similarity_transform_parm_1a2a5a2416faca1d1afa482d65737f9b21" kind="function"><name>setBeta</name></member>
+    <member refid="classparams_1_1_spatial_similarity_transform_parm_1aab854337ef47999b9bdd44f7a319fd77" kind="function"><name>getGamma</name></member>
+    <member refid="classparams_1_1_spatial_similarity_transform_parm_1aaab95d6e73a61147ff22c52971cdf728" kind="function"><name>setGamma</name></member>
+    <member refid="classparams_1_1_spatial_similarity_transform_parm_1a570ac3a9dd6a2448e4eeffac47cdca6d" kind="function"><name>getScale</name></member>
+    <member refid="classparams_1_1_spatial_similarity_transform_parm_1a73755392f0f98c4cdd20de9770935f22" kind="function"><name>setScale</name></member>
+    <member refid="classparams_1_1_spatial_similarity_transform_parm_1ad59a530af9a3860239c9cfc5ea37b738" kind="function"><name>getFormula</name></member>
+    <member refid="classparams_1_1_spatial_similarity_transform_parm_1a527f9a94419840c4a7bb60db5bf99acb" kind="function"><name>setFormula</name></member>
+  </compound>
+  <compound refid="class_transformation" kind="class"><name>Transformation</name>
+    <member refid="class_transformation_1afe43b1123ddd254a15446af548bd251f" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="classdatumstrategy_1_1_transformation_strategy" kind="class"><name>datumstrategy::TransformationStrategy</name>
+    <member refid="classdatumstrategy_1_1_transformation_strategy_1a0fd1d6fbba01e5222360740e34eae786" kind="function"><name>transform</name></member>
+  </compound>
+  <compound refid="classcoordinates_1_1_u_t_m" kind="class"><name>coordinates::UTM</name>
+    <member refid="classcoordinates_1_1_u_t_m_1adb4ff0c8fbf9f7829c23fb4ca2abba64" kind="variable"><name>east</name></member>
+    <member refid="classcoordinates_1_1_u_t_m_1a74bc382b61e98b1438c07e101de460e9" kind="variable"><name>north</name></member>
+    <member refid="classcoordinates_1_1_u_t_m_1a895d50db8cc3e81cb4d8ec1142a6939d" kind="variable"><name>zone</name></member>
+    <member refid="classcoordinates_1_1_u_t_m_1adb335a29a61081a69f82fb18047b2533" kind="variable"><name>northhem</name></member>
+    <member refid="classcoordinates_1_1_u_t_m_1a073084a261396fbd5c408c6af8740b18" kind="function"><name>UTM</name></member>
+    <member refid="classcoordinates_1_1_u_t_m_1acc60077a37c7b6f1d24c00401e97064d" kind="function"><name>init</name></member>
+    <member refid="classcoordinates_1_1_u_t_m_1a40435144851f7e23b573debd797e0e97" kind="function"><name>print</name></member>
+    <member refid="classcoordinates_1_1_u_t_m_1a007d51832fcdc5eb721f04f23d4be8f9" kind="function"><name>getAsGeographicInterface</name></member>
+    <member refid="classcoordinates_1_1_u_t_m_1a2f86a0eacc36537c221bedb7381aa77b" kind="function"><name>getAsTargetCoordinate</name></member>
+    <member refid="classcoordinates_1_1_u_t_m_1a08cf8f5990690f37ae9d9670fbd07948" kind="function"><name>getEast</name></member>
+    <member refid="classcoordinates_1_1_u_t_m_1af6ff720d80ed39a71374b4661e2ae522" kind="function"><name>setEast</name></member>
+    <member refid="classcoordinates_1_1_u_t_m_1a12d9f36ab80910493da069a28cfcb5be" kind="function"><name>getNorth</name></member>
+    <member refid="classcoordinates_1_1_u_t_m_1a6c5f165da723729691b4729e273edfb0" kind="function"><name>setNorth</name></member>
+    <member refid="classcoordinates_1_1_u_t_m_1a30934884d4cbb4ee126c2a0b14f5ca39" kind="function"><name>getZone</name></member>
+    <member refid="classcoordinates_1_1_u_t_m_1a4989561b051ee38c85dea9987cd8b0ed" kind="function"><name>setZone</name></member>
+    <member refid="classcoordinates_1_1_u_t_m_1a5aab8f83eec4a8c79c3f197af6aad15a" kind="function"><name>isNorthhem</name></member>
+    <member refid="classcoordinates_1_1_u_t_m_1a6702ef8bed154007a7ddb7555bc76fe6" kind="function"><name>setNorthhem</name></member>
+  </compound>
+  <compound refid="classtest_1_1coordinates_1_1_u_t_m_test" kind="class"><name>test::coordinates::UTMTest</name>
+    <member refid="classtest_1_1coordinates_1_1_u_t_m_test_1a9fe30b22ec0874591134eeb4f76b5d69" kind="function"><name>testGetAsGeographicInterface</name></member>
+    <member refid="classtest_1_1coordinates_1_1_u_t_m_test_1af7708acee9f0dbec4fb9e78925e1170b" kind="function"><name>testGetAsUTM</name></member>
+  </compound>
+  <compound refid="classcoordinates_1_1_x_y_z_coordinate" kind="class"><name>coordinates::XYZCoordinate</name>
+    <member refid="classcoordinates_1_1_x_y_z_coordinate_1a93f191f410b19d99a71d3c66ef27df29" kind="variable"><name>x</name></member>
+    <member refid="classcoordinates_1_1_x_y_z_coordinate_1a3b6ac44393c2beae9400509ca89f93cc" kind="variable"><name>y</name></member>
+    <member refid="classcoordinates_1_1_x_y_z_coordinate_1a4d9238fdadb5568f9dc6b1181664500b" kind="variable"><name>z</name></member>
+    <member refid="classcoordinates_1_1_x_y_z_coordinate_1a6876892e552ee2a50333c22eef451700" kind="function"><name>XYZCoordinate</name></member>
+    <member refid="classcoordinates_1_1_x_y_z_coordinate_1a88847e65ce05894be77bd2735d15a4ca" kind="function"><name>init</name></member>
+    <member refid="classcoordinates_1_1_x_y_z_coordinate_1ac635db09dd4c2e8415c8d83a199d754c" kind="function"><name>XYZCoordinate</name></member>
+    <member refid="classcoordinates_1_1_x_y_z_coordinate_1afc0aea9eb642ba760263fe7bedfbf89b" kind="function"><name>XYZCoordinate</name></member>
+    <member refid="classcoordinates_1_1_x_y_z_coordinate_1add6f4e104b8f7c0dfc2f7d63594abe0d" kind="function"><name>getAsGeographicInterface</name></member>
+    <member refid="classcoordinates_1_1_x_y_z_coordinate_1a565677c6fc44b6241255d0733e72e048" kind="function"><name>getAsTargetCoordinate</name></member>
+    <member refid="classcoordinates_1_1_x_y_z_coordinate_1a4ff7f1c0dee75f3c60dc735c26129761" kind="function"><name>print</name></member>
+    <member refid="classcoordinates_1_1_x_y_z_coordinate_1ab9055f02276f40c7c9bd0929544b31d4" kind="function"><name>getX</name></member>
+    <member refid="classcoordinates_1_1_x_y_z_coordinate_1a38d36c730bd53179a0188d6d069f6400" kind="function"><name>setX</name></member>
+    <member refid="classcoordinates_1_1_x_y_z_coordinate_1a5b1614c8fb0680235ff866695d56bfd0" kind="function"><name>getY</name></member>
+    <member refid="classcoordinates_1_1_x_y_z_coordinate_1ae2af422b072d32e47eeef02520c74402" kind="function"><name>setY</name></member>
+    <member refid="classcoordinates_1_1_x_y_z_coordinate_1a1273b99ae80abff51a75b6ced7f3e10f" kind="function"><name>getZ</name></member>
+    <member refid="classcoordinates_1_1_x_y_z_coordinate_1a0e32806c394f28e22238765c2fde9eee" kind="function"><name>setZ</name></member>
+  </compound>
+  <compound refid="classtest_1_1coordinates_1_1_x_y_z_coordinate_test" kind="class"><name>test::coordinates::XYZCoordinateTest</name>
+    <member refid="classtest_1_1coordinates_1_1_x_y_z_coordinate_test_1a825f8a2c4115e500482e33ec52265567" kind="function"><name>testGetAsGeographicInterface</name></member>
+    <member refid="classtest_1_1coordinates_1_1_x_y_z_coordinate_test_1adf00bb14850261b98a82ef386137d104" kind="function"><name>testGetAsTargetCoordinate</name></member>
+  </compound>
+  <compound refid="namespacecoordinates" kind="namespace"><name>coordinates</name>
+  </compound>
+  <compound refid="namespacedatumstrategy" kind="namespace"><name>datumstrategy</name>
+  </compound>
+  <compound refid="namespaceorg_1_1junit_1_1_assert" kind="namespace"><name>org::junit::Assert</name>
+  </compound>
+  <compound refid="namespaceparams" kind="namespace"><name>params</name>
+  </compound>
+  <compound refid="namespacetest" kind="namespace"><name>test</name>
+  </compound>
+  <compound refid="namespacetest_1_1coordinates" kind="namespace"><name>test::coordinates</name>
+  </compound>
+  <compound refid="namespacetest_1_1datumstrategy" kind="namespace"><name>test::datumstrategy</name>
+  </compound>
+  <compound refid="namespacetest_1_1params" kind="namespace"><name>test::params</name>
+  </compound>
+  <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="_coordinate_8java" kind="file"><name>Coordinate.java</name>
+  </compound>
+  <compound refid="_gauss_8java" kind="file"><name>Gauss.java</name>
+  </compound>
+  <compound refid="_gauss_krueger_8java" kind="file"><name>GaussKrueger.java</name>
+  </compound>
+  <compound refid="_geographic_coordinate_8java" kind="file"><name>GeographicCoordinate.java</name>
+  </compound>
+  <compound refid="_geographic_coordinate_interface_8java" kind="file"><name>GeographicCoordinateInterface.java</name>
+  </compound>
+  <compound refid="_get_appropriate_coordinate_8java" kind="file"><name>GetAppropriateCoordinate.java</name>
+  </compound>
+  <compound refid="_soldner_8java" kind="file"><name>Soldner.java</name>
+  </compound>
+  <compound refid="_u_t_m_8java" kind="file"><name>UTM.java</name>
+  </compound>
+  <compound refid="_x_y_z_coordinate_8java" kind="file"><name>XYZCoordinate.java</name>
+  </compound>
+  <compound refid="_cardans_transformation_8java" kind="file"><name>CardansTransformation.java</name>
+  </compound>
+  <compound refid="_eulers_transformation_8java" kind="file"><name>EulersTransformation.java</name>
+  </compound>
+  <compound refid="_get_appropriate_transformation_algorithm_8java" kind="file"><name>GetAppropriateTransformationAlgorithm.java</name>
+  </compound>
+  <compound refid="_mock_strategy_8java" kind="file"><name>MockStrategy.java</name>
+  </compound>
+  <compound refid="_molodenskii_transformation_abridged_8java" kind="file"><name>MolodenskiiTransformationAbridged.java</name>
+  </compound>
+  <compound refid="_molodenskii_transformation_standard_8java" kind="file"><name>MolodenskiiTransformationStandard.java</name>
+  </compound>
+  <compound refid="_spatial_similarity_transformation_infin_8java" kind="file"><name>SpatialSimilarityTransformationInfin.java</name>
+  </compound>
+  <compound refid="_spatial_similarity_transformation_trig_8java" kind="file"><name>SpatialSimilarityTransformationTrig.java</name>
+  </compound>
+  <compound refid="_transformation_strategy_8java" kind="file"><name>TransformationStrategy.java</name>
+  </compound>
+  <compound refid="_control_parms_8java" kind="file"><name>ControlParms.java</name>
+  </compound>
+  <compound refid="_ellipsoid_parms_8java" kind="file"><name>EllipsoidParms.java</name>
+  </compound>
+  <compound refid="_lat_parm_8java" kind="file"><name>LatParm.java</name>
+  </compound>
+  <compound refid="_molodensky_parm_8java" kind="file"><name>MolodenskyParm.java</name>
+  </compound>
+  <compound refid="_spatial_similarity_transform_parm_8java" kind="file"><name>SpatialSimilarityTransformParm.java</name>
+  </compound>
+  <compound refid="_all_tests_8java" kind="file"><name>AllTests.java</name>
+  </compound>
+  <compound refid="_coordinate_factory_test_8java" kind="file"><name>CoordinateFactoryTest.java</name>
+  </compound>
+  <compound refid="_gauss_krueger_test_8java" kind="file"><name>GaussKruegerTest.java</name>
+  </compound>
+  <compound refid="_gauss_test_8java" kind="file"><name>GaussTest.java</name>
+  </compound>
+  <compound refid="_geographic_coordinate_test_8java" kind="file"><name>GeographicCoordinateTest.java</name>
+  </compound>
+  <compound refid="_u_t_m_test_8java" kind="file"><name>UTMTest.java</name>
+  </compound>
+  <compound refid="_x_y_z_coordinate_test_8java" kind="file"><name>XYZCoordinateTest.java</name>
+  </compound>
+  <compound refid="_get_appropriate_transformation_algorithm_test_8java" kind="file"><name>GetAppropriateTransformationAlgorithmTest.java</name>
+  </compound>
+  <compound refid="_mock_strategy_test_8java" kind="file"><name>MockStrategyTest.java</name>
+  </compound>
+  <compound refid="_molodenskii_transformation_abridged_test_8java" kind="file"><name>MolodenskiiTransformationAbridgedTest.java</name>
+  </compound>
+  <compound refid="_molodenskii_transformation_standard_test_8java" kind="file"><name>MolodenskiiTransformationStandardTest.java</name>
+  </compound>
+  <compound refid="_spatial_similarity_transformation_infin_test_8java" kind="file"><name>SpatialSimilarityTransformationInfinTest.java</name>
+  </compound>
+  <compound refid="_spatial_similarity_transformation_trig_test_8java" kind="file"><name>SpatialSimilarityTransformationTrigTest.java</name>
+  </compound>
+  <compound refid="_lat_parm_test_8java" kind="file"><name>LatParmTest.java</name>
+  </compound>
+  <compound refid="_transformation_8java" kind="file"><name>Transformation.java</name>
+  </compound>
+  <compound refid="md__c_1__users__yang_xiaofei__desktop__workplace0115__transformation1_bin__r_e_a_d_m_e" kind="page"><name>md_C:_Users_YangXiaofei_Desktop_Workplace0115_Transformation1_bin_README</name>
+  </compound>
+  <compound refid="dir_2ea30aa2956a8db99dd22aa5e597f384" kind="dir"><name>C:/Users/YangXiaofei/Desktop/Workplace0115/Transformation1/bin</name>
+  </compound>
+  <compound refid="dir_1473556548c4f516830f6b7516412b42" kind="dir"><name>coordinates</name>
+  </compound>
+  <compound refid="dir_50903af7d7012b5979f71ffb57661491" kind="dir"><name>test/coordinates</name>
+  </compound>
+  <compound refid="dir_6e2c16c2880b7faaeef289201e544889" kind="dir"><name>datumstrategy</name>
+  </compound>
+  <compound refid="dir_07cc087f88d9aa11ca4ed2486a6413b6" kind="dir"><name>test/datumstrategy</name>
+  </compound>
+  <compound refid="dir_5028c5e46e138221cb4fd8c9a6adf61b" kind="dir"><name>params</name>
+  </compound>
+  <compound refid="dir_0eb78efa25a57e4fa6d057125d6ed93c" kind="dir"><name>test/params</name>
+  </compound>
+  <compound refid="dir_120ed4da3e3217b1e7fc0b4f48568e79" kind="dir"><name>test</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

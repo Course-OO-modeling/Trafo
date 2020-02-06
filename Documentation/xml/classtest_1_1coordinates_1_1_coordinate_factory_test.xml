@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtest_1_1coordinates_1_1_coordinate_factory_test" kind="class" language="Java" prot="public">
+    <compoundname>test::coordinates::CoordinateFactoryTest</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtest_1_1coordinates_1_1_coordinate_factory_test_1a81785f2e27095044bf840af1bd7c4318" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void test.coordinates.CoordinateFactoryTest.testGetCoordGK</definition>
+        <argsstring>()</argsstring>
+        <name>testGetCoordGK</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/coordinates/CoordinateFactoryTest.java" line="24" column="13" bodyfile="test/coordinates/CoordinateFactoryTest.java" bodystart="24" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classtest_1_1coordinates_1_1_coordinate_factory_test_1acf98b157e3fd1cc08ba0c606a1dc0cb6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void test.coordinates.CoordinateFactoryTest.testGetCoordUTM</definition>
+        <argsstring>()</argsstring>
+        <name>testGetCoordUTM</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/coordinates/CoordinateFactoryTest.java" line="31" column="13" bodyfile="test/coordinates/CoordinateFactoryTest.java" bodystart="31" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classtest_1_1coordinates_1_1_coordinate_factory_test_1ae193c135bac34e54987262ea1811e9ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void test.coordinates.CoordinateFactoryTest.testGetCoordSoldner</definition>
+        <argsstring>()</argsstring>
+        <name>testGetCoordSoldner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/coordinates/CoordinateFactoryTest.java" line="38" column="13" bodyfile="test/coordinates/CoordinateFactoryTest.java" bodystart="38" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classtest_1_1coordinates_1_1_coordinate_factory_test_1abf343cdc1f007982306646bb8a4096fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void test.coordinates.CoordinateFactoryTest.testGetCoordGeographic</definition>
+        <argsstring>()</argsstring>
+        <name>testGetCoordGeographic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/coordinates/CoordinateFactoryTest.java" line="45" column="13" bodyfile="test/coordinates/CoordinateFactoryTest.java" bodystart="45" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classtest_1_1coordinates_1_1_coordinate_factory_test_1a86b71bd7d1c48449f8fbec64a3e47c63" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void test.coordinates.CoordinateFactoryTest.testGetXYZ</definition>
+        <argsstring>()</argsstring>
+        <name>testGetXYZ</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/coordinates/CoordinateFactoryTest.java" line="52" column="13" bodyfile="test/coordinates/CoordinateFactoryTest.java" bodystart="52" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Coordinate factory for plane coordinates and geographic coordinates. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Norbert Roesch </para>
+</simplesect>
+<simplesect kind="remark"><para>January 2019 ensure the factory produces the right objects </para>
+</simplesect>
+<simplesect kind="version"><para>0.1 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="test/coordinates/CoordinateFactoryTest.java" line="21" column="35" bodyfile="test/coordinates/CoordinateFactoryTest.java" bodystart="21" bodyend="57"/>
+    <listofallmembers>
+      <member refid="classtest_1_1coordinates_1_1_coordinate_factory_test_1abf343cdc1f007982306646bb8a4096fb" prot="public" virt="non-virtual"><scope>test::coordinates::CoordinateFactoryTest</scope><name>testGetCoordGeographic</name></member>
+      <member refid="classtest_1_1coordinates_1_1_coordinate_factory_test_1a81785f2e27095044bf840af1bd7c4318" prot="public" virt="non-virtual"><scope>test::coordinates::CoordinateFactoryTest</scope><name>testGetCoordGK</name></member>
+      <member refid="classtest_1_1coordinates_1_1_coordinate_factory_test_1ae193c135bac34e54987262ea1811e9ae" prot="public" virt="non-virtual"><scope>test::coordinates::CoordinateFactoryTest</scope><name>testGetCoordSoldner</name></member>
+      <member refid="classtest_1_1coordinates_1_1_coordinate_factory_test_1acf98b157e3fd1cc08ba0c606a1dc0cb6" prot="public" virt="non-virtual"><scope>test::coordinates::CoordinateFactoryTest</scope><name>testGetCoordUTM</name></member>
+      <member refid="classtest_1_1coordinates_1_1_coordinate_factory_test_1a86b71bd7d1c48449f8fbec64a3e47c63" prot="public" virt="non-virtual"><scope>test::coordinates::CoordinateFactoryTest</scope><name>testGetXYZ</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

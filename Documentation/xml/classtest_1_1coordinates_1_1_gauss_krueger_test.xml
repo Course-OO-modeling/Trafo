@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtest_1_1coordinates_1_1_gauss_krueger_test" kind="class" language="Java" prot="public">
+    <compoundname>test::coordinates::GaussKruegerTest</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtest_1_1coordinates_1_1_gauss_krueger_test_1aa03e906f12c6081dcd86c456f3a7b8f0" prot="private" static="no" mutable="no">
+        <type>final double</type>
+        <definition>final double test.coordinates.GaussKruegerTest.RHO</definition>
+        <argsstring></argsstring>
+        <name>RHO</name>
+        <initializer>= 180/Math.PI</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/coordinates/GaussKruegerTest.java" line="22" column="22" bodyfile="test/coordinates/GaussKruegerTest.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtest_1_1coordinates_1_1_gauss_krueger_test_1a6e85a27ed2aecfc31241c7d2a241031b" prot="private" static="no" mutable="no">
+        <type>final double</type>
+        <definition>final double test.coordinates.GaussKruegerTest.EPSILON_IN_METER</definition>
+        <argsstring></argsstring>
+        <name>EPSILON_IN_METER</name>
+        <initializer>= 0.001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/coordinates/GaussKruegerTest.java" line="23" column="22" bodyfile="test/coordinates/GaussKruegerTest.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtest_1_1coordinates_1_1_gauss_krueger_test_1aa5744aa1588cee16e75613c3c87ffa95" prot="private" static="no" mutable="no">
+        <type>final double</type>
+        <definition>final double test.coordinates.GaussKruegerTest.EPSILON_IN_DEGREE</definition>
+        <argsstring></argsstring>
+        <name>EPSILON_IN_DEGREE</name>
+        <initializer>= 0.00000001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/coordinates/GaussKruegerTest.java" line="24" column="22" bodyfile="test/coordinates/GaussKruegerTest.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtest_1_1coordinates_1_1_gauss_krueger_test_1a62853f3343d509800d24d65098a532c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void test.coordinates.GaussKruegerTest.getAsGeographic</definition>
+        <argsstring>()</argsstring>
+        <name>getAsGeographic</name>
+        <briefdescription>
+<para>tests method getAsGeographic from class GaussKrueger, overwritten from abstract class coordinate expected values and input values are taken from book &quot;Rechenformeln und Rechenbeispiele zur Landesvermessung - Teil 2&quot; from Prof.Dr.-Ing. Albert Schoedlbauer, Robert Wichmann Verlag Karlsruhe, page 88 <linebreak/>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/coordinates/GaussKruegerTest.java" line="32" column="13" bodyfile="test/coordinates/GaussKruegerTest.java" bodystart="32" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classtest_1_1coordinates_1_1_gauss_krueger_test_1a9d6f53566a17ffa437f244668187f1c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void test.coordinates.GaussKruegerTest.getAsGaussKrueger</definition>
+        <argsstring>()</argsstring>
+        <name>getAsGaussKrueger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/coordinates/GaussKruegerTest.java" line="61" column="13" bodyfile="test/coordinates/GaussKruegerTest.java" bodystart="61" bodyend="80"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Test class with unit tests to test behavior class GaussKrueger. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="remark"><para>last refactored 11.12.2017 by Eva Majer <linebreak/>
+ <itemizedlist>
+<listitem>
+<para>adaptions for ControlParms Singleton </para>
+</listitem>
+</itemizedlist>
+</para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="test/coordinates/GaussKruegerTest.java" line="21" column="30" bodyfile="test/coordinates/GaussKruegerTest.java" bodystart="21" bodyend="81"/>
+    <listofallmembers>
+      <member refid="classtest_1_1coordinates_1_1_gauss_krueger_test_1aa5744aa1588cee16e75613c3c87ffa95" prot="private" virt="non-virtual"><scope>test::coordinates::GaussKruegerTest</scope><name>EPSILON_IN_DEGREE</name></member>
+      <member refid="classtest_1_1coordinates_1_1_gauss_krueger_test_1a6e85a27ed2aecfc31241c7d2a241031b" prot="private" virt="non-virtual"><scope>test::coordinates::GaussKruegerTest</scope><name>EPSILON_IN_METER</name></member>
+      <member refid="classtest_1_1coordinates_1_1_gauss_krueger_test_1a9d6f53566a17ffa437f244668187f1c3" prot="public" virt="non-virtual"><scope>test::coordinates::GaussKruegerTest</scope><name>getAsGaussKrueger</name></member>
+      <member refid="classtest_1_1coordinates_1_1_gauss_krueger_test_1a62853f3343d509800d24d65098a532c1" prot="public" virt="non-virtual"><scope>test::coordinates::GaussKruegerTest</scope><name>getAsGeographic</name></member>
+      <member refid="classtest_1_1coordinates_1_1_gauss_krueger_test_1aa03e906f12c6081dcd86c456f3a7b8f0" prot="private" virt="non-virtual"><scope>test::coordinates::GaussKruegerTest</scope><name>RHO</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -2,7 +2,6 @@ package params;
 
 // package Klassen;
 
-
 import params.EllipsoidParms;
 
 /**
@@ -13,115 +12,119 @@ import params.EllipsoidParms;
  */
 public final class LatParm {
 
-    private double radm;  /**< radius of meridian curvature M */
-    private double radn;  /**< radius of transverse curvature N */
-    private double radg;  /**< coordinates. Gaussian curvature radius G */
-    private double tbr;   /**< Tangent of latitude */
-    private double vbr;   /**< auxiliary value V for the latitude BR */
-    private double etabr; /**< auxiliary value eta2 for the latitude BR */
-    private double cbr, vbr2, tbr2;
+	private double radm;
+	/** < radius of meridian curvature M */
+	private double radn;
+	/** < radius of transverse curvature N */
+	private double radg;
+	/** < coordinates. Gaussian curvature radius G */
+	private double tbr;
+	/** < Tangent of latitude */
+	private double vbr;
+	/** < auxiliary value V for the latitude BR */
+	private double etabr;
+	/** < auxiliary value eta2 for the latitude BR */
+	private double cbr, vbr2, tbr2;
 
-/******************************************************************************************************************
-* KONSTRUKTOREN                                                                                                   *
-******************************************************************************************************************/
+	/******************************************************************************************************************
+	 * KONSTRUKTOREN *
+	 ******************************************************************************************************************/
 
-    public LatParm() {
-        radm = radn = radg = tbr = 0.;
-        vbr = etabr = cbr = vbr2 = tbr2 = 0.;
-    } // end params.LatParm
+	public LatParm() {
+		radm = radn = radg = tbr = 0.;
+		vbr = etabr = cbr = vbr2 = tbr2 = 0.;
+	} // end params.LatParm
 
-/******************************************************************************************************************
-* HILFSMETHODEN                                                                                                   *
-******************************************************************************************************************/
+	/******************************************************************************************************************
+	 * HILFSMETHODEN *
+	 ******************************************************************************************************************/
 
+	public void Constant(EllipsoidParms ell, double latitude) {
+		cbr = Math.cos(latitude);
+		etabr = ell.getSecondEccentricity() * cbr * cbr;
+		vbr2 = 1 + etabr;
+		vbr = Math.sqrt(vbr2);
+		radn = ell.getC() / vbr;
+		radm = radn / vbr2;
+		radg = ell.getC() / vbr2;
+		tbr = Math.tan(latitude);
+		tbr2 = tbr * tbr;
+	} // end Constant
 
-    public void Constant(EllipsoidParms ell, double latitude) {
-        cbr = Math.cos(latitude);
-        etabr = ell.getSecondEccentricity() * cbr * cbr;
-        vbr2 = 1 + etabr;
-        vbr = Math.sqrt(vbr2);
-        radn = ell.getC() / vbr;
-        radm = radn / vbr2;
-        radg = ell.getC() / vbr2;
-        tbr = Math.tan(latitude);
-        tbr2 = tbr * tbr;
-    } // end Constant
+	/******************************************************************************************************************
+	 * GETTER UND SETTER *
+	 ******************************************************************************************************************/
 
+	public double getRadm() {
+		return radm;
+	}
 
-/******************************************************************************************************************
-* GETTER UND SETTER                                                                                                   *
-******************************************************************************************************************/
+	public void setRadm(double radm) {
+		this.radm = radm;
+	}
 
-    public double getRadm() {
-        return radm;
-    }
+	public double getRadn() {
+		return radn;
+	}
 
-    public void setRadm(double radm) {
-        this.radm = radm;
-    }
+	public void setRadn(double radn) {
+		this.radn = radn;
+	}
 
-    public double getRadn() {
-        return radn;
-    }
+	public double getRadg() {
+		return radg;
+	}
 
-    public void setRadn(double radn) {
-        this.radn = radn;
-    }
+	public void setRadg(double radg) {
+		this.radg = radg;
+	}
 
-    public double getRadg() {
-        return radg;
-    }
+	public double getTbr() {
+		return tbr;
+	}
 
-    public void setRadg(double radg) {
-        this.radg = radg;
-    }
+	public void setTbr(double tbr) {
+		this.tbr = tbr;
+	}
 
-    public double getTbr() {
-        return tbr;
-    }
+	public double getVbr() {
+		return vbr;
+	}
 
-    public void setTbr(double tbr) {
-        this.tbr = tbr;
-    }
+	public void setVbr(double vbr) {
+		this.vbr = vbr;
+	}
 
-    public double getVbr() {
-        return vbr;
-    }
+	public double getEtabr() {
+		return etabr;
+	}
 
-    public void setVbr(double vbr) {
-        this.vbr = vbr;
-    }
+	public void setEtabr(double etabr) {
+		this.etabr = etabr;
+	}
 
-    public double getEtabr() {
-        return etabr;
-    }
+	public double getCbr() {
+		return cbr;
+	}
 
-    public void setEtabr(double etabr) {
-        this.etabr = etabr;
-    }
+	public void setCbr(double cbr) {
+		this.cbr = cbr;
+	}
 
-    public double getCbr() {
-        return cbr;
-    }
+	public double getVbr2() {
+		return vbr2;
+	}
 
-    public void setCbr(double cbr) {
-        this.cbr = cbr;
-    }
+	public void setVbr2(double vbr2) {
+		this.vbr2 = vbr2;
+	}
 
-    public double getVbr2() {
-        return vbr2;
-    }
+	public double getTbr2() {
+		return tbr2;
+	}
 
-    public void setVbr2(double vbr2) {
-        this.vbr2 = vbr2;
-    }
-
-    public double getTbr2() {
-        return tbr2;
-    }
-
-    public void setTbr2(double tbr2) {
-        this.tbr2 = tbr2;
-    }
+	public void setTbr2(double tbr2) {
+		this.tbr2 = tbr2;
+	}
 
 } // end params.LatParm

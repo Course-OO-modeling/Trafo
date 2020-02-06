@@ -1,0 +1,915 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classcoordinates_1_1_geographic_coordinate_interface" kind="class" language="Java" prot="public">
+    <compoundname>coordinates::GeographicCoordinateInterface</compoundname>
+    <basecompoundref refid="classcoordinates_1_1_coordinate" prot="public" virt="non-virtual">coordinates.Coordinate</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcoordinates_1_1_geographic_coordinate_interface_1abfad220dc359597518b9f199be6b957a" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long coordinates.GeographicCoordinateInterface.point_number</definition>
+        <argsstring></argsstring>
+        <name>point_number</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GeographicCoordinateInterface.java" line="24" column="18" bodyfile="coordinates/GeographicCoordinateInterface.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcoordinates_1_1_geographic_coordinate_interface_1ae82d3ae4819bc8e243ca54f6568ec005" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double coordinates.GeographicCoordinateInterface.longitude</definition>
+        <argsstring></argsstring>
+        <name>longitude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GeographicCoordinateInterface.java" line="25" column="20" bodyfile="coordinates/GeographicCoordinateInterface.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcoordinates_1_1_geographic_coordinate_interface_1a80705d81d2b4631d1ac928f703715d0c" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double coordinates.GeographicCoordinateInterface.latitude</definition>
+        <argsstring></argsstring>
+        <name>latitude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GeographicCoordinateInterface.java" line="26" column="20" bodyfile="coordinates/GeographicCoordinateInterface.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcoordinates_1_1_geographic_coordinate_interface_1a172154f497767cdc832c1a851552bd8b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double coordinates.GeographicCoordinateInterface.height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GeographicCoordinateInterface.java" line="27" column="20" bodyfile="coordinates/GeographicCoordinateInterface.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcoordinates_1_1_geographic_coordinate_interface_1a9e462122f55a06ade4c805d389e432f2" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int coordinates.GeographicCoordinateInterface.ellipsoidal</definition>
+        <argsstring></argsstring>
+        <name>ellipsoidal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Height above ellipsoid: 0 =&gt; no height (not defined), 1 =&gt; ellipsoidal, 2 =&gt; geoid </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GeographicCoordinateInterface.java" line="28" column="17" bodyfile="coordinates/GeographicCoordinateInterface.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcoordinates_1_1_geographic_coordinate_interface_1a8dca565dec7a9f95c0366e9345dc6f62" prot="private" static="yes" mutable="no">
+        <type><ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref></type>
+        <definition>GeographicCoordinateInterface coordinates.GeographicCoordinateInterface.myInstance</definition>
+        <argsstring></argsstring>
+        <name>myInstance</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GeographicCoordinateInterface.java" line="31" column="50" bodyfile="coordinates/GeographicCoordinateInterface.java" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_interface_1a99505d4e0e605d32d8cfc6c5a631eed4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>coordinates.GeographicCoordinateInterface.GeographicCoordinateInterface</definition>
+        <argsstring>()</argsstring>
+        <name>GeographicCoordinateInterface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="remark"><para>public/visible due to testing </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>longitude</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>latitude</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GeographicCoordinateInterface.java" line="44" column="12" bodyfile="coordinates/GeographicCoordinateInterface.java" bodystart="44" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_interface_1a52a34d3fd3e4b664da7ea64a6b9c5f80" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>coordinates.GeographicCoordinateInterface.GeographicCoordinateInterface</definition>
+        <argsstring>(double longitude, double latitude)</argsstring>
+        <name>GeographicCoordinateInterface</name>
+        <param>
+          <type>double</type>
+          <declname>longitude</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>latitude</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GeographicCoordinateInterface.java" line="51" column="12" bodyfile="coordinates/GeographicCoordinateInterface.java" bodystart="51" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_interface_1a8d32481c2a4f1134d73cd05e2837e8d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.GeographicCoordinateInterface.print</definition>
+        <argsstring>()</argsstring>
+        <name>print</name>
+        <reimplements refid="classcoordinates_1_1_coordinate_1af2882da7117d4a312faf707df681042c">print</reimplements>
+        <briefdescription>
+<para>prints a string representation of the particular <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> instance into the console </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GeographicCoordinateInterface.java" line="151" column="17" bodyfile="coordinates/GeographicCoordinateInterface.java" bodystart="151" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_interface_1a5a7c2ad22340e5337db778034c732ac8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref></type>
+        <definition>GeographicCoordinateInterface coordinates.GeographicCoordinateInterface.getAsGeographicInterface</definition>
+        <argsstring>(EllipsoidParms ellipsoidParms)</argsstring>
+        <name>getAsGeographicInterface</name>
+        <reimplements refid="classcoordinates_1_1_coordinate_1a97342479914743d999cef4b38f9124ed">getAsGeographicInterface</reimplements>
+        <param>
+          <type><ref refid="classparams_1_1_ellipsoid_parms" kindref="compound">EllipsoidParms</ref></type>
+          <declname>ellipsoidParms</declname>
+        </param>
+        <briefdescription>
+<para>allows the particular <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> instance to be converted to <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref>. simply returns this reference </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ellipsoidParms</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- an object of type EllipsoidParms that contains details about the ellipsoid the <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> should refer to </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GeographicCoordinateInterface.java" line="166" column="38" bodyfile="coordinates/GeographicCoordinateInterface.java" bodystart="166" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_interface_1acc9324b94c545f0d2d9e34ff9eae6046" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.GeographicCoordinateInterface.getAsTargetCoordinate</definition>
+        <argsstring>(EllipsoidParms ellipsoidParms, GeographicCoordinateInterface geographicCoordinate)</argsstring>
+        <name>getAsTargetCoordinate</name>
+        <reimplements refid="classcoordinates_1_1_coordinate_1a998872a624f0394829f4c405f7a6f803">getAsTargetCoordinate</reimplements>
+        <param>
+          <type><ref refid="classparams_1_1_ellipsoid_parms" kindref="compound">EllipsoidParms</ref></type>
+          <declname>ellipsoidParms</declname>
+        </param>
+        <param>
+          <type><ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref></type>
+          <declname>geographicCoordinate</declname>
+        </param>
+        <briefdescription>
+<para>allows the the particular <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> instance to be converted from <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref>. simply uses copy method </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>geographicCoordinate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- an object of type <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> that represents the geographic coordinate the concrete <ref refid="classcoordinates_1_1_coordinate" kindref="compound">Coordinate</ref> instance should be converted from </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ellipsoidParms</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- an object of type EllipsoidParms that contains details about the ellipsoid the <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> refers to </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GeographicCoordinateInterface.java" line="176" column="13" bodyfile="coordinates/GeographicCoordinateInterface.java" bodystart="176" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_interface_1ac9c19d2f8667c6eecb0674106cabbe63" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref></type>
+        <definition>GeographicCoordinateInterface coordinates.GeographicCoordinateInterface.molodenskytrafo</definition>
+        <argsstring>(EllipsoidParms ell, MolodenskyParm trafoparameter)</argsstring>
+        <name>molodenskytrafo</name>
+        <param>
+          <type><ref refid="classparams_1_1_ellipsoid_parms" kindref="compound">EllipsoidParms</ref></type>
+          <declname>ell</declname>
+        </param>
+        <param>
+          <type><ref refid="classparams_1_1_molodensky_parm" kindref="compound">MolodenskyParm</ref></type>
+          <declname>trafoparameter</declname>
+        </param>
+        <briefdescription>
+<para>calculates a Molodensky transformation </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ell</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- an object of type EllipsoidParms that contains details about the ellipsoid the transformation refers to </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>trafoparameter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- an object of type MolodenskyParm that contains the parameters of the Molodenskij transformation </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>geo_p2 - returns a transformed geographic coordinate </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GeographicCoordinateInterface.java" line="186" column="42" bodyfile="coordinates/GeographicCoordinateInterface.java" bodystart="186" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_interface_1a221ccb34f7c04980aec4af015b1c2789" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double coordinates.GeographicCoordinateInterface.fupubre</definition>
+        <argsstring>(double s, EllipsoidParms ell)</argsstring>
+        <name>fupubre</name>
+        <param>
+          <type>double</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="classparams_1_1_ellipsoid_parms" kindref="compound">EllipsoidParms</ref></type>
+          <declname>ell</declname>
+        </param>
+        <briefdescription>
+<para>calculates pulse width (Fusspunktbreite) for a given range </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- double value for the range </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ell</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- an object of type EllipsoidParms that contains details about the ellipsoid the pulse width calculation refers to </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>br - returns the pulse width (Fusspunktbreite) as double value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GeographicCoordinateInterface.java" line="229" column="19" bodyfile="coordinates/GeographicCoordinateInterface.java" bodystart="229" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_interface_1a1054ed7d1c0497e91fcc4f098c06e1e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.GeographicCoordinateInterface.GeographicLongitudeLatitude</definition>
+        <argsstring>(double xg, double yg, EllipsoidParms ell, double scale, double l0)</argsstring>
+        <name>GeographicLongitudeLatitude</name>
+        <param>
+          <type>double</type>
+          <declname>xg</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>yg</declname>
+        </param>
+        <param>
+          <type><ref refid="classparams_1_1_ellipsoid_parms" kindref="compound">EllipsoidParms</ref></type>
+          <declname>ell</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>scale</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>l0</declname>
+        </param>
+        <briefdescription>
+<para>sets longitude and latitude according to given parameters </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>xg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- double value representing geographic decimal coordinate? </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>yg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- double value representing geographic decimal coordinate? </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ell</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- an object of type EllipsoidParms that contains details about the ellipsoid </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>scale</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- scale as double value </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>l0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- ?? </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GeographicCoordinateInterface.java" line="279" column="17" bodyfile="coordinates/GeographicCoordinateInterface.java" bodystart="279" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_interface_1a4c99b99a9e6e653b72cf0da99f603a19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.GeographicCoordinateInterface.copy</definition>
+        <argsstring>(GeographicCoordinateInterface geo)</argsstring>
+        <name>copy</name>
+        <param>
+          <type><ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref></type>
+          <declname>geo</declname>
+        </param>
+        <briefdescription>
+<para>works like a copy constructor, initializes particular instance with the values of the instance passed as parameter </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>geo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> to initialize the particular instance with </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GeographicCoordinateInterface.java" line="305" column="17" bodyfile="coordinates/GeographicCoordinateInterface.java" bodystart="305" bodyend="312"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_interface_1acdd7ae9bfafda4672d697221bd9b0bd2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long coordinates.GeographicCoordinateInterface.getPoint_number</definition>
+        <argsstring>()</argsstring>
+        <name>getPoint_number</name>
+        <briefdescription>
+<para>getter method that returns point number of the particular Geographic <ref refid="classcoordinates_1_1_coordinate" kindref="compound">Coordinate</ref> point </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>point_number - returns the point number of the particular Geographic <ref refid="classcoordinates_1_1_coordinate" kindref="compound">Coordinate</ref> point as long value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GeographicCoordinateInterface.java" line="322" column="17" bodyfile="coordinates/GeographicCoordinateInterface.java" bodystart="322" bodyend="324"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_interface_1a50835144a956800c57f7a5a9d3491cb6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.GeographicCoordinateInterface.setPoint_number</definition>
+        <argsstring>(long point_number)</argsstring>
+        <name>setPoint_number</name>
+        <param>
+          <type>long</type>
+          <declname>point_number</declname>
+        </param>
+        <briefdescription>
+<para>setter method that accepts point number for the particular Geographic <ref refid="classcoordinates_1_1_coordinate" kindref="compound">Coordinate</ref> point </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>point_number</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- a long value representing the point number for the particular Geographic <ref refid="classcoordinates_1_1_coordinate" kindref="compound">Coordinate</ref> point </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GeographicCoordinateInterface.java" line="330" column="17" bodyfile="coordinates/GeographicCoordinateInterface.java" bodystart="330" bodyend="332"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_interface_1a4b2903f951a7ec80608cf6eb307a1991" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double coordinates.GeographicCoordinateInterface.getLongitude</definition>
+        <argsstring>()</argsstring>
+        <name>getLongitude</name>
+        <briefdescription>
+<para>getter method that returns the geographical longitude </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>longitude - returns a double value representing the geographical longitude </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GeographicCoordinateInterface.java" line="338" column="19" bodyfile="coordinates/GeographicCoordinateInterface.java" bodystart="338" bodyend="340"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_interface_1a37768130dfa4697eebbb93dbb639b78c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.GeographicCoordinateInterface.setLongitude</definition>
+        <argsstring>(double longitude)</argsstring>
+        <name>setLongitude</name>
+        <param>
+          <type>double</type>
+          <declname>longitude</declname>
+        </param>
+        <briefdescription>
+<para>setter method that accepts the geographical longitude </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>longitude</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- double value representing the geographical longitude </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GeographicCoordinateInterface.java" line="346" column="17" bodyfile="coordinates/GeographicCoordinateInterface.java" bodystart="346" bodyend="348"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_interface_1a6c287f3c85afe73a269165862ec267fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double coordinates.GeographicCoordinateInterface.getLatitude</definition>
+        <argsstring>()</argsstring>
+        <name>getLatitude</name>
+        <briefdescription>
+<para>getter method that returns the geographical latitude </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>latitude - returns a double value representing the geographical latitude </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GeographicCoordinateInterface.java" line="354" column="19" bodyfile="coordinates/GeographicCoordinateInterface.java" bodystart="354" bodyend="356"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_interface_1ab10e03a921d5c7e821dda05d258628db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.GeographicCoordinateInterface.setLatitude</definition>
+        <argsstring>(double latitude)</argsstring>
+        <name>setLatitude</name>
+        <param>
+          <type>double</type>
+          <declname>latitude</declname>
+        </param>
+        <briefdescription>
+<para>setter method that accepts the geographical latitude </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>latitude</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- double value representing the geographical latitude </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GeographicCoordinateInterface.java" line="362" column="17" bodyfile="coordinates/GeographicCoordinateInterface.java" bodystart="362" bodyend="364"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_interface_1aa74362408871d3bf33e69f6e2ffa52b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double coordinates.GeographicCoordinateInterface.getHeight</definition>
+        <argsstring>()</argsstring>
+        <name>getHeight</name>
+        <briefdescription>
+<para>getter method that returns the height </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>height - returns a double value representing the height </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GeographicCoordinateInterface.java" line="370" column="19" bodyfile="coordinates/GeographicCoordinateInterface.java" bodystart="370" bodyend="372"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_interface_1a10e3f8411fd7085cd4abbb86e1d15891" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.GeographicCoordinateInterface.setHeight</definition>
+        <argsstring>(double height)</argsstring>
+        <name>setHeight</name>
+        <param>
+          <type>double</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+<para>setter method accepts the height </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- double value representing the height </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GeographicCoordinateInterface.java" line="378" column="17" bodyfile="coordinates/GeographicCoordinateInterface.java" bodystart="378" bodyend="380"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_interface_1a76520d9a7902acdfe223d848eb784fc1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int coordinates.GeographicCoordinateInterface.getEllipsoidal</definition>
+        <argsstring>()</argsstring>
+        <name>getEllipsoidal</name>
+        <briefdescription>
+<para>getter method that returns the height above ellipsoid </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>ellipsoidal - returns a double value representing the height above ellipsoid </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GeographicCoordinateInterface.java" line="386" column="16" bodyfile="coordinates/GeographicCoordinateInterface.java" bodystart="386" bodyend="388"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_interface_1a860c713488cf7e9d607c640893d2e4e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.GeographicCoordinateInterface.setEllipsoidal</definition>
+        <argsstring>(int ellipsoidal)</argsstring>
+        <name>setEllipsoidal</name>
+        <param>
+          <type>int</type>
+          <declname>ellipsoidal</declname>
+        </param>
+        <briefdescription>
+<para>setter method accepts the height above ellipsoid </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ellipsoidal</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- double value representing the height above ellipsoid </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GeographicCoordinateInterface.java" line="394" column="17" bodyfile="coordinates/GeographicCoordinateInterface.java" bodystart="394" bodyend="396"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_interface_1a3ab0e13cfbc6c8dd266f63d74464354c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>coordinates.GeographicCoordinateInterface.GeographicCoordinateInterface</definition>
+        <argsstring>(double longitude, double latitude, double height)</argsstring>
+        <name>GeographicCoordinateInterface</name>
+        <param>
+          <type>double</type>
+          <declname>longitude</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>latitude</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GeographicCoordinateInterface.java" line="58" column="13" bodyfile="coordinates/GeographicCoordinateInterface.java" bodystart="58" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_interface_1a9a5372c4b3b53a601a047a4de276a591" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.GeographicCoordinateInterface.resetState</definition>
+        <argsstring>()</argsstring>
+        <name>resetState</name>
+        <briefdescription>
+<para>sets all parameters of the instance to default value 0, needed because only one instance of the class can exist (singleton class) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GeographicCoordinateInterface.java" line="93" column="18" bodyfile="coordinates/GeographicCoordinateInterface.java" bodystart="93" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_interface_1a954409872a73cc8c7fc49f87d17f88b5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref></type>
+        <definition>static GeographicCoordinateInterface coordinates.GeographicCoordinateInterface.getInstance</definition>
+        <argsstring>()</argsstring>
+        <name>getInstance</name>
+        <briefdescription>
+<para>factory method that returns the singular instance of the singleton class initialized with default constructor </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GeographicCoordinateInterface.java" line="75" column="49" bodyfile="coordinates/GeographicCoordinateInterface.java" bodystart="75" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_interface_1acb73fce8bcd43035599dd462dbee2509" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref></type>
+        <definition>static GeographicCoordinateInterface coordinates.GeographicCoordinateInterface.getInstance</definition>
+        <argsstring>(double longitude, double latitude)</argsstring>
+        <name>getInstance</name>
+        <param>
+          <type>double</type>
+          <declname>longitude</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>latitude</declname>
+        </param>
+        <briefdescription>
+<para>factory method that returns the singular instance of the singleton class initialized with constructor that accepts values for longitude and latitude </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>longitude</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- double value of the geographical longitude the <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> instance should be initialized with </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>latitude</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- double value of the geographical latitude the <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> instance should be initialized with </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GeographicCoordinateInterface.java" line="109" column="49" bodyfile="coordinates/GeographicCoordinateInterface.java" bodystart="109" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_interface_1a38627aff97345b4ae6c87e37e8a5e406" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref></type>
+        <definition>static GeographicCoordinateInterface coordinates.GeographicCoordinateInterface.getInstance</definition>
+        <argsstring>(double longitude, double latitude, double height)</argsstring>
+        <name>getInstance</name>
+        <param>
+          <type>double</type>
+          <declname>longitude</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>latitude</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+<para>factory method that returns the singular instance of the singleton class initialized with constructor that accepts values for longitude, latitude and height </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>longitude</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- double value of the geographical longitude the <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> instance should be initialized with </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>latitude</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- double value of the geographical latitude the <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> instance should be initialized with </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- double value of the height the <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> instance should be initialized with </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GeographicCoordinateInterface.java" line="129" column="49" bodyfile="coordinates/GeographicCoordinateInterface.java" bodystart="129" bodyend="141"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>concrete implementation of abstract class <ref refid="classcoordinates_1_1_coordinate" kindref="compound">Coordinate</ref>, represents a geographic coordinate (As interface for strategy)<linebreak/>
+ </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>unknown as of 2016-11 </para>
+</simplesect>
+<simplesect kind="remark"><para>renamed to <ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref>. Class is now separated into <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> (only input coordinate) and <ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref> (Interface for strategy) on 2018-01-12 by Johanna Stoetzer </para>
+</simplesect>
+<simplesect kind="remark"><para>updated header on 2017-11-29 by Markus Mueller </para>
+</simplesect>
+<simplesect kind="remark"><para>renamed to <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> (was GeographicCoordinates) on 2016-11-26 by Patrick Huebner </para>
+</simplesect>
+<simplesect kind="version"><para>0.1 </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>point</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number - Point identification number of the <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> as long </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>longitude</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Longitude of the <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> as double </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>latitude</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Latitude of the <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> as double </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Height of the <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> as double </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ellipsoidal</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Height above ellipsoid of the <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> as integer </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>coordinates.GeographicCoordinateInterface</label>
+        <link refid="classcoordinates_1_1_geographic_coordinate_interface"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>coordinates.Coordinate</label>
+        <link refid="classcoordinates_1_1_coordinate"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>coordinates.GeographicCoordinateInterface</label>
+        <link refid="classcoordinates_1_1_geographic_coordinate_interface"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>myInstance</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>coordinates.Coordinate</label>
+        <link refid="classcoordinates_1_1_coordinate"/>
+      </node>
+    </collaborationgraph>
+    <location file="coordinates/GeographicCoordinateInterface.java" line="22" column="60" bodyfile="coordinates/GeographicCoordinateInterface.java" bodystart="22" bodyend="397"/>
+    <listofallmembers>
+      <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a4c99b99a9e6e653b72cf0da99f603a19" prot="public" virt="non-virtual"><scope>coordinates::GeographicCoordinateInterface</scope><name>copy</name></member>
+      <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a9e462122f55a06ade4c805d389e432f2" prot="private" virt="non-virtual"><scope>coordinates::GeographicCoordinateInterface</scope><name>ellipsoidal</name></member>
+      <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a221ccb34f7c04980aec4af015b1c2789" prot="public" virt="non-virtual"><scope>coordinates::GeographicCoordinateInterface</scope><name>fupubre</name></member>
+      <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a99505d4e0e605d32d8cfc6c5a631eed4" prot="public" virt="non-virtual"><scope>coordinates::GeographicCoordinateInterface</scope><name>GeographicCoordinateInterface</name></member>
+      <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a52a34d3fd3e4b664da7ea64a6b9c5f80" prot="public" virt="non-virtual"><scope>coordinates::GeographicCoordinateInterface</scope><name>GeographicCoordinateInterface</name></member>
+      <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a3ab0e13cfbc6c8dd266f63d74464354c" prot="private" virt="non-virtual"><scope>coordinates::GeographicCoordinateInterface</scope><name>GeographicCoordinateInterface</name></member>
+      <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a1054ed7d1c0497e91fcc4f098c06e1e5" prot="public" virt="non-virtual"><scope>coordinates::GeographicCoordinateInterface</scope><name>GeographicLongitudeLatitude</name></member>
+      <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a5a7c2ad22340e5337db778034c732ac8" prot="public" virt="non-virtual"><scope>coordinates::GeographicCoordinateInterface</scope><name>getAsGeographicInterface</name></member>
+      <member refid="classcoordinates_1_1_geographic_coordinate_interface_1acc9324b94c545f0d2d9e34ff9eae6046" prot="public" virt="non-virtual"><scope>coordinates::GeographicCoordinateInterface</scope><name>getAsTargetCoordinate</name></member>
+      <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a76520d9a7902acdfe223d848eb784fc1" prot="public" virt="non-virtual"><scope>coordinates::GeographicCoordinateInterface</scope><name>getEllipsoidal</name></member>
+      <member refid="classcoordinates_1_1_geographic_coordinate_interface_1aa74362408871d3bf33e69f6e2ffa52b6" prot="public" virt="non-virtual"><scope>coordinates::GeographicCoordinateInterface</scope><name>getHeight</name></member>
+      <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a954409872a73cc8c7fc49f87d17f88b5" prot="public" virt="non-virtual"><scope>coordinates::GeographicCoordinateInterface</scope><name>getInstance</name></member>
+      <member refid="classcoordinates_1_1_geographic_coordinate_interface_1acb73fce8bcd43035599dd462dbee2509" prot="public" virt="non-virtual"><scope>coordinates::GeographicCoordinateInterface</scope><name>getInstance</name></member>
+      <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a38627aff97345b4ae6c87e37e8a5e406" prot="public" virt="non-virtual"><scope>coordinates::GeographicCoordinateInterface</scope><name>getInstance</name></member>
+      <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a6c287f3c85afe73a269165862ec267fb" prot="public" virt="non-virtual"><scope>coordinates::GeographicCoordinateInterface</scope><name>getLatitude</name></member>
+      <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a4b2903f951a7ec80608cf6eb307a1991" prot="public" virt="non-virtual"><scope>coordinates::GeographicCoordinateInterface</scope><name>getLongitude</name></member>
+      <member refid="classcoordinates_1_1_geographic_coordinate_interface_1acdd7ae9bfafda4672d697221bd9b0bd2" prot="public" virt="non-virtual"><scope>coordinates::GeographicCoordinateInterface</scope><name>getPoint_number</name></member>
+      <member refid="classcoordinates_1_1_coordinate_1ab0b1d8dc4fe371a2425e0cb505effafd" prot="public" virt="non-virtual"><scope>coordinates::GeographicCoordinateInterface</scope><name>getPointid</name></member>
+      <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a172154f497767cdc832c1a851552bd8b" prot="private" virt="non-virtual"><scope>coordinates::GeographicCoordinateInterface</scope><name>height</name></member>
+      <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a80705d81d2b4631d1ac928f703715d0c" prot="private" virt="non-virtual"><scope>coordinates::GeographicCoordinateInterface</scope><name>latitude</name></member>
+      <member refid="classcoordinates_1_1_geographic_coordinate_interface_1ae82d3ae4819bc8e243ca54f6568ec005" prot="private" virt="non-virtual"><scope>coordinates::GeographicCoordinateInterface</scope><name>longitude</name></member>
+      <member refid="classcoordinates_1_1_geographic_coordinate_interface_1ac9c19d2f8667c6eecb0674106cabbe63" prot="public" virt="non-virtual"><scope>coordinates::GeographicCoordinateInterface</scope><name>molodenskytrafo</name></member>
+      <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a8dca565dec7a9f95c0366e9345dc6f62" prot="private" virt="non-virtual"><scope>coordinates::GeographicCoordinateInterface</scope><name>myInstance</name></member>
+      <member refid="classcoordinates_1_1_geographic_coordinate_interface_1abfad220dc359597518b9f199be6b957a" prot="private" virt="non-virtual"><scope>coordinates::GeographicCoordinateInterface</scope><name>point_number</name></member>
+      <member refid="classcoordinates_1_1_coordinate_1a871c4eb3e8771b3e59f26c8e573d6aa0" prot="private" virt="non-virtual"><scope>coordinates::GeographicCoordinateInterface</scope><name>pointid</name></member>
+      <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a8d32481c2a4f1134d73cd05e2837e8d1" prot="public" virt="non-virtual"><scope>coordinates::GeographicCoordinateInterface</scope><name>print</name></member>
+      <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a9a5372c4b3b53a601a047a4de276a591" prot="private" virt="non-virtual"><scope>coordinates::GeographicCoordinateInterface</scope><name>resetState</name></member>
+      <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a860c713488cf7e9d607c640893d2e4e9" prot="public" virt="non-virtual"><scope>coordinates::GeographicCoordinateInterface</scope><name>setEllipsoidal</name></member>
+      <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a10e3f8411fd7085cd4abbb86e1d15891" prot="public" virt="non-virtual"><scope>coordinates::GeographicCoordinateInterface</scope><name>setHeight</name></member>
+      <member refid="classcoordinates_1_1_geographic_coordinate_interface_1ab10e03a921d5c7e821dda05d258628db" prot="public" virt="non-virtual"><scope>coordinates::GeographicCoordinateInterface</scope><name>setLatitude</name></member>
+      <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a37768130dfa4697eebbb93dbb639b78c" prot="public" virt="non-virtual"><scope>coordinates::GeographicCoordinateInterface</scope><name>setLongitude</name></member>
+      <member refid="classcoordinates_1_1_geographic_coordinate_interface_1a50835144a956800c57f7a5a9d3491cb6" prot="public" virt="non-virtual"><scope>coordinates::GeographicCoordinateInterface</scope><name>setPoint_number</name></member>
+      <member refid="classcoordinates_1_1_coordinate_1a14f00383b5a41df79220112a12ef1cbf" prot="public" virt="non-virtual"><scope>coordinates::GeographicCoordinateInterface</scope><name>setPointid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_transformation" kind="class" language="Java" prot="public">
+    <compoundname>Transformation</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_transformation_1afe43b1123ddd254a15446af548bd251f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Transformation.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Transformation.java" line="65" column="24" bodyfile="Transformation.java" bodystart="65" bodyend="83"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Main Transformatin class. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Norbert Rösch </para>
+</simplesect>
+<simplesect kind="version"><para>0.1 </para>
+</simplesect>
+<simplesect kind="date"><para>January 2020 </para>
+</simplesect>
+<simplesect kind="warning"><para>For educational purposes only </para>
+</simplesect>
+<simplesect kind="copyright"><para>No licence restrictions yet </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="Transformation.java" line="64" column="28" bodyfile="Transformation.java" bodystart="64" bodyend="84"/>
+    <listofallmembers>
+      <member refid="class_transformation_1afe43b1123ddd254a15446af548bd251f" prot="public" virt="non-virtual"><scope>Transformation</scope><name>main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

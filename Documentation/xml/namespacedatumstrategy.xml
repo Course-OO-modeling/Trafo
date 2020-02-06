@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespacedatumstrategy" kind="namespace" language="Java">
+    <compoundname>datumstrategy</compoundname>
+    <innerclass refid="classdatumstrategy_1_1_cardans_transformation" prot="public">datumstrategy::CardansTransformation</innerclass>
+    <innerclass refid="classdatumstrategy_1_1_eulers_transformation" prot="public">datumstrategy::EulersTransformation</innerclass>
+    <innerclass refid="classdatumstrategy_1_1_get_appropriate_transformation_algorithm" prot="public">datumstrategy::GetAppropriateTransformationAlgorithm</innerclass>
+    <innerclass refid="classdatumstrategy_1_1_mock_strategy" prot="public">datumstrategy::MockStrategy</innerclass>
+    <innerclass refid="classdatumstrategy_1_1_molodenskii_transformation_abridged" prot="public">datumstrategy::MolodenskiiTransformationAbridged</innerclass>
+    <innerclass refid="classdatumstrategy_1_1_molodenskii_transformation_standard" prot="public">datumstrategy::MolodenskiiTransformationStandard</innerclass>
+    <innerclass refid="classdatumstrategy_1_1_spatial_similarity_transformation_infin" prot="public">datumstrategy::SpatialSimilarityTransformationInfin</innerclass>
+    <innerclass refid="classdatumstrategy_1_1_spatial_similarity_transformation_trig" prot="public">datumstrategy::SpatialSimilarityTransformationTrig</innerclass>
+    <innerclass refid="classdatumstrategy_1_1_transformation_strategy" prot="public">datumstrategy::TransformationStrategy</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="datumstrategy/CardansTransformation.java" line="1" column="19"/>
+  </compounddef>
+</doxygen>

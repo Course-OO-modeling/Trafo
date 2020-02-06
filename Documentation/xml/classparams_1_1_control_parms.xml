@@ -1,0 +1,2088 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classparams_1_1_control_parms" kind="class" language="Java" prot="public">
+    <compoundname>params::ControlParms</compoundname>
+    <basecompoundref refid="classparams_1_1_ellipsoid_parms" prot="public" virt="non-virtual">params.EllipsoidParms</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1aa4531a579e0d7ae5f07853ac5f4141a2" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String params.ControlParms.pointid</definition>
+        <argsstring></argsstring>
+        <name>pointid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="19" column="16" bodyfile="params/ControlParms.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1a3af78a8732b0695526059f88e10d7e9e" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long params.ControlParms.point_number</definition>
+        <argsstring></argsstring>
+        <name>point_number</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="20" column="18" bodyfile="params/ControlParms.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1af020acb1b072ddea3560e25cac18ac3f" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String params.ControlParms.fromprojection</definition>
+        <argsstring></argsstring>
+        <name>fromprojection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="21" column="20" bodyfile="params/ControlParms.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1aad346084aae4e796320eae7c950ce914" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String params.ControlParms.fromdatum</definition>
+        <argsstring></argsstring>
+        <name>fromdatum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="22" column="20" bodyfile="params/ControlParms.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1ae0a950871fef34d367d8a70e80fc0fd0" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.ControlParms.fromawert</definition>
+        <argsstring></argsstring>
+        <name>fromawert</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="23" column="20" bodyfile="params/ControlParms.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1ad4f4af5989abca7c5616feb442c2e7c0" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.ControlParms.frombwert</definition>
+        <argsstring></argsstring>
+        <name>frombwert</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="24" column="20" bodyfile="params/ControlParms.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1a2688293d730d637a973567b209289996" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.ControlParms.sourceCoordinateX</definition>
+        <argsstring></argsstring>
+        <name>sourceCoordinateX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Input coordinate X </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="25" column="20" bodyfile="params/ControlParms.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1a3e2c396bf201d9c84f4efdf8dfef51d1" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.ControlParms.sourceCoordinateY</definition>
+        <argsstring></argsstring>
+        <name>sourceCoordinateY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Input coordinate Y </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="26" column="20" bodyfile="params/ControlParms.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1ae3c3b4ee3fb2bef870380e13e573aec2" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.ControlParms.sourceCoordinateZ</definition>
+        <argsstring></argsstring>
+        <name>sourceCoordinateZ</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Input coordinate Z </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="27" column="20" bodyfile="params/ControlParms.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1ad4c562a7ccfd2c0909af99b2555f7c12" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String params.ControlParms.toprojection</definition>
+        <argsstring></argsstring>
+        <name>toprojection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="28" column="20" bodyfile="params/ControlParms.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1a930769d55920443b555a18d86f79a410" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String params.ControlParms.todatum</definition>
+        <argsstring></argsstring>
+        <name>todatum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="29" column="20" bodyfile="params/ControlParms.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1a15c11042320f3bdcc8da8d2cc885b975" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.ControlParms.toawert</definition>
+        <argsstring></argsstring>
+        <name>toawert</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="30" column="20" bodyfile="params/ControlParms.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1a1d7775bde246e74d651d87ca38e247ba" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.ControlParms.tobwert</definition>
+        <argsstring></argsstring>
+        <name>tobwert</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="31" column="20" bodyfile="params/ControlParms.java" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1a863cdfdf5647ef0c8f9864cae1dfc753" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean params.ControlParms.changedatum</definition>
+        <argsstring></argsstring>
+        <name>changedatum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>True/False means with/without datum changement </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="32" column="21" bodyfile="params/ControlParms.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1a1b7d4bdc68c2531026174a04ad715cbf" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String params.ControlParms.northhem</definition>
+        <argsstring></argsstring>
+        <name>northhem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Hemisphere </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="33" column="20" bodyfile="params/ControlParms.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1a639927766fce23759b47659a9abf0e6f" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String params.ControlParms.kindofhoehe</definition>
+        <argsstring></argsstring>
+        <name>kindofhoehe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Height calculation </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="34" column="20" bodyfile="params/ControlParms.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1afcfdabbc39158e0ae25e47d76a6dc2a4" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String params.ControlParms.kindoftrafo</definition>
+        <argsstring></argsstring>
+        <name>kindoftrafo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Kind of transformation (e.g. 3D similarity transformation) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="35" column="20" bodyfile="params/ControlParms.java" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1ac33290885ff9f6559cb4864a5fbaedb0" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.ControlParms.dx</definition>
+        <argsstring></argsstring>
+        <name>dx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Translation X (For Molodenskii und 3D similarity transformation) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="36" column="20" bodyfile="params/ControlParms.java" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1ab6b652d7f1f9ac1dba4a12c2cf2696cb" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.ControlParms.dy</definition>
+        <argsstring></argsstring>
+        <name>dy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Translation Y (For Molodenskii und 3D similarity transformation) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="37" column="20" bodyfile="params/ControlParms.java" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1aa3bc4f90d701204615fc84404b5c47f0" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.ControlParms.dz</definition>
+        <argsstring></argsstring>
+        <name>dz</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Translation Z (For Molodenskii und 3D similarity transformation) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="38" column="20" bodyfile="params/ControlParms.java" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1af7874df2feb2be8ca0f3a7f1250ef7fd" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.ControlParms.da</definition>
+        <argsstring></argsstring>
+        <name>da</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Difference in large semi axis (For Molodenskii-Transformation) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="39" column="20" bodyfile="params/ControlParms.java" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1a3dfb56045add56099f7321b470f5d9fe" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.ControlParms.df</definition>
+        <argsstring></argsstring>
+        <name>df</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Difference flattening (For Molodenskii-Transformation) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="40" column="20" bodyfile="params/ControlParms.java" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1a08c3a014edb82ee19a2b046a07efbac5" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.ControlParms.wx</definition>
+        <argsstring></argsstring>
+        <name>wx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rotation X (For 3D similarity transformation) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="41" column="20" bodyfile="params/ControlParms.java" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1a35defe66635bc8e2aaa05c146dc5e4ac" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.ControlParms.wy</definition>
+        <argsstring></argsstring>
+        <name>wy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rotation Y (For 3D similarity transformation) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="42" column="20" bodyfile="params/ControlParms.java" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1ad948128a938b351f23b1d7aee4ae1cb3" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.ControlParms.wz</definition>
+        <argsstring></argsstring>
+        <name>wz</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rotation Z (For 3D similarity transformation) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="43" column="20" bodyfile="params/ControlParms.java" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1a0501dbc13102eff28a1e15e005e73c26" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.ControlParms.Rz1</definition>
+        <argsstring></argsstring>
+        <name>Rz1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>first Rotation about current Z (For Eulerstransformation) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="45" column="20" bodyfile="params/ControlParms.java" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1af114ca71c4fdd82a3f056807591efdb0" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.ControlParms.Rx2</definition>
+        <argsstring></argsstring>
+        <name>Rx2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>second Rotation about current X (For Eulerstransformation) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="46" column="20" bodyfile="params/ControlParms.java" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1a60fdffbd1fadf6b1a7a0372939337131" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.ControlParms.Rz3</definition>
+        <argsstring></argsstring>
+        <name>Rz3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>third Rotation about current Z (For Eulerstransformation) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="47" column="20" bodyfile="params/ControlParms.java" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1a7d7e220c8bacb270d2f0760b4230df04" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.ControlParms.massstab</definition>
+        <argsstring></argsstring>
+        <name>massstab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Scale (For 3D similarity transformation) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="49" column="20" bodyfile="params/ControlParms.java" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1aeaf9b43a90b6126041788042b28951be" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.ControlParms.destinationCoordinateX</definition>
+        <argsstring></argsstring>
+        <name>destinationCoordinateX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Currently not used </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="50" column="20" bodyfile="params/ControlParms.java" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1a90bb6214dd6ee9d4f02aa7cf58d915bb" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.ControlParms.destinationCoordinateY</definition>
+        <argsstring></argsstring>
+        <name>destinationCoordinateY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Currently not used </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="51" column="20" bodyfile="params/ControlParms.java" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1a08120c4eed68ad7702c1916abaaa16db" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.ControlParms.destinationCoordinateZ</definition>
+        <argsstring></argsstring>
+        <name>destinationCoordinateZ</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Currently not used </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="52" column="20" bodyfile="params/ControlParms.java" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1a8f7f249d73a5315f42f96ad5e844714e" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String params.ControlParms.fileinput</definition>
+        <argsstring></argsstring>
+        <name>fileinput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="53" column="20" bodyfile="params/ControlParms.java" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1a46c822bd308f3cf5593519a9b1421a07" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String params.ControlParms.fileoutput</definition>
+        <argsstring></argsstring>
+        <name>fileoutput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="54" column="20" bodyfile="params/ControlParms.java" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1a289a0ed91250fd5f28210158775de95c" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String params.ControlParms.qupkt</definition>
+        <argsstring></argsstring>
+        <name>qupkt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="55" column="20" bodyfile="params/ControlParms.java" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1a8ede5bb2ec22052831dcac27853ef668" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String params.ControlParms.qutausch</definition>
+        <argsstring></argsstring>
+        <name>qutausch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="56" column="20" bodyfile="params/ControlParms.java" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1a614f382326dedabe279d8c79abf6b507" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String params.ControlParms.ausgabetyp</definition>
+        <argsstring></argsstring>
+        <name>ausgabetyp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="57" column="20" bodyfile="params/ControlParms.java" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1a5796bbd6b3b407130074d89b85c183d6" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String params.ControlParms.zipkt</definition>
+        <argsstring></argsstring>
+        <name>zipkt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="58" column="20" bodyfile="params/ControlParms.java" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1a780c529e507f496ccb69f6b9b3ddce62" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String params.ControlParms.zihoehe</definition>
+        <argsstring></argsstring>
+        <name>zihoehe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="59" column="20" bodyfile="params/ControlParms.java" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1afeb9c826d60a837625db477d1e836880" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String params.ControlParms.zitausch</definition>
+        <argsstring></argsstring>
+        <name>zitausch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="60" column="20" bodyfile="params/ControlParms.java" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1ae1673336e84a96b7c381c651f5e1c57a" prot="private" static="yes" mutable="no">
+        <type><ref refid="classparams_1_1_control_parms" kindref="compound">ControlParms</ref></type>
+        <definition>ControlParms params.ControlParms.instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Singleton </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="62" column="33" bodyfile="params/ControlParms.java" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a8684e9cf600ad6c4356eeca30133b147" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>params.ControlParms.ControlParms</definition>
+        <argsstring>()</argsstring>
+        <name>ControlParms</name>
+        <briefdescription>
+<para>private constructor for singleton </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="70" column="13" bodyfile="params/ControlParms.java" bodystart="70" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a34463dd11453c5f45660efaabbe826f7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classparams_1_1_control_parms" kindref="compound">ControlParms</ref></type>
+        <definition>static ControlParms params.ControlParms.getInstance</definition>
+        <argsstring>()</argsstring>
+        <name>getInstance</name>
+        <briefdescription>
+<para>Singleton getinstance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="89" column="32" bodyfile="params/ControlParms.java" bodystart="89" bodyend="94"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classparams_1_1_control_parms_1af1a625fc2adabd5ec8a2af31f93d3278" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.print</definition>
+        <argsstring>()</argsstring>
+        <name>print</name>
+        <reimplements refid="classparams_1_1_ellipsoid_parms_1a8b38d69a8ce2fe13c763c4dec003caa3">print</reimplements>
+        <briefdescription>
+<para>print outputs of class <ref refid="classparams_1_1_control_parms" kindref="compound">params.ControlParms</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="author"><para>unknown </para>
+</simplesect>
+<simplesect kind="remark"><para>updated header 2018-01-06 by Yunhao Huang </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="105" column="17" bodyfile="params/ControlParms.java" bodystart="105" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a0a9e4c1b1507109c2af9362c76f152b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String params.ControlParms.getPointid</definition>
+        <argsstring>()</argsstring>
+        <name>getPointid</name>
+        <briefdescription>
+<para>getter method that returns the id of the particular Coordinate point </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>pointid - string representing the point identification number </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="129" column="19" bodyfile="params/ControlParms.java" bodystart="129" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a801da8ace900553603da73d988c16ea6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setPointid</definition>
+        <argsstring>(String pointid)</argsstring>
+        <name>setPointid</name>
+        <param>
+          <type>String</type>
+          <declname>pointid</declname>
+        </param>
+        <briefdescription>
+<para>setter method that accepts id for the particular Coordinate point </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pointid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- string representing the point identification number </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="137" column="17" bodyfile="params/ControlParms.java" bodystart="137" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a4849978cd3cad0b731e744d16ff90c97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long params.ControlParms.getPoint_number</definition>
+        <argsstring>()</argsstring>
+        <name>getPoint_number</name>
+        <briefdescription>
+<para>getter method that returns point number of the particular Coordinate point </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>point_number - returns the point number of the particular Coordinate point as long value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="145" column="17" bodyfile="params/ControlParms.java" bodystart="145" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a28dd663a60ecea831af1955e43155f49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setPoint_number</definition>
+        <argsstring>(long point_number)</argsstring>
+        <name>setPoint_number</name>
+        <param>
+          <type>long</type>
+          <declname>point_number</declname>
+        </param>
+        <briefdescription>
+<para>setter method that accepts point number for the particular Coordinate point </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>point_number</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- a long value representing the point number for the particular Coordinate point </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="153" column="17" bodyfile="params/ControlParms.java" bodystart="153" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a040d46279514db25122b3230087da9cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String params.ControlParms.getFromprojection</definition>
+        <argsstring>()</argsstring>
+        <name>getFromprojection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="157" column="19" bodyfile="params/ControlParms.java" bodystart="157" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1ab7f98c31662cc19a37c38630c7652d16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setFromprojection</definition>
+        <argsstring>(String fromprojection)</argsstring>
+        <name>setFromprojection</name>
+        <param>
+          <type>String</type>
+          <declname>fromprojection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="161" column="17" bodyfile="params/ControlParms.java" bodystart="161" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a351a1525bef8a4e648bc2d79f57079a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String params.ControlParms.getFromdatum</definition>
+        <argsstring>()</argsstring>
+        <name>getFromdatum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="165" column="19" bodyfile="params/ControlParms.java" bodystart="165" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a126be81b5ff3d178bc8c5c932433a6dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setFromdatum</definition>
+        <argsstring>(String fromdatum)</argsstring>
+        <name>setFromdatum</name>
+        <param>
+          <type>String</type>
+          <declname>fromdatum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="169" column="17" bodyfile="params/ControlParms.java" bodystart="169" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a059d3a66ef8da8b3735b204026cbdf62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.ControlParms.getFromawert</definition>
+        <argsstring>()</argsstring>
+        <name>getFromawert</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="173" column="19" bodyfile="params/ControlParms.java" bodystart="173" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a7074fde2b7e5a80c50cb997d78786668" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setFromawert</definition>
+        <argsstring>(double fromawert)</argsstring>
+        <name>setFromawert</name>
+        <param>
+          <type>double</type>
+          <declname>fromawert</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="177" column="17" bodyfile="params/ControlParms.java" bodystart="177" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a53c75f21640c052696f9c0c249847706" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.ControlParms.getFrombwert</definition>
+        <argsstring>()</argsstring>
+        <name>getFrombwert</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="181" column="19" bodyfile="params/ControlParms.java" bodystart="181" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1aaf0d60a3e1b3362be227d9721537a424" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setFrombwert</definition>
+        <argsstring>(double frombwert)</argsstring>
+        <name>setFrombwert</name>
+        <param>
+          <type>double</type>
+          <declname>frombwert</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="185" column="17" bodyfile="params/ControlParms.java" bodystart="185" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a983d9ff3981b01e4fc538626a50bdd30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.ControlParms.getSourceCoordinateX</definition>
+        <argsstring>()</argsstring>
+        <name>getSourceCoordinateX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="189" column="19" bodyfile="params/ControlParms.java" bodystart="189" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1af40634625631868be25843439ef54567" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setSourceCoordinateX</definition>
+        <argsstring>(double sourceCoordinateX)</argsstring>
+        <name>setSourceCoordinateX</name>
+        <param>
+          <type>double</type>
+          <declname>sourceCoordinateX</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="193" column="17" bodyfile="params/ControlParms.java" bodystart="193" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a0260c671857a637b51ddc23af52ad71d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.ControlParms.getSourceCoordinateY</definition>
+        <argsstring>()</argsstring>
+        <name>getSourceCoordinateY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="197" column="19" bodyfile="params/ControlParms.java" bodystart="197" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a54d42ffa9c74db6b5c3ee1d2544c5e21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setSourceCoordinateY</definition>
+        <argsstring>(double sourceCoordinateY)</argsstring>
+        <name>setSourceCoordinateY</name>
+        <param>
+          <type>double</type>
+          <declname>sourceCoordinateY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="201" column="17" bodyfile="params/ControlParms.java" bodystart="201" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a67542179daef32a9001cee0862832858" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.ControlParms.getSourceCoordinateZ</definition>
+        <argsstring>()</argsstring>
+        <name>getSourceCoordinateZ</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="205" column="19" bodyfile="params/ControlParms.java" bodystart="205" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1ae0a1b0117d381b3005fd567cb3e0c647" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setSourceCoordinateZ</definition>
+        <argsstring>(double sourceCoordinateZ)</argsstring>
+        <name>setSourceCoordinateZ</name>
+        <param>
+          <type>double</type>
+          <declname>sourceCoordinateZ</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="209" column="17" bodyfile="params/ControlParms.java" bodystart="209" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a2d485a515e99332d5c1712f298ccabc1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String params.ControlParms.getToprojection</definition>
+        <argsstring>()</argsstring>
+        <name>getToprojection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="213" column="19" bodyfile="params/ControlParms.java" bodystart="213" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1aa1c2641c116c78d09adf7fcd36f1e646" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setToprojection</definition>
+        <argsstring>(String toprojection)</argsstring>
+        <name>setToprojection</name>
+        <param>
+          <type>String</type>
+          <declname>toprojection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="217" column="17" bodyfile="params/ControlParms.java" bodystart="217" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a44eaedb52a3f19108a3458ce918e73ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String params.ControlParms.getTodatum</definition>
+        <argsstring>()</argsstring>
+        <name>getTodatum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="221" column="19" bodyfile="params/ControlParms.java" bodystart="221" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a13d42878222bafbe8d3c48fdd3955220" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setTodatum</definition>
+        <argsstring>(String todatum)</argsstring>
+        <name>setTodatum</name>
+        <param>
+          <type>String</type>
+          <declname>todatum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="225" column="17" bodyfile="params/ControlParms.java" bodystart="225" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a39ce573f000eb18b6cf676e1f43fb0b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.ControlParms.getToawert</definition>
+        <argsstring>()</argsstring>
+        <name>getToawert</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="229" column="19" bodyfile="params/ControlParms.java" bodystart="229" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a1cbbd11c3436b09ac7063fef1c2149bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setToawert</definition>
+        <argsstring>(double toawert)</argsstring>
+        <name>setToawert</name>
+        <param>
+          <type>double</type>
+          <declname>toawert</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="233" column="17" bodyfile="params/ControlParms.java" bodystart="233" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1ad2092609e231fabe769def50523a206e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.ControlParms.getTobwert</definition>
+        <argsstring>()</argsstring>
+        <name>getTobwert</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="237" column="19" bodyfile="params/ControlParms.java" bodystart="237" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1af66e9cb53a14ea90d0f61e3d8649be38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setTobwert</definition>
+        <argsstring>(double tobwert)</argsstring>
+        <name>setTobwert</name>
+        <param>
+          <type>double</type>
+          <declname>tobwert</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="241" column="17" bodyfile="params/ControlParms.java" bodystart="241" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1ab1496ac78857153a556b98b357595e1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean params.ControlParms.isChangedatum</definition>
+        <argsstring>()</argsstring>
+        <name>isChangedatum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="245" column="20" bodyfile="params/ControlParms.java" bodystart="245" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a5e5239551fb75c863e259c27ddd375b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setChangedatum</definition>
+        <argsstring>(boolean changedatum)</argsstring>
+        <name>setChangedatum</name>
+        <param>
+          <type>boolean</type>
+          <declname>changedatum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="249" column="17" bodyfile="params/ControlParms.java" bodystart="249" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a29550d5e3b87f28380b8d0db21c49840" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String params.ControlParms.getNorthhem</definition>
+        <argsstring>()</argsstring>
+        <name>getNorthhem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="253" column="19" bodyfile="params/ControlParms.java" bodystart="253" bodyend="255"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a58f9db5f3fc7cfae594313291bc3b4e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setNorthhem</definition>
+        <argsstring>(String northhem)</argsstring>
+        <name>setNorthhem</name>
+        <param>
+          <type>String</type>
+          <declname>northhem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="257" column="17" bodyfile="params/ControlParms.java" bodystart="257" bodyend="259"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1af15591462a29b3376f5e6008683d8855" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String params.ControlParms.getKindofhoehe</definition>
+        <argsstring>()</argsstring>
+        <name>getKindofhoehe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="261" column="19" bodyfile="params/ControlParms.java" bodystart="261" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1af6c0cee9ad8df502734e0679cdc6b283" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setKindofhoehe</definition>
+        <argsstring>(String kindofhoehe)</argsstring>
+        <name>setKindofhoehe</name>
+        <param>
+          <type>String</type>
+          <declname>kindofhoehe</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="265" column="17" bodyfile="params/ControlParms.java" bodystart="265" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1ab0e48205eade41505b94b657f2140f10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String params.ControlParms.getKindoftrafo</definition>
+        <argsstring>()</argsstring>
+        <name>getKindoftrafo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="269" column="19" bodyfile="params/ControlParms.java" bodystart="269" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1ac6f495c9f6f219b55a689cbac7b6da36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setKindoftrafo</definition>
+        <argsstring>(String kindoftrafo)</argsstring>
+        <name>setKindoftrafo</name>
+        <param>
+          <type>String</type>
+          <declname>kindoftrafo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="273" column="17" bodyfile="params/ControlParms.java" bodystart="273" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a5abf1cdcdffb8d4f7083ddcd0782b89a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.ControlParms.getDx</definition>
+        <argsstring>()</argsstring>
+        <name>getDx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="277" column="19" bodyfile="params/ControlParms.java" bodystart="277" bodyend="279"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1af79a3047660dd028f9b68cb6726ca185" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setDx</definition>
+        <argsstring>(double dx)</argsstring>
+        <name>setDx</name>
+        <param>
+          <type>double</type>
+          <declname>dx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="281" column="17" bodyfile="params/ControlParms.java" bodystart="281" bodyend="283"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a0b3471d9fb26c5e9fcbc7933fa84faf8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.ControlParms.getDy</definition>
+        <argsstring>()</argsstring>
+        <name>getDy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="285" column="19" bodyfile="params/ControlParms.java" bodystart="285" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a17584fe9dae43307ba1c060986ca1c7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setDy</definition>
+        <argsstring>(double dy)</argsstring>
+        <name>setDy</name>
+        <param>
+          <type>double</type>
+          <declname>dy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="289" column="17" bodyfile="params/ControlParms.java" bodystart="289" bodyend="291"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1afa1b48294cf0a1355ec97eb139eee4d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.ControlParms.getDz</definition>
+        <argsstring>()</argsstring>
+        <name>getDz</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="293" column="19" bodyfile="params/ControlParms.java" bodystart="293" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a90515ffb3445da1c793b30bd39403d83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setDz</definition>
+        <argsstring>(double dz)</argsstring>
+        <name>setDz</name>
+        <param>
+          <type>double</type>
+          <declname>dz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="297" column="17" bodyfile="params/ControlParms.java" bodystart="297" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a4252f7cdf5b712aa872beaf0af90a0f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.ControlParms.getDa</definition>
+        <argsstring>()</argsstring>
+        <name>getDa</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="301" column="19" bodyfile="params/ControlParms.java" bodystart="301" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a5dbf6d0fcc824987a05fd389690009ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setDa</definition>
+        <argsstring>(double da)</argsstring>
+        <name>setDa</name>
+        <param>
+          <type>double</type>
+          <declname>da</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="305" column="17" bodyfile="params/ControlParms.java" bodystart="305" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1aac8835837cbd44642c4f99a2e4432d88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.ControlParms.getDf</definition>
+        <argsstring>()</argsstring>
+        <name>getDf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="309" column="19" bodyfile="params/ControlParms.java" bodystart="309" bodyend="311"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a6454d68b7f953a28d11b54e141a92e30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setDf</definition>
+        <argsstring>(double df)</argsstring>
+        <name>setDf</name>
+        <param>
+          <type>double</type>
+          <declname>df</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="313" column="17" bodyfile="params/ControlParms.java" bodystart="313" bodyend="315"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a421e53e86089f32021bec5dbcd4954ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.ControlParms.getWx</definition>
+        <argsstring>()</argsstring>
+        <name>getWx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="317" column="19" bodyfile="params/ControlParms.java" bodystart="317" bodyend="319"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a997a3be490eaf52c7a3a24c7e459debe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setWx</definition>
+        <argsstring>(double wx)</argsstring>
+        <name>setWx</name>
+        <param>
+          <type>double</type>
+          <declname>wx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="321" column="17" bodyfile="params/ControlParms.java" bodystart="321" bodyend="323"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a892195e5364a123dbf317acf782eb2e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.ControlParms.getWy</definition>
+        <argsstring>()</argsstring>
+        <name>getWy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="325" column="19" bodyfile="params/ControlParms.java" bodystart="325" bodyend="327"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a62167ea52e9ae9c67bdd7f01d84d9338" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setWy</definition>
+        <argsstring>(double wy)</argsstring>
+        <name>setWy</name>
+        <param>
+          <type>double</type>
+          <declname>wy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="329" column="17" bodyfile="params/ControlParms.java" bodystart="329" bodyend="331"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a3968b56fc06aae0f01a3e3cc0bf5d7fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.ControlParms.getWz</definition>
+        <argsstring>()</argsstring>
+        <name>getWz</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="333" column="19" bodyfile="params/ControlParms.java" bodystart="333" bodyend="335"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a79521a33aa8a2e38aba29e77ce052714" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setWz</definition>
+        <argsstring>(double wz)</argsstring>
+        <name>setWz</name>
+        <param>
+          <type>double</type>
+          <declname>wz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="337" column="17" bodyfile="params/ControlParms.java" bodystart="337" bodyend="339"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1afd005a609a5850cce818d703c6d7d0ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.ControlParms.getRz1</definition>
+        <argsstring>()</argsstring>
+        <name>getRz1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="341" column="19" bodyfile="params/ControlParms.java" bodystart="341" bodyend="343"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a4c0dc142e134c041a8a4c571051135db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setRz1</definition>
+        <argsstring>(double Rz1)</argsstring>
+        <name>setRz1</name>
+        <param>
+          <type>double</type>
+          <declname>Rz1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="345" column="17" bodyfile="params/ControlParms.java" bodystart="345" bodyend="347"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a0f81b48dce0456c2c3e558d816cd6421" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.ControlParms.getRx2</definition>
+        <argsstring>()</argsstring>
+        <name>getRx2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="349" column="19" bodyfile="params/ControlParms.java" bodystart="349" bodyend="351"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1aa4ed8164ad987716fb33b950698717ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setRx2</definition>
+        <argsstring>(double Rx2)</argsstring>
+        <name>setRx2</name>
+        <param>
+          <type>double</type>
+          <declname>Rx2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="353" column="17" bodyfile="params/ControlParms.java" bodystart="353" bodyend="355"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a1a21b81af2b6f4b8e6b4384fc4fc3147" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.ControlParms.getRz3</definition>
+        <argsstring>()</argsstring>
+        <name>getRz3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="357" column="19" bodyfile="params/ControlParms.java" bodystart="357" bodyend="359"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1adb205b83347ef1c8b3996976cb9994d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setRz3</definition>
+        <argsstring>(double Rz3)</argsstring>
+        <name>setRz3</name>
+        <param>
+          <type>double</type>
+          <declname>Rz3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="361" column="17" bodyfile="params/ControlParms.java" bodystart="361" bodyend="363"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1aa58394ff038d3975c7978196f501ac20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.ControlParms.getMassstab</definition>
+        <argsstring>()</argsstring>
+        <name>getMassstab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="365" column="19" bodyfile="params/ControlParms.java" bodystart="365" bodyend="367"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1afafdea373a656d6dec1f39d7abfe4bf7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setMassstab</definition>
+        <argsstring>(double massstab)</argsstring>
+        <name>setMassstab</name>
+        <param>
+          <type>double</type>
+          <declname>massstab</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="369" column="17" bodyfile="params/ControlParms.java" bodystart="369" bodyend="371"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1aa23beea311a95495623a6940fb190361" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.ControlParms.getDestinationCoordinateX</definition>
+        <argsstring>()</argsstring>
+        <name>getDestinationCoordinateX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="373" column="19" bodyfile="params/ControlParms.java" bodystart="373" bodyend="375"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a9cb313fe0bdb0301e97f6270420960ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setDestinationCoordinateX</definition>
+        <argsstring>(double destinationCoordinateX)</argsstring>
+        <name>setDestinationCoordinateX</name>
+        <param>
+          <type>double</type>
+          <declname>destinationCoordinateX</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="377" column="17" bodyfile="params/ControlParms.java" bodystart="377" bodyend="379"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a055cab8e112537f78077721cc08d1180" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.ControlParms.getDestinationCoordinateY</definition>
+        <argsstring>()</argsstring>
+        <name>getDestinationCoordinateY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="381" column="19" bodyfile="params/ControlParms.java" bodystart="381" bodyend="383"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1abb6dad3385885ee866020022ea8a2686" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setDestinationCoordinateY</definition>
+        <argsstring>(double destinationCoordinateY)</argsstring>
+        <name>setDestinationCoordinateY</name>
+        <param>
+          <type>double</type>
+          <declname>destinationCoordinateY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="385" column="17" bodyfile="params/ControlParms.java" bodystart="385" bodyend="387"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a495fb5cc9b4a503506b684a699ecb625" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.ControlParms.getDestinationCoordinateZ</definition>
+        <argsstring>()</argsstring>
+        <name>getDestinationCoordinateZ</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="389" column="19" bodyfile="params/ControlParms.java" bodystart="389" bodyend="391"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a803ea3480b1a8b08dd39b43911e4c649" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setDestinationCoordinateZ</definition>
+        <argsstring>(double destinationCoordinateZ)</argsstring>
+        <name>setDestinationCoordinateZ</name>
+        <param>
+          <type>double</type>
+          <declname>destinationCoordinateZ</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="393" column="17" bodyfile="params/ControlParms.java" bodystart="393" bodyend="395"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1aad161acbe2c3e412ad077e3319c914cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String params.ControlParms.getFileinput</definition>
+        <argsstring>()</argsstring>
+        <name>getFileinput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="397" column="19" bodyfile="params/ControlParms.java" bodystart="397" bodyend="399"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a609480f3c26381da7f897c481a7f684c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setFileinput</definition>
+        <argsstring>(String fileinput)</argsstring>
+        <name>setFileinput</name>
+        <param>
+          <type>String</type>
+          <declname>fileinput</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="401" column="17" bodyfile="params/ControlParms.java" bodystart="401" bodyend="403"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1ac022aba6ce9fc9cc2db653d4b33cf30c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String params.ControlParms.getFileoutput</definition>
+        <argsstring>()</argsstring>
+        <name>getFileoutput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="405" column="19" bodyfile="params/ControlParms.java" bodystart="405" bodyend="407"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1acb93361691fe1af23a8d840629f5f796" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setFileoutput</definition>
+        <argsstring>(String fileoutput)</argsstring>
+        <name>setFileoutput</name>
+        <param>
+          <type>String</type>
+          <declname>fileoutput</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="409" column="17" bodyfile="params/ControlParms.java" bodystart="409" bodyend="411"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1af6ac66a15401db24a578c5ad863df54e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String params.ControlParms.getQupkt</definition>
+        <argsstring>()</argsstring>
+        <name>getQupkt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="413" column="19" bodyfile="params/ControlParms.java" bodystart="413" bodyend="415"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a80c2c269b374d89c053bfd4ec569bc0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setQupkt</definition>
+        <argsstring>(String qupkt)</argsstring>
+        <name>setQupkt</name>
+        <param>
+          <type>String</type>
+          <declname>qupkt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="417" column="17" bodyfile="params/ControlParms.java" bodystart="417" bodyend="419"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a8700a8ee5b82ed97b607ee070596ad4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String params.ControlParms.getQutausch</definition>
+        <argsstring>()</argsstring>
+        <name>getQutausch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="421" column="19" bodyfile="params/ControlParms.java" bodystart="421" bodyend="423"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a2a551f64ac811a40f1a1fef83793f94d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setQutausch</definition>
+        <argsstring>(String qutausch)</argsstring>
+        <name>setQutausch</name>
+        <param>
+          <type>String</type>
+          <declname>qutausch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="425" column="17" bodyfile="params/ControlParms.java" bodystart="425" bodyend="427"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a310f3b5a8fa32f4810cebe7354d8b6fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String params.ControlParms.getAusgabetyp</definition>
+        <argsstring>()</argsstring>
+        <name>getAusgabetyp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="429" column="19" bodyfile="params/ControlParms.java" bodystart="429" bodyend="431"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1ae4add7088c814512790397af2e582997" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setAusgabetyp</definition>
+        <argsstring>(String ausgabetyp)</argsstring>
+        <name>setAusgabetyp</name>
+        <param>
+          <type>String</type>
+          <declname>ausgabetyp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="433" column="17" bodyfile="params/ControlParms.java" bodystart="433" bodyend="435"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a12aec04726c89c78fffbe2f7c0148cfd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String params.ControlParms.getZipkt</definition>
+        <argsstring>()</argsstring>
+        <name>getZipkt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="437" column="19" bodyfile="params/ControlParms.java" bodystart="437" bodyend="439"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1afea7f5a4ce364f172fc3dbc4daf9ecd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setZipkt</definition>
+        <argsstring>(String zipkt)</argsstring>
+        <name>setZipkt</name>
+        <param>
+          <type>String</type>
+          <declname>zipkt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="441" column="17" bodyfile="params/ControlParms.java" bodystart="441" bodyend="443"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a3ff4bfa2904c4f485a20f6fb864557b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String params.ControlParms.getZihoehe</definition>
+        <argsstring>()</argsstring>
+        <name>getZihoehe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="445" column="19" bodyfile="params/ControlParms.java" bodystart="445" bodyend="447"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1ae77b5d713891b289145e548a5c05d67e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setZihoehe</definition>
+        <argsstring>(String zihoehe)</argsstring>
+        <name>setZihoehe</name>
+        <param>
+          <type>String</type>
+          <declname>zihoehe</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="449" column="17" bodyfile="params/ControlParms.java" bodystart="449" bodyend="451"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1ab99b444c9b8cfd2b54b384c8e3ad5e7e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String params.ControlParms.getZitausch</definition>
+        <argsstring>()</argsstring>
+        <name>getZitausch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="453" column="19" bodyfile="params/ControlParms.java" bodystart="453" bodyend="455"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1adb5c016b189b75a4a2e3c1b314769db2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setZitausch</definition>
+        <argsstring>(String zitausch)</argsstring>
+        <name>setZitausch</name>
+        <param>
+          <type>String</type>
+          <declname>zitausch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="457" column="17" bodyfile="params/ControlParms.java" bodystart="457" bodyend="459"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class <ref refid="classparams_1_1_control_parms" kindref="compound">ControlParms</ref> extends class <ref refid="classparams_1_1_ellipsoid_parms" kindref="compound">EllipsoidParms</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="remark"><para>last refactored 11.12.2017 by Eva Majer <linebreak/>
+ <itemizedlist>
+<listitem>
+<para>adaptions for <ref refid="classparams_1_1_control_parms" kindref="compound">ControlParms</ref> Singleton </para>
+</listitem>
+<listitem>
+<para>Translation of some comments </para>
+</listitem>
+<listitem>
+<para>Translation of print method output </para>
+</listitem>
+</itemizedlist>
+</para>
+</simplesect>
+<simplesect kind="remark"><para>add some comments on 2018-01-06 by Yunhao Huang </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>params.EllipsoidParms</label>
+        <link refid="classparams_1_1_ellipsoid_parms"/>
+      </node>
+      <node id="1">
+        <label>params.ControlParms</label>
+        <link refid="classparams_1_1_control_parms"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>params.EllipsoidParms</label>
+        <link refid="classparams_1_1_ellipsoid_parms"/>
+      </node>
+      <node id="1">
+        <label>params.ControlParms</label>
+        <link refid="classparams_1_1_control_parms"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>instance</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="params/ControlParms.java" line="17" column="41" bodyfile="params/ControlParms.java" bodystart="17" bodyend="461"/>
+    <listofallmembers>
+      <member refid="classparams_1_1_control_parms_1a614f382326dedabe279d8c79abf6b507" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>ausgabetyp</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a8c4aea13fd32cd84761c5fa923a3b56a" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>c</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1ad33cde2be306e100c10b186416864d36" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>calculatelongitudeParms</name></member>
+      <member refid="classparams_1_1_control_parms_1a863cdfdf5647ef0c8f9864cae1dfc753" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>changedatum</name></member>
+      <member refid="classparams_1_1_control_parms_1a8684e9cf600ad6c4356eeca30133b147" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>ControlParms</name></member>
+      <member refid="classparams_1_1_control_parms_1af7874df2feb2be8ca0f3a7f1250ef7fd" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>da</name></member>
+      <member refid="classparams_1_1_control_parms_1aeaf9b43a90b6126041788042b28951be" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>destinationCoordinateX</name></member>
+      <member refid="classparams_1_1_control_parms_1a90bb6214dd6ee9d4f02aa7cf58d915bb" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>destinationCoordinateY</name></member>
+      <member refid="classparams_1_1_control_parms_1a08120c4eed68ad7702c1916abaaa16db" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>destinationCoordinateZ</name></member>
+      <member refid="classparams_1_1_control_parms_1a3dfb56045add56099f7321b470f5d9fe" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>df</name></member>
+      <member refid="classparams_1_1_control_parms_1ac33290885ff9f6559cb4864a5fbaedb0" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>dx</name></member>
+      <member refid="classparams_1_1_control_parms_1ab6b652d7f1f9ac1dba4a12c2cf2696cb" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>dy</name></member>
+      <member refid="classparams_1_1_control_parms_1aa3bc4f90d701204615fc84404b5c47f0" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>dz</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1ae8dcc24aa03ce1f0c6ccd2daf1c549fc" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>EllipsoidParms</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a76412304312a0a253086d195874110c0" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>EllipsoidParms</name></member>
+      <member refid="classparams_1_1_control_parms_1a8f7f249d73a5315f42f96ad5e844714e" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>fileinput</name></member>
+      <member refid="classparams_1_1_control_parms_1a46c822bd308f3cf5593519a9b1421a07" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>fileoutput</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1aa20a57453ee89effbe7a0058103f30a4" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>firstEccentricity</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a75cc9d5d8459811e32022f5028626f0c" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>flattening</name></member>
+      <member refid="classparams_1_1_control_parms_1ae0a950871fef34d367d8a70e80fc0fd0" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>fromawert</name></member>
+      <member refid="classparams_1_1_control_parms_1ad4f4af5989abca7c5616feb442c2e7c0" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>frombwert</name></member>
+      <member refid="classparams_1_1_control_parms_1aad346084aae4e796320eae7c950ce914" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>fromdatum</name></member>
+      <member refid="classparams_1_1_control_parms_1af020acb1b072ddea3560e25cac18ac3f" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>fromprojection</name></member>
+      <member refid="classparams_1_1_control_parms_1a310f3b5a8fa32f4810cebe7354d8b6fb" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getAusgabetyp</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1ac6d2d8e560b2c5f93f1eae7e47da312e" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getC</name></member>
+      <member refid="classparams_1_1_control_parms_1a4252f7cdf5b712aa872beaf0af90a0f0" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getDa</name></member>
+      <member refid="classparams_1_1_control_parms_1aa23beea311a95495623a6940fb190361" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getDestinationCoordinateX</name></member>
+      <member refid="classparams_1_1_control_parms_1a055cab8e112537f78077721cc08d1180" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getDestinationCoordinateY</name></member>
+      <member refid="classparams_1_1_control_parms_1a495fb5cc9b4a503506b684a699ecb625" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getDestinationCoordinateZ</name></member>
+      <member refid="classparams_1_1_control_parms_1aac8835837cbd44642c4f99a2e4432d88" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getDf</name></member>
+      <member refid="classparams_1_1_control_parms_1a5abf1cdcdffb8d4f7083ddcd0782b89a" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getDx</name></member>
+      <member refid="classparams_1_1_control_parms_1a0b3471d9fb26c5e9fcbc7933fa84faf8" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getDy</name></member>
+      <member refid="classparams_1_1_control_parms_1afa1b48294cf0a1355ec97eb139eee4d1" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getDz</name></member>
+      <member refid="classparams_1_1_control_parms_1aad161acbe2c3e412ad077e3319c914cf" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getFileinput</name></member>
+      <member refid="classparams_1_1_control_parms_1ac022aba6ce9fc9cc2db653d4b33cf30c" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getFileoutput</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1acf91ad0a9927986a49f095d6f771e3e5" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getFirstEccentricity</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a59e492be1d59af1f0ac89c82f4bf12ed" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getFlattening</name></member>
+      <member refid="classparams_1_1_control_parms_1a059d3a66ef8da8b3735b204026cbdf62" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getFromawert</name></member>
+      <member refid="classparams_1_1_control_parms_1a53c75f21640c052696f9c0c249847706" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getFrombwert</name></member>
+      <member refid="classparams_1_1_control_parms_1a351a1525bef8a4e648bc2d79f57079a7" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getFromdatum</name></member>
+      <member refid="classparams_1_1_control_parms_1a040d46279514db25122b3230087da9cc" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getFromprojection</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1aaa87eb361d5f0be95d014842b8201cea" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getGK_refmer</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1aba1d562097bdfbdca02d1297bb7eef40" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getId</name></member>
+      <member refid="classparams_1_1_control_parms_1a34463dd11453c5f45660efaabbe826f7" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getInstance</name></member>
+      <member refid="classparams_1_1_control_parms_1af15591462a29b3376f5e6008683d8855" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getKindofhoehe</name></member>
+      <member refid="classparams_1_1_control_parms_1ab0e48205eade41505b94b657f2140f10" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getKindoftrafo</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1aceac84961ab929328c39afc3357519c7" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getM</name></member>
+      <member refid="classparams_1_1_control_parms_1aa58394ff038d3975c7978196f501ac20" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getMassstab</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1abb15b257c76e9880ed28c854a4731c0d" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getN</name></member>
+      <member refid="classparams_1_1_control_parms_1a29550d5e3b87f28380b8d0db21c49840" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getNorthhem</name></member>
+      <member refid="classparams_1_1_control_parms_1a4849978cd3cad0b731e744d16ff90c97" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getPoint_number</name></member>
+      <member refid="classparams_1_1_control_parms_1a0a9e4c1b1507109c2af9362c76f152b5" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getPointid</name></member>
+      <member refid="classparams_1_1_control_parms_1af6ac66a15401db24a578c5ad863df54e" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getQupkt</name></member>
+      <member refid="classparams_1_1_control_parms_1a8700a8ee5b82ed97b607ee070596ad4c" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getQutausch</name></member>
+      <member refid="classparams_1_1_control_parms_1a0f81b48dce0456c2c3e558d816cd6421" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getRx2</name></member>
+      <member refid="classparams_1_1_control_parms_1afd005a609a5850cce818d703c6d7d0ee" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getRz1</name></member>
+      <member refid="classparams_1_1_control_parms_1a1a21b81af2b6f4b8e6b4384fc4fc3147" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getRz3</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a247439302e5081a009d1316d777f87e8" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getSecondEccentricity</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a068f04b524a696a0d328089a90de728b" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getSemiMajorAxis</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a5542f3e4c1e37c27f616afefc66f7d6f" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getSemiMinorAxis</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a2d57a7d2449fb7bbf6fbc0f66ae85848" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getSoldner_b0</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1afe6b1d0500228058310947eedeee20b7" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getSoldner_l0</name></member>
+      <member refid="classparams_1_1_control_parms_1a983d9ff3981b01e4fc538626a50bdd30" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getSourceCoordinateX</name></member>
+      <member refid="classparams_1_1_control_parms_1a0260c671857a637b51ddc23af52ad71d" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getSourceCoordinateY</name></member>
+      <member refid="classparams_1_1_control_parms_1a67542179daef32a9001cee0862832858" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getSourceCoordinateZ</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1ab9fb994a17b8b561d22be1de0b31f287" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getToa</name></member>
+      <member refid="classparams_1_1_control_parms_1a39ce573f000eb18b6cf676e1f43fb0b5" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getToawert</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1ade69e57694ce4b388c6c75078875aee8" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getTob</name></member>
+      <member refid="classparams_1_1_control_parms_1ad2092609e231fabe769def50523a206e" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getTobwert</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1ab17b1913708fbd2fc66fc7b3d33383bc" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getToc</name></member>
+      <member refid="classparams_1_1_control_parms_1a44eaedb52a3f19108a3458ce918e73ee" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getTodatum</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1ad150fd728cb5c16bba1716b5c17547ba" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getToe2</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a575681020e0d8f808fc078e56051c198" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getToes2</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a60fccf6eb2260e97082bb6789204f141" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getTof</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a3bb0244d95115ff0163ce7f6679b8036" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getToid</name></member>
+      <member refid="classparams_1_1_control_parms_1a2d485a515e99332d5c1712f298ccabc1" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getToprojection</name></member>
+      <member refid="classparams_1_1_control_parms_1a421e53e86089f32021bec5dbcd4954ef" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getWx</name></member>
+      <member refid="classparams_1_1_control_parms_1a892195e5364a123dbf317acf782eb2e9" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getWy</name></member>
+      <member refid="classparams_1_1_control_parms_1a3968b56fc06aae0f01a3e3cc0bf5d7fc" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getWz</name></member>
+      <member refid="classparams_1_1_control_parms_1a3ff4bfa2904c4f485a20f6fb864557b4" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getZihoehe</name></member>
+      <member refid="classparams_1_1_control_parms_1a12aec04726c89c78fffbe2f7c0148cfd" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getZipkt</name></member>
+      <member refid="classparams_1_1_control_parms_1ab99b444c9b8cfd2b54b384c8e3ad5e7e" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getZitausch</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a86b4e7b5eb4b4f2f671e61e75e0dc7f9" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>GK_refmer</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a0dc788084fb0dd603ace16e936382883" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>id</name></member>
+      <member refid="classparams_1_1_control_parms_1ae1673336e84a96b7c381c651f5e1c57a" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>instance</name></member>
+      <member refid="classparams_1_1_control_parms_1ab1496ac78857153a556b98b357595e1b" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>isChangedatum</name></member>
+      <member refid="classparams_1_1_control_parms_1a639927766fce23759b47659a9abf0e6f" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>kindofhoehe</name></member>
+      <member refid="classparams_1_1_control_parms_1afcfdabbc39158e0ae25e47d76a6dc2a4" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>kindoftrafo</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a883bc11eefefe2015268f12f6f392d02" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>M</name></member>
+      <member refid="classparams_1_1_control_parms_1a7d7e220c8bacb270d2f0760b4230df04" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>massstab</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a0828d1c17e1154e96745e1a327d4065c" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>N</name></member>
+      <member refid="classparams_1_1_control_parms_1a1b7d4bdc68c2531026174a04ad715cbf" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>northhem</name></member>
+      <member refid="classparams_1_1_control_parms_1a3af78a8732b0695526059f88e10d7e9e" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>point_number</name></member>
+      <member refid="classparams_1_1_control_parms_1aa4531a579e0d7ae5f07853ac5f4141a2" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>pointid</name></member>
+      <member refid="classparams_1_1_control_parms_1af1a625fc2adabd5ec8a2af31f93d3278" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>print</name></member>
+      <member refid="classparams_1_1_control_parms_1a289a0ed91250fd5f28210158775de95c" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>qupkt</name></member>
+      <member refid="classparams_1_1_control_parms_1a8ede5bb2ec22052831dcac27853ef668" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>qutausch</name></member>
+      <member refid="classparams_1_1_control_parms_1af114ca71c4fdd82a3f056807591efdb0" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>Rx2</name></member>
+      <member refid="classparams_1_1_control_parms_1a0501dbc13102eff28a1e15e005e73c26" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>Rz1</name></member>
+      <member refid="classparams_1_1_control_parms_1a60fdffbd1fadf6b1a7a0372939337131" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>Rz3</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1adcc0bf7ab5ecf57524183e296d356e44" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>secondEccentricity</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1ade0c44ec7d1b96b92e0596e2ffd36ff9" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>semiMajorAxis</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1ac6a5a05c596ba1581bbda76fe87ee43b" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>semiMinorAxis</name></member>
+      <member refid="classparams_1_1_control_parms_1ae4add7088c814512790397af2e582997" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setAusgabetyp</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a290c9540675e92d4fe57b6d8c99a6864" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setC</name></member>
+      <member refid="classparams_1_1_control_parms_1a5e5239551fb75c863e259c27ddd375b1" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setChangedatum</name></member>
+      <member refid="classparams_1_1_control_parms_1a5dbf6d0fcc824987a05fd389690009ef" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setDa</name></member>
+      <member refid="classparams_1_1_control_parms_1a9cb313fe0bdb0301e97f6270420960ac" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setDestinationCoordinateX</name></member>
+      <member refid="classparams_1_1_control_parms_1abb6dad3385885ee866020022ea8a2686" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setDestinationCoordinateY</name></member>
+      <member refid="classparams_1_1_control_parms_1a803ea3480b1a8b08dd39b43911e4c649" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setDestinationCoordinateZ</name></member>
+      <member refid="classparams_1_1_control_parms_1a6454d68b7f953a28d11b54e141a92e30" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setDf</name></member>
+      <member refid="classparams_1_1_control_parms_1af79a3047660dd028f9b68cb6726ca185" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setDx</name></member>
+      <member refid="classparams_1_1_control_parms_1a17584fe9dae43307ba1c060986ca1c7f" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setDy</name></member>
+      <member refid="classparams_1_1_control_parms_1a90515ffb3445da1c793b30bd39403d83" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setDz</name></member>
+      <member refid="classparams_1_1_control_parms_1a609480f3c26381da7f897c481a7f684c" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setFileinput</name></member>
+      <member refid="classparams_1_1_control_parms_1acb93361691fe1af23a8d840629f5f796" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setFileoutput</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a27962849b946e3ba291ab15856083ced" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setFirstEccentricity</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1aecd855e7bf03309adf8edc75042b7383" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setFlattening</name></member>
+      <member refid="classparams_1_1_control_parms_1a7074fde2b7e5a80c50cb997d78786668" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setFromawert</name></member>
+      <member refid="classparams_1_1_control_parms_1aaf0d60a3e1b3362be227d9721537a424" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setFrombwert</name></member>
+      <member refid="classparams_1_1_control_parms_1a126be81b5ff3d178bc8c5c932433a6dc" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setFromdatum</name></member>
+      <member refid="classparams_1_1_control_parms_1ab7f98c31662cc19a37c38630c7652d16" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setFromprojection</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a711a94a4e810fa3acd91cabc94ef8b73" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setGK_refmer</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a39defb526e42409be9d233cc5f51d17c" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setId</name></member>
+      <member refid="classparams_1_1_control_parms_1af6c0cee9ad8df502734e0679cdc6b283" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setKindofhoehe</name></member>
+      <member refid="classparams_1_1_control_parms_1ac6f495c9f6f219b55a689cbac7b6da36" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setKindoftrafo</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1ad33bd8b9852b20794f1c5b5cd024e51c" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setM</name></member>
+      <member refid="classparams_1_1_control_parms_1afafdea373a656d6dec1f39d7abfe4bf7" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setMassstab</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a498387541756991907783083c45a457c" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setN</name></member>
+      <member refid="classparams_1_1_control_parms_1a58f9db5f3fc7cfae594313291bc3b4e3" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setNorthhem</name></member>
+      <member refid="classparams_1_1_control_parms_1a28dd663a60ecea831af1955e43155f49" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setPoint_number</name></member>
+      <member refid="classparams_1_1_control_parms_1a801da8ace900553603da73d988c16ea6" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setPointid</name></member>
+      <member refid="classparams_1_1_control_parms_1a80c2c269b374d89c053bfd4ec569bc0d" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setQupkt</name></member>
+      <member refid="classparams_1_1_control_parms_1a2a551f64ac811a40f1a1fef83793f94d" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setQutausch</name></member>
+      <member refid="classparams_1_1_control_parms_1aa4ed8164ad987716fb33b950698717ae" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setRx2</name></member>
+      <member refid="classparams_1_1_control_parms_1a4c0dc142e134c041a8a4c571051135db" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setRz1</name></member>
+      <member refid="classparams_1_1_control_parms_1adb205b83347ef1c8b3996976cb9994d4" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setRz3</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a1053dddae8b704f666d40407be5f90ee" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setSecondEccentricity</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1ac8c7b6c628123f8e7bbe9a3433d73255" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setSemiMajorAxis</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a1bb1c00f1745417ba061a4ff458d2ead" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setSemiMinorAxis</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a0ab99cecabf398adc130b15c8f3e23c5" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setSoldner_b0</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a44b6361a151c89c4eb9425a9a19e6766" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setSoldner_l0</name></member>
+      <member refid="classparams_1_1_control_parms_1af40634625631868be25843439ef54567" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setSourceCoordinateX</name></member>
+      <member refid="classparams_1_1_control_parms_1a54d42ffa9c74db6b5c3ee1d2544c5e21" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setSourceCoordinateY</name></member>
+      <member refid="classparams_1_1_control_parms_1ae0a1b0117d381b3005fd567cb3e0c647" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setSourceCoordinateZ</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1afa3004dc536f9098e902be0dfe5c1a5b" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setToa</name></member>
+      <member refid="classparams_1_1_control_parms_1a1cbbd11c3436b09ac7063fef1c2149bb" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setToawert</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a0f7664b1d2c2c20aec2b059e62cbe00f" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setTob</name></member>
+      <member refid="classparams_1_1_control_parms_1af66e9cb53a14ea90d0f61e3d8649be38" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setTobwert</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a9f7db01c2f444ead5d5e36cb73563bd0" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setToc</name></member>
+      <member refid="classparams_1_1_control_parms_1a13d42878222bafbe8d3c48fdd3955220" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setTodatum</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1ac2a0d6cf273845316fd87f9a2cc47ff9" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setToe2</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1aeeff1d0b99befdcc75383e3e9f475c58" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setToes2</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a4dfc1bf7517139c222bbc4f5704eeeb1" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setTof</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a1ff0ff030ab98abd9e1cb14f7f2d55d0" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setToid</name></member>
+      <member refid="classparams_1_1_control_parms_1aa1c2641c116c78d09adf7fcd36f1e646" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setToprojection</name></member>
+      <member refid="classparams_1_1_control_parms_1a997a3be490eaf52c7a3a24c7e459debe" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setWx</name></member>
+      <member refid="classparams_1_1_control_parms_1a62167ea52e9ae9c67bdd7f01d84d9338" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setWy</name></member>
+      <member refid="classparams_1_1_control_parms_1a79521a33aa8a2e38aba29e77ce052714" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setWz</name></member>
+      <member refid="classparams_1_1_control_parms_1ae77b5d713891b289145e548a5c05d67e" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setZihoehe</name></member>
+      <member refid="classparams_1_1_control_parms_1afea7f5a4ce364f172fc3dbc4daf9ecd7" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setZipkt</name></member>
+      <member refid="classparams_1_1_control_parms_1adb5c016b189b75a4a2e3c1b314769db2" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setZitausch</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a600fb2e197a0cce391abf04cbbd2bfa4" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>Soldner_b0</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1ae589624b96dcf9f152cdd13f5fc2b813" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>Soldner_l0</name></member>
+      <member refid="classparams_1_1_control_parms_1a2688293d730d637a973567b209289996" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>sourceCoordinateX</name></member>
+      <member refid="classparams_1_1_control_parms_1a3e2c396bf201d9c84f4efdf8dfef51d1" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>sourceCoordinateY</name></member>
+      <member refid="classparams_1_1_control_parms_1ae3c3b4ee3fb2bef870380e13e573aec2" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>sourceCoordinateZ</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a6778e1b5d14507d1485a5e49a0935b8a" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>toa</name></member>
+      <member refid="classparams_1_1_control_parms_1a15c11042320f3bdcc8da8d2cc885b975" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>toawert</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a440e25ee5cdf6444267c3f4dec8d5c4d" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>tob</name></member>
+      <member refid="classparams_1_1_control_parms_1a1d7775bde246e74d651d87ca38e247ba" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>tobwert</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a54bfe0d39a76ddebbd5a39f372171633" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>toc</name></member>
+      <member refid="classparams_1_1_control_parms_1a930769d55920443b555a18d86f79a410" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>todatum</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a185fd33e0e636da454abd7d6526d19d6" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>toe2</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a83a125728bc8d0f2d1935148ab97867d" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>toes2</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a97a668f9510e875e9542e7ec9d66b2ed" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>tof</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a1b4082c660ebfbb0e6ee77a6d3b24944" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>toid</name></member>
+      <member refid="classparams_1_1_control_parms_1ad4c562a7ccfd2c0909af99b2555f7c12" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>toprojection</name></member>
+      <member refid="classparams_1_1_control_parms_1a08c3a014edb82ee19a2b046a07efbac5" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>wx</name></member>
+      <member refid="classparams_1_1_control_parms_1a35defe66635bc8e2aaa05c146dc5e4ac" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>wy</name></member>
+      <member refid="classparams_1_1_control_parms_1ad948128a938b351f23b1d7aee4ae1cb3" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>wz</name></member>
+      <member refid="classparams_1_1_control_parms_1a780c529e507f496ccb69f6b9b3ddce62" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>zihoehe</name></member>
+      <member refid="classparams_1_1_control_parms_1a5796bbd6b3b407130074d89b85c183d6" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>zipkt</name></member>
+      <member refid="classparams_1_1_control_parms_1afeb9c826d60a837625db477d1e836880" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>zitausch</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

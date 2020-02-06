@@ -1,44 +1,64 @@
-\hypertarget{classdatumstrategy_1_1_spatial_similarity_transformation_infin}{}\doxysection{datumstrategy.\+Spatial\+Similarity\+Transformation\+Infin Class Reference}
+\hypertarget{classdatumstrategy_1_1_spatial_similarity_transformation_infin}{}\doxysection{datumstrategy.\+Spatial\+Similarity\+Transformation\+Infin Klassenreferenz}
 \label{classdatumstrategy_1_1_spatial_similarity_transformation_infin}\index{datumstrategy.SpatialSimilarityTransformationInfin@{datumstrategy.SpatialSimilarityTransformationInfin}}
 
 
 Algorithmic realization of the 3D similarity transformation also known as 7-\/parameter transformation.  
 
 
-Inheritance diagram for datumstrategy.\+Spatial\+Similarity\+Transformation\+Infin\+:\begin{figure}[H]
+Klassendiagramm für datumstrategy.\+Spatial\+Similarity\+Transformation\+Infin\+:\begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[height=2.000000cm]{classdatumstrategy_1_1_spatial_similarity_transformation_infin}
 \end{center}
 \end{figure}
-\doxysubsection*{Public Member Functions}
+\doxysubsection*{Öffentliche Methoden}
 \begin{DoxyCompactItemize}
 \item 
 void \mbox{\hyperlink{classdatumstrategy_1_1_spatial_similarity_transformation_infin_a10a133bbcba0dec7e7bdff6a430087b5}{transform}} (\mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate_interface}{Geographic\+Coordinate\+Interface}} geo)
 \begin{DoxyCompactList}\small\item\em abstract method for the transformation of a geographic coordinate \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
-\doxysubsection{Detailed Description}
+\doxysubsection{Ausführliche Beschreibung}
 Algorithmic realization of the 3D similarity transformation also known as 7-\/parameter transformation. 
 
 The method takes all needed parameters from the class Control\+Parms that extends the class Ellipsoid\+Parms. Needed parameter for the 7-\/Param-\/\+Transformation\+: 3 translation-\/, 1 scale-\/ and 3 rotation -\/parameters. The start coordinates are taken from the class Geographic\+Coordinate and have to be converted into cartesian coordinates to realize the transformation. The 7-\/Param-\/\+Transformation is done with cartesian coordinates. After the \mbox{\hyperlink{class_transformation}{Transformation}}, the new cartesian coordinates are converted into ellipsoidal coordinates by an iterative process.
 
-source of conversions\+: Geodaetische Flaechenkoordinaten, Uebung2, kart2geo.\+pdf, 20.\+11.\+2014 source of 7-\/Param-\/\+Transformation\+: \href{https://de.wikipedia.org/wiki/Helmert-Transformation}{\texttt{ https\+://de.\+wikipedia.\+org/wiki/\+Helmert-\/\+Transformation}} \begin{DoxyAuthor}{Author}
+source of conversions\+: Geodaetische Flaechenkoordinaten, Uebung2, kart2geo.\+pdf, 20.\+11.\+2014 source of 7-\/Param-\/\+Transformation\+: \href{https://de.wikipedia.org/wiki/Helmert-Transformation}{\texttt{ https\+://de.\+wikipedia.\+org/wiki/\+Helmert-\/\+Transformation}} \begin{DoxyAuthor}{Autor}
 Andreas Eppler 
 \end{DoxyAuthor}
-\begin{DoxyRemark}{Remarks}
+\begin{DoxyRemark}{Bemerkungen}
 adaptions for Control\+Parms Singleton on 11.\+12.\+2017 by Eva Majer 
 
 use the methods of class X\+Y\+Z\+Coordinate to convert between ellipsoidal and cartesian coordinates on 19.\+12.\+17 by Markus Hillemann 
 
 changed the class name (Camel\+Case) on 20.\+12.\+17 by Markus Hillemann 
+
+implemented the calculation of the 7-\/Param-\/\+Transformation with matrices instead of singular values on 11.\+12.\+2019 by Steven Landgraf 
+\end{DoxyRemark}
+\begin{DoxyVersion}{Version}
+0.\+1
+\end{DoxyVersion}
+The method takes all needed parameters from the class Control\+Parms that extends the class Ellipsoid\+Parms. Needed parameter for the 7-\/Param-\/\+Transformation\+: 3 translation-\/, 1 scale-\/ and 3 rotation -\/parameters. The start coordinates are taken from the class Geographic\+Coordinate and have to be converted into cartesian coordinates to realize the transformation. The 7-\/Param-\/\+Transformation is done with cartesian coordinates. After the \mbox{\hyperlink{class_transformation}{Transformation}}, the new cartesian coordinates are converted into ellipsoidal coordinates by an iterative process.
+
+source of conversions\+: Geodaetische Flaechenkoordinaten, Uebung2, kart2geo.\+pdf, 20.\+11.\+2014 source of 7-\/Param-\/\+Transformation\+: \href{https://de.wikipedia.org/wiki/Helmert-Transformation}{\texttt{ https\+://de.\+wikipedia.\+org/wiki/\+Helmert-\/\+Transformation}} \begin{DoxyAuthor}{Autor}
+Andreas Eppler 
+\end{DoxyAuthor}
+\begin{DoxyRemark}{Bemerkungen}
+adaptions for Control\+Parms Singleton on 11.\+12.\+2017 by Eva Majer 
+
+use the methods of class X\+Y\+Z\+Coordinate to convert between ellipsoidal and cartesian coordinates on 19.\+12.\+17 by Markus Hillemann 
+
+changed the class name (Camel\+Case) on 20.\+12.\+17 by Markus Hillemann
+\begin{DoxyItemize}
+\item 
+\end{DoxyItemize}
 \end{DoxyRemark}
 \begin{DoxyVersion}{Version}
 0.\+1 
 \end{DoxyVersion}
 
 
-\doxysubsection{Member Function Documentation}
+\doxysubsection{Dokumentation der Elementfunktionen}
 \mbox{\Hypertarget{classdatumstrategy_1_1_spatial_similarity_transformation_infin_a10a133bbcba0dec7e7bdff6a430087b5}\label{classdatumstrategy_1_1_spatial_similarity_transformation_infin_a10a133bbcba0dec7e7bdff6a430087b5}} 
 \index{datumstrategy.SpatialSimilarityTransformationInfin@{datumstrategy.SpatialSimilarityTransformationInfin}!transform@{transform}}
 \index{transform@{transform}!datumstrategy.SpatialSimilarityTransformationInfin@{datumstrategy.SpatialSimilarityTransformationInfin}}
@@ -50,16 +70,16 @@ changed the class name (Camel\+Case) on 20.\+12.\+17 by Markus Hillemann
 abstract method for the transformation of a geographic coordinate 
 
 
-\begin{DoxyParams}{Parameters}
+\begin{DoxyParams}{Parameter}
 {\em geographic\+Coordinate} & -\/ an object of type Geographic\+Coordinate\+Interface which is used for input/output for the transformation algorithm \\
 \hline
 \end{DoxyParams}
 
 
-Reimplemented from \mbox{\hyperlink{classdatumstrategy_1_1_transformation_strategy_a0fd1d6fbba01e5222360740e34eae786}{datumstrategy.\+Transformation\+Strategy}}.
+Erneute Implementation von \mbox{\hyperlink{classdatumstrategy_1_1_transformation_strategy_a0fd1d6fbba01e5222360740e34eae786}{datumstrategy.\+Transformation\+Strategy}}.
 
 
 
-The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+Die Dokumentation für diese Klasse wurde erzeugt aufgrund der Datei\+:\begin{DoxyCompactItemize}
 \item 
 datumstrategy/\mbox{\hyperlink{_spatial_similarity_transformation_infin_8java}{Spatial\+Similarity\+Transformation\+Infin.\+java}}\end{DoxyCompactItemize}

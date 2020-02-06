@@ -1,0 +1,428 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classcoordinates_1_1_u_t_m" kind="class" language="Java" prot="public">
+    <compoundname>coordinates::UTM</compoundname>
+    <basecompoundref refid="classcoordinates_1_1_gauss" prot="public" virt="non-virtual">coordinates.Gauss</basecompoundref>
+    <derivedcompoundref refid="classtest_1_1coordinates_1_1_u_t_m_test" prot="public" virt="non-virtual">test.coordinates.UTMTest</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcoordinates_1_1_u_t_m_1adb4ff0c8fbf9f7829c23fb4ca2abba64" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double coordinates.UTM.east</definition>
+        <argsstring></argsstring>
+        <name>east</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Easting </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/UTM.java" line="20" column="20" bodyfile="coordinates/UTM.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcoordinates_1_1_u_t_m_1a74bc382b61e98b1438c07e101de460e9" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double coordinates.UTM.north</definition>
+        <argsstring></argsstring>
+        <name>north</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Northing </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/UTM.java" line="21" column="20" bodyfile="coordinates/UTM.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcoordinates_1_1_u_t_m_1a895d50db8cc3e81cb4d8ec1142a6939d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int coordinates.UTM.zone</definition>
+        <argsstring></argsstring>
+        <name>zone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classcoordinates_1_1_u_t_m" kindref="compound">coordinates.UTM</ref>-Zone </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/UTM.java" line="22" column="17" bodyfile="coordinates/UTM.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcoordinates_1_1_u_t_m_1adb335a29a61081a69f82fb18047b2533" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean coordinates.UTM.northhem</definition>
+        <argsstring></argsstring>
+        <name>northhem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Hemisphere: 0 =&gt; North, 1 =&gt; South </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/UTM.java" line="23" column="21" bodyfile="coordinates/UTM.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcoordinates_1_1_u_t_m_1a073084a261396fbd5c408c6af8740b18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>coordinates.UTM.UTM</definition>
+        <argsstring>()</argsstring>
+        <name>UTM</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/UTM.java" line="25" column="12" bodyfile="coordinates/UTM.java" bodystart="25" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_u_t_m_1acc60077a37c7b6f1d24c00401e97064d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.UTM.init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/UTM.java" line="36" column="17" bodyfile="coordinates/UTM.java" bodystart="36" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_u_t_m_1a40435144851f7e23b573debd797e0e97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.UTM.print</definition>
+        <argsstring>()</argsstring>
+        <name>print</name>
+        <reimplements refid="classcoordinates_1_1_gauss_1aa088aa6fb796aa873b19ee2c1ef42468">print</reimplements>
+        <briefdescription>
+<para>prints <ref refid="classcoordinates_1_1_u_t_m" kindref="compound">UTM</ref> coordinates </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/UTM.java" line="50" column="17" bodyfile="coordinates/UTM.java" bodystart="50" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_u_t_m_1a007d51832fcdc5eb721f04f23d4be8f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref></type>
+        <definition>GeographicCoordinateInterface coordinates.UTM.getAsGeographicInterface</definition>
+        <argsstring>(EllipsoidParms ell)</argsstring>
+        <name>getAsGeographicInterface</name>
+        <reimplements refid="classcoordinates_1_1_gauss_1adb944679772bf8b4101b075247dd0fd0">getAsGeographicInterface</reimplements>
+        <param>
+          <type><ref refid="classparams_1_1_ellipsoid_parms" kindref="compound">EllipsoidParms</ref></type>
+          <declname>ell</declname>
+        </param>
+        <briefdescription>
+<para>getAsGeographic returns a <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> object </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ell</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- ellipsoidal parameters </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>geo - output: <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/UTM.java" line="65" column="42" bodyfile="coordinates/UTM.java" bodystart="65" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_u_t_m_1a2f86a0eacc36537c221bedb7381aa77b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.UTM.getAsTargetCoordinate</definition>
+        <argsstring>(EllipsoidParms ell, GeographicCoordinateInterface geocoord)</argsstring>
+        <name>getAsTargetCoordinate</name>
+        <reimplements refid="classcoordinates_1_1_coordinate_1a998872a624f0394829f4c405f7a6f803">getAsTargetCoordinate</reimplements>
+        <param>
+          <type><ref refid="classparams_1_1_ellipsoid_parms" kindref="compound">EllipsoidParms</ref></type>
+          <declname>ell</declname>
+        </param>
+        <param>
+          <type><ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref></type>
+          <declname>geocoord</declname>
+        </param>
+        <briefdescription>
+<para>fromGeographic calculates <ref refid="classcoordinates_1_1_u_t_m" kindref="compound">UTM</ref> coordinate from geographic coordinate </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ell</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the ellipsoidal parameters as an instance of EllipsoidParms </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>geocoord</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- a geographic coordinate as an instance of <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/UTM.java" line="91" column="17" bodyfile="coordinates/UTM.java" bodystart="91" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_u_t_m_1a08cf8f5990690f37ae9d9670fbd07948" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double coordinates.UTM.getEast</definition>
+        <argsstring>()</argsstring>
+        <name>getEast</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/UTM.java" line="119" column="15" bodyfile="coordinates/UTM.java" bodystart="119" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_u_t_m_1af6ff720d80ed39a71374b4661e2ae522" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.UTM.setEast</definition>
+        <argsstring>(double east)</argsstring>
+        <name>setEast</name>
+        <param>
+          <type>double</type>
+          <declname>east</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/UTM.java" line="123" column="13" bodyfile="coordinates/UTM.java" bodystart="123" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_u_t_m_1a12d9f36ab80910493da069a28cfcb5be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double coordinates.UTM.getNorth</definition>
+        <argsstring>()</argsstring>
+        <name>getNorth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/UTM.java" line="127" column="15" bodyfile="coordinates/UTM.java" bodystart="127" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_u_t_m_1a6c5f165da723729691b4729e273edfb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.UTM.setNorth</definition>
+        <argsstring>(double north)</argsstring>
+        <name>setNorth</name>
+        <param>
+          <type>double</type>
+          <declname>north</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/UTM.java" line="131" column="13" bodyfile="coordinates/UTM.java" bodystart="131" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_u_t_m_1a30934884d4cbb4ee126c2a0b14f5ca39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int coordinates.UTM.getZone</definition>
+        <argsstring>()</argsstring>
+        <name>getZone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/UTM.java" line="135" column="12" bodyfile="coordinates/UTM.java" bodystart="135" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_u_t_m_1a4989561b051ee38c85dea9987cd8b0ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.UTM.setZone</definition>
+        <argsstring>(int zone)</argsstring>
+        <name>setZone</name>
+        <param>
+          <type>int</type>
+          <declname>zone</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/UTM.java" line="139" column="13" bodyfile="coordinates/UTM.java" bodystart="139" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_u_t_m_1a5aab8f83eec4a8c79c3f197af6aad15a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean coordinates.UTM.isNorthhem</definition>
+        <argsstring>()</argsstring>
+        <name>isNorthhem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/UTM.java" line="143" column="16" bodyfile="coordinates/UTM.java" bodystart="143" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_u_t_m_1a6702ef8bed154007a7ddb7555bc76fe6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.UTM.setNorthhem</definition>
+        <argsstring>(boolean northhem)</argsstring>
+        <name>setNorthhem</name>
+        <param>
+          <type>boolean</type>
+          <declname>northhem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/UTM.java" line="147" column="13" bodyfile="coordinates/UTM.java" bodystart="147" bodyend="149"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class <ref refid="classcoordinates_1_1_u_t_m" kindref="compound">UTM</ref> extends class <ref refid="classcoordinates_1_1_gauss" kindref="compound">Gauss</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>unknown </para>
+</simplesect>
+<simplesect kind="remark"><para>updated header on 2017-11-29 by Markus Mueller </para>
+</simplesect>
+<simplesect kind="version"><para>0.1 </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>east</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- easting as double </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>north</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Northing as double </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>zone</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- UTM-Zone as integer </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>northhem</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- hemisphere (0: North or 1:South) as boolean </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>coordinates.Gauss</label>
+        <link refid="classcoordinates_1_1_gauss"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>coordinates.UTM</label>
+        <link refid="classcoordinates_1_1_u_t_m"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>test.coordinates.UTMTest</label>
+        <link refid="classtest_1_1coordinates_1_1_u_t_m_test"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>coordinates.Coordinate</label>
+        <link refid="classcoordinates_1_1_coordinate"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>coordinates.Gauss</label>
+        <link refid="classcoordinates_1_1_gauss"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>coordinates.UTM</label>
+        <link refid="classcoordinates_1_1_u_t_m"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>coordinates.Coordinate</label>
+        <link refid="classcoordinates_1_1_coordinate"/>
+      </node>
+    </collaborationgraph>
+    <location file="coordinates/UTM.java" line="19" column="23" bodyfile="coordinates/UTM.java" bodystart="19" bodyend="151"/>
+    <listofallmembers>
+      <member refid="classcoordinates_1_1_gauss_1a9bd37a096f53a9e443570ec5748f95d8" prot="private" virt="non-virtual"><scope>coordinates::UTM</scope><name>abszisse</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a1e810f7e3af643a8c0525485d9133276" prot="protected" virt="non-virtual"><scope>coordinates::UTM</scope><name>CalculateAbszisseOrdinate</name></member>
+      <member refid="classcoordinates_1_1_u_t_m_1adb4ff0c8fbf9f7829c23fb4ca2abba64" prot="private" virt="non-virtual"><scope>coordinates::UTM</scope><name>east</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a08582ecf17604f8330df079ce234008c" prot="private" virt="non-virtual"><scope>coordinates::UTM</scope><name>ellipsoidal</name></member>
+      <member refid="classcoordinates_1_1_gauss_1ad11601b119b190bd9d61f71df6b53038" prot="public" virt="non-virtual"><scope>coordinates::UTM</scope><name>getAbszisse</name></member>
+      <member refid="classcoordinates_1_1_u_t_m_1a007d51832fcdc5eb721f04f23d4be8f9" prot="public" virt="non-virtual"><scope>coordinates::UTM</scope><name>getAsGeographicInterface</name></member>
+      <member refid="classcoordinates_1_1_u_t_m_1a2f86a0eacc36537c221bedb7381aa77b" prot="public" virt="non-virtual"><scope>coordinates::UTM</scope><name>getAsTargetCoordinate</name></member>
+      <member refid="classcoordinates_1_1_u_t_m_1a08cf8f5990690f37ae9d9670fbd07948" prot="public" virt="non-virtual"><scope>coordinates::UTM</scope><name>getEast</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a5c6271983e9bb69b8d024158397f5882" prot="public" virt="non-virtual"><scope>coordinates::UTM</scope><name>getEllipsoidal</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a3bc39fe23752a9bccac68015c799f3fc" prot="public" virt="non-virtual"><scope>coordinates::UTM</scope><name>getHeight</name></member>
+      <member refid="classcoordinates_1_1_u_t_m_1a12d9f36ab80910493da069a28cfcb5be" prot="public" virt="non-virtual"><scope>coordinates::UTM</scope><name>getNorth</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a751c889d6cc9b2acb5eeb42d888efc0f" prot="public" virt="non-virtual"><scope>coordinates::UTM</scope><name>getOrdinate</name></member>
+      <member refid="classcoordinates_1_1_coordinate_1ab0b1d8dc4fe371a2425e0cb505effafd" prot="public" virt="non-virtual"><scope>coordinates::UTM</scope><name>getPointid</name></member>
+      <member refid="classcoordinates_1_1_gauss_1ab0d10005ccb914af91c8afc28d2ed836" prot="public" virt="non-virtual"><scope>coordinates::UTM</scope><name>getScale</name></member>
+      <member refid="classcoordinates_1_1_u_t_m_1a30934884d4cbb4ee126c2a0b14f5ca39" prot="public" virt="non-virtual"><scope>coordinates::UTM</scope><name>getZone</name></member>
+      <member refid="classcoordinates_1_1_gauss_1ad1543fe8a30e7f6dab1d0486bb5a935d" prot="private" virt="non-virtual"><scope>coordinates::UTM</scope><name>height</name></member>
+      <member refid="classcoordinates_1_1_u_t_m_1acc60077a37c7b6f1d24c00401e97064d" prot="public" virt="non-virtual"><scope>coordinates::UTM</scope><name>init</name></member>
+      <member refid="classcoordinates_1_1_u_t_m_1a5aab8f83eec4a8c79c3f197af6aad15a" prot="public" virt="non-virtual"><scope>coordinates::UTM</scope><name>isNorthhem</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a622fa98764e45111e58a44c82f4dc5cd" prot="public" virt="non-virtual"><scope>coordinates::UTM</scope><name>meridianLength</name></member>
+      <member refid="classcoordinates_1_1_u_t_m_1a74bc382b61e98b1438c07e101de460e9" prot="private" virt="non-virtual"><scope>coordinates::UTM</scope><name>north</name></member>
+      <member refid="classcoordinates_1_1_u_t_m_1adb335a29a61081a69f82fb18047b2533" prot="private" virt="non-virtual"><scope>coordinates::UTM</scope><name>northhem</name></member>
+      <member refid="classcoordinates_1_1_gauss_1ab156b1da518d7637dacef40489a0dba4" prot="private" virt="non-virtual"><scope>coordinates::UTM</scope><name>ordinate</name></member>
+      <member refid="classcoordinates_1_1_coordinate_1a871c4eb3e8771b3e59f26c8e573d6aa0" prot="private" virt="non-virtual"><scope>coordinates::UTM</scope><name>pointid</name></member>
+      <member refid="classcoordinates_1_1_u_t_m_1a40435144851f7e23b573debd797e0e97" prot="public" virt="non-virtual"><scope>coordinates::UTM</scope><name>print</name></member>
+      <member refid="classcoordinates_1_1_gauss_1aea6297c71e9258a7dfb80a823048dc0d" prot="private" virt="non-virtual"><scope>coordinates::UTM</scope><name>scale</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a82bc0ee0a9fae9bef4e3400615d50c58" prot="public" virt="non-virtual"><scope>coordinates::UTM</scope><name>setAbszisse</name></member>
+      <member refid="classcoordinates_1_1_u_t_m_1af6ff720d80ed39a71374b4661e2ae522" prot="public" virt="non-virtual"><scope>coordinates::UTM</scope><name>setEast</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a2bfa95e5913df58667cf5c15db228db8" prot="public" virt="non-virtual"><scope>coordinates::UTM</scope><name>setEllipsoidal</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a3af44a951b3cb9ea5f5cf143b1cb2253" prot="public" virt="non-virtual"><scope>coordinates::UTM</scope><name>setHeight</name></member>
+      <member refid="classcoordinates_1_1_u_t_m_1a6c5f165da723729691b4729e273edfb0" prot="public" virt="non-virtual"><scope>coordinates::UTM</scope><name>setNorth</name></member>
+      <member refid="classcoordinates_1_1_u_t_m_1a6702ef8bed154007a7ddb7555bc76fe6" prot="public" virt="non-virtual"><scope>coordinates::UTM</scope><name>setNorthhem</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a3afbbdd05c3a68dd778760cb824b0b03" prot="public" virt="non-virtual"><scope>coordinates::UTM</scope><name>setOrdinate</name></member>
+      <member refid="classcoordinates_1_1_coordinate_1a14f00383b5a41df79220112a12ef1cbf" prot="public" virt="non-virtual"><scope>coordinates::UTM</scope><name>setPointid</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a5f0cc370abdab913a51a7395bc54ff24" prot="public" virt="non-virtual"><scope>coordinates::UTM</scope><name>setScale</name></member>
+      <member refid="classcoordinates_1_1_u_t_m_1a4989561b051ee38c85dea9987cd8b0ed" prot="public" virt="non-virtual"><scope>coordinates::UTM</scope><name>setZone</name></member>
+      <member refid="classcoordinates_1_1_u_t_m_1a073084a261396fbd5c408c6af8740b18" prot="public" virt="non-virtual"><scope>coordinates::UTM</scope><name>UTM</name></member>
+      <member refid="classcoordinates_1_1_u_t_m_1a895d50db8cc3e81cb4d8ec1142a6939d" prot="private" virt="non-virtual"><scope>coordinates::UTM</scope><name>zone</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

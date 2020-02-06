@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="_all_tests_8java" kind="file" language="Java">
+    <compoundname>AllTests.java</compoundname>
+    <innerclass refid="classtest_1_1coordinates_1_1_all_tests" prot="public">test::coordinates::AllTests</innerclass>
+    <innernamespace refid="namespacetest_1_1coordinates">test::coordinates</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacetest_1_1coordinates" refkind="compound"><highlight class="keyword">package<sp/></highlight><highlight class="normal">test.coordinates;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.junit.runner.RunWith;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.junit.runners.Suite;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.junit.runners.Suite.SuiteClasses;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">@RunWith(Suite.class)</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">@SuiteClasses({<sp/><ref refid="classtest_1_1coordinates_1_1_coordinate_factory_test" kindref="compound">CoordinateFactoryTest</ref>.class,<sp/><ref refid="classtest_1_1coordinates_1_1_gauss_krueger_test" kindref="compound">GaussKruegerTest</ref>.class,<sp/><ref refid="classtest_1_1coordinates_1_1_gauss_test" kindref="compound">GaussTest</ref>.class,<sp/><ref refid="classtest_1_1coordinates_1_1_geographic_coordinate_test" kindref="compound">GeographicCoordinateTest</ref>.class,</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtest_1_1coordinates_1_1_u_t_m_test" kindref="compound">UTMTest</ref>.class,<sp/><ref refid="classtest_1_1coordinates_1_1_x_y_z_coordinate_test" kindref="compound">XYZCoordinateTest</ref>.class<sp/>})</highlight></codeline>
+<codeline lineno="10" refid="classtest_1_1coordinates_1_1_all_tests" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/><ref refid="classtest_1_1coordinates_1_1_all_tests" kindref="compound">AllTests</ref><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="test/coordinates/AllTests.java"/>
+  </compounddef>
+</doxygen>

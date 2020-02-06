@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classcoordinates_1_1_get_appropriate_coordinate" kind="class" language="Java" prot="public">
+    <compoundname>coordinates::GetAppropriateCoordinate</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcoordinates_1_1_get_appropriate_coordinate_1a22f95481b92a2a5816db4ea9eb3ad6bb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcoordinates_1_1_coordinate" kindref="compound">Coordinate</ref></type>
+        <definition>static Coordinate coordinates.GetAppropriateCoordinate.getCoord</definition>
+        <argsstring>(String object)</argsstring>
+        <name>getCoord</name>
+        <param>
+          <type>String</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+<para>getter method that returns an appropriate coordinate depending on the users input </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>object</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- string representing the type of the coordinate </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GetAppropriateCoordinate.java" line="28" column="30" bodyfile="coordinates/GetAppropriateCoordinate.java" bodystart="28" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_get_appropriate_coordinate_1a50a0af7a152e133a8b8ae2d734fe14e5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref></type>
+        <definition>static GeographicCoordinateInterface coordinates.GetAppropriateCoordinate.getGeographicCoordinateInterface</definition>
+        <argsstring>()</argsstring>
+        <name>getGeographicCoordinateInterface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GetAppropriateCoordinate.java" line="44" column="49" bodyfile="coordinates/GetAppropriateCoordinate.java" bodystart="44" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classcoordinates_1_1_coordinate" kindref="compound">Coordinate</ref> factory for plane coordinates and geographic coordinates. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Norbert Rösch </para>
+</simplesect>
+<simplesect kind="remark"><para>updated header on 2017-11-29 by Markus Mueller </para>
+</simplesect>
+<simplesect kind="remark"><para>last refactored 11.12.2017 by Eva Majer <linebreak/>
+ <itemizedlist>
+<listitem>
+<para>adaptions for ControlParms Singleton </para>
+</listitem>
+<listitem>
+<para>Translation of some comments </para>
+</listitem>
+</itemizedlist>
+</para>
+</simplesect>
+<simplesect kind="remark"><para>2018-01-06 add comments by Yunhao Huang </para>
+</simplesect>
+<simplesect kind="remark"><para>2018-01-12 added new <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> as comment by Johanna Stoetzer </para>
+</simplesect>
+<simplesect kind="remark"><para>2018-01-25 added XYZ-Coordinate to getCoord by Markus Mueller </para>
+</simplesect>
+<simplesect kind="version"><para>0.1 </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classcoordinates_1_1_coordinate" kindref="compound">Coordinate</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the plane coordinates <ref refid="classcoordinates_1_1_gauss_krueger" kindref="compound">GaussKrueger</ref>, <ref refid="classcoordinates_1_1_u_t_m" kindref="compound">UTM</ref> and <ref refid="classcoordinates_1_1_soldner" kindref="compound">Soldner</ref> </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername><ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the geographic coordinate interface </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <location file="coordinates/GetAppropriateCoordinate.java" line="23" column="38" bodyfile="coordinates/GetAppropriateCoordinate.java" bodystart="23" bodyend="48"/>
+    <listofallmembers>
+      <member refid="classcoordinates_1_1_get_appropriate_coordinate_1a22f95481b92a2a5816db4ea9eb3ad6bb" prot="public" virt="non-virtual"><scope>coordinates::GetAppropriateCoordinate</scope><name>getCoord</name></member>
+      <member refid="classcoordinates_1_1_get_appropriate_coordinate_1a50a0af7a152e133a8b8ae2d734fe14e5" prot="public" virt="non-virtual"><scope>coordinates::GetAppropriateCoordinate</scope><name>getGeographicCoordinateInterface</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

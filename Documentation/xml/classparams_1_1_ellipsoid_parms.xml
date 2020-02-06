@@ -1,0 +1,996 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classparams_1_1_ellipsoid_parms" kind="class" language="Java" prot="public">
+    <compoundname>params::EllipsoidParms</compoundname>
+    <derivedcompoundref refid="classparams_1_1_control_parms" prot="public" virt="non-virtual">params.ControlParms</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1a0dc788084fb0dd603ace16e936382883" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String params.EllipsoidParms.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>ID </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="14" column="20" bodyfile="params/EllipsoidParms.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1a8c4aea13fd32cd84761c5fa923a3b56a" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.EllipsoidParms.c</definition>
+        <argsstring></argsstring>
+        <name>c</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Radius of curvature </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="15" column="20" bodyfile="params/EllipsoidParms.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1adcc0bf7ab5ecf57524183e296d356e44" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.EllipsoidParms.secondEccentricity</definition>
+        <argsstring></argsstring>
+        <name>secondEccentricity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="16" column="20" bodyfile="params/EllipsoidParms.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1ade0c44ec7d1b96b92e0596e2ffd36ff9" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.EllipsoidParms.semiMajorAxis</definition>
+        <argsstring></argsstring>
+        <name>semiMajorAxis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="17" column="20" bodyfile="params/EllipsoidParms.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1ac6a5a05c596ba1581bbda76fe87ee43b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.EllipsoidParms.semiMinorAxis</definition>
+        <argsstring></argsstring>
+        <name>semiMinorAxis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="18" column="20" bodyfile="params/EllipsoidParms.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1a75cc9d5d8459811e32022f5028626f0c" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.EllipsoidParms.flattening</definition>
+        <argsstring></argsstring>
+        <name>flattening</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="19" column="20" bodyfile="params/EllipsoidParms.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1aa20a57453ee89effbe7a0058103f30a4" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.EllipsoidParms.firstEccentricity</definition>
+        <argsstring></argsstring>
+        <name>firstEccentricity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="20" column="20" bodyfile="params/EllipsoidParms.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1a1b4082c660ebfbb0e6ee77a6d3b24944" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String params.EllipsoidParms.toid</definition>
+        <argsstring></argsstring>
+        <name>toid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>ID (if change of datum) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="22" column="20" bodyfile="params/EllipsoidParms.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1a54bfe0d39a76ddebbd5a39f372171633" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.EllipsoidParms.toc</definition>
+        <argsstring></argsstring>
+        <name>toc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Radius of curvature (if change of datum) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="23" column="20" bodyfile="params/EllipsoidParms.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1a83a125728bc8d0f2d1935148ab97867d" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.EllipsoidParms.toes2</definition>
+        <argsstring></argsstring>
+        <name>toes2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Second eccentricity (if change of datum) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="24" column="20" bodyfile="params/EllipsoidParms.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1a6778e1b5d14507d1485a5e49a0935b8a" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.EllipsoidParms.toa</definition>
+        <argsstring></argsstring>
+        <name>toa</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Semi-major axis (if change of datum) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="25" column="20" bodyfile="params/EllipsoidParms.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1a440e25ee5cdf6444267c3f4dec8d5c4d" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.EllipsoidParms.tob</definition>
+        <argsstring></argsstring>
+        <name>tob</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Semi-minor axis (if change of datum) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="26" column="20" bodyfile="params/EllipsoidParms.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1a97a668f9510e875e9542e7ec9d66b2ed" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.EllipsoidParms.tof</definition>
+        <argsstring></argsstring>
+        <name>tof</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Flattening (if change of datum) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="27" column="20" bodyfile="params/EllipsoidParms.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1a185fd33e0e636da454abd7d6526d19d6" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.EllipsoidParms.toe2</definition>
+        <argsstring></argsstring>
+        <name>toe2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>First eccentricity (if change of datum) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="28" column="20" bodyfile="params/EllipsoidParms.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1a0828d1c17e1154e96745e1a327d4065c" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.EllipsoidParms.N</definition>
+        <argsstring></argsstring>
+        <name>N</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Radius N (only if necessary) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="30" column="20" bodyfile="params/EllipsoidParms.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1a883bc11eefefe2015268f12f6f392d02" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.EllipsoidParms.M</definition>
+        <argsstring></argsstring>
+        <name>M</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Radius M (only if necessary) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="31" column="20" bodyfile="params/EllipsoidParms.java" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1ae589624b96dcf9f152cdd13f5fc2b813" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.EllipsoidParms.Soldner_l0</definition>
+        <argsstring></argsstring>
+        <name>Soldner_l0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Parameters for converting geographic coordinates -&gt; <ref refid="classcoordinates_1_1_soldner" kindref="compound">coordinates.Soldner</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="33" column="20" bodyfile="params/EllipsoidParms.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1a600fb2e197a0cce391abf04cbbd2bfa4" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.EllipsoidParms.Soldner_b0</definition>
+        <argsstring></argsstring>
+        <name>Soldner_b0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Parameters for converting geographic coordinates -&gt; <ref refid="classcoordinates_1_1_soldner" kindref="compound">coordinates.Soldner</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="34" column="20" bodyfile="params/EllipsoidParms.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1a86b4e7b5eb4b4f2f671e61e75e0dc7f9" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.EllipsoidParms.GK_refmer</definition>
+        <argsstring></argsstring>
+        <name>GK_refmer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Parameters for converting geographic coordinates -&gt; <ref refid="classcoordinates_1_1_gauss_krueger" kindref="compound">coordinates.GaussKrueger</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="36" column="20" bodyfile="params/EllipsoidParms.java" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1ae8dcc24aa03ce1f0c6ccd2daf1c549fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>params.EllipsoidParms.EllipsoidParms</definition>
+        <argsstring>()</argsstring>
+        <name>EllipsoidParms</name>
+        <briefdescription>
+<para>Constructor for the class <ref refid="classparams_1_1_ellipsoid_parms" kindref="compound">params.EllipsoidParms</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="45" column="12" bodyfile="params/EllipsoidParms.java" bodystart="45" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a76412304312a0a253086d195874110c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>params.EllipsoidParms.EllipsoidParms</definition>
+        <argsstring>(double es2, double c)</argsstring>
+        <name>EllipsoidParms</name>
+        <param>
+          <type>double</type>
+          <declname>es2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>General constructor for the class <ref refid="classparams_1_1_ellipsoid_parms" kindref="compound">params.EllipsoidParms</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Transfer of two shape parameters </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="60" column="12" bodyfile="params/EllipsoidParms.java" bodystart="60" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1ad33cde2be306e100c10b186416864d36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.EllipsoidParms.calculatelongitudeParms</definition>
+        <argsstring>(GeographicCoordinateInterface geo)</argsstring>
+        <name>calculatelongitudeParms</name>
+        <param>
+          <type><ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref></type>
+          <declname>geo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="73" column="17" bodyfile="params/EllipsoidParms.java" bodystart="73" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a8b38d69a8ce2fe13c763c4dec003caa3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.EllipsoidParms.print</definition>
+        <argsstring>()</argsstring>
+        <name>print</name>
+        <reimplementedby refid="classparams_1_1_control_parms_1af1a625fc2adabd5ec8a2af31f93d3278">print</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="83" column="17" bodyfile="params/EllipsoidParms.java" bodystart="83" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1aba1d562097bdfbdca02d1297bb7eef40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String params.EllipsoidParms.getId</definition>
+        <argsstring>()</argsstring>
+        <name>getId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="99" column="19" bodyfile="params/EllipsoidParms.java" bodystart="99" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a39defb526e42409be9d233cc5f51d17c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.EllipsoidParms.setId</definition>
+        <argsstring>(String id)</argsstring>
+        <name>setId</name>
+        <param>
+          <type>String</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="103" column="17" bodyfile="params/EllipsoidParms.java" bodystart="103" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1ac6d2d8e560b2c5f93f1eae7e47da312e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.EllipsoidParms.getC</definition>
+        <argsstring>()</argsstring>
+        <name>getC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="107" column="19" bodyfile="params/EllipsoidParms.java" bodystart="107" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a290c9540675e92d4fe57b6d8c99a6864" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.EllipsoidParms.setC</definition>
+        <argsstring>(double c)</argsstring>
+        <name>setC</name>
+        <param>
+          <type>double</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="111" column="17" bodyfile="params/EllipsoidParms.java" bodystart="111" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a247439302e5081a009d1316d777f87e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.EllipsoidParms.getSecondEccentricity</definition>
+        <argsstring>()</argsstring>
+        <name>getSecondEccentricity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="115" column="19" bodyfile="params/EllipsoidParms.java" bodystart="115" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a1053dddae8b704f666d40407be5f90ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.EllipsoidParms.setSecondEccentricity</definition>
+        <argsstring>(double es2)</argsstring>
+        <name>setSecondEccentricity</name>
+        <param>
+          <type>double</type>
+          <declname>es2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="119" column="17" bodyfile="params/EllipsoidParms.java" bodystart="119" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a068f04b524a696a0d328089a90de728b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.EllipsoidParms.getSemiMajorAxis</definition>
+        <argsstring>()</argsstring>
+        <name>getSemiMajorAxis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="123" column="19" bodyfile="params/EllipsoidParms.java" bodystart="123" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1ac8c7b6c628123f8e7bbe9a3433d73255" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.EllipsoidParms.setSemiMajorAxis</definition>
+        <argsstring>(double a)</argsstring>
+        <name>setSemiMajorAxis</name>
+        <param>
+          <type>double</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="127" column="17" bodyfile="params/EllipsoidParms.java" bodystart="127" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a5542f3e4c1e37c27f616afefc66f7d6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.EllipsoidParms.getSemiMinorAxis</definition>
+        <argsstring>()</argsstring>
+        <name>getSemiMinorAxis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="131" column="19" bodyfile="params/EllipsoidParms.java" bodystart="131" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a1bb1c00f1745417ba061a4ff458d2ead" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.EllipsoidParms.setSemiMinorAxis</definition>
+        <argsstring>(double b)</argsstring>
+        <name>setSemiMinorAxis</name>
+        <param>
+          <type>double</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="135" column="17" bodyfile="params/EllipsoidParms.java" bodystart="135" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a59e492be1d59af1f0ac89c82f4bf12ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.EllipsoidParms.getFlattening</definition>
+        <argsstring>()</argsstring>
+        <name>getFlattening</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="139" column="19" bodyfile="params/EllipsoidParms.java" bodystart="139" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1aecd855e7bf03309adf8edc75042b7383" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.EllipsoidParms.setFlattening</definition>
+        <argsstring>(double f)</argsstring>
+        <name>setFlattening</name>
+        <param>
+          <type>double</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="143" column="17" bodyfile="params/EllipsoidParms.java" bodystart="143" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1acf91ad0a9927986a49f095d6f771e3e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.EllipsoidParms.getFirstEccentricity</definition>
+        <argsstring>()</argsstring>
+        <name>getFirstEccentricity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="147" column="19" bodyfile="params/EllipsoidParms.java" bodystart="147" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a27962849b946e3ba291ab15856083ced" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.EllipsoidParms.setFirstEccentricity</definition>
+        <argsstring>(double e2)</argsstring>
+        <name>setFirstEccentricity</name>
+        <param>
+          <type>double</type>
+          <declname>e2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="151" column="17" bodyfile="params/EllipsoidParms.java" bodystart="151" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a3bb0244d95115ff0163ce7f6679b8036" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String params.EllipsoidParms.getToid</definition>
+        <argsstring>()</argsstring>
+        <name>getToid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="155" column="19" bodyfile="params/EllipsoidParms.java" bodystart="155" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a1ff0ff030ab98abd9e1cb14f7f2d55d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.EllipsoidParms.setToid</definition>
+        <argsstring>(String toid)</argsstring>
+        <name>setToid</name>
+        <param>
+          <type>String</type>
+          <declname>toid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="159" column="17" bodyfile="params/EllipsoidParms.java" bodystart="159" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1ab17b1913708fbd2fc66fc7b3d33383bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.EllipsoidParms.getToc</definition>
+        <argsstring>()</argsstring>
+        <name>getToc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="163" column="19" bodyfile="params/EllipsoidParms.java" bodystart="163" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a9f7db01c2f444ead5d5e36cb73563bd0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.EllipsoidParms.setToc</definition>
+        <argsstring>(double toc)</argsstring>
+        <name>setToc</name>
+        <param>
+          <type>double</type>
+          <declname>toc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="167" column="17" bodyfile="params/EllipsoidParms.java" bodystart="167" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a575681020e0d8f808fc078e56051c198" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.EllipsoidParms.getToes2</definition>
+        <argsstring>()</argsstring>
+        <name>getToes2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="171" column="19" bodyfile="params/EllipsoidParms.java" bodystart="171" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1aeeff1d0b99befdcc75383e3e9f475c58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.EllipsoidParms.setToes2</definition>
+        <argsstring>(double toes2)</argsstring>
+        <name>setToes2</name>
+        <param>
+          <type>double</type>
+          <declname>toes2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="175" column="17" bodyfile="params/EllipsoidParms.java" bodystart="175" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1ab9fb994a17b8b561d22be1de0b31f287" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.EllipsoidParms.getToa</definition>
+        <argsstring>()</argsstring>
+        <name>getToa</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="179" column="19" bodyfile="params/EllipsoidParms.java" bodystart="179" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1afa3004dc536f9098e902be0dfe5c1a5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.EllipsoidParms.setToa</definition>
+        <argsstring>(double toa)</argsstring>
+        <name>setToa</name>
+        <param>
+          <type>double</type>
+          <declname>toa</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="183" column="17" bodyfile="params/EllipsoidParms.java" bodystart="183" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1ade69e57694ce4b388c6c75078875aee8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.EllipsoidParms.getTob</definition>
+        <argsstring>()</argsstring>
+        <name>getTob</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="187" column="19" bodyfile="params/EllipsoidParms.java" bodystart="187" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a0f7664b1d2c2c20aec2b059e62cbe00f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.EllipsoidParms.setTob</definition>
+        <argsstring>(double tob)</argsstring>
+        <name>setTob</name>
+        <param>
+          <type>double</type>
+          <declname>tob</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="191" column="17" bodyfile="params/EllipsoidParms.java" bodystart="191" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a60fccf6eb2260e97082bb6789204f141" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.EllipsoidParms.getTof</definition>
+        <argsstring>()</argsstring>
+        <name>getTof</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="195" column="19" bodyfile="params/EllipsoidParms.java" bodystart="195" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a4dfc1bf7517139c222bbc4f5704eeeb1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.EllipsoidParms.setTof</definition>
+        <argsstring>(double tof)</argsstring>
+        <name>setTof</name>
+        <param>
+          <type>double</type>
+          <declname>tof</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="199" column="17" bodyfile="params/EllipsoidParms.java" bodystart="199" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1ad150fd728cb5c16bba1716b5c17547ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.EllipsoidParms.getToe2</definition>
+        <argsstring>()</argsstring>
+        <name>getToe2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="203" column="19" bodyfile="params/EllipsoidParms.java" bodystart="203" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1ac2a0d6cf273845316fd87f9a2cc47ff9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.EllipsoidParms.setToe2</definition>
+        <argsstring>(double toe2)</argsstring>
+        <name>setToe2</name>
+        <param>
+          <type>double</type>
+          <declname>toe2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="207" column="17" bodyfile="params/EllipsoidParms.java" bodystart="207" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1abb15b257c76e9880ed28c854a4731c0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.EllipsoidParms.getN</definition>
+        <argsstring>()</argsstring>
+        <name>getN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="211" column="19" bodyfile="params/EllipsoidParms.java" bodystart="211" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a498387541756991907783083c45a457c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.EllipsoidParms.setN</definition>
+        <argsstring>(double n)</argsstring>
+        <name>setN</name>
+        <param>
+          <type>double</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="215" column="17" bodyfile="params/EllipsoidParms.java" bodystart="215" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1aceac84961ab929328c39afc3357519c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.EllipsoidParms.getM</definition>
+        <argsstring>()</argsstring>
+        <name>getM</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="219" column="19" bodyfile="params/EllipsoidParms.java" bodystart="219" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1ad33bd8b9852b20794f1c5b5cd024e51c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.EllipsoidParms.setM</definition>
+        <argsstring>(double m)</argsstring>
+        <name>setM</name>
+        <param>
+          <type>double</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="223" column="17" bodyfile="params/EllipsoidParms.java" bodystart="223" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1afe6b1d0500228058310947eedeee20b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.EllipsoidParms.getSoldner_l0</definition>
+        <argsstring>()</argsstring>
+        <name>getSoldner_l0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="227" column="19" bodyfile="params/EllipsoidParms.java" bodystart="227" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a44b6361a151c89c4eb9425a9a19e6766" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.EllipsoidParms.setSoldner_l0</definition>
+        <argsstring>(double soldner_l0)</argsstring>
+        <name>setSoldner_l0</name>
+        <param>
+          <type>double</type>
+          <declname>soldner_l0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="231" column="17" bodyfile="params/EllipsoidParms.java" bodystart="231" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a2d57a7d2449fb7bbf6fbc0f66ae85848" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.EllipsoidParms.getSoldner_b0</definition>
+        <argsstring>()</argsstring>
+        <name>getSoldner_b0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="235" column="19" bodyfile="params/EllipsoidParms.java" bodystart="235" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a0ab99cecabf398adc130b15c8f3e23c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.EllipsoidParms.setSoldner_b0</definition>
+        <argsstring>(double soldner_b0)</argsstring>
+        <name>setSoldner_b0</name>
+        <param>
+          <type>double</type>
+          <declname>soldner_b0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="239" column="17" bodyfile="params/EllipsoidParms.java" bodystart="239" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1aaa87eb361d5f0be95d014842b8201cea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.EllipsoidParms.getGK_refmer</definition>
+        <argsstring>()</argsstring>
+        <name>getGK_refmer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="243" column="19" bodyfile="params/EllipsoidParms.java" bodystart="243" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a711a94a4e810fa3acd91cabc94ef8b73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.EllipsoidParms.setGK_refmer</definition>
+        <argsstring>(double GK_refmer)</argsstring>
+        <name>setGK_refmer</name>
+        <param>
+          <type>double</type>
+          <declname>GK_refmer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/EllipsoidParms.java" line="247" column="17" bodyfile="params/EllipsoidParms.java" bodystart="247" bodyend="249"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Ellipsoid parameters. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>unknown </para>
+</simplesect>
+<simplesect kind="remark"><para>add header and some comments on 2018-01-06 by Yunhao Huang </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>params.EllipsoidParms</label>
+        <link refid="classparams_1_1_ellipsoid_parms"/>
+      </node>
+      <node id="2">
+        <label>params.ControlParms</label>
+        <link refid="classparams_1_1_control_parms"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="params/EllipsoidParms.java" line="13" column="28" bodyfile="params/EllipsoidParms.java" bodystart="13" bodyend="251"/>
+    <listofallmembers>
+      <member refid="classparams_1_1_ellipsoid_parms_1a8c4aea13fd32cd84761c5fa923a3b56a" prot="private" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>c</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1ad33cde2be306e100c10b186416864d36" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>calculatelongitudeParms</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1ae8dcc24aa03ce1f0c6ccd2daf1c549fc" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>EllipsoidParms</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a76412304312a0a253086d195874110c0" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>EllipsoidParms</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1aa20a57453ee89effbe7a0058103f30a4" prot="private" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>firstEccentricity</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a75cc9d5d8459811e32022f5028626f0c" prot="private" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>flattening</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1ac6d2d8e560b2c5f93f1eae7e47da312e" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>getC</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1acf91ad0a9927986a49f095d6f771e3e5" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>getFirstEccentricity</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a59e492be1d59af1f0ac89c82f4bf12ed" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>getFlattening</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1aaa87eb361d5f0be95d014842b8201cea" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>getGK_refmer</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1aba1d562097bdfbdca02d1297bb7eef40" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>getId</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1aceac84961ab929328c39afc3357519c7" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>getM</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1abb15b257c76e9880ed28c854a4731c0d" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>getN</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a247439302e5081a009d1316d777f87e8" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>getSecondEccentricity</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a068f04b524a696a0d328089a90de728b" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>getSemiMajorAxis</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a5542f3e4c1e37c27f616afefc66f7d6f" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>getSemiMinorAxis</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a2d57a7d2449fb7bbf6fbc0f66ae85848" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>getSoldner_b0</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1afe6b1d0500228058310947eedeee20b7" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>getSoldner_l0</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1ab9fb994a17b8b561d22be1de0b31f287" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>getToa</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1ade69e57694ce4b388c6c75078875aee8" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>getTob</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1ab17b1913708fbd2fc66fc7b3d33383bc" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>getToc</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1ad150fd728cb5c16bba1716b5c17547ba" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>getToe2</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a575681020e0d8f808fc078e56051c198" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>getToes2</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a60fccf6eb2260e97082bb6789204f141" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>getTof</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a3bb0244d95115ff0163ce7f6679b8036" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>getToid</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a86b4e7b5eb4b4f2f671e61e75e0dc7f9" prot="private" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>GK_refmer</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a0dc788084fb0dd603ace16e936382883" prot="private" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>id</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a883bc11eefefe2015268f12f6f392d02" prot="private" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>M</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a0828d1c17e1154e96745e1a327d4065c" prot="private" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>N</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a8b38d69a8ce2fe13c763c4dec003caa3" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>print</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1adcc0bf7ab5ecf57524183e296d356e44" prot="private" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>secondEccentricity</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1ade0c44ec7d1b96b92e0596e2ffd36ff9" prot="private" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>semiMajorAxis</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1ac6a5a05c596ba1581bbda76fe87ee43b" prot="private" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>semiMinorAxis</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a290c9540675e92d4fe57b6d8c99a6864" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>setC</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a27962849b946e3ba291ab15856083ced" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>setFirstEccentricity</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1aecd855e7bf03309adf8edc75042b7383" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>setFlattening</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a711a94a4e810fa3acd91cabc94ef8b73" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>setGK_refmer</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a39defb526e42409be9d233cc5f51d17c" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>setId</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1ad33bd8b9852b20794f1c5b5cd024e51c" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>setM</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a498387541756991907783083c45a457c" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>setN</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a1053dddae8b704f666d40407be5f90ee" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>setSecondEccentricity</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1ac8c7b6c628123f8e7bbe9a3433d73255" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>setSemiMajorAxis</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a1bb1c00f1745417ba061a4ff458d2ead" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>setSemiMinorAxis</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a0ab99cecabf398adc130b15c8f3e23c5" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>setSoldner_b0</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a44b6361a151c89c4eb9425a9a19e6766" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>setSoldner_l0</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1afa3004dc536f9098e902be0dfe5c1a5b" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>setToa</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a0f7664b1d2c2c20aec2b059e62cbe00f" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>setTob</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a9f7db01c2f444ead5d5e36cb73563bd0" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>setToc</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1ac2a0d6cf273845316fd87f9a2cc47ff9" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>setToe2</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1aeeff1d0b99befdcc75383e3e9f475c58" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>setToes2</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a4dfc1bf7517139c222bbc4f5704eeeb1" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>setTof</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a1ff0ff030ab98abd9e1cb14f7f2d55d0" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>setToid</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a600fb2e197a0cce391abf04cbbd2bfa4" prot="private" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>Soldner_b0</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1ae589624b96dcf9f152cdd13f5fc2b813" prot="private" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>Soldner_l0</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a6778e1b5d14507d1485a5e49a0935b8a" prot="private" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>toa</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a440e25ee5cdf6444267c3f4dec8d5c4d" prot="private" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>tob</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a54bfe0d39a76ddebbd5a39f372171633" prot="private" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>toc</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a185fd33e0e636da454abd7d6526d19d6" prot="private" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>toe2</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a83a125728bc8d0f2d1935148ab97867d" prot="private" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>toes2</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a97a668f9510e875e9542e7ec9d66b2ed" prot="private" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>tof</name></member>
+      <member refid="classparams_1_1_ellipsoid_parms_1a1b4082c660ebfbb0e6ee77a6d3b24944" prot="private" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>toid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

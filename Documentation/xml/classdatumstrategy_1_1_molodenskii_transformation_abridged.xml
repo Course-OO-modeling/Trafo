@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classdatumstrategy_1_1_molodenskii_transformation_abridged" kind="class" language="Java" prot="public">
+    <compoundname>datumstrategy::MolodenskiiTransformationAbridged</compoundname>
+    <basecompoundref refid="classdatumstrategy_1_1_transformation_strategy" prot="public" virt="non-virtual">datumstrategy.TransformationStrategy</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classdatumstrategy_1_1_molodenskii_transformation_abridged_1a39fb3d476cafb18df89db3236d76be92" prot="private" static="yes" mutable="no">
+        <type><ref refid="classdatumstrategy_1_1_molodenskii_transformation_abridged" kindref="compound">MolodenskiiTransformationAbridged</ref></type>
+        <definition>MolodenskiiTransformationAbridged datumstrategy.MolodenskiiTransformationAbridged.myInstance</definition>
+        <argsstring></argsstring>
+        <name>myInstance</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="datumstrategy/MolodenskiiTransformationAbridged.java" line="17" column="50" bodyfile="datumstrategy/MolodenskiiTransformationAbridged.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classdatumstrategy_1_1_molodenskii_transformation_abridged_1a3c8eaf6d91d1e92bdd5091289c793cc7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>datumstrategy.MolodenskiiTransformationAbridged.MolodenskiiTransformationAbridged</definition>
+        <argsstring>()</argsstring>
+        <name>MolodenskiiTransformationAbridged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="datumstrategy/MolodenskiiTransformationAbridged.java" line="19" column="9" bodyfile="datumstrategy/MolodenskiiTransformationAbridged.java" bodystart="19" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classdatumstrategy_1_1_molodenskii_transformation_abridged_1a4537ec33b23bb164c5f43703c3f249fd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classdatumstrategy_1_1_molodenskii_transformation_abridged" kindref="compound">MolodenskiiTransformationAbridged</ref></type>
+        <definition>static MolodenskiiTransformationAbridged datumstrategy.MolodenskiiTransformationAbridged.getInstance</definition>
+        <argsstring>()</argsstring>
+        <name>getInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="datumstrategy/MolodenskiiTransformationAbridged.java" line="22" column="49" bodyfile="datumstrategy/MolodenskiiTransformationAbridged.java" bodystart="22" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdatumstrategy_1_1_molodenskii_transformation_abridged_1a719bbb938c82de0bee45d3570e9e9444" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void datumstrategy.MolodenskiiTransformationAbridged.transform</definition>
+        <argsstring>(GeographicCoordinateInterface geo)</argsstring>
+        <name>transform</name>
+        <reimplements refid="classdatumstrategy_1_1_transformation_strategy_1a0fd1d6fbba01e5222360740e34eae786">transform</reimplements>
+        <param>
+          <type><ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref></type>
+          <declname>geographicCoordinate</declname>
+        </param>
+        <briefdescription>
+<para>abstract method for the transformation of a geographic coordinate </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>geographicCoordinate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- an object of type GeographicCoordinateInterface which is used for input/output for the transformation algorithm </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="datumstrategy/MolodenskiiTransformationAbridged.java" line="32" column="13" bodyfile="datumstrategy/MolodenskiiTransformationAbridged.java" bodystart="32" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Algorithmic realization of the abridged molodensky transformation. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Svea Krikau </para>
+</simplesect>
+<simplesect kind="remark"><para>created 7. December 2019 </para>
+</simplesect>
+<simplesect kind="version"><para>0.1 Quelle: <ulink url="http://www.mygeodesy.id.au/documents/Molodensky%20V2.pdf">http://www.mygeodesy.id.au/documents/Molodensky%20V2.pdf</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>datumstrategy.TransformationStrategy</label>
+        <link refid="classdatumstrategy_1_1_transformation_strategy"/>
+      </node>
+      <node id="1">
+        <label>datumstrategy.MolodenskiiTransformationAbridged</label>
+        <link refid="classdatumstrategy_1_1_molodenskii_transformation_abridged"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>datumstrategy.TransformationStrategy</label>
+        <link refid="classdatumstrategy_1_1_transformation_strategy"/>
+      </node>
+      <node id="1">
+        <label>datumstrategy.MolodenskiiTransformationAbridged</label>
+        <link refid="classdatumstrategy_1_1_molodenskii_transformation_abridged"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>myInstance</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="datumstrategy/MolodenskiiTransformationAbridged.java" line="15" column="70" bodyfile="datumstrategy/MolodenskiiTransformationAbridged.java" bodystart="15" bodyend="63"/>
+    <listofallmembers>
+      <member refid="classdatumstrategy_1_1_molodenskii_transformation_abridged_1a4537ec33b23bb164c5f43703c3f249fd" prot="public" virt="non-virtual"><scope>datumstrategy::MolodenskiiTransformationAbridged</scope><name>getInstance</name></member>
+      <member refid="classdatumstrategy_1_1_molodenskii_transformation_abridged_1a3c8eaf6d91d1e92bdd5091289c793cc7" prot="private" virt="non-virtual"><scope>datumstrategy::MolodenskiiTransformationAbridged</scope><name>MolodenskiiTransformationAbridged</name></member>
+      <member refid="classdatumstrategy_1_1_molodenskii_transformation_abridged_1a39fb3d476cafb18df89db3236d76be92" prot="private" virt="non-virtual"><scope>datumstrategy::MolodenskiiTransformationAbridged</scope><name>myInstance</name></member>
+      <member refid="classdatumstrategy_1_1_molodenskii_transformation_abridged_1a719bbb938c82de0bee45d3570e9e9444" prot="public" virt="non-virtual"><scope>datumstrategy::MolodenskiiTransformationAbridged</scope><name>transform</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

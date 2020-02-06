@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtest_1_1datumstrategy_1_1_molodenskii_transformation_abridged_test" kind="class" language="Java" prot="public">
+    <compoundname>test::datumstrategy::MolodenskiiTransformationAbridgedTest</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtest_1_1datumstrategy_1_1_molodenskii_transformation_abridged_test_1a610979b0a53f204205e168292b759b7d" prot="private" static="no" mutable="no">
+        <type>final double</type>
+        <definition>final double test.datumstrategy.MolodenskiiTransformationAbridgedTest.RHO</definition>
+        <argsstring></argsstring>
+        <name>RHO</name>
+        <initializer>= 180 / Math.PI</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/datumstrategy/MolodenskiiTransformationAbridgedTest.java" line="22" column="22" bodyfile="test/datumstrategy/MolodenskiiTransformationAbridgedTest.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtest_1_1datumstrategy_1_1_molodenskii_transformation_abridged_test_1a3283f62836a504d9e5d14e79dc515af3" prot="private" static="no" mutable="no">
+        <type>final double</type>
+        <definition>final double test.datumstrategy.MolodenskiiTransformationAbridgedTest.EPSILON_meter</definition>
+        <argsstring></argsstring>
+        <name>EPSILON_meter</name>
+        <initializer>= 0.0001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/datumstrategy/MolodenskiiTransformationAbridgedTest.java" line="23" column="22" bodyfile="test/datumstrategy/MolodenskiiTransformationAbridgedTest.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtest_1_1datumstrategy_1_1_molodenskii_transformation_abridged_test_1a972fdaab19230f0a1cd6b1d8db069fb8" prot="private" static="no" mutable="no">
+        <type>final double</type>
+        <definition>final double test.datumstrategy.MolodenskiiTransformationAbridgedTest.EPSILON_rad</definition>
+        <argsstring></argsstring>
+        <name>EPSILON_rad</name>
+        <initializer>= 0.000000001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/datumstrategy/MolodenskiiTransformationAbridgedTest.java" line="24" column="22" bodyfile="test/datumstrategy/MolodenskiiTransformationAbridgedTest.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtest_1_1datumstrategy_1_1_molodenskii_transformation_abridged_test_1a3d826c624212bd11262a17bda7614dbd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void test.datumstrategy.MolodenskiiTransformationAbridgedTest.testMolodenskiiTransformationAbridged</definition>
+        <argsstring>()</argsstring>
+        <name>testMolodenskiiTransformationAbridged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Test of the abridged Molodenskii <ref refid="class_transformation" kindref="compound">Transformation</ref>. <ref refid="class_transformation" kindref="compound">Transformation</ref> from the Australian Geodetic Datum 1966 (AGD66) to the World Geodetic System 1984 (WGS84) Source: <ulink url="http://www.mygeodesy.id.au/documents/Molodensky%20V2.pdf">http://www.mygeodesy.id.au/documents/Molodensky%20V2.pdf</ulink> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/datumstrategy/MolodenskiiTransformationAbridgedTest.java" line="32" column="13" bodyfile="test/datumstrategy/MolodenskiiTransformationAbridgedTest.java" bodystart="32" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Test of the algorithmic realization of the abridged molodensky transformation. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Svea Krikau </para>
+</simplesect>
+<simplesect kind="remark"><para>created 7. December 2019 </para>
+</simplesect>
+<simplesect kind="version"><para>0.1 Quelle: <ulink url="http://www.mygeodesy.id.au/documents/Molodensky%20V2.pdf">http://www.mygeodesy.id.au/documents/Molodensky%20V2.pdf</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="test/datumstrategy/MolodenskiiTransformationAbridgedTest.java" line="20" column="51" bodyfile="test/datumstrategy/MolodenskiiTransformationAbridgedTest.java" bodystart="20" bodyend="78"/>
+    <listofallmembers>
+      <member refid="classtest_1_1datumstrategy_1_1_molodenskii_transformation_abridged_test_1a3283f62836a504d9e5d14e79dc515af3" prot="private" virt="non-virtual"><scope>test::datumstrategy::MolodenskiiTransformationAbridgedTest</scope><name>EPSILON_meter</name></member>
+      <member refid="classtest_1_1datumstrategy_1_1_molodenskii_transformation_abridged_test_1a972fdaab19230f0a1cd6b1d8db069fb8" prot="private" virt="non-virtual"><scope>test::datumstrategy::MolodenskiiTransformationAbridgedTest</scope><name>EPSILON_rad</name></member>
+      <member refid="classtest_1_1datumstrategy_1_1_molodenskii_transformation_abridged_test_1a610979b0a53f204205e168292b759b7d" prot="private" virt="non-virtual"><scope>test::datumstrategy::MolodenskiiTransformationAbridgedTest</scope><name>RHO</name></member>
+      <member refid="classtest_1_1datumstrategy_1_1_molodenskii_transformation_abridged_test_1a3d826c624212bd11262a17bda7614dbd" prot="public" virt="non-virtual"><scope>test::datumstrategy::MolodenskiiTransformationAbridgedTest</scope><name>testMolodenskiiTransformationAbridged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['datumstrategy_427',['datumstrategy',['../namespacedatumstrategy.html',1,'']]]
+  ['datumstrategy_451',['datumstrategy',['../namespacedatumstrategy.html',1,'']]]
 ];

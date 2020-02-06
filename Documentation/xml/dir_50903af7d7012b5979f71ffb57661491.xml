@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_50903af7d7012b5979f71ffb57661491" kind="dir">
+    <compoundname>test/coordinates</compoundname>
+    <innerfile refid="_all_tests_8java">AllTests.java</innerfile>
+    <innerfile refid="_coordinate_factory_test_8java">CoordinateFactoryTest.java</innerfile>
+    <innerfile refid="_gauss_krueger_test_8java">GaussKruegerTest.java</innerfile>
+    <innerfile refid="_gauss_test_8java">GaussTest.java</innerfile>
+    <innerfile refid="_geographic_coordinate_test_8java">GeographicCoordinateTest.java</innerfile>
+    <innerfile refid="_u_t_m_test_8java">UTMTest.java</innerfile>
+    <innerfile refid="_x_y_z_coordinate_test_8java">XYZCoordinateTest.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="test/coordinates/"/>
+  </compounddef>
+</doxygen>

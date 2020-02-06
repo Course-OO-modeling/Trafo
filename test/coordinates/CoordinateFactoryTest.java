@@ -11,12 +11,12 @@ import coordinates.GeographicCoordinate;
 import coordinates.XYZCoordinate;
 
 /**
- *  @class CoordinateFactoryTest
- *  @brief Coordinate factory for plane coordinates and geographic coordinates
- *  @author Norbert Rösch
- *  @remark January 2019 ensure the factory produces the right objects
- *  @version 0.1
-*/
+ * @class CoordinateFactoryTest
+ * @brief Coordinate factory for plane coordinates and geographic coordinates
+ * @author Norbert Rösch
+ * @remark January 2019 ensure the factory produces the right objects
+ * @version 0.1
+ */
 
 public class CoordinateFactoryTest {
 
@@ -26,14 +26,15 @@ public class CoordinateFactoryTest {
 		Coordinate testCoordinate = GetAppropriateCoordinate.getCoord(kindOfCoordinate);
 		assertTrue(testCoordinate instanceof GaussKrueger);
 	}
+
 	@Test
-	
+
 	public void testGetCoordUTM() {
 		final String kindOfCoordinate = "utm";
 		Coordinate testCoordinate = GetAppropriateCoordinate.getCoord(kindOfCoordinate);
 		assertTrue(testCoordinate instanceof UTM);
 	}
-	
+
 	@Test
 	public void testGetCoordSoldner() {
 		final String kindOfCoordinate = "soldner";
@@ -47,7 +48,7 @@ public class CoordinateFactoryTest {
 		Coordinate testCoordinate = GetAppropriateCoordinate.getCoord(kindOfCoordinate);
 		assertTrue(testCoordinate instanceof GeographicCoordinate);
 	}
-	
+
 	@Test
 	public void testGetXYZ() {
 		final String kindOfCoordinate = "xyz";

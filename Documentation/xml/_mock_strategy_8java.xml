@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="_mock_strategy_8java" kind="file" language="Java">
+    <compoundname>MockStrategy.java</compoundname>
+    <innerclass refid="classdatumstrategy_1_1_mock_strategy" prot="public">datumstrategy::MockStrategy</innerclass>
+    <innernamespace refid="namespacedatumstrategy">datumstrategy</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">datumstrategy;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespacecoordinates" kindref="compound">coordinates</ref>.<ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespacedatumstrategy" kindref="compound">datumstrategy</ref>.<ref refid="classdatumstrategy_1_1_transformation_strategy" kindref="compound">TransformationStrategy</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="classdatumstrategy_1_1_mock_strategy" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classdatumstrategy_1_1_mock_strategy" kindref="compound">MockStrategy</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="classdatumstrategy_1_1_transformation_strategy" kindref="compound">TransformationStrategy</ref><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>@Override</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classdatumstrategy_1_1_mock_strategy_1a8f1bcf75604b78411e8f995d85b8f917" kindref="member">transform</ref>(<ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref><sp/>geographicCoordinate)<sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Do<sp/>nothing!<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="datumstrategy/MockStrategy.java"/>
+  </compounddef>
+</doxygen>

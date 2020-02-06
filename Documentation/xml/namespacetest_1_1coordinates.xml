@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespacetest_1_1coordinates" kind="namespace" language="Java">
+    <compoundname>test::coordinates</compoundname>
+    <innerclass refid="classtest_1_1coordinates_1_1_all_tests" prot="public">test::coordinates::AllTests</innerclass>
+    <innerclass refid="classtest_1_1coordinates_1_1_coordinate_factory_test" prot="public">test::coordinates::CoordinateFactoryTest</innerclass>
+    <innerclass refid="classtest_1_1coordinates_1_1_gauss_krueger_test" prot="public">test::coordinates::GaussKruegerTest</innerclass>
+    <innerclass refid="classtest_1_1coordinates_1_1_gauss_test" prot="public">test::coordinates::GaussTest</innerclass>
+    <innerclass refid="classtest_1_1coordinates_1_1_geographic_coordinate_test" prot="public">test::coordinates::GeographicCoordinateTest</innerclass>
+    <innerclass refid="classtest_1_1coordinates_1_1_u_t_m_test" prot="public">test::coordinates::UTMTest</innerclass>
+    <innerclass refid="classtest_1_1coordinates_1_1_x_y_z_coordinate_test" prot="public">test::coordinates::XYZCoordinateTest</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="test/coordinates/AllTests.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

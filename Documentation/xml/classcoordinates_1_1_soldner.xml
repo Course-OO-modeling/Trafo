@@ -1,0 +1,638 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classcoordinates_1_1_soldner" kind="class" language="Java" prot="public">
+    <compoundname>coordinates::Soldner</compoundname>
+    <basecompoundref refid="classcoordinates_1_1_coordinate" prot="public" virt="non-virtual">coordinates.Coordinate</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcoordinates_1_1_soldner_1a4d8a0b1f4fce55f1d8be6433a2160b17" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double coordinates.Soldner.l0</definition>
+        <argsstring></argsstring>
+        <name>l0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>reference longitude </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Soldner.java" line="23" column="20" bodyfile="coordinates/Soldner.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcoordinates_1_1_soldner_1a489fa7e9e4c0c09e502bbbf2fb7ad689" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double coordinates.Soldner.b0</definition>
+        <argsstring></argsstring>
+        <name>b0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>reference latitude </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Soldner.java" line="24" column="20" bodyfile="coordinates/Soldner.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcoordinates_1_1_soldner_1ab1bec5d8a11e84c0cdc3154fd1abf843" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double coordinates.Soldner.abszisse</definition>
+        <argsstring></argsstring>
+        <name>abszisse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>x-value </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Soldner.java" line="25" column="20" bodyfile="coordinates/Soldner.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcoordinates_1_1_soldner_1ab13e1d9275b47a0754ed33c572dba57a" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double coordinates.Soldner.ordinate</definition>
+        <argsstring></argsstring>
+        <name>ordinate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>y-value </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Soldner.java" line="26" column="20" bodyfile="coordinates/Soldner.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcoordinates_1_1_soldner_1a4db9877edcf2391422fe532bd7131856" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double coordinates.Soldner.height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Height </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Soldner.java" line="27" column="20" bodyfile="coordinates/Soldner.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcoordinates_1_1_soldner_1abef9061e0e316de4bba8f5e99292a2b5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int coordinates.Soldner.ellipsoidal</definition>
+        <argsstring></argsstring>
+        <name>ellipsoidal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Height above ellipsoid: 0 =&gt; no height (not defined), 1 =&gt; ellispsoidal, 2 =&gt; geoid </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Soldner.java" line="28" column="17" bodyfile="coordinates/Soldner.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcoordinates_1_1_soldner_1ab3e2a2c0566f9f12fa5d9c3460440a1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>coordinates.Soldner.Soldner</definition>
+        <argsstring>(double l0, double b0, double abszisse, double ordinate, double height, int ellipsoidal)</argsstring>
+        <name>Soldner</name>
+        <param>
+          <type>double</type>
+          <declname>l0</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>b0</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>abszisse</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ordinate</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ellipsoidal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Soldner.java" line="35" column="12" bodyfile="coordinates/Soldner.java" bodystart="35" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_soldner_1a92132f86c35d526b8419f8bde4e0bc0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>coordinates.Soldner.Soldner</definition>
+        <argsstring>(double l0, double b0)</argsstring>
+        <name>Soldner</name>
+        <param>
+          <type>double</type>
+          <declname>l0</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>b0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Soldner.java" line="44" column="12" bodyfile="coordinates/Soldner.java" bodystart="44" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_soldner_1a01998c873e25c1fbefb3aba8d1d24cdd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>coordinates.Soldner.Soldner</definition>
+        <argsstring>()</argsstring>
+        <name>Soldner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Soldner.java" line="53" column="12" bodyfile="coordinates/Soldner.java" bodystart="53" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_soldner_1a672aec8c4424e5a066f272d4864e8813" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.Soldner.print</definition>
+        <argsstring>()</argsstring>
+        <name>print</name>
+        <reimplements refid="classcoordinates_1_1_coordinate_1af2882da7117d4a312faf707df681042c">print</reimplements>
+        <briefdescription>
+<para>prints <ref refid="classcoordinates_1_1_soldner" kindref="compound">Soldner</ref> coordinates with reference longitude, -latitude, abscissa, ordinate and height </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Soldner.java" line="69" column="17" bodyfile="coordinates/Soldner.java" bodystart="69" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_soldner_1ab87732c40411256ffd5cfba0ad4bd2cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref></type>
+        <definition>GeographicCoordinateInterface coordinates.Soldner.getAsGeographicInterface</definition>
+        <argsstring>(EllipsoidParms ell)</argsstring>
+        <name>getAsGeographicInterface</name>
+        <reimplements refid="classcoordinates_1_1_coordinate_1a97342479914743d999cef4b38f9124ed">getAsGeographicInterface</reimplements>
+        <param>
+          <type><ref refid="classparams_1_1_ellipsoid_parms" kindref="compound">EllipsoidParms</ref></type>
+          <declname>ell</declname>
+        </param>
+        <briefdescription>
+<para>getAsGeographic returns a <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ell</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the ellipsoidal parameters as an instance of EllipsoidParms </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>geo - output: returns <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Soldner.java" line="84" column="42" bodyfile="coordinates/Soldner.java" bodystart="84" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_soldner_1a5681bdb4c77cb4e6e483abca00758a48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.Soldner.getAsTargetCoordinate</definition>
+        <argsstring>(EllipsoidParms ell, GeographicCoordinateInterface geocoord)</argsstring>
+        <name>getAsTargetCoordinate</name>
+        <reimplements refid="classcoordinates_1_1_coordinate_1a998872a624f0394829f4c405f7a6f803">getAsTargetCoordinate</reimplements>
+        <param>
+          <type><ref refid="classparams_1_1_ellipsoid_parms" kindref="compound">EllipsoidParms</ref></type>
+          <declname>ell</declname>
+        </param>
+        <param>
+          <type><ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref></type>
+          <declname>geocoord</declname>
+        </param>
+        <briefdescription>
+<para>fromGeographic calculates <ref refid="classcoordinates_1_1_soldner" kindref="compound">Soldner</ref> coordinate from geographic coordinate </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ell</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the ellipsoidal parameters as an instance of EllipsoidParms </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>geocoord</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- a geographic coordinate as an instance of <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Soldner.java" line="122" column="17" bodyfile="coordinates/Soldner.java" bodystart="122" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_soldner_1a58e4fa59465e0953f6302ea668f2d270" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double coordinates.Soldner.getL0</definition>
+        <argsstring>()</argsstring>
+        <name>getL0</name>
+        <briefdescription>
+<para>getter method that returns the reference latitude of the particular <ref refid="classcoordinates_1_1_soldner" kindref="compound">Soldner</ref> coordinate </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>l0 - returns the reference latitude of the particular <ref refid="classcoordinates_1_1_soldner" kindref="compound">Soldner</ref> coordinate as double </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Soldner.java" line="171" column="23" bodyfile="coordinates/Soldner.java" bodystart="171" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_soldner_1abc6b1143ff0485b110cdc7b33f712ed3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.Soldner.setL0</definition>
+        <argsstring>(double l0)</argsstring>
+        <name>setL0</name>
+        <param>
+          <type>double</type>
+          <declname>l0</declname>
+        </param>
+        <briefdescription>
+<para>setter method that accepts the reference latitude of the particular <ref refid="classcoordinates_1_1_soldner" kindref="compound">Soldner</ref> coordinate </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>l0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- sets a double representing the reference latitude of the particular <ref refid="classcoordinates_1_1_soldner" kindref="compound">Soldner</ref> coordinate </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Soldner.java" line="179" column="21" bodyfile="coordinates/Soldner.java" bodystart="179" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_soldner_1a6ab74bfedc2b81db5ec9b40228b5a51c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double coordinates.Soldner.getB0</definition>
+        <argsstring>()</argsstring>
+        <name>getB0</name>
+        <briefdescription>
+<para>getter method that returns the reference longitude of the particular <ref refid="classcoordinates_1_1_soldner" kindref="compound">Soldner</ref> coordinate </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>b0 - returns the reference longitude of the particular <ref refid="classcoordinates_1_1_soldner" kindref="compound">Soldner</ref> coordinate as double </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Soldner.java" line="187" column="23" bodyfile="coordinates/Soldner.java" bodystart="187" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_soldner_1a597b8292c312c36e547df97285e55d4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.Soldner.setB0</definition>
+        <argsstring>(double b0)</argsstring>
+        <name>setB0</name>
+        <param>
+          <type>double</type>
+          <declname>b0</declname>
+        </param>
+        <briefdescription>
+<para>setter method that accepts the reference longitude of the particular <ref refid="classcoordinates_1_1_soldner" kindref="compound">Soldner</ref> coordinate </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>b0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- sets a double representing the reference longitude of the particular <ref refid="classcoordinates_1_1_soldner" kindref="compound">Soldner</ref> coordinate </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Soldner.java" line="195" column="21" bodyfile="coordinates/Soldner.java" bodystart="195" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_soldner_1a1bb5f8b49d0f2858f22028f3532d1ee3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double coordinates.Soldner.getAbszisse</definition>
+        <argsstring>()</argsstring>
+        <name>getAbszisse</name>
+        <briefdescription>
+<para>getter method that returns the abscissa of the particular <ref refid="classcoordinates_1_1_soldner" kindref="compound">Soldner</ref> coordinate </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>abszisse - returns the abscissa of the particular <ref refid="classcoordinates_1_1_soldner" kindref="compound">Soldner</ref> coordinate as double </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Soldner.java" line="203" column="23" bodyfile="coordinates/Soldner.java" bodystart="203" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_soldner_1ab1de539c6b4d0855debaa87339edbedd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.Soldner.setAbszisse</definition>
+        <argsstring>(double abszisse)</argsstring>
+        <name>setAbszisse</name>
+        <param>
+          <type>double</type>
+          <declname>abszisse</declname>
+        </param>
+        <briefdescription>
+<para>setter method that accepts the abscissa of the particular <ref refid="classcoordinates_1_1_soldner" kindref="compound">Soldner</ref> coordinate </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>abszisse</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- sets a double representing the abscissa of the particular <ref refid="classcoordinates_1_1_soldner" kindref="compound">Soldner</ref> coordinate </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Soldner.java" line="211" column="21" bodyfile="coordinates/Soldner.java" bodystart="211" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_soldner_1abb044e1be4724e6cd0ee72083a6245d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double coordinates.Soldner.getOrdinate</definition>
+        <argsstring>()</argsstring>
+        <name>getOrdinate</name>
+        <briefdescription>
+<para>getter method that returns the ordinate of the particular <ref refid="classcoordinates_1_1_soldner" kindref="compound">Soldner</ref> coordinate </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>ordinate - returns the ordinate of the particular <ref refid="classcoordinates_1_1_soldner" kindref="compound">Soldner</ref> coordinate as double </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Soldner.java" line="219" column="23" bodyfile="coordinates/Soldner.java" bodystart="219" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_soldner_1a991dbfcef201d4740613960da3794bf6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.Soldner.setOrdinate</definition>
+        <argsstring>(double ordinate)</argsstring>
+        <name>setOrdinate</name>
+        <param>
+          <type>double</type>
+          <declname>ordinate</declname>
+        </param>
+        <briefdescription>
+<para>setter method that accepts the ordinate of the particular <ref refid="classcoordinates_1_1_soldner" kindref="compound">Soldner</ref> coordinate </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ordinate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- sets a double representing the ordinate of the particular <ref refid="classcoordinates_1_1_soldner" kindref="compound">Soldner</ref> coordinate </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Soldner.java" line="227" column="21" bodyfile="coordinates/Soldner.java" bodystart="227" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_soldner_1a0b9ff78b3e7f94bef19549746c67ea92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double coordinates.Soldner.getHeight</definition>
+        <argsstring>()</argsstring>
+        <name>getHeight</name>
+        <briefdescription>
+<para>getter method that returns the height of the particular <ref refid="classcoordinates_1_1_soldner" kindref="compound">Soldner</ref> coordinate </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>height - returns the height of the particular <ref refid="classcoordinates_1_1_soldner" kindref="compound">Soldner</ref> coordinate as double </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Soldner.java" line="235" column="23" bodyfile="coordinates/Soldner.java" bodystart="235" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_soldner_1afc305a8276613f55b9aa79638a514789" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.Soldner.setHeight</definition>
+        <argsstring>(double height)</argsstring>
+        <name>setHeight</name>
+        <param>
+          <type>double</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+<para>setter method that accepts the height of the particular <ref refid="classcoordinates_1_1_soldner" kindref="compound">Soldner</ref> coordinate </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- sets a double representing the height of the particular <ref refid="classcoordinates_1_1_soldner" kindref="compound">Soldner</ref> coordinate </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Soldner.java" line="243" column="21" bodyfile="coordinates/Soldner.java" bodystart="243" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_soldner_1ace54cd7d0157cf876c22e7877fc65c01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int coordinates.Soldner.getEllipsoidal</definition>
+        <argsstring>()</argsstring>
+        <name>getEllipsoidal</name>
+        <briefdescription>
+<para>getter method that returns the ellipsoidal of the particular <ref refid="classcoordinates_1_1_soldner" kindref="compound">Soldner</ref> coordinate </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>ellipsoidal - returns the ellipsoidal of the particular <ref refid="classcoordinates_1_1_soldner" kindref="compound">Soldner</ref> coordinate as integer </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Soldner.java" line="251" column="20" bodyfile="coordinates/Soldner.java" bodystart="251" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_soldner_1abf6ceb3d9b6edd741fdd05580b0593fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.Soldner.setEllipsoidal</definition>
+        <argsstring>(int ellipsoidal)</argsstring>
+        <name>setEllipsoidal</name>
+        <param>
+          <type>int</type>
+          <declname>ellipsoidal</declname>
+        </param>
+        <briefdescription>
+<para>setter method that accepts the height above ellipsoid of the particular <ref refid="classcoordinates_1_1_soldner" kindref="compound">Soldner</ref> coordinate </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ellipsoidal</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- sets a integer representing the height above ellipsoid of the particular <ref refid="classcoordinates_1_1_soldner" kindref="compound">Soldner</ref> coordinate </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Soldner.java" line="259" column="21" bodyfile="coordinates/Soldner.java" bodystart="259" bodyend="261"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class <ref refid="classcoordinates_1_1_soldner" kindref="compound">Soldner</ref> extends class <ref refid="classcoordinates_1_1_coordinate" kindref="compound">Coordinate</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>unknown </para>
+</simplesect>
+<simplesect kind="remark"><para>updated header on 2017-11-29 by Markus Mueller </para>
+</simplesect>
+<simplesect kind="version"><para>0.1 </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>l0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- reference longitude as double </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- reference latitude as double </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>abszisse</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- x-value as double </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ordinate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- y-value as double </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- height as double </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ellipsoidal</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- height above ellipsoid as integer </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>coordinates.Soldner</label>
+        <link refid="classcoordinates_1_1_soldner"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>coordinates.Coordinate</label>
+        <link refid="classcoordinates_1_1_coordinate"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>coordinates.Soldner</label>
+        <link refid="classcoordinates_1_1_soldner"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>coordinates.Coordinate</label>
+        <link refid="classcoordinates_1_1_coordinate"/>
+      </node>
+    </collaborationgraph>
+    <location file="coordinates/Soldner.java" line="22" column="38" bodyfile="coordinates/Soldner.java" bodystart="22" bodyend="263"/>
+    <listofallmembers>
+      <member refid="classcoordinates_1_1_soldner_1ab1bec5d8a11e84c0cdc3154fd1abf843" prot="private" virt="non-virtual"><scope>coordinates::Soldner</scope><name>abszisse</name></member>
+      <member refid="classcoordinates_1_1_soldner_1a489fa7e9e4c0c09e502bbbf2fb7ad689" prot="private" virt="non-virtual"><scope>coordinates::Soldner</scope><name>b0</name></member>
+      <member refid="classcoordinates_1_1_soldner_1abef9061e0e316de4bba8f5e99292a2b5" prot="private" virt="non-virtual"><scope>coordinates::Soldner</scope><name>ellipsoidal</name></member>
+      <member refid="classcoordinates_1_1_soldner_1a1bb5f8b49d0f2858f22028f3532d1ee3" prot="public" virt="non-virtual"><scope>coordinates::Soldner</scope><name>getAbszisse</name></member>
+      <member refid="classcoordinates_1_1_soldner_1ab87732c40411256ffd5cfba0ad4bd2cc" prot="public" virt="non-virtual"><scope>coordinates::Soldner</scope><name>getAsGeographicInterface</name></member>
+      <member refid="classcoordinates_1_1_soldner_1a5681bdb4c77cb4e6e483abca00758a48" prot="public" virt="non-virtual"><scope>coordinates::Soldner</scope><name>getAsTargetCoordinate</name></member>
+      <member refid="classcoordinates_1_1_soldner_1a6ab74bfedc2b81db5ec9b40228b5a51c" prot="public" virt="non-virtual"><scope>coordinates::Soldner</scope><name>getB0</name></member>
+      <member refid="classcoordinates_1_1_soldner_1ace54cd7d0157cf876c22e7877fc65c01" prot="public" virt="non-virtual"><scope>coordinates::Soldner</scope><name>getEllipsoidal</name></member>
+      <member refid="classcoordinates_1_1_soldner_1a0b9ff78b3e7f94bef19549746c67ea92" prot="public" virt="non-virtual"><scope>coordinates::Soldner</scope><name>getHeight</name></member>
+      <member refid="classcoordinates_1_1_soldner_1a58e4fa59465e0953f6302ea668f2d270" prot="public" virt="non-virtual"><scope>coordinates::Soldner</scope><name>getL0</name></member>
+      <member refid="classcoordinates_1_1_soldner_1abb044e1be4724e6cd0ee72083a6245d0" prot="public" virt="non-virtual"><scope>coordinates::Soldner</scope><name>getOrdinate</name></member>
+      <member refid="classcoordinates_1_1_coordinate_1ab0b1d8dc4fe371a2425e0cb505effafd" prot="public" virt="non-virtual"><scope>coordinates::Soldner</scope><name>getPointid</name></member>
+      <member refid="classcoordinates_1_1_soldner_1a4db9877edcf2391422fe532bd7131856" prot="private" virt="non-virtual"><scope>coordinates::Soldner</scope><name>height</name></member>
+      <member refid="classcoordinates_1_1_soldner_1a4d8a0b1f4fce55f1d8be6433a2160b17" prot="private" virt="non-virtual"><scope>coordinates::Soldner</scope><name>l0</name></member>
+      <member refid="classcoordinates_1_1_soldner_1ab13e1d9275b47a0754ed33c572dba57a" prot="private" virt="non-virtual"><scope>coordinates::Soldner</scope><name>ordinate</name></member>
+      <member refid="classcoordinates_1_1_coordinate_1a871c4eb3e8771b3e59f26c8e573d6aa0" prot="private" virt="non-virtual"><scope>coordinates::Soldner</scope><name>pointid</name></member>
+      <member refid="classcoordinates_1_1_soldner_1a672aec8c4424e5a066f272d4864e8813" prot="public" virt="non-virtual"><scope>coordinates::Soldner</scope><name>print</name></member>
+      <member refid="classcoordinates_1_1_soldner_1ab1de539c6b4d0855debaa87339edbedd" prot="public" virt="non-virtual"><scope>coordinates::Soldner</scope><name>setAbszisse</name></member>
+      <member refid="classcoordinates_1_1_soldner_1a597b8292c312c36e547df97285e55d4a" prot="public" virt="non-virtual"><scope>coordinates::Soldner</scope><name>setB0</name></member>
+      <member refid="classcoordinates_1_1_soldner_1abf6ceb3d9b6edd741fdd05580b0593fa" prot="public" virt="non-virtual"><scope>coordinates::Soldner</scope><name>setEllipsoidal</name></member>
+      <member refid="classcoordinates_1_1_soldner_1afc305a8276613f55b9aa79638a514789" prot="public" virt="non-virtual"><scope>coordinates::Soldner</scope><name>setHeight</name></member>
+      <member refid="classcoordinates_1_1_soldner_1abc6b1143ff0485b110cdc7b33f712ed3" prot="public" virt="non-virtual"><scope>coordinates::Soldner</scope><name>setL0</name></member>
+      <member refid="classcoordinates_1_1_soldner_1a991dbfcef201d4740613960da3794bf6" prot="public" virt="non-virtual"><scope>coordinates::Soldner</scope><name>setOrdinate</name></member>
+      <member refid="classcoordinates_1_1_coordinate_1a14f00383b5a41df79220112a12ef1cbf" prot="public" virt="non-virtual"><scope>coordinates::Soldner</scope><name>setPointid</name></member>
+      <member refid="classcoordinates_1_1_soldner_1ab3e2a2c0566f9f12fa5d9c3460440a1a" prot="public" virt="non-virtual"><scope>coordinates::Soldner</scope><name>Soldner</name></member>
+      <member refid="classcoordinates_1_1_soldner_1a92132f86c35d526b8419f8bde4e0bc0e" prot="public" virt="non-virtual"><scope>coordinates::Soldner</scope><name>Soldner</name></member>
+      <member refid="classcoordinates_1_1_soldner_1a01998c873e25c1fbefb3aba8d1d24cdd" prot="public" virt="non-virtual"><scope>coordinates::Soldner</scope><name>Soldner</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

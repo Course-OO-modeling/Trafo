@@ -1,0 +1,104 @@
+\hypertarget{classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_trig_test}{}\doxysection{test.\+datumstrategy.\+Spatial\+Similarity\+Transformation\+Trig\+Test Klassenreferenz}
+\label{classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_trig_test}\index{test.datumstrategy.SpatialSimilarityTransformationTrigTest@{test.datumstrategy.SpatialSimilarityTransformationTrigTest}}
+
+
+Tests the Spatial Similarity \mbox{\hyperlink{class_transformation}{Transformation}} as a Datum Strategy. Input values and expected values were calculated by hand.  
+
+
+\doxysubsection*{Öffentliche Methoden}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_trig_test_aaba8cd634d7c737b2f4cd7860230c356}{test\+Transform}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attribute}
+\begin{DoxyCompactItemize}
+\item 
+final double \mbox{\hyperlink{classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_trig_test_a5e78111ac0602013a3f6d69095701d8c}{R\+HO}} = 180/Math.\+PI
+\item 
+final double \mbox{\hyperlink{classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_trig_test_a5eb06f4f83b6d03070341107520f3eed}{E\+P\+S\+I\+L\+O\+N\+\_\+\+I\+N\+\_\+\+M\+E\+T\+ER}} = 0.\+001
+\item 
+final double \mbox{\hyperlink{classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_trig_test_a634fa20b244fa32474282e106a0f207d}{E\+P\+S\+I\+L\+O\+N\+\_\+\+I\+N\+\_\+\+R\+AD}} = 0.\+00000001
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Ausführliche Beschreibung}
+Tests the Spatial Similarity \mbox{\hyperlink{class_transformation}{Transformation}} as a Datum Strategy. Input values and expected values were calculated by hand. 
+
+public class \mbox{\hyperlink{classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_trig_test}{Spatial\+Similarity\+Transformation\+Trig\+Test}} \{
+
+private final double R\+HO = 180/\+Math.\+PI; private final double E\+P\+S\+I\+L\+O\+N\+\_\+\+I\+N\+\_\+\+M\+E\+T\+ER = 0.\+001; private final double E\+P\+S\+I\+L\+O\+N\+\_\+\+I\+N\+\_\+\+R\+AD = 0.\+00000001;
+
+@\+Test public void \mbox{\hyperlink{classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_trig_test_aaba8cd634d7c737b2f4cd7860230c356}{test\+Transform()}} \{ ~\newline
+ \begin{DoxyVerb}ControlParms control = ControlParms.getInstance();
+control.setKindoftrafo("3D_trig");
+control.setDx(100);
+control.setDy(100);
+control.setDz(100);
+control.setWx(60/RHO);
+control.setWy(60/RHO);
+control.setWz(0);
+control.setMassstab(1.1);
+
+final double expectedLatitude = (45.41306469)/RHO;
+final double expectedLongitude = (84.06362314)/RHO;
+final double expectedHeight = 635482.79430;
+
+GeographicCoordinateInterface testCoordinate = GeographicCoordinateInterface.getInstance();
+
+testCoordinate.setLatitude(49.0/RHO);
+testCoordinate.setLongitude(8.5/RHO);
+testCoordinate.setHeight(120.);
+
+TransformationStrategy dat = GetAppropriateTransformationAlgorithm.getStrategy();
+dat.transform(testCoordinate);
+
+assertEquals(expectedLatitude, testCoordinate.getLatitude(), EPSILON_IN_RAD);
+assertEquals(expectedLongitude, testCoordinate.getLongitude(), EPSILON_IN_RAD);
+assertEquals(expectedHeight, testCoordinate.getHeight(), EPSILON_IN_METER);
+\end{DoxyVerb}
+ \} \}
+
+\begin{DoxyAuthor}{Autor}
+Wentao Lu 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Datum}
+Jan 2020 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+
+
+\doxysubsection{Dokumentation der Elementfunktionen}
+\mbox{\Hypertarget{classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_trig_test_aaba8cd634d7c737b2f4cd7860230c356}\label{classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_trig_test_aaba8cd634d7c737b2f4cd7860230c356}} 
+\index{test.datumstrategy.SpatialSimilarityTransformationTrigTest@{test.datumstrategy.SpatialSimilarityTransformationTrigTest}!testTransform@{testTransform}}
+\index{testTransform@{testTransform}!test.datumstrategy.SpatialSimilarityTransformationTrigTest@{test.datumstrategy.SpatialSimilarityTransformationTrigTest}}
+\doxysubsubsection{\texorpdfstring{testTransform()}{testTransform()}}
+{\footnotesize\ttfamily void test.\+datumstrategy.\+Spatial\+Similarity\+Transformation\+Trig\+Test.\+test\+Transform (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Dokumentation der Datenelemente}
+\mbox{\Hypertarget{classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_trig_test_a5eb06f4f83b6d03070341107520f3eed}\label{classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_trig_test_a5eb06f4f83b6d03070341107520f3eed}} 
+\index{test.datumstrategy.SpatialSimilarityTransformationTrigTest@{test.datumstrategy.SpatialSimilarityTransformationTrigTest}!EPSILON\_IN\_METER@{EPSILON\_IN\_METER}}
+\index{EPSILON\_IN\_METER@{EPSILON\_IN\_METER}!test.datumstrategy.SpatialSimilarityTransformationTrigTest@{test.datumstrategy.SpatialSimilarityTransformationTrigTest}}
+\doxysubsubsection{\texorpdfstring{EPSILON\_IN\_METER}{EPSILON\_IN\_METER}}
+{\footnotesize\ttfamily final double test.\+datumstrategy.\+Spatial\+Similarity\+Transformation\+Trig\+Test.\+E\+P\+S\+I\+L\+O\+N\+\_\+\+I\+N\+\_\+\+M\+E\+T\+ER = 0.\+001\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_trig_test_a634fa20b244fa32474282e106a0f207d}\label{classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_trig_test_a634fa20b244fa32474282e106a0f207d}} 
+\index{test.datumstrategy.SpatialSimilarityTransformationTrigTest@{test.datumstrategy.SpatialSimilarityTransformationTrigTest}!EPSILON\_IN\_RAD@{EPSILON\_IN\_RAD}}
+\index{EPSILON\_IN\_RAD@{EPSILON\_IN\_RAD}!test.datumstrategy.SpatialSimilarityTransformationTrigTest@{test.datumstrategy.SpatialSimilarityTransformationTrigTest}}
+\doxysubsubsection{\texorpdfstring{EPSILON\_IN\_RAD}{EPSILON\_IN\_RAD}}
+{\footnotesize\ttfamily final double test.\+datumstrategy.\+Spatial\+Similarity\+Transformation\+Trig\+Test.\+E\+P\+S\+I\+L\+O\+N\+\_\+\+I\+N\+\_\+\+R\+AD = 0.\+00000001\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_trig_test_a5e78111ac0602013a3f6d69095701d8c}\label{classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_trig_test_a5e78111ac0602013a3f6d69095701d8c}} 
+\index{test.datumstrategy.SpatialSimilarityTransformationTrigTest@{test.datumstrategy.SpatialSimilarityTransformationTrigTest}!RHO@{RHO}}
+\index{RHO@{RHO}!test.datumstrategy.SpatialSimilarityTransformationTrigTest@{test.datumstrategy.SpatialSimilarityTransformationTrigTest}}
+\doxysubsubsection{\texorpdfstring{RHO}{RHO}}
+{\footnotesize\ttfamily final double test.\+datumstrategy.\+Spatial\+Similarity\+Transformation\+Trig\+Test.\+R\+HO = 180/Math.\+PI\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Die Dokumentation für diese Klasse wurde erzeugt aufgrund der Datei\+:\begin{DoxyCompactItemize}
+\item 
+test/datumstrategy/\mbox{\hyperlink{_spatial_similarity_transformation_trig_test_8java}{Spatial\+Similarity\+Transformation\+Trig\+Test.\+java}}\end{DoxyCompactItemize}

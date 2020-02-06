@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtest_1_1datumstrategy_1_1_get_appropriate_transformation_algorithm_test" kind="class" language="Java" prot="public">
+    <compoundname>test::datumstrategy::GetAppropriateTransformationAlgorithmTest</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtest_1_1datumstrategy_1_1_get_appropriate_transformation_algorithm_test_1ab67bd3e54dcc11a23c10745959bacdb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void test.datumstrategy.GetAppropriateTransformationAlgorithmTest.testSpatialSimilarityTransformationInfin</definition>
+        <argsstring>()</argsstring>
+        <name>testSpatialSimilarityTransformationInfin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/datumstrategy/GetAppropriateTransformationAlgorithmTest.java" line="14" column="13" bodyfile="test/datumstrategy/GetAppropriateTransformationAlgorithmTest.java" bodystart="14" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="test/datumstrategy/GetAppropriateTransformationAlgorithmTest.java" line="11" column="55" bodyfile="test/datumstrategy/GetAppropriateTransformationAlgorithmTest.java" bodystart="11" bodyend="28"/>
+    <listofallmembers>
+      <member refid="classtest_1_1datumstrategy_1_1_get_appropriate_transformation_algorithm_test_1ab67bd3e54dcc11a23c10745959bacdb0" prot="public" virt="non-virtual"><scope>test::datumstrategy::GetAppropriateTransformationAlgorithmTest</scope><name>testSpatialSimilarityTransformationInfin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

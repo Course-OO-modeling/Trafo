@@ -22,53 +22,53 @@ import datumstrategy.TransformationStrategy;
 
 public class MolodenskiiTransformationStandard extends TransformationStrategy {
 
-    private static MolodenskiiTransformationStandard myInstance = null;
+	private static MolodenskiiTransformationStandard myInstance = null;
 
-    private MolodenskiiTransformationStandard() {
-    }
+	private MolodenskiiTransformationStandard() {
+	}
 
-    public static MolodenskiiTransformationStandard getInstance() {
+	public static MolodenskiiTransformationStandard getInstance() {
 
-        if (myInstance == null)
-        {
-           myInstance = new MolodenskiiTransformationStandard();
-        }
+		if (myInstance == null) {
+			myInstance = new MolodenskiiTransformationStandard();
+		}
 
-        return myInstance;
-    }
+		return myInstance;
+	}
 
-    @Override
-    public void transform(GeographicCoordinateInterface geo) {
+	@Override
+	public void transform(GeographicCoordinateInterface geo) {
 
-        // Algorithmic realisation of the date change to Molodenskii
-        ControlParms control = ControlParms.getInstance();
-        double dl, db, dh;
+		// Algorithmic realisation of the date change to Molodenskii
+		ControlParms control = ControlParms.getInstance();
+		double dl, db, dh;
 
-        control.calculatelongitudeParms(geo);
+		control.calculatelongitudeParms(geo);
 
-        /* Use of this standard formula as all Parameters are given by NIMA */
-        db = (-control.getDx() * Math.sin(geo.getLatitude()) * Math.cos(geo.getLongitude())
-                - control.getDy() * Math.sin(geo.getLatitude()) * Math.sin(geo.getLongitude())
-                + control.getDz() * Math.cos(geo.getLatitude())
-                + control.getDa() * (control.getN() * control.getFirstEccentricity() * Math.sin(geo.getLatitude())
-                * Math.cos(geo.getLatitude())) / control.getSemiMajorAxis()
-                + control.getDf() * (control.getM() * (control.getSemiMajorAxis() / control.getSemiMinorAxis()) + control.getN() * (control.getSemiMinorAxis()
-                / control.getSemiMajorAxis())) * Math.sin(geo.getLatitude()) * Math.cos(geo.getLatitude()))
-                / (control.getM() + geo.getHeight());
+		/* Use of this standard formula as all Parameters are given by NIMA */
+		db = (-control.getDx() * Math.sin(geo.getLatitude()) * Math.cos(geo.getLongitude())
+				- control.getDy() * Math.sin(geo.getLatitude()) * Math.sin(geo.getLongitude())
+				+ control.getDz() * Math.cos(geo.getLatitude())
+				+ control.getDa() * (control.getN() * control.getFirstEccentricity() * Math.sin(geo.getLatitude())
+						* Math.cos(geo.getLatitude())) / control.getSemiMajorAxis()
+				+ control.getDf()
+						* (control.getM() * (control.getSemiMajorAxis() / control.getSemiMinorAxis())
+								+ control.getN() * (control.getSemiMinorAxis() / control.getSemiMajorAxis()))
+						* Math.sin(geo.getLatitude()) * Math.cos(geo.getLatitude()))
+				/ (control.getM() + geo.getHeight());
 
-        dl = (-control.getDx() * Math.sin(geo.getLongitude())
-                + control.getDy() * Math.cos(geo.getLongitude()))
-                / ((control.getN() + geo.getHeight()) * Math.cos(geo.getLatitude()));
+		dl = (-control.getDx() * Math.sin(geo.getLongitude()) + control.getDy() * Math.cos(geo.getLongitude()))
+				/ ((control.getN() + geo.getHeight()) * Math.cos(geo.getLatitude()));
 
-        dh = control.getDx() * Math.cos(geo.getLatitude()) * Math.cos(geo.getLongitude())
-                + control.getDy() * Math.cos(geo.getLatitude()) * Math.sin(geo.getLongitude())
-                + control.getDz() * Math.sin(geo.getLatitude())
-                - control.getDa() * (control.getSemiMajorAxis() / control.getN())
-                + control.getDf() * (control.getSemiMinorAxis() / control.getSemiMajorAxis())
-                * control.getN() * Math.pow(Math.sin(geo.getLatitude()), 2);
+		dh = control.getDx() * Math.cos(geo.getLatitude()) * Math.cos(geo.getLongitude())
+				+ control.getDy() * Math.cos(geo.getLatitude()) * Math.sin(geo.getLongitude())
+				+ control.getDz() * Math.sin(geo.getLatitude())
+				- control.getDa() * (control.getSemiMajorAxis() / control.getN())
+				+ control.getDf() * (control.getSemiMinorAxis() / control.getSemiMajorAxis()) * control.getN()
+						* Math.pow(Math.sin(geo.getLatitude()), 2);
 
-        geo.setLatitude(geo.getLatitude() + db);
-        geo.setLongitude(geo.getLongitude() + dl);
-        geo.setHeight(geo.getHeight() + dh);
-    }
+		geo.setLatitude(geo.getLatitude() + db);
+		geo.setLongitude(geo.getLongitude() + dl);
+		geo.setHeight(geo.getHeight() + dh);
+	}
 }

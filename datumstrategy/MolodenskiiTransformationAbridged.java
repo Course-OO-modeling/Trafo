@@ -52,7 +52,7 @@ public class MolodenskiiTransformationAbridged extends TransformationStrategy {
 				+ control.getDy() * Math.cos(geo.getLatitude()) * Math.sin(geo.getLongitude())
 				+ control.getDz() * Math.sin(geo.getLatitude()) - control.getDa()
 				+ ((control.getFlattening() * control.getDa() + control.getSemiMajorAxis() * control.getDf())
-						* Math.pow(Math.sin(geo.getLatitude()),2));
+						* Math.pow(Math.sin(geo.getLatitude()), 2));
 
 		// Apply the Transformation
 		geo.setLatitude(geo.getLatitude() + db);

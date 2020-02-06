@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="_get_appropriate_transformation_algorithm_8java" kind="file" language="Java">
+    <compoundname>GetAppropriateTransformationAlgorithm.java</compoundname>
+    <innerclass refid="classdatumstrategy_1_1_get_appropriate_transformation_algorithm" prot="public">datumstrategy::GetAppropriateTransformationAlgorithm</innerclass>
+    <innernamespace refid="namespacedatumstrategy">datumstrategy</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">datumstrategy;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>package<sp/>Classes;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespaceparams" kindref="compound">params</ref>.<ref refid="classparams_1_1_control_parms" kindref="compound">ControlParms</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespacedatumstrategy" kindref="compound">datumstrategy</ref>.<ref refid="classdatumstrategy_1_1_transformation_strategy" kindref="compound">TransformationStrategy</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespacedatumstrategy" kindref="compound">datumstrategy</ref>.<ref refid="classdatumstrategy_1_1_molodenskii_transformation_standard" kindref="compound">MolodenskiiTransformationStandard</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespacedatumstrategy" kindref="compound">datumstrategy</ref>.<ref refid="classdatumstrategy_1_1_spatial_similarity_transformation_infin" kindref="compound">SpatialSimilarityTransformationInfin</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="classdatumstrategy_1_1_get_appropriate_transformation_algorithm" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classdatumstrategy_1_1_get_appropriate_transformation_algorithm" kindref="compound">GetAppropriateTransformationAlgorithm</ref><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classdatumstrategy_1_1_transformation_strategy" kindref="compound">TransformationStrategy</ref><sp/><ref refid="classdatumstrategy_1_1_get_appropriate_transformation_algorithm_1a5dae4ffa1ae0ccc9e24ff4d3469b3286" kindref="member">getStrategy</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classparams_1_1_control_parms" kindref="compound">ControlParms</ref><sp/>control<sp/>=<sp/><ref refid="classparams_1_1_control_parms" kindref="compound">ControlParms</ref>.<ref refid="classparams_1_1_control_parms_1a34463dd11453c5f45660efaabbe826f7" kindref="member">getInstance</ref>();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(control.<ref refid="classparams_1_1_control_parms_1ab0e48205eade41505b94b657f2140f10" kindref="member">getKindoftrafo</ref>()<sp/>==<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">)<sp/></highlight><highlight class="comment">//<sp/>kein<sp/>Wechsel<sp/>des<sp/>Datums</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdatumstrategy_1_1_mock_strategy" kindref="compound">MockStrategy</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(control.<ref refid="classparams_1_1_control_parms_1ab0e48205eade41505b94b657f2140f10" kindref="member">getKindoftrafo</ref>()<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;mol_stand&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classdatumstrategy_1_1_molodenskii_transformation_standard" kindref="compound">MolodenskiiTransformationStandard</ref>.<ref refid="classdatumstrategy_1_1_molodenskii_transformation_standard_1a09d8ecc0b04ffbfeb3b4ef4a6024e3f6" kindref="member">getInstance</ref>();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(control.<ref refid="classparams_1_1_control_parms_1ab0e48205eade41505b94b657f2140f10" kindref="member">getKindoftrafo</ref>()<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;3D_infin&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdatumstrategy_1_1_spatial_similarity_transformation_infin" kindref="compound">SpatialSimilarityTransformationInfin</ref>();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="datumstrategy/GetAppropriateTransformationAlgorithm.java"/>
+  </compounddef>
+</doxygen>

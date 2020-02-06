@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>Trafo</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>is<sp/>the<sp/>repository<sp/>of<sp/>the<sp/>course<sp/>Fortgeschrittene<sp/>Konzepte<sp/>in<sp/>GIS<sp/>(2019/2020)<sp/>at<sp/>the<sp/>Geodetic<sp/>Institute<sp/>in<sp/>Karlsruhe.<sp/>It<sp/>contains<sp/>Java<sp/>code<sp/>for<sp/>several<sp/>geodetic<sp/>transformations<sp/>integrated<sp/>in<sp/>a<sp/>single<sp/>programm.<sp/>The<sp/>course<sp/>focuses<sp/>on<sp/>learning<sp/>software<sp/>engineering<sp/>skills<sp/>and<sp/>design<sp/>patterns<sp/>such<sp/>as<sp/>singleton<sp/>or<sp/>factory<sp/>method<sp/>(creational<sp/>patterns).<sp/>The<sp/>program<sp/>is<sp/>based<sp/>on<sp/>a<sp/>structure<sp/>design<sp/>pattern<sp/>of<sp/>a<sp/>Model<sp/>View<sp/>Controller.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>code<sp/>is<sp/>open<sp/>source<sp/>and<sp/>everyone<sp/>is<sp/>invited<sp/>to<sp/>participate<sp/>to<sp/>this<sp/>repository.<sp/>Please<sp/>feel<sp/>free<sp/>to<sp/>pick<sp/>open<sp/>Issues<sp/>and<sp/>send<sp/>Pull<sp/>Requests<sp/>(see<sp/>section<sp/>Contributing<sp/>below).</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Getting<sp/>Started</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">These<sp/>instructions<sp/>will<sp/>get<sp/>you<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>project<sp/>up<sp/>and<sp/>running<sp/>on<sp/>your<sp/>local<sp/>machine<sp/>for<sp/>development<sp/>and<sp/>testing<sp/>purposes.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Prerequisites</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Java-compiler<sp/>or<sp/>-IDE<sp/>(e.g.<sp/>Eclipse:<sp/>https://www.eclipse.org/).</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">JUnit<sp/>(at<sp/>least<sp/>Version<sp/>3<sp/>is<sp/>recommended)<sp/><sp/>to<sp/>run<sp/>the<sp/>implemented<sp/>tests.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Installing</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Just<sp/>clone<sp/>the<sp/>repository.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">git<sp/>clone<sp/>repo@gik-ubuntu-09.gik.kit.edu/Trafo</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">And<sp/>start<sp/>as<sp/>a<sp/>Java<sp/>project<sp/>with<sp/>your<sp/>favorite<sp/>compiler/IDE<sp/>(e.g.<sp/>Eclipse).</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>project<sp/>should<sp/>run<sp/>without<sp/>any<sp/>Errors.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Running<sp/>the<sp/>tests</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Several<sp/>Unit<sp/>tests<sp/>are<sp/>already<sp/>implemented.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Break<sp/>down<sp/>into<sp/>end<sp/>to<sp/>end<sp/>tests<sp/>(Todo:<sp/>Delete<sp/>this<sp/>section?)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Explain<sp/>what<sp/>these<sp/>tests<sp/>test<sp/>and<sp/>why</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">Give<sp/>an<sp/>example</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>And<sp/>coding<sp/>style<sp/>tests<sp/>(Todo:<sp/>Delete<sp/>this<sp/>section?)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Explain<sp/>what<sp/>these<sp/>tests<sp/>test<sp/>and<sp/>why</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">Give<sp/>an<sp/>example</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Contributing</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">When<sp/>contributing<sp/>to<sp/>this<sp/>repository,<sp/>please<sp/>first<sp/>discuss<sp/>the<sp/>change<sp/>you<sp/>wish<sp/>to<sp/>make<sp/>via<sp/>issue,<sp/>email,<sp/>or<sp/>any<sp/>other<sp/>method<sp/>with<sp/>the<sp/>owners<sp/>of<sp/>this<sp/>repository<sp/>before<sp/>making<sp/>a<sp/>change<sp/>and<sp/>submit<sp/>pull<sp/>requests.</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Versioning</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">For<sp/>the<sp/>versions<sp/>available,<sp/>see<sp/>the<sp/>[tags<sp/>on<sp/>this<sp/>repository](https://github.com/Course-OO-modeling/Trafo//tags).<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Authors</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>**Norbert<sp/>Roesch**<sp/>-<sp/>*Initial<sp/>work*<sp/>-</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>**Wentao<sp/>Lu**</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>**Jessica<sp/>Palka**</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>**Xiaofei<sp/>Yang**</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>**Steven<sp/>Landgraf**</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>**Svea<sp/>Krikau**</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">See<sp/>also<sp/>the<sp/>list<sp/>of<sp/>[contributors](https://github.com/Course-OO-modeling/Trafo/contributors)<sp/>who<sp/>participated<sp/>in<sp/>this<sp/>project.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>License</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>project<sp/>is<sp/>licensed<sp/>under<sp/>the<sp/>GNU<sp/>License<sp/>-<sp/>see<sp/>the<sp/>[LICENSE.md](LICENSE.md)<sp/>file<sp/>for<sp/>details</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Acknowledgments</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>We<sp/>acknowledge<sp/>all<sp/>authors<sp/>and<sp/>participants<sp/>who<sp/>contributed<sp/>to<sp/>this<sp/>project.<sp/>Thank<sp/>You.</highlight></codeline>
+<codeline></codeline>
+    </programlisting>
+    <location file="C:/Users/YangXiaofei/Desktop/Workplace0115/Transformation1/bin/README.md"/>
+  </compounddef>
+</doxygen>

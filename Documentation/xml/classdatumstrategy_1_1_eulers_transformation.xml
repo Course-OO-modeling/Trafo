@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classdatumstrategy_1_1_eulers_transformation" kind="class" language="Java" prot="public">
+    <compoundname>datumstrategy::EulersTransformation</compoundname>
+    <basecompoundref refid="classdatumstrategy_1_1_transformation_strategy" prot="public" virt="non-virtual">datumstrategy.TransformationStrategy</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classdatumstrategy_1_1_eulers_transformation_1a2e8c6f2458ddf01b4b46bc3800c13363" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double datumstrategy.EulersTransformation.e1</definition>
+        <argsstring></argsstring>
+        <name>e1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="datumstrategy/EulersTransformation.java" line="25" column="16" bodyfile="datumstrategy/EulersTransformation.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdatumstrategy_1_1_eulers_transformation_1a2337790869ae44252d7ac574bb748fad" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double datumstrategy.EulersTransformation.e2</definition>
+        <argsstring></argsstring>
+        <name>e2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="datumstrategy/EulersTransformation.java" line="26" column="16" bodyfile="datumstrategy/EulersTransformation.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdatumstrategy_1_1_eulers_transformation_1a6e1425d38cd9762dc299779981fc1abe" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double datumstrategy.EulersTransformation.e3</definition>
+        <argsstring></argsstring>
+        <name>e3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="datumstrategy/EulersTransformation.java" line="27" column="16" bodyfile="datumstrategy/EulersTransformation.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdatumstrategy_1_1_eulers_transformation_1a75850bab8cf460223edd241724c0fc65" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double datumstrategy.EulersTransformation.e4</definition>
+        <argsstring></argsstring>
+        <name>e4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="datumstrategy/EulersTransformation.java" line="28" column="16" bodyfile="datumstrategy/EulersTransformation.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdatumstrategy_1_1_eulers_transformation_1aa9f067a6e627854bbcc06f9606535ad0" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double datumstrategy.EulersTransformation.e5</definition>
+        <argsstring></argsstring>
+        <name>e5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="datumstrategy/EulersTransformation.java" line="29" column="16" bodyfile="datumstrategy/EulersTransformation.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdatumstrategy_1_1_eulers_transformation_1a4bf6b7004de7c30697305f2d306a28e9" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double datumstrategy.EulersTransformation.e6</definition>
+        <argsstring></argsstring>
+        <name>e6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="datumstrategy/EulersTransformation.java" line="30" column="16" bodyfile="datumstrategy/EulersTransformation.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdatumstrategy_1_1_eulers_transformation_1a4faa97a258a45ffc8e3e2f801964b000" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double datumstrategy.EulersTransformation.e7</definition>
+        <argsstring></argsstring>
+        <name>e7</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="datumstrategy/EulersTransformation.java" line="31" column="16" bodyfile="datumstrategy/EulersTransformation.java" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdatumstrategy_1_1_eulers_transformation_1aa8c2fddfc3d1b5190eabe3ec5edc4aa3" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double datumstrategy.EulersTransformation.e8</definition>
+        <argsstring></argsstring>
+        <name>e8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="datumstrategy/EulersTransformation.java" line="32" column="16" bodyfile="datumstrategy/EulersTransformation.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdatumstrategy_1_1_eulers_transformation_1a978ca17f76ae4e8497ca75010bf54b46" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double datumstrategy.EulersTransformation.e9</definition>
+        <argsstring></argsstring>
+        <name>e9</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="datumstrategy/EulersTransformation.java" line="33" column="16" bodyfile="datumstrategy/EulersTransformation.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdatumstrategy_1_1_eulers_transformation_1a37661559087a055288365ddebea5d699" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void datumstrategy.EulersTransformation.transform</definition>
+        <argsstring>(GeographicCoordinateInterface geo)</argsstring>
+        <name>transform</name>
+        <reimplements refid="classdatumstrategy_1_1_transformation_strategy_1a0fd1d6fbba01e5222360740e34eae786">transform</reimplements>
+        <param>
+          <type><ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref></type>
+          <declname>geo</declname>
+        </param>
+        <briefdescription>
+<para>Use Euler angles to transform the geographic coordinate. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Translation : Cartesian coordinates are used. Rotation : rotate with principle of conventional Euler&apos;s Standard-x-convention (Rz1,Rx2,Rz3). Algorithm explanation : Rotate first about Z-axis ,after first step rotate about current X-axis, at end rotate about current Z-axis. Link to the Algorithm : <ulink url="https://de.wikipedia.org/wiki/Eulersche_Winkel">https://de.wikipedia.org/wiki/Eulersche_Winkel</ulink></para>
+<para><simplesect kind="author"><para>Yucheng Luo </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="datumstrategy/EulersTransformation.java" line="46" column="17" bodyfile="datumstrategy/EulersTransformation.java" bodystart="46" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Algorithmic realization of the Euler&apos;s transformation. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>The method takes all needed parameters from the class ControlParms that extends the class EllipsoidParms. Needed parameter for the <ref refid="classdatumstrategy_1_1_eulers_transformation" kindref="compound">EulersTransformation</ref>: 3 translation-, 1 scale- and 3 rotation -parameters. The start coordinates are taken from the class GeographicCoordinate and have to be converted into cartesian coordinates to realize the transformation. The Translation is done with cartesian coordinates and the rotation is implemented with trigonometric function. After the <ref refid="class_transformation" kindref="compound">Transformation</ref>, the new cartesian coordinates are converted into ellipsoidal coordinates by an iterative process.</para>
+<para>source of <ref refid="classdatumstrategy_1_1_eulers_transformation" kindref="compound">EulersTransformation</ref>: <ulink url="https://en.wikipedia.org/wiki/Euler_angles">https://en.wikipedia.org/wiki/Euler_angles</ulink> <simplesect kind="author"><para>Yucheng Luo </para>
+</simplesect>
+<simplesect kind="remark"><para>Euler&apos;s angle added on 01.02.2018 by Yucheng Luo </para>
+</simplesect>
+<simplesect kind="version"><para>0.1 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>datumstrategy.EulersTransformation</label>
+        <link refid="classdatumstrategy_1_1_eulers_transformation"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>datumstrategy.TransformationStrategy</label>
+        <link refid="classdatumstrategy_1_1_transformation_strategy"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>datumstrategy.EulersTransformation</label>
+        <link refid="classdatumstrategy_1_1_eulers_transformation"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>datumstrategy.TransformationStrategy</label>
+        <link refid="classdatumstrategy_1_1_transformation_strategy"/>
+      </node>
+    </collaborationgraph>
+    <location file="datumstrategy/EulersTransformation.java" line="24" column="57" bodyfile="datumstrategy/EulersTransformation.java" bodystart="24" bodyend="80"/>
+    <listofallmembers>
+      <member refid="classdatumstrategy_1_1_eulers_transformation_1a2e8c6f2458ddf01b4b46bc3800c13363" prot="private" virt="non-virtual"><scope>datumstrategy::EulersTransformation</scope><name>e1</name></member>
+      <member refid="classdatumstrategy_1_1_eulers_transformation_1a2337790869ae44252d7ac574bb748fad" prot="private" virt="non-virtual"><scope>datumstrategy::EulersTransformation</scope><name>e2</name></member>
+      <member refid="classdatumstrategy_1_1_eulers_transformation_1a6e1425d38cd9762dc299779981fc1abe" prot="private" virt="non-virtual"><scope>datumstrategy::EulersTransformation</scope><name>e3</name></member>
+      <member refid="classdatumstrategy_1_1_eulers_transformation_1a75850bab8cf460223edd241724c0fc65" prot="private" virt="non-virtual"><scope>datumstrategy::EulersTransformation</scope><name>e4</name></member>
+      <member refid="classdatumstrategy_1_1_eulers_transformation_1aa9f067a6e627854bbcc06f9606535ad0" prot="private" virt="non-virtual"><scope>datumstrategy::EulersTransformation</scope><name>e5</name></member>
+      <member refid="classdatumstrategy_1_1_eulers_transformation_1a4bf6b7004de7c30697305f2d306a28e9" prot="private" virt="non-virtual"><scope>datumstrategy::EulersTransformation</scope><name>e6</name></member>
+      <member refid="classdatumstrategy_1_1_eulers_transformation_1a4faa97a258a45ffc8e3e2f801964b000" prot="private" virt="non-virtual"><scope>datumstrategy::EulersTransformation</scope><name>e7</name></member>
+      <member refid="classdatumstrategy_1_1_eulers_transformation_1aa8c2fddfc3d1b5190eabe3ec5edc4aa3" prot="private" virt="non-virtual"><scope>datumstrategy::EulersTransformation</scope><name>e8</name></member>
+      <member refid="classdatumstrategy_1_1_eulers_transformation_1a978ca17f76ae4e8497ca75010bf54b46" prot="private" virt="non-virtual"><scope>datumstrategy::EulersTransformation</scope><name>e9</name></member>
+      <member refid="classdatumstrategy_1_1_eulers_transformation_1a37661559087a055288365ddebea5d699" prot="public" virt="non-virtual"><scope>datumstrategy::EulersTransformation</scope><name>transform</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,402 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classcoordinates_1_1_gauss_krueger" kind="class" language="Java" prot="public">
+    <compoundname>coordinates::GaussKrueger</compoundname>
+    <basecompoundref refid="classcoordinates_1_1_gauss" prot="public" virt="non-virtual">coordinates.Gauss</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcoordinates_1_1_gauss_krueger_1a7b3a7878b5c0e9af6afee712997630b7" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double coordinates.GaussKrueger.rechts</definition>
+        <argsstring></argsstring>
+        <name>rechts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&apos;rechts&apos; is the official term used by the German survey admistration (&apos;easting&apos;) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GaussKrueger.java" line="24" column="20" bodyfile="coordinates/GaussKrueger.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcoordinates_1_1_gauss_krueger_1ad0effac6a487835234850d6dc8805843" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double coordinates.GaussKrueger.hoch</definition>
+        <argsstring></argsstring>
+        <name>hoch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&apos;hoch&apos; is the official term used by the German survey admistration (&apos;northing&apos;) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GaussKrueger.java" line="25" column="20" bodyfile="coordinates/GaussKrueger.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcoordinates_1_1_gauss_krueger_1a8118e7f54b47ed00d9ba473f381392c0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int coordinates.GaussKrueger.centralMeridian</definition>
+        <argsstring></argsstring>
+        <name>centralMeridian</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>central meridian </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GaussKrueger.java" line="26" column="17" bodyfile="coordinates/GaussKrueger.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcoordinates_1_1_gauss_krueger_1a59a320d5d406e0e88df19f2a1c6cc9fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>coordinates.GaussKrueger.GaussKrueger</definition>
+        <argsstring>()</argsstring>
+        <name>GaussKrueger</name>
+        <briefdescription>
+<para>main constructor to set the coordinates and reference meridian </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GaussKrueger.java" line="35" column="12" bodyfile="coordinates/GaussKrueger.java" bodystart="35" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_gauss_krueger_1a68b8bf6307cf0c9732f5034d8cf70df8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.GaussKrueger.print</definition>
+        <argsstring>()</argsstring>
+        <name>print</name>
+        <reimplements refid="classcoordinates_1_1_gauss_1aa088aa6fb796aa873b19ee2c1ef42468">print</reimplements>
+        <briefdescription>
+<para>prints a string representation of the Gauss-Krueger object into the console </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GaussKrueger.java" line="54" column="17" bodyfile="coordinates/GaussKrueger.java" bodystart="54" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_gauss_krueger_1a3b7d9043de1a8cbff07dd692244938d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref></type>
+        <definition>GeographicCoordinateInterface coordinates.GaussKrueger.getAsGeographicInterface</definition>
+        <argsstring>(EllipsoidParms ell)</argsstring>
+        <name>getAsGeographicInterface</name>
+        <reimplements refid="classcoordinates_1_1_gauss_1adb944679772bf8b4101b075247dd0fd0">getAsGeographicInterface</reimplements>
+        <param>
+          <type><ref refid="classparams_1_1_ellipsoid_parms" kindref="compound">EllipsoidParms</ref></type>
+          <declname>ell</declname>
+        </param>
+        <briefdescription>
+<para>transforms the coordinates of the current <ref refid="classcoordinates_1_1_gauss_krueger" kindref="compound">GaussKrueger</ref> instance into geographic coordinates </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ell</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- an object of type EllipsoidParams that stores information about the reference ellipsoid used for the geographic coordinates </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>geographic - returns an object of type <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> that represents the current <ref refid="classcoordinates_1_1_gauss_krueger" kindref="compound">GaussKrueger</ref> instance transformed to geographic coordinates </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GaussKrueger.java" line="67" column="42" bodyfile="coordinates/GaussKrueger.java" bodystart="67" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_gauss_krueger_1ab25a4a0c8fadac6c9f1653227427efd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.GaussKrueger.getAsTargetCoordinate</definition>
+        <argsstring>(EllipsoidParms ell, GeographicCoordinateInterface geocoord)</argsstring>
+        <name>getAsTargetCoordinate</name>
+        <reimplements refid="classcoordinates_1_1_coordinate_1a998872a624f0394829f4c405f7a6f803">getAsTargetCoordinate</reimplements>
+        <param>
+          <type><ref refid="classparams_1_1_ellipsoid_parms" kindref="compound">EllipsoidParms</ref></type>
+          <declname>ell</declname>
+        </param>
+        <param>
+          <type><ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref></type>
+          <declname>geocoord</declname>
+        </param>
+        <briefdescription>
+<para>transforms geographic coordinates into <ref refid="classcoordinates_1_1_gauss_krueger" kindref="compound">GaussKrueger</ref> coordinates and stores them in the current <ref refid="classcoordinates_1_1_gauss_krueger" kindref="compound">GaussKrueger</ref> instance </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ell</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- an object of type EllipsoidParams that stores information about the reference ellipsoid used for the geographic coordinates </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>geocoord</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- an object of type <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> that contains the geographic coordinates to be transformed in <ref refid="classcoordinates_1_1_gauss_krueger" kindref="compound">GaussKrueger</ref> coordinates </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GaussKrueger.java" line="93" column="17" bodyfile="coordinates/GaussKrueger.java" bodystart="93" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_gauss_krueger_1a11b882d972f2068f8447ea07df0bd4db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double coordinates.GaussKrueger.getRechts</definition>
+        <argsstring>()</argsstring>
+        <name>getRechts</name>
+        <briefdescription>
+<para>getter method that returns the the northing of the particular <ref refid="classcoordinates_1_1_gauss_krueger" kindref="compound">GaussKrueger</ref> instance </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>rechts - returns the northing of the particular <ref refid="classcoordinates_1_1_gauss_krueger" kindref="compound">GaussKrueger</ref> instance as double </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GaussKrueger.java" line="129" column="19" bodyfile="coordinates/GaussKrueger.java" bodystart="129" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_gauss_krueger_1aae6034f16ac245dac1c1d84722048894" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.GaussKrueger.setRechts</definition>
+        <argsstring>(double rechts)</argsstring>
+        <name>setRechts</name>
+        <param>
+          <type>double</type>
+          <declname>rechts</declname>
+        </param>
+        <briefdescription>
+<para>setter method that accepts the easting of the particular <ref refid="classcoordinates_1_1_gauss_krueger" kindref="compound">GaussKrueger</ref> instance </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rechts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- sets a double representing the easting for the particular <ref refid="classcoordinates_1_1_gauss_krueger" kindref="compound">GaussKrueger</ref> instance </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GaussKrueger.java" line="137" column="17" bodyfile="coordinates/GaussKrueger.java" bodystart="137" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_gauss_krueger_1ac6dfe7a78850b5aa7c69e1e5d2a0b3cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double coordinates.GaussKrueger.getHoch</definition>
+        <argsstring>()</argsstring>
+        <name>getHoch</name>
+        <briefdescription>
+<para>getter method for the northing of the current <ref refid="classcoordinates_1_1_gauss_krueger" kindref="compound">GaussKrueger</ref> instance </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>hoch - returns the northing of the current <ref refid="classcoordinates_1_1_gauss_krueger" kindref="compound">GaussKrueger</ref> instance as double </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GaussKrueger.java" line="145" column="19" bodyfile="coordinates/GaussKrueger.java" bodystart="145" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_gauss_krueger_1acf100c94ccd6ce16857ec83876578aa5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.GaussKrueger.setHoch</definition>
+        <argsstring>(double hoch)</argsstring>
+        <name>setHoch</name>
+        <param>
+          <type>double</type>
+          <declname>hoch</declname>
+        </param>
+        <briefdescription>
+<para>setter method that accepts the northing of the particular <ref refid="classcoordinates_1_1_gauss_krueger" kindref="compound">GaussKrueger</ref> instance </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hoch</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- sets a double representing the northing for the particular <ref refid="classcoordinates_1_1_gauss_krueger" kindref="compound">GaussKrueger</ref> instance </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GaussKrueger.java" line="153" column="17" bodyfile="coordinates/GaussKrueger.java" bodystart="153" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_gauss_krueger_1a3052602f8c5575a22cc7a1a63c5cb063" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int coordinates.GaussKrueger.getIlao</definition>
+        <argsstring>()</argsstring>
+        <name>getIlao</name>
+        <briefdescription>
+<para>getter method for the reference meridian of the current <ref refid="classcoordinates_1_1_gauss_krueger" kindref="compound">GaussKrueger</ref> instance </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>centralMeridian - returns the reference meridian of the current <ref refid="classcoordinates_1_1_gauss_krueger" kindref="compound">GaussKrueger</ref> instance as integer </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GaussKrueger.java" line="161" column="16" bodyfile="coordinates/GaussKrueger.java" bodystart="161" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_gauss_krueger_1a9dc35489df5fd3430d61f0d47ca27b82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.GaussKrueger.setIlao</definition>
+        <argsstring>(int ilao)</argsstring>
+        <name>setIlao</name>
+        <param>
+          <type>int</type>
+          <declname>ilao</declname>
+        </param>
+        <briefdescription>
+<para>setter method for the number of the reference meridian of the current <ref refid="classcoordinates_1_1_gauss_krueger" kindref="compound">GaussKrueger</ref> instance </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ilao</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- sets an integer as the number of the reference meridian of the current <ref refid="classcoordinates_1_1_gauss_krueger" kindref="compound">GaussKrueger</ref> instance </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/GaussKrueger.java" line="169" column="17" bodyfile="coordinates/GaussKrueger.java" bodystart="169" bodyend="171"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classcoordinates_1_1_coordinate" kindref="compound">Coordinate</ref> point relating to a certain Gauss-Krueger reference meridian. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>unknown </para>
+</simplesect>
+<simplesect kind="remark"><para>updated header on 2017-11-29 by Markus Mueller </para>
+</simplesect>
+<simplesect kind="remark"><para>change comment of attribute &apos;hoch&apos; 2017-12-19 by Markus Hillemann </para>
+</simplesect>
+<simplesect kind="remark"><para>change attribute name ilao to centralMeridian 2017-12-19 by Markus Hillemann </para>
+</simplesect>
+<simplesect kind="version"><para>0.1 </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rechts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Easting as double </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>hoch</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Northing as double </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>centralMeridian</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Central meridian as integer </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>coordinates.Gauss</label>
+        <link refid="classcoordinates_1_1_gauss"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>coordinates.GaussKrueger</label>
+        <link refid="classcoordinates_1_1_gauss_krueger"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>coordinates.Coordinate</label>
+        <link refid="classcoordinates_1_1_coordinate"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>coordinates.Gauss</label>
+        <link refid="classcoordinates_1_1_gauss"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>coordinates.GaussKrueger</label>
+        <link refid="classcoordinates_1_1_gauss_krueger"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>coordinates.Coordinate</label>
+        <link refid="classcoordinates_1_1_coordinate"/>
+      </node>
+    </collaborationgraph>
+    <location file="coordinates/GaussKrueger.java" line="21" column="32" bodyfile="coordinates/GaussKrueger.java" bodystart="21" bodyend="173"/>
+    <listofallmembers>
+      <member refid="classcoordinates_1_1_gauss_1a9bd37a096f53a9e443570ec5748f95d8" prot="private" virt="non-virtual"><scope>coordinates::GaussKrueger</scope><name>abszisse</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a1e810f7e3af643a8c0525485d9133276" prot="protected" virt="non-virtual"><scope>coordinates::GaussKrueger</scope><name>CalculateAbszisseOrdinate</name></member>
+      <member refid="classcoordinates_1_1_gauss_krueger_1a8118e7f54b47ed00d9ba473f381392c0" prot="private" virt="non-virtual"><scope>coordinates::GaussKrueger</scope><name>centralMeridian</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a08582ecf17604f8330df079ce234008c" prot="private" virt="non-virtual"><scope>coordinates::GaussKrueger</scope><name>ellipsoidal</name></member>
+      <member refid="classcoordinates_1_1_gauss_krueger_1a59a320d5d406e0e88df19f2a1c6cc9fc" prot="public" virt="non-virtual"><scope>coordinates::GaussKrueger</scope><name>GaussKrueger</name></member>
+      <member refid="classcoordinates_1_1_gauss_1ad11601b119b190bd9d61f71df6b53038" prot="public" virt="non-virtual"><scope>coordinates::GaussKrueger</scope><name>getAbszisse</name></member>
+      <member refid="classcoordinates_1_1_gauss_krueger_1a3b7d9043de1a8cbff07dd692244938d5" prot="public" virt="non-virtual"><scope>coordinates::GaussKrueger</scope><name>getAsGeographicInterface</name></member>
+      <member refid="classcoordinates_1_1_gauss_krueger_1ab25a4a0c8fadac6c9f1653227427efd7" prot="public" virt="non-virtual"><scope>coordinates::GaussKrueger</scope><name>getAsTargetCoordinate</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a5c6271983e9bb69b8d024158397f5882" prot="public" virt="non-virtual"><scope>coordinates::GaussKrueger</scope><name>getEllipsoidal</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a3bc39fe23752a9bccac68015c799f3fc" prot="public" virt="non-virtual"><scope>coordinates::GaussKrueger</scope><name>getHeight</name></member>
+      <member refid="classcoordinates_1_1_gauss_krueger_1ac6dfe7a78850b5aa7c69e1e5d2a0b3cf" prot="public" virt="non-virtual"><scope>coordinates::GaussKrueger</scope><name>getHoch</name></member>
+      <member refid="classcoordinates_1_1_gauss_krueger_1a3052602f8c5575a22cc7a1a63c5cb063" prot="public" virt="non-virtual"><scope>coordinates::GaussKrueger</scope><name>getIlao</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a751c889d6cc9b2acb5eeb42d888efc0f" prot="public" virt="non-virtual"><scope>coordinates::GaussKrueger</scope><name>getOrdinate</name></member>
+      <member refid="classcoordinates_1_1_coordinate_1ab0b1d8dc4fe371a2425e0cb505effafd" prot="public" virt="non-virtual"><scope>coordinates::GaussKrueger</scope><name>getPointid</name></member>
+      <member refid="classcoordinates_1_1_gauss_krueger_1a11b882d972f2068f8447ea07df0bd4db" prot="public" virt="non-virtual"><scope>coordinates::GaussKrueger</scope><name>getRechts</name></member>
+      <member refid="classcoordinates_1_1_gauss_1ab0d10005ccb914af91c8afc28d2ed836" prot="public" virt="non-virtual"><scope>coordinates::GaussKrueger</scope><name>getScale</name></member>
+      <member refid="classcoordinates_1_1_gauss_1ad1543fe8a30e7f6dab1d0486bb5a935d" prot="private" virt="non-virtual"><scope>coordinates::GaussKrueger</scope><name>height</name></member>
+      <member refid="classcoordinates_1_1_gauss_krueger_1ad0effac6a487835234850d6dc8805843" prot="private" virt="non-virtual"><scope>coordinates::GaussKrueger</scope><name>hoch</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a622fa98764e45111e58a44c82f4dc5cd" prot="public" virt="non-virtual"><scope>coordinates::GaussKrueger</scope><name>meridianLength</name></member>
+      <member refid="classcoordinates_1_1_gauss_1ab156b1da518d7637dacef40489a0dba4" prot="private" virt="non-virtual"><scope>coordinates::GaussKrueger</scope><name>ordinate</name></member>
+      <member refid="classcoordinates_1_1_coordinate_1a871c4eb3e8771b3e59f26c8e573d6aa0" prot="private" virt="non-virtual"><scope>coordinates::GaussKrueger</scope><name>pointid</name></member>
+      <member refid="classcoordinates_1_1_gauss_krueger_1a68b8bf6307cf0c9732f5034d8cf70df8" prot="public" virt="non-virtual"><scope>coordinates::GaussKrueger</scope><name>print</name></member>
+      <member refid="classcoordinates_1_1_gauss_krueger_1a7b3a7878b5c0e9af6afee712997630b7" prot="private" virt="non-virtual"><scope>coordinates::GaussKrueger</scope><name>rechts</name></member>
+      <member refid="classcoordinates_1_1_gauss_1aea6297c71e9258a7dfb80a823048dc0d" prot="private" virt="non-virtual"><scope>coordinates::GaussKrueger</scope><name>scale</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a82bc0ee0a9fae9bef4e3400615d50c58" prot="public" virt="non-virtual"><scope>coordinates::GaussKrueger</scope><name>setAbszisse</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a2bfa95e5913df58667cf5c15db228db8" prot="public" virt="non-virtual"><scope>coordinates::GaussKrueger</scope><name>setEllipsoidal</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a3af44a951b3cb9ea5f5cf143b1cb2253" prot="public" virt="non-virtual"><scope>coordinates::GaussKrueger</scope><name>setHeight</name></member>
+      <member refid="classcoordinates_1_1_gauss_krueger_1acf100c94ccd6ce16857ec83876578aa5" prot="public" virt="non-virtual"><scope>coordinates::GaussKrueger</scope><name>setHoch</name></member>
+      <member refid="classcoordinates_1_1_gauss_krueger_1a9dc35489df5fd3430d61f0d47ca27b82" prot="public" virt="non-virtual"><scope>coordinates::GaussKrueger</scope><name>setIlao</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a3afbbdd05c3a68dd778760cb824b0b03" prot="public" virt="non-virtual"><scope>coordinates::GaussKrueger</scope><name>setOrdinate</name></member>
+      <member refid="classcoordinates_1_1_coordinate_1a14f00383b5a41df79220112a12ef1cbf" prot="public" virt="non-virtual"><scope>coordinates::GaussKrueger</scope><name>setPointid</name></member>
+      <member refid="classcoordinates_1_1_gauss_krueger_1aae6034f16ac245dac1c1d84722048894" prot="public" virt="non-virtual"><scope>coordinates::GaussKrueger</scope><name>setRechts</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a5f0cc370abdab913a51a7395bc54ff24" prot="public" virt="non-virtual"><scope>coordinates::GaussKrueger</scope><name>setScale</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

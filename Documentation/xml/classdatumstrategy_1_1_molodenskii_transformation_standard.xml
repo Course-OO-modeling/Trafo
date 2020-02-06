@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classdatumstrategy_1_1_molodenskii_transformation_standard" kind="class" language="Java" prot="public">
+    <compoundname>datumstrategy::MolodenskiiTransformationStandard</compoundname>
+    <basecompoundref refid="classdatumstrategy_1_1_transformation_strategy" prot="public" virt="non-virtual">datumstrategy.TransformationStrategy</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classdatumstrategy_1_1_molodenskii_transformation_standard_1adf5e42e21481a8c9d0f3f70606ccbbbd" prot="private" static="yes" mutable="no">
+        <type><ref refid="classdatumstrategy_1_1_molodenskii_transformation_standard" kindref="compound">MolodenskiiTransformationStandard</ref></type>
+        <definition>MolodenskiiTransformationStandard datumstrategy.MolodenskiiTransformationStandard.myInstance</definition>
+        <argsstring></argsstring>
+        <name>myInstance</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="datumstrategy/MolodenskiiTransformationStandard.java" line="25" column="54" bodyfile="datumstrategy/MolodenskiiTransformationStandard.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classdatumstrategy_1_1_molodenskii_transformation_standard_1a57734f96ea69c6d385ce682a41427ac6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>datumstrategy.MolodenskiiTransformationStandard.MolodenskiiTransformationStandard</definition>
+        <argsstring>()</argsstring>
+        <name>MolodenskiiTransformationStandard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="datumstrategy/MolodenskiiTransformationStandard.java" line="27" column="13" bodyfile="datumstrategy/MolodenskiiTransformationStandard.java" bodystart="27" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classdatumstrategy_1_1_molodenskii_transformation_standard_1a09d8ecc0b04ffbfeb3b4ef4a6024e3f6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classdatumstrategy_1_1_molodenskii_transformation_standard" kindref="compound">MolodenskiiTransformationStandard</ref></type>
+        <definition>static MolodenskiiTransformationStandard datumstrategy.MolodenskiiTransformationStandard.getInstance</definition>
+        <argsstring>()</argsstring>
+        <name>getInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="datumstrategy/MolodenskiiTransformationStandard.java" line="30" column="53" bodyfile="datumstrategy/MolodenskiiTransformationStandard.java" bodystart="30" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdatumstrategy_1_1_molodenskii_transformation_standard_1a8a1d2f121cb0484a0ba2ddee678d8276" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void datumstrategy.MolodenskiiTransformationStandard.transform</definition>
+        <argsstring>(GeographicCoordinateInterface geo)</argsstring>
+        <name>transform</name>
+        <reimplements refid="classdatumstrategy_1_1_transformation_strategy_1a0fd1d6fbba01e5222360740e34eae786">transform</reimplements>
+        <param>
+          <type><ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref></type>
+          <declname>geographicCoordinate</declname>
+        </param>
+        <briefdescription>
+<para>abstract method for the transformation of a geographic coordinate </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>geographicCoordinate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- an object of type GeographicCoordinateInterface which is used for input/output for the transformation algorithm </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="datumstrategy/MolodenskiiTransformationStandard.java" line="41" column="17" bodyfile="datumstrategy/MolodenskiiTransformationStandard.java" bodystart="41" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Algorithmic realization of the molodensky transformation. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>unknown </para>
+</simplesect>
+<simplesect kind="remark"><para>last refactored 11.12.2017 by Eva Majer <linebreak/>
+ <itemizedlist>
+<listitem>
+<para>adaptions for ControlParms Singleton </para>
+</listitem>
+<listitem>
+<para>Translation of some comments </para>
+</listitem>
+<listitem>
+<para>removed declaration of dl hd db which appeared 3 times </para>
+</listitem>
+</itemizedlist>
+</para>
+</simplesect>
+<simplesect kind="remark"><para>changed the class name (CamelCase) on 20.12.17 by Markus Hillemann </para>
+</simplesect>
+<simplesect kind="version"><para>0.1 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>datumstrategy.MolodenskiiTransformationStandard</label>
+        <link refid="classdatumstrategy_1_1_molodenskii_transformation_standard"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>datumstrategy.TransformationStrategy</label>
+        <link refid="classdatumstrategy_1_1_transformation_strategy"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>datumstrategy.MolodenskiiTransformationStandard</label>
+        <link refid="classdatumstrategy_1_1_molodenskii_transformation_standard"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>myInstance</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>datumstrategy.TransformationStrategy</label>
+        <link refid="classdatumstrategy_1_1_transformation_strategy"/>
+      </node>
+    </collaborationgraph>
+    <location file="datumstrategy/MolodenskiiTransformationStandard.java" line="23" column="70" bodyfile="datumstrategy/MolodenskiiTransformationStandard.java" bodystart="23" bodyend="74"/>
+    <listofallmembers>
+      <member refid="classdatumstrategy_1_1_molodenskii_transformation_standard_1a09d8ecc0b04ffbfeb3b4ef4a6024e3f6" prot="public" virt="non-virtual"><scope>datumstrategy::MolodenskiiTransformationStandard</scope><name>getInstance</name></member>
+      <member refid="classdatumstrategy_1_1_molodenskii_transformation_standard_1a57734f96ea69c6d385ce682a41427ac6" prot="private" virt="non-virtual"><scope>datumstrategy::MolodenskiiTransformationStandard</scope><name>MolodenskiiTransformationStandard</name></member>
+      <member refid="classdatumstrategy_1_1_molodenskii_transformation_standard_1adf5e42e21481a8c9d0f3f70606ccbbbd" prot="private" virt="non-virtual"><scope>datumstrategy::MolodenskiiTransformationStandard</scope><name>myInstance</name></member>
+      <member refid="classdatumstrategy_1_1_molodenskii_transformation_standard_1a8a1d2f121cb0484a0ba2ddee678d8276" prot="public" virt="non-virtual"><scope>datumstrategy::MolodenskiiTransformationStandard</scope><name>transform</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

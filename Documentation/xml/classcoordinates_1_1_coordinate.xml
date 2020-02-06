@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classcoordinates_1_1_coordinate" kind="class" language="Java" prot="public" abstract="yes">
+    <compoundname>coordinates::Coordinate</compoundname>
+    <derivedcompoundref refid="classcoordinates_1_1_gauss" prot="public" virt="non-virtual">coordinates.Gauss</derivedcompoundref>
+    <derivedcompoundref refid="classcoordinates_1_1_geographic_coordinate" prot="public" virt="non-virtual">coordinates.GeographicCoordinate</derivedcompoundref>
+    <derivedcompoundref refid="classcoordinates_1_1_geographic_coordinate_interface" prot="public" virt="non-virtual">coordinates.GeographicCoordinateInterface</derivedcompoundref>
+    <derivedcompoundref refid="classcoordinates_1_1_soldner" prot="public" virt="non-virtual">coordinates.Soldner</derivedcompoundref>
+    <derivedcompoundref refid="classcoordinates_1_1_x_y_z_coordinate" prot="public" virt="non-virtual">coordinates.XYZCoordinate</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcoordinates_1_1_coordinate_1a871c4eb3e8771b3e59f26c8e573d6aa0" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String coordinates.Coordinate.pointid</definition>
+        <argsstring></argsstring>
+        <name>pointid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Coordinate.java" line="17" column="20" bodyfile="coordinates/Coordinate.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcoordinates_1_1_coordinate_1a97342479914743d999cef4b38f9124ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>abstract <ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref></type>
+        <definition>abstract GeographicCoordinateInterface coordinates.Coordinate.getAsGeographicInterface</definition>
+        <argsstring>(EllipsoidParms ellipsoidParms)</argsstring>
+        <name>getAsGeographicInterface</name>
+        <reimplementedby refid="classcoordinates_1_1_gauss_1adb944679772bf8b4101b075247dd0fd0">getAsGeographicInterface</reimplementedby>
+        <reimplementedby refid="classcoordinates_1_1_u_t_m_1a007d51832fcdc5eb721f04f23d4be8f9">getAsGeographicInterface</reimplementedby>
+        <reimplementedby refid="classcoordinates_1_1_gauss_krueger_1a3b7d9043de1a8cbff07dd692244938d5">getAsGeographicInterface</reimplementedby>
+        <reimplementedby refid="classcoordinates_1_1_x_y_z_coordinate_1add6f4e104b8f7c0dfc2f7d63594abe0d">getAsGeographicInterface</reimplementedby>
+        <reimplementedby refid="classcoordinates_1_1_soldner_1ab87732c40411256ffd5cfba0ad4bd2cc">getAsGeographicInterface</reimplementedby>
+        <reimplementedby refid="classcoordinates_1_1_geographic_coordinate_1ae316c889f13670bd69d621858495e2f3">getAsGeographicInterface</reimplementedby>
+        <reimplementedby refid="classcoordinates_1_1_geographic_coordinate_interface_1a5a7c2ad22340e5337db778034c732ac8">getAsGeographicInterface</reimplementedby>
+        <param>
+          <type><ref refid="classparams_1_1_ellipsoid_parms" kindref="compound">EllipsoidParms</ref></type>
+          <declname>ellipsoidParms</declname>
+        </param>
+        <briefdescription>
+<para>abstract method that allows the concrete <ref refid="classcoordinates_1_1_coordinate" kindref="compound">Coordinate</ref> instance to be convertable to <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ellipsoidParms</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- an object of type EllipsoidParms that contains details about the ellipsoid the <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> should refer to </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Coordinate.java" line="23" column="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_coordinate_1a998872a624f0394829f4c405f7a6f803" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>abstract void</type>
+        <definition>abstract void coordinates.Coordinate.getAsTargetCoordinate</definition>
+        <argsstring>(EllipsoidParms ellipsoidParms, GeographicCoordinateInterface geographicCoordinate)</argsstring>
+        <name>getAsTargetCoordinate</name>
+        <reimplementedby refid="classcoordinates_1_1_u_t_m_1a2f86a0eacc36537c221bedb7381aa77b">getAsTargetCoordinate</reimplementedby>
+        <reimplementedby refid="classcoordinates_1_1_gauss_krueger_1ab25a4a0c8fadac6c9f1653227427efd7">getAsTargetCoordinate</reimplementedby>
+        <reimplementedby refid="classcoordinates_1_1_soldner_1a5681bdb4c77cb4e6e483abca00758a48">getAsTargetCoordinate</reimplementedby>
+        <reimplementedby refid="classcoordinates_1_1_x_y_z_coordinate_1a565677c6fc44b6241255d0733e72e048">getAsTargetCoordinate</reimplementedby>
+        <reimplementedby refid="classcoordinates_1_1_geographic_coordinate_1a31aa30555bf11a9965ff717946430cce">getAsTargetCoordinate</reimplementedby>
+        <reimplementedby refid="classcoordinates_1_1_geographic_coordinate_interface_1acc9324b94c545f0d2d9e34ff9eae6046">getAsTargetCoordinate</reimplementedby>
+        <param>
+          <type><ref refid="classparams_1_1_ellipsoid_parms" kindref="compound">EllipsoidParms</ref></type>
+          <declname>ellipsoidParms</declname>
+        </param>
+        <param>
+          <type><ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref></type>
+          <declname>geographicCoordinate</declname>
+        </param>
+        <briefdescription>
+<para>abstract method that allows the concrete <ref refid="classcoordinates_1_1_coordinate" kindref="compound">Coordinate</ref> instance to be convertable from <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>geographicCoordinate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- an object of type <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> that represents the geographic coordinate the concrete <ref refid="classcoordinates_1_1_coordinate" kindref="compound">Coordinate</ref> instance should be converted from </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ellipsoidParms</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- an object of type EllipsoidParms that contains details about the ellipsoid the <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> refers to </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Coordinate.java" line="30" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_coordinate_1af2882da7117d4a312faf707df681042c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>abstract void</type>
+        <definition>abstract void coordinates.Coordinate.print</definition>
+        <argsstring>()</argsstring>
+        <name>print</name>
+        <reimplementedby refid="classcoordinates_1_1_u_t_m_1a40435144851f7e23b573debd797e0e97">print</reimplementedby>
+        <reimplementedby refid="classcoordinates_1_1_gauss_krueger_1a68b8bf6307cf0c9732f5034d8cf70df8">print</reimplementedby>
+        <reimplementedby refid="classcoordinates_1_1_gauss_1aa088aa6fb796aa873b19ee2c1ef42468">print</reimplementedby>
+        <reimplementedby refid="classcoordinates_1_1_soldner_1a672aec8c4424e5a066f272d4864e8813">print</reimplementedby>
+        <reimplementedby refid="classcoordinates_1_1_geographic_coordinate_1a1cbf537f61d51979a831b2f018d28897">print</reimplementedby>
+        <reimplementedby refid="classcoordinates_1_1_x_y_z_coordinate_1a4ff7f1c0dee75f3c60dc735c26129761">print</reimplementedby>
+        <reimplementedby refid="classcoordinates_1_1_geographic_coordinate_interface_1a8d32481c2a4f1134d73cd05e2837e8d1">print</reimplementedby>
+        <briefdescription>
+<para>abstract methnd that allows the concrete <ref refid="classcoordinates_1_1_coordinate" kindref="compound">Coordinate</ref> to be output on screen </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Coordinate.java" line="34" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_coordinate_1ab0b1d8dc4fe371a2425e0cb505effafd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String coordinates.Coordinate.getPointid</definition>
+        <argsstring>()</argsstring>
+        <name>getPointid</name>
+        <briefdescription>
+<para>getter method that returns the id of the particular <ref refid="classcoordinates_1_1_coordinate" kindref="compound">Coordinate</ref> point </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>pointid - string representing the point identification number </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Coordinate.java" line="43" column="19" bodyfile="coordinates/Coordinate.java" bodystart="43" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_coordinate_1a14f00383b5a41df79220112a12ef1cbf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.Coordinate.setPointid</definition>
+        <argsstring>(String pointid)</argsstring>
+        <name>setPointid</name>
+        <param>
+          <type>String</type>
+          <declname>pointid</declname>
+        </param>
+        <briefdescription>
+<para>setter method that accepts id for the particular <ref refid="classcoordinates_1_1_coordinate" kindref="compound">Coordinate</ref> point </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pointid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- string representing the point identification number </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Coordinate.java" line="51" column="17" bodyfile="coordinates/Coordinate.java" bodystart="51" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Abstract class that represents a coordinate. Enables any concrete <ref refid="classcoordinates_1_1_coordinate" kindref="compound">Coordinate</ref> class be used as input for TransformationStrategy which relies on geographic coordinates as input/output <linebreak/>
+ </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>unknown </para>
+</simplesect>
+<simplesect kind="remark"><para>updated header on 2017-11-29 by Markus Mueller </para>
+</simplesect>
+<simplesect kind="remark"><para>renamed to <ref refid="classcoordinates_1_1_coordinate" kindref="compound">Coordinate</ref> (was Coordinates) on 2016-11-26 by Patrick Huebner </para>
+</simplesect>
+<simplesect kind="remark"><para>added abstract methods <ref refid="classcoordinates_1_1_coordinate_1a97342479914743d999cef4b38f9124ed" kindref="member">getAsGeographic</ref> and <ref refid="classcoordinates_1_1_coordinate_1a998872a624f0394829f4c405f7a6f803" kindref="member">fromGeographic</ref> to enable any concrete <ref refid="classcoordinates_1_1_coordinate" kindref="compound">Coordinate</ref> class be used as input for TransformationStrategy which relies on geographic coordinates as input/output on 2016-11-26 by Patrick Huebner </para>
+</simplesect>
+<simplesect kind="version"><para>0.1 </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pointid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- string representing the point identification number </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>coordinates.Gauss</label>
+        <link refid="classcoordinates_1_1_gauss"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>coordinates.GeographicCoordinateInterface</label>
+        <link refid="classcoordinates_1_1_geographic_coordinate_interface"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>coordinates.GaussKrueger</label>
+        <link refid="classcoordinates_1_1_gauss_krueger"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>coordinates.GeographicCoordinate</label>
+        <link refid="classcoordinates_1_1_geographic_coordinate"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>coordinates.Soldner</label>
+        <link refid="classcoordinates_1_1_soldner"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>coordinates.UTM</label>
+        <link refid="classcoordinates_1_1_u_t_m"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>test.coordinates.UTMTest</label>
+        <link refid="classtest_1_1coordinates_1_1_u_t_m_test"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>coordinates.Coordinate</label>
+        <link refid="classcoordinates_1_1_coordinate"/>
+      </node>
+      <node id="9">
+        <label>coordinates.XYZCoordinate</label>
+        <link refid="classcoordinates_1_1_x_y_z_coordinate"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="coordinates/Coordinate.java" line="16" column="33" bodyfile="coordinates/Coordinate.java" bodystart="16" bodyend="54"/>
+    <listofallmembers>
+      <member refid="classcoordinates_1_1_coordinate_1a97342479914743d999cef4b38f9124ed" prot="public" virt="non-virtual"><scope>coordinates::Coordinate</scope><name>getAsGeographicInterface</name></member>
+      <member refid="classcoordinates_1_1_coordinate_1a998872a624f0394829f4c405f7a6f803" prot="public" virt="non-virtual"><scope>coordinates::Coordinate</scope><name>getAsTargetCoordinate</name></member>
+      <member refid="classcoordinates_1_1_coordinate_1ab0b1d8dc4fe371a2425e0cb505effafd" prot="public" virt="non-virtual"><scope>coordinates::Coordinate</scope><name>getPointid</name></member>
+      <member refid="classcoordinates_1_1_coordinate_1a871c4eb3e8771b3e59f26c8e573d6aa0" prot="private" virt="non-virtual"><scope>coordinates::Coordinate</scope><name>pointid</name></member>
+      <member refid="classcoordinates_1_1_coordinate_1af2882da7117d4a312faf707df681042c" prot="public" virt="non-virtual"><scope>coordinates::Coordinate</scope><name>print</name></member>
+      <member refid="classcoordinates_1_1_coordinate_1a14f00383b5a41df79220112a12ef1cbf" prot="public" virt="non-virtual"><scope>coordinates::Coordinate</scope><name>setPointid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

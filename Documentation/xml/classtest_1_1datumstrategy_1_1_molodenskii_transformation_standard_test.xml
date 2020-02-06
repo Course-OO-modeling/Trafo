@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtest_1_1datumstrategy_1_1_molodenskii_transformation_standard_test" kind="class" language="Java" prot="public">
+    <compoundname>test::datumstrategy::MolodenskiiTransformationStandardTest</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtest_1_1datumstrategy_1_1_molodenskii_transformation_standard_test_1a5990a0ae43f891b15a9e2929ab45dff1" prot="private" static="no" mutable="no">
+        <type>final double</type>
+        <definition>final double test.datumstrategy.MolodenskiiTransformationStandardTest.RHO</definition>
+        <argsstring></argsstring>
+        <name>RHO</name>
+        <initializer>= 180/Math.PI</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/datumstrategy/MolodenskiiTransformationStandardTest.java" line="22" column="22" bodyfile="test/datumstrategy/MolodenskiiTransformationStandardTest.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtest_1_1datumstrategy_1_1_molodenskii_transformation_standard_test_1a9c5344289519713727e90009b0a5d7aa" prot="private" static="no" mutable="no">
+        <type>final double</type>
+        <definition>final double test.datumstrategy.MolodenskiiTransformationStandardTest.EPSILON_IN_METER</definition>
+        <argsstring></argsstring>
+        <name>EPSILON_IN_METER</name>
+        <initializer>= 0.001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/datumstrategy/MolodenskiiTransformationStandardTest.java" line="23" column="22" bodyfile="test/datumstrategy/MolodenskiiTransformationStandardTest.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtest_1_1datumstrategy_1_1_molodenskii_transformation_standard_test_1aaff58952998f8e7d66c882d393adaa75" prot="private" static="no" mutable="no">
+        <type>final double</type>
+        <definition>final double test.datumstrategy.MolodenskiiTransformationStandardTest.EPSILON_IN_RAD</definition>
+        <argsstring></argsstring>
+        <name>EPSILON_IN_RAD</name>
+        <initializer>= 0.00000001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/datumstrategy/MolodenskiiTransformationStandardTest.java" line="24" column="22" bodyfile="test/datumstrategy/MolodenskiiTransformationStandardTest.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtest_1_1datumstrategy_1_1_molodenskii_transformation_standard_test_1a2ffa0ad2e5287e5b4d54532653562161" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void test.datumstrategy.MolodenskiiTransformationStandardTest.testTransform</definition>
+        <argsstring>()</argsstring>
+        <name>testTransform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/datumstrategy/MolodenskiiTransformationStandardTest.java" line="27" column="13" bodyfile="test/datumstrategy/MolodenskiiTransformationStandardTest.java" bodystart="27" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Tests the Molodenskii <ref refid="class_transformation" kindref="compound">Transformation</ref> Standard as a Datum Strategy. Input values and expected values were calculated by hand. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Steven Landgraf </para>
+</simplesect>
+<simplesect kind="date"><para>December 2019 </para>
+</simplesect>
+<simplesect kind="version"><para>0.1 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="test/datumstrategy/MolodenskiiTransformationStandardTest.java" line="20" column="51" bodyfile="test/datumstrategy/MolodenskiiTransformationStandardTest.java" bodystart="20" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classtest_1_1datumstrategy_1_1_molodenskii_transformation_standard_test_1a9c5344289519713727e90009b0a5d7aa" prot="private" virt="non-virtual"><scope>test::datumstrategy::MolodenskiiTransformationStandardTest</scope><name>EPSILON_IN_METER</name></member>
+      <member refid="classtest_1_1datumstrategy_1_1_molodenskii_transformation_standard_test_1aaff58952998f8e7d66c882d393adaa75" prot="private" virt="non-virtual"><scope>test::datumstrategy::MolodenskiiTransformationStandardTest</scope><name>EPSILON_IN_RAD</name></member>
+      <member refid="classtest_1_1datumstrategy_1_1_molodenskii_transformation_standard_test_1a5990a0ae43f891b15a9e2929ab45dff1" prot="private" virt="non-virtual"><scope>test::datumstrategy::MolodenskiiTransformationStandardTest</scope><name>RHO</name></member>
+      <member refid="classtest_1_1datumstrategy_1_1_molodenskii_transformation_standard_test_1a2ffa0ad2e5287e5b4d54532653562161" prot="public" virt="non-virtual"><scope>test::datumstrategy::MolodenskiiTransformationStandardTest</scope><name>testTransform</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

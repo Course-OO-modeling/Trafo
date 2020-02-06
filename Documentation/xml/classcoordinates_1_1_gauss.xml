@@ -1,0 +1,558 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classcoordinates_1_1_gauss" kind="class" language="Java" prot="public" abstract="yes">
+    <compoundname>coordinates::Gauss</compoundname>
+    <basecompoundref refid="classcoordinates_1_1_coordinate" prot="public" virt="non-virtual">coordinates.Coordinate</basecompoundref>
+    <derivedcompoundref refid="classcoordinates_1_1_gauss_krueger" prot="public" virt="non-virtual">coordinates.GaussKrueger</derivedcompoundref>
+    <derivedcompoundref refid="classcoordinates_1_1_u_t_m" prot="public" virt="non-virtual">coordinates.UTM</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcoordinates_1_1_gauss_1a9bd37a096f53a9e443570ec5748f95d8" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double coordinates.Gauss.abszisse</definition>
+        <argsstring></argsstring>
+        <name>abszisse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>x-value </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Gauss.java" line="23" column="20" bodyfile="coordinates/Gauss.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcoordinates_1_1_gauss_1ab156b1da518d7637dacef40489a0dba4" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double coordinates.Gauss.ordinate</definition>
+        <argsstring></argsstring>
+        <name>ordinate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>y-value </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Gauss.java" line="24" column="20" bodyfile="coordinates/Gauss.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcoordinates_1_1_gauss_1aea6297c71e9258a7dfb80a823048dc0d" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double coordinates.Gauss.scale</definition>
+        <argsstring></argsstring>
+        <name>scale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>scale of central meridian </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Gauss.java" line="25" column="20" bodyfile="coordinates/Gauss.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcoordinates_1_1_gauss_1ad1543fe8a30e7f6dab1d0486bb5a935d" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double coordinates.Gauss.height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Height </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Gauss.java" line="26" column="20" bodyfile="coordinates/Gauss.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcoordinates_1_1_gauss_1a08582ecf17604f8330df079ce234008c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int coordinates.Gauss.ellipsoidal</definition>
+        <argsstring></argsstring>
+        <name>ellipsoidal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Height above ellipsoid:, 0 =&gt; no height, 1 =&gt; ellipsoidal, 2 =&gt; geoid </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Gauss.java" line="27" column="17" bodyfile="coordinates/Gauss.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcoordinates_1_1_gauss_1a1e810f7e3af643a8c0525485d9133276" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.Gauss.CalculateAbszisseOrdinate</definition>
+        <argsstring>(double cdl, double hnull, LatParm latparm)</argsstring>
+        <name>CalculateAbszisseOrdinate</name>
+        <param>
+          <type>double</type>
+          <declname>cdl</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>hnull</declname>
+        </param>
+        <param>
+          <type><ref refid="classparams_1_1_lat_parm" kindref="compound">LatParm</ref></type>
+          <declname>latparm</declname>
+        </param>
+        <briefdescription>
+<para>CalculateAbszisseOrdinate calculates the abscissa and ordinate. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="author"><para>unknown </para>
+</simplesect>
+<simplesect kind="remark"><para>updated header 29.11.2017 by Markus Mueller </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- a double </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>hnull</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- a double </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>latparm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- a LatParm object </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Gauss.java" line="41" column="20" bodyfile="coordinates/Gauss.java" bodystart="41" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcoordinates_1_1_gauss_1aa088aa6fb796aa873b19ee2c1ef42468" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>abstract void</type>
+        <definition>abstract void coordinates.Gauss.print</definition>
+        <argsstring>()</argsstring>
+        <name>print</name>
+        <reimplements refid="classcoordinates_1_1_coordinate_1af2882da7117d4a312faf707df681042c">print</reimplements>
+        <reimplementedby refid="classcoordinates_1_1_u_t_m_1a40435144851f7e23b573debd797e0e97">print</reimplementedby>
+        <reimplementedby refid="classcoordinates_1_1_gauss_krueger_1a68b8bf6307cf0c9732f5034d8cf70df8">print</reimplementedby>
+        <briefdescription>
+<para>abstract methnd that allows the concrete <ref refid="classcoordinates_1_1_coordinate" kindref="compound">Coordinate</ref> to be output on screen </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Gauss.java" line="60" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_gauss_1adb944679772bf8b4101b075247dd0fd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>abstract <ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref></type>
+        <definition>abstract GeographicCoordinateInterface coordinates.Gauss.getAsGeographicInterface</definition>
+        <argsstring>(EllipsoidParms ell)</argsstring>
+        <name>getAsGeographicInterface</name>
+        <reimplements refid="classcoordinates_1_1_coordinate_1a97342479914743d999cef4b38f9124ed">getAsGeographicInterface</reimplements>
+        <reimplementedby refid="classcoordinates_1_1_u_t_m_1a007d51832fcdc5eb721f04f23d4be8f9">getAsGeographicInterface</reimplementedby>
+        <reimplementedby refid="classcoordinates_1_1_gauss_krueger_1a3b7d9043de1a8cbff07dd692244938d5">getAsGeographicInterface</reimplementedby>
+        <param>
+          <type><ref refid="classparams_1_1_ellipsoid_parms" kindref="compound">EllipsoidParms</ref></type>
+          <declname>ellipsoidParms</declname>
+        </param>
+        <briefdescription>
+<para>abstract method that allows the concrete <ref refid="classcoordinates_1_1_coordinate" kindref="compound">Coordinate</ref> instance to be convertable to <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ellipsoidParms</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- an object of type EllipsoidParms that contains details about the ellipsoid the <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> should refer to </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Gauss.java" line="62" column="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_gauss_1ad11601b119b190bd9d61f71df6b53038" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double coordinates.Gauss.getAbszisse</definition>
+        <argsstring>()</argsstring>
+        <name>getAbszisse</name>
+        <briefdescription>
+<para>getter method that returns the the abscissa of the particular <ref refid="classcoordinates_1_1_gauss" kindref="compound">Gauss</ref> coordinate </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>abszisse - returns the abscissa of the particular <ref refid="classcoordinates_1_1_gauss" kindref="compound">Gauss</ref> coordinate as double </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Gauss.java" line="73" column="19" bodyfile="coordinates/Gauss.java" bodystart="73" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_gauss_1a82bc0ee0a9fae9bef4e3400615d50c58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.Gauss.setAbszisse</definition>
+        <argsstring>(double abszisse)</argsstring>
+        <name>setAbszisse</name>
+        <param>
+          <type>double</type>
+          <declname>abszisse</declname>
+        </param>
+        <briefdescription>
+<para>setter method that accepts the abscissa of the particular <ref refid="classcoordinates_1_1_gauss" kindref="compound">Gauss</ref> coordinate </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>abszisse</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- sets a double representing the abscissa for the particular <ref refid="classcoordinates_1_1_gauss" kindref="compound">Gauss</ref> coordinate </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Gauss.java" line="81" column="17" bodyfile="coordinates/Gauss.java" bodystart="81" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_gauss_1a751c889d6cc9b2acb5eeb42d888efc0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double coordinates.Gauss.getOrdinate</definition>
+        <argsstring>()</argsstring>
+        <name>getOrdinate</name>
+        <briefdescription>
+<para>getter method that returns the the ordinate of the particular <ref refid="classcoordinates_1_1_gauss" kindref="compound">Gauss</ref> coordinate </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>ordinate - returns the ordinate of the particular <ref refid="classcoordinates_1_1_gauss" kindref="compound">Gauss</ref> coordinate as double </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Gauss.java" line="89" column="19" bodyfile="coordinates/Gauss.java" bodystart="89" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_gauss_1a3afbbdd05c3a68dd778760cb824b0b03" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.Gauss.setOrdinate</definition>
+        <argsstring>(double ordinate)</argsstring>
+        <name>setOrdinate</name>
+        <param>
+          <type>double</type>
+          <declname>ordinate</declname>
+        </param>
+        <briefdescription>
+<para>setter method that accepts the ordinate of the particular <ref refid="classcoordinates_1_1_gauss" kindref="compound">Gauss</ref> coordinate </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ordinate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- sets a double representing the ordinate for the particular <ref refid="classcoordinates_1_1_gauss" kindref="compound">Gauss</ref> coordinate </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Gauss.java" line="97" column="17" bodyfile="coordinates/Gauss.java" bodystart="97" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_gauss_1ab0d10005ccb914af91c8afc28d2ed836" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double coordinates.Gauss.getScale</definition>
+        <argsstring>()</argsstring>
+        <name>getScale</name>
+        <briefdescription>
+<para>getter method that returns the the scale of the particular <ref refid="classcoordinates_1_1_gauss" kindref="compound">Gauss</ref> coordinate </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>scale - returns the ordinate of the particular <ref refid="classcoordinates_1_1_gauss" kindref="compound">Gauss</ref> coordinate as double as double </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Gauss.java" line="105" column="19" bodyfile="coordinates/Gauss.java" bodystart="105" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_gauss_1a5f0cc370abdab913a51a7395bc54ff24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.Gauss.setScale</definition>
+        <argsstring>(double scale)</argsstring>
+        <name>setScale</name>
+        <param>
+          <type>double</type>
+          <declname>scale</declname>
+        </param>
+        <briefdescription>
+<para>setter method that accepts the scale of the particular <ref refid="classcoordinates_1_1_gauss" kindref="compound">Gauss</ref> coordinate </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scale</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- sets a double representing the scale for the particular <ref refid="classcoordinates_1_1_gauss" kindref="compound">Gauss</ref> coordinate </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Gauss.java" line="113" column="17" bodyfile="coordinates/Gauss.java" bodystart="113" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_gauss_1a3bc39fe23752a9bccac68015c799f3fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double coordinates.Gauss.getHeight</definition>
+        <argsstring>()</argsstring>
+        <name>getHeight</name>
+        <briefdescription>
+<para>getter method that returns the the height of the particular <ref refid="classcoordinates_1_1_gauss" kindref="compound">Gauss</ref> coordinate </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>height - returns the height of the particular <ref refid="classcoordinates_1_1_gauss" kindref="compound">Gauss</ref> coordinate as double </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Gauss.java" line="121" column="19" bodyfile="coordinates/Gauss.java" bodystart="121" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_gauss_1a3af44a951b3cb9ea5f5cf143b1cb2253" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.Gauss.setHeight</definition>
+        <argsstring>(double height)</argsstring>
+        <name>setHeight</name>
+        <param>
+          <type>double</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+<para>setter method that accepts the height of the particular <ref refid="classcoordinates_1_1_gauss" kindref="compound">Gauss</ref> coordinate </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- sets a double representing the height for the particular <ref refid="classcoordinates_1_1_gauss" kindref="compound">Gauss</ref> coordinate </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Gauss.java" line="129" column="17" bodyfile="coordinates/Gauss.java" bodystart="129" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_gauss_1a5c6271983e9bb69b8d024158397f5882" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int coordinates.Gauss.getEllipsoidal</definition>
+        <argsstring>()</argsstring>
+        <name>getEllipsoidal</name>
+        <briefdescription>
+<para>getter method that returns the the ellipsoidal of the particular <ref refid="classcoordinates_1_1_gauss" kindref="compound">Gauss</ref> coordinate </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>ellipsoidal - returns the ellipsoidal of the particular <ref refid="classcoordinates_1_1_gauss" kindref="compound">Gauss</ref> coordinate as double </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Gauss.java" line="137" column="16" bodyfile="coordinates/Gauss.java" bodystart="137" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_gauss_1a2bfa95e5913df58667cf5c15db228db8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.Gauss.setEllipsoidal</definition>
+        <argsstring>(int ellipsoidal)</argsstring>
+        <name>setEllipsoidal</name>
+        <param>
+          <type>int</type>
+          <declname>ellipsoidal</declname>
+        </param>
+        <briefdescription>
+<para>setter method that accepts the ellipsoidal of the particular <ref refid="classcoordinates_1_1_gauss" kindref="compound">Gauss</ref> coordinate </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ellipsoidal</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- sets a double representing the ellipsoidal for the particular <ref refid="classcoordinates_1_1_gauss" kindref="compound">Gauss</ref> coordinate </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Gauss.java" line="145" column="17" bodyfile="coordinates/Gauss.java" bodystart="145" bodyend="147"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcoordinates_1_1_gauss_1a622fa98764e45111e58a44c82f4dc5cd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double coordinates.Gauss.meridianLength</definition>
+        <argsstring>(double latitude, EllipsoidParms ell)</argsstring>
+        <name>meridianLength</name>
+        <param>
+          <type>double</type>
+          <declname>latitude</declname>
+        </param>
+        <param>
+          <type><ref refid="classparams_1_1_ellipsoid_parms" kindref="compound">EllipsoidParms</ref></type>
+          <declname>ell</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/Gauss.java" line="149" column="22" bodyfile="coordinates/Gauss.java" bodystart="149" bodyend="183"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class <ref refid="classcoordinates_1_1_gauss" kindref="compound">Gauss</ref> extends class <ref refid="classcoordinates_1_1_coordinate" kindref="compound">Coordinate</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>unknown </para>
+</simplesect>
+<simplesect kind="remark"><para>updated header on 2017-11-29 by Markus Mueller </para>
+</simplesect>
+<simplesect kind="version"><para>0.1 </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>abszisse</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- x-value as double </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ordinate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- y-value as double </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>scale</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- scale of central median as double </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- height as double </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ellipsoidal</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- height above ellipsoid as integer </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>coordinates.Gauss</label>
+        <link refid="classcoordinates_1_1_gauss"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>coordinates.GaussKrueger</label>
+        <link refid="classcoordinates_1_1_gauss_krueger"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>coordinates.UTM</label>
+        <link refid="classcoordinates_1_1_u_t_m"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>test.coordinates.UTMTest</label>
+        <link refid="classtest_1_1coordinates_1_1_u_t_m_test"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>coordinates.Coordinate</label>
+        <link refid="classcoordinates_1_1_coordinate"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>coordinates.Gauss</label>
+        <link refid="classcoordinates_1_1_gauss"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>coordinates.Coordinate</label>
+        <link refid="classcoordinates_1_1_coordinate"/>
+      </node>
+    </collaborationgraph>
+    <location file="coordinates/Gauss.java" line="22" column="39" bodyfile="coordinates/Gauss.java" bodystart="22" bodyend="187"/>
+    <listofallmembers>
+      <member refid="classcoordinates_1_1_gauss_1a9bd37a096f53a9e443570ec5748f95d8" prot="private" virt="non-virtual"><scope>coordinates::Gauss</scope><name>abszisse</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a1e810f7e3af643a8c0525485d9133276" prot="protected" virt="non-virtual"><scope>coordinates::Gauss</scope><name>CalculateAbszisseOrdinate</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a08582ecf17604f8330df079ce234008c" prot="private" virt="non-virtual"><scope>coordinates::Gauss</scope><name>ellipsoidal</name></member>
+      <member refid="classcoordinates_1_1_gauss_1ad11601b119b190bd9d61f71df6b53038" prot="public" virt="non-virtual"><scope>coordinates::Gauss</scope><name>getAbszisse</name></member>
+      <member refid="classcoordinates_1_1_gauss_1adb944679772bf8b4101b075247dd0fd0" prot="public" virt="non-virtual"><scope>coordinates::Gauss</scope><name>getAsGeographicInterface</name></member>
+      <member refid="classcoordinates_1_1_coordinate_1a998872a624f0394829f4c405f7a6f803" prot="public" virt="non-virtual"><scope>coordinates::Gauss</scope><name>getAsTargetCoordinate</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a5c6271983e9bb69b8d024158397f5882" prot="public" virt="non-virtual"><scope>coordinates::Gauss</scope><name>getEllipsoidal</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a3bc39fe23752a9bccac68015c799f3fc" prot="public" virt="non-virtual"><scope>coordinates::Gauss</scope><name>getHeight</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a751c889d6cc9b2acb5eeb42d888efc0f" prot="public" virt="non-virtual"><scope>coordinates::Gauss</scope><name>getOrdinate</name></member>
+      <member refid="classcoordinates_1_1_coordinate_1ab0b1d8dc4fe371a2425e0cb505effafd" prot="public" virt="non-virtual"><scope>coordinates::Gauss</scope><name>getPointid</name></member>
+      <member refid="classcoordinates_1_1_gauss_1ab0d10005ccb914af91c8afc28d2ed836" prot="public" virt="non-virtual"><scope>coordinates::Gauss</scope><name>getScale</name></member>
+      <member refid="classcoordinates_1_1_gauss_1ad1543fe8a30e7f6dab1d0486bb5a935d" prot="private" virt="non-virtual"><scope>coordinates::Gauss</scope><name>height</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a622fa98764e45111e58a44c82f4dc5cd" prot="public" virt="non-virtual"><scope>coordinates::Gauss</scope><name>meridianLength</name></member>
+      <member refid="classcoordinates_1_1_gauss_1ab156b1da518d7637dacef40489a0dba4" prot="private" virt="non-virtual"><scope>coordinates::Gauss</scope><name>ordinate</name></member>
+      <member refid="classcoordinates_1_1_coordinate_1a871c4eb3e8771b3e59f26c8e573d6aa0" prot="private" virt="non-virtual"><scope>coordinates::Gauss</scope><name>pointid</name></member>
+      <member refid="classcoordinates_1_1_gauss_1aa088aa6fb796aa873b19ee2c1ef42468" prot="public" virt="non-virtual"><scope>coordinates::Gauss</scope><name>print</name></member>
+      <member refid="classcoordinates_1_1_gauss_1aea6297c71e9258a7dfb80a823048dc0d" prot="private" virt="non-virtual"><scope>coordinates::Gauss</scope><name>scale</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a82bc0ee0a9fae9bef4e3400615d50c58" prot="public" virt="non-virtual"><scope>coordinates::Gauss</scope><name>setAbszisse</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a2bfa95e5913df58667cf5c15db228db8" prot="public" virt="non-virtual"><scope>coordinates::Gauss</scope><name>setEllipsoidal</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a3af44a951b3cb9ea5f5cf143b1cb2253" prot="public" virt="non-virtual"><scope>coordinates::Gauss</scope><name>setHeight</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a3afbbdd05c3a68dd778760cb824b0b03" prot="public" virt="non-virtual"><scope>coordinates::Gauss</scope><name>setOrdinate</name></member>
+      <member refid="classcoordinates_1_1_coordinate_1a14f00383b5a41df79220112a12ef1cbf" prot="public" virt="non-virtual"><scope>coordinates::Gauss</scope><name>setPointid</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a5f0cc370abdab913a51a7395bc54ff24" prot="public" virt="non-virtual"><scope>coordinates::Gauss</scope><name>setScale</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,482 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classcoordinates_1_1_x_y_z_coordinate" kind="class" language="Java" prot="public">
+    <compoundname>coordinates::XYZCoordinate</compoundname>
+    <basecompoundref refid="classcoordinates_1_1_coordinate" prot="public" virt="non-virtual">coordinates.Coordinate</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcoordinates_1_1_x_y_z_coordinate_1a93f191f410b19d99a71d3c66ef27df29" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double coordinates.XYZCoordinate.x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/XYZCoordinate.java" line="22" column="20" bodyfile="coordinates/XYZCoordinate.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classcoordinates_1_1_x_y_z_coordinate_1a3b6ac44393c2beae9400509ca89f93cc" prot="package" static="no" mutable="no">
+        <type>double</type>
+        <definition>double coordinates.XYZCoordinate.y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/XYZCoordinate.java" line="22" column="22" bodyfile="coordinates/XYZCoordinate.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcoordinates_1_1_x_y_z_coordinate_1a4d9238fdadb5568f9dc6b1181664500b" prot="package" static="no" mutable="no">
+        <type>double</type>
+        <definition>double coordinates.XYZCoordinate.z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/XYZCoordinate.java" line="22" column="24" bodyfile="coordinates/XYZCoordinate.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcoordinates_1_1_x_y_z_coordinate_1a6876892e552ee2a50333c22eef451700" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>coordinates.XYZCoordinate.XYZCoordinate</definition>
+        <argsstring>()</argsstring>
+        <name>XYZCoordinate</name>
+        <briefdescription>
+<para>main constructor to set the coordinates </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/XYZCoordinate.java" line="32" column="12" bodyfile="coordinates/XYZCoordinate.java" bodystart="32" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_x_y_z_coordinate_1a88847e65ce05894be77bd2735d15a4ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.XYZCoordinate.init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/XYZCoordinate.java" line="39" column="17" bodyfile="coordinates/XYZCoordinate.java" bodystart="39" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_x_y_z_coordinate_1ac635db09dd4c2e8415c8d83a199d754c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>coordinates.XYZCoordinate.XYZCoordinate</definition>
+        <argsstring>(double xValue, double yValue, double zValue)</argsstring>
+        <name>XYZCoordinate</name>
+        <param>
+          <type>double</type>
+          <declname>xValue</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>yValue</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>zValue</declname>
+        </param>
+        <briefdescription>
+<para>Constructor for generating a geocentricCoordinate. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="remark"><para>parameters changed to x-, y- and zAxis (were too inexpressive x1, x2 and x3) by unknown </para>
+</simplesect>
+<simplesect kind="remark"><para>2018-01-25 renamed parameters to xValue, yValue, zValue (were xAxis, yAxis, zAxis before) by Markus MÃ¼ller </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>xValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- x component of XYZ coordinate </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>yValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- y component of XYZ coordinate </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>zValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- z component of XYZ coordinate </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/XYZCoordinate.java" line="54" column="8" bodyfile="coordinates/XYZCoordinate.java" bodystart="54" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_x_y_z_coordinate_1afc0aea9eb642ba760263fe7bedfbf89b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>coordinates.XYZCoordinate.XYZCoordinate</definition>
+        <argsstring>(double xValue, double yValue)</argsstring>
+        <name>XYZCoordinate</name>
+        <param>
+          <type>double</type>
+          <declname>xValue</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>yValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/XYZCoordinate.java" line="61" column="8" bodyfile="coordinates/XYZCoordinate.java" bodystart="61" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_x_y_z_coordinate_1add6f4e104b8f7c0dfc2f7d63594abe0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref></type>
+        <definition>GeographicCoordinateInterface coordinates.XYZCoordinate.getAsGeographicInterface</definition>
+        <argsstring>(EllipsoidParms ell)</argsstring>
+        <name>getAsGeographicInterface</name>
+        <reimplements refid="classcoordinates_1_1_coordinate_1a97342479914743d999cef4b38f9124ed">getAsGeographicInterface</reimplements>
+        <param>
+          <type><ref refid="classparams_1_1_ellipsoid_parms" kindref="compound">EllipsoidParms</ref></type>
+          <declname>ell</declname>
+        </param>
+        <briefdescription>
+<para>Function for transforming geocentric coordinates to geographic coordinates. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Implemented by Michael Loos on 16.06.1998, based on a FORTRAN-Subroutine from 12.08.1993 by Hansjoerg Kutterer</para>
+<para>=&gt; Needs the function &apos;Constant&apos; from <ref refid="_lat_parm_8java" kindref="compound">LatParm.java</ref>! </para>
+<para><simplesect kind="author"><para>Michael Loos </para>
+</simplesect>
+<simplesect kind="remark"><para>renamed the variable bralt to altitude by David Li 2016-12-04 </para>
+</simplesect>
+<simplesect kind="remark"><para>renamed the variable eps to maxLonLatDistance by David Li 2016-12-04 </para>
+</simplesect>
+<simplesect kind="remark"><para>formal changes in summer 2000 by Daniel Mueller </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ell</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- an object of type EllipsoidParms </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>geo - returns geographic coordinate consisting of the double values latitude, longitude and ellipsoidal height </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/XYZCoordinate.java" line="84" column="42" bodyfile="coordinates/XYZCoordinate.java" bodystart="84" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_x_y_z_coordinate_1a565677c6fc44b6241255d0733e72e048" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.XYZCoordinate.getAsTargetCoordinate</definition>
+        <argsstring>(EllipsoidParms ell, GeographicCoordinateInterface geocoord)</argsstring>
+        <name>getAsTargetCoordinate</name>
+        <reimplements refid="classcoordinates_1_1_coordinate_1a998872a624f0394829f4c405f7a6f803">getAsTargetCoordinate</reimplements>
+        <param>
+          <type><ref refid="classparams_1_1_ellipsoid_parms" kindref="compound">EllipsoidParms</ref></type>
+          <declname>ell</declname>
+        </param>
+        <param>
+          <type><ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref></type>
+          <declname>geocoord</declname>
+        </param>
+        <briefdescription>
+<para>Function for transforming geographic coordinates to geocentric coordinates. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="author"><para>Michael Loos, 1998-06-06 as of a FORTRAN-Subroutine from Hansjoerg Kutterer, 1993-08-12 </para>
+</simplesect>
+<simplesect kind="remark"><para>formal changes in Summer 2000 by Daniel Mueller </para>
+</simplesect>
+<simplesect kind="remark"><para>Java-Version in February 2003 by Norbert Roesch</para>
+</simplesect>
+Algorithm as of G. Schmitt, M. Illner and R. Jaeger, &quot;Transformationsprobleme&quot;, pp. 125-142 in Mitteilungen des DVW Landesvereins BaWue, Sonderheft &quot;GPS und Integration
+von GPS in bestehende geodaetische Netze&quot;, 1991. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ell</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- an object of type EllipsoidParms that represents ellipsoidal parameters </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>geocoord</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- an object of type <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> that represents the geographic coordinate to transform </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/XYZCoordinate.java" line="129" column="17" bodyfile="coordinates/XYZCoordinate.java" bodystart="129" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_x_y_z_coordinate_1a4ff7f1c0dee75f3c60dc735c26129761" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.XYZCoordinate.print</definition>
+        <argsstring>()</argsstring>
+        <name>print</name>
+        <reimplements refid="classcoordinates_1_1_coordinate_1af2882da7117d4a312faf707df681042c">print</reimplements>
+        <briefdescription>
+<para>abstract methnd that allows the concrete <ref refid="classcoordinates_1_1_coordinate" kindref="compound">Coordinate</ref> to be output on screen </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/XYZCoordinate.java" line="140" column="17" bodyfile="coordinates/XYZCoordinate.java" bodystart="140" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_x_y_z_coordinate_1ab9055f02276f40c7c9bd0929544b31d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double coordinates.XYZCoordinate.getX</definition>
+        <argsstring>()</argsstring>
+        <name>getX</name>
+        <briefdescription>
+<para>getter method that returns the x-coordinate of the particular <ref refid="classcoordinates_1_1_x_y_z_coordinate" kindref="compound">XYZCoordinate</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>x - returns the x-coordinate value of the particular <ref refid="classcoordinates_1_1_coordinate" kindref="compound">Coordinate</ref> point as double </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/XYZCoordinate.java" line="157" column="23" bodyfile="coordinates/XYZCoordinate.java" bodystart="157" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_x_y_z_coordinate_1a38d36c730bd53179a0188d6d069f6400" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.XYZCoordinate.setX</definition>
+        <argsstring>(double x)</argsstring>
+        <name>setX</name>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>setter method that accepts x-coordinate for the particular <ref refid="classcoordinates_1_1_x_y_z_coordinate" kindref="compound">XYZCoordinate</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- sets a double representing the x-coordinate value for the particular <ref refid="classcoordinates_1_1_x_y_z_coordinate" kindref="compound">XYZCoordinate</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/XYZCoordinate.java" line="165" column="21" bodyfile="coordinates/XYZCoordinate.java" bodystart="165" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_x_y_z_coordinate_1a5b1614c8fb0680235ff866695d56bfd0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double coordinates.XYZCoordinate.getY</definition>
+        <argsstring>()</argsstring>
+        <name>getY</name>
+        <briefdescription>
+<para>getter method that returns the y-coordinate of the particular <ref refid="classcoordinates_1_1_x_y_z_coordinate" kindref="compound">XYZCoordinate</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>y - returns the y-coordinate value of the particular <ref refid="classcoordinates_1_1_coordinate" kindref="compound">Coordinate</ref> point as double </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/XYZCoordinate.java" line="173" column="23" bodyfile="coordinates/XYZCoordinate.java" bodystart="173" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_x_y_z_coordinate_1ae2af422b072d32e47eeef02520c74402" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.XYZCoordinate.setY</definition>
+        <argsstring>(double y)</argsstring>
+        <name>setY</name>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>setter method that accepts y-coordinate for the particular <ref refid="classcoordinates_1_1_x_y_z_coordinate" kindref="compound">XYZCoordinate</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- sets a double representing the y-coordinate value for the particular <ref refid="classcoordinates_1_1_x_y_z_coordinate" kindref="compound">XYZCoordinate</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/XYZCoordinate.java" line="181" column="21" bodyfile="coordinates/XYZCoordinate.java" bodystart="181" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_x_y_z_coordinate_1a1273b99ae80abff51a75b6ced7f3e10f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double coordinates.XYZCoordinate.getZ</definition>
+        <argsstring>()</argsstring>
+        <name>getZ</name>
+        <briefdescription>
+<para>getter method that returns the z-coordinate of the particular <ref refid="classcoordinates_1_1_x_y_z_coordinate" kindref="compound">XYZCoordinate</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>z - returns the z-coordinate value of the particular <ref refid="classcoordinates_1_1_coordinate" kindref="compound">Coordinate</ref> point as double </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/XYZCoordinate.java" line="189" column="23" bodyfile="coordinates/XYZCoordinate.java" bodystart="189" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="classcoordinates_1_1_x_y_z_coordinate_1a0e32806c394f28e22238765c2fde9eee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void coordinates.XYZCoordinate.setZ</definition>
+        <argsstring>(double z)</argsstring>
+        <name>setZ</name>
+        <param>
+          <type>double</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+<para>setter method that accepts z-coordinate for the particular <ref refid="classcoordinates_1_1_x_y_z_coordinate" kindref="compound">XYZCoordinate</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>z</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- sets a double representing the z-coordinate value for the particular <ref refid="classcoordinates_1_1_x_y_z_coordinate" kindref="compound">XYZCoordinate</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="coordinates/XYZCoordinate.java" line="197" column="21" bodyfile="coordinates/XYZCoordinate.java" bodystart="197" bodyend="199"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class <ref refid="classcoordinates_1_1_x_y_z_coordinate" kindref="compound">XYZCoordinate</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>David Li </para>
+</simplesect>
+<simplesect kind="remark"><para>2016-12-04 removed unused comments and variables by David Li </para>
+</simplesect>
+<simplesect kind="remark"><para>2016-12-04 added new method calculateRotationMatrix(SpatialSimilarityTransformParm) by David Li </para>
+</simplesect>
+<simplesect kind="remark"><para>2018-01-29 added constructor with ControlParms by Markus Mueller </para>
+</simplesect>
+<simplesect kind="version"><para>0.1 </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- x-coordinate as double </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- y-coordinate as double </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>z</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- z-coordinate as double </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>coordinates.Coordinate</label>
+        <link refid="classcoordinates_1_1_coordinate"/>
+      </node>
+      <node id="1">
+        <label>coordinates.XYZCoordinate</label>
+        <link refid="classcoordinates_1_1_x_y_z_coordinate"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>coordinates.Coordinate</label>
+        <link refid="classcoordinates_1_1_coordinate"/>
+      </node>
+      <node id="1">
+        <label>coordinates.XYZCoordinate</label>
+        <link refid="classcoordinates_1_1_x_y_z_coordinate"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="coordinates/XYZCoordinate.java" line="20" column="44" bodyfile="coordinates/XYZCoordinate.java" bodystart="20" bodyend="202"/>
+    <listofallmembers>
+      <member refid="classcoordinates_1_1_x_y_z_coordinate_1add6f4e104b8f7c0dfc2f7d63594abe0d" prot="public" virt="non-virtual"><scope>coordinates::XYZCoordinate</scope><name>getAsGeographicInterface</name></member>
+      <member refid="classcoordinates_1_1_x_y_z_coordinate_1a565677c6fc44b6241255d0733e72e048" prot="public" virt="non-virtual"><scope>coordinates::XYZCoordinate</scope><name>getAsTargetCoordinate</name></member>
+      <member refid="classcoordinates_1_1_coordinate_1ab0b1d8dc4fe371a2425e0cb505effafd" prot="public" virt="non-virtual"><scope>coordinates::XYZCoordinate</scope><name>getPointid</name></member>
+      <member refid="classcoordinates_1_1_x_y_z_coordinate_1ab9055f02276f40c7c9bd0929544b31d4" prot="public" virt="non-virtual"><scope>coordinates::XYZCoordinate</scope><name>getX</name></member>
+      <member refid="classcoordinates_1_1_x_y_z_coordinate_1a5b1614c8fb0680235ff866695d56bfd0" prot="public" virt="non-virtual"><scope>coordinates::XYZCoordinate</scope><name>getY</name></member>
+      <member refid="classcoordinates_1_1_x_y_z_coordinate_1a1273b99ae80abff51a75b6ced7f3e10f" prot="public" virt="non-virtual"><scope>coordinates::XYZCoordinate</scope><name>getZ</name></member>
+      <member refid="classcoordinates_1_1_x_y_z_coordinate_1a88847e65ce05894be77bd2735d15a4ca" prot="public" virt="non-virtual"><scope>coordinates::XYZCoordinate</scope><name>init</name></member>
+      <member refid="classcoordinates_1_1_coordinate_1a871c4eb3e8771b3e59f26c8e573d6aa0" prot="private" virt="non-virtual"><scope>coordinates::XYZCoordinate</scope><name>pointid</name></member>
+      <member refid="classcoordinates_1_1_x_y_z_coordinate_1a4ff7f1c0dee75f3c60dc735c26129761" prot="public" virt="non-virtual"><scope>coordinates::XYZCoordinate</scope><name>print</name></member>
+      <member refid="classcoordinates_1_1_coordinate_1a14f00383b5a41df79220112a12ef1cbf" prot="public" virt="non-virtual"><scope>coordinates::XYZCoordinate</scope><name>setPointid</name></member>
+      <member refid="classcoordinates_1_1_x_y_z_coordinate_1a38d36c730bd53179a0188d6d069f6400" prot="public" virt="non-virtual"><scope>coordinates::XYZCoordinate</scope><name>setX</name></member>
+      <member refid="classcoordinates_1_1_x_y_z_coordinate_1ae2af422b072d32e47eeef02520c74402" prot="public" virt="non-virtual"><scope>coordinates::XYZCoordinate</scope><name>setY</name></member>
+      <member refid="classcoordinates_1_1_x_y_z_coordinate_1a0e32806c394f28e22238765c2fde9eee" prot="public" virt="non-virtual"><scope>coordinates::XYZCoordinate</scope><name>setZ</name></member>
+      <member refid="classcoordinates_1_1_x_y_z_coordinate_1a93f191f410b19d99a71d3c66ef27df29" prot="private" virt="non-virtual"><scope>coordinates::XYZCoordinate</scope><name>x</name></member>
+      <member refid="classcoordinates_1_1_x_y_z_coordinate_1a6876892e552ee2a50333c22eef451700" prot="public" virt="non-virtual"><scope>coordinates::XYZCoordinate</scope><name>XYZCoordinate</name></member>
+      <member refid="classcoordinates_1_1_x_y_z_coordinate_1ac635db09dd4c2e8415c8d83a199d754c" prot="public" virt="non-virtual"><scope>coordinates::XYZCoordinate</scope><name>XYZCoordinate</name></member>
+      <member refid="classcoordinates_1_1_x_y_z_coordinate_1afc0aea9eb642ba760263fe7bedfbf89b" prot="public" virt="non-virtual"><scope>coordinates::XYZCoordinate</scope><name>XYZCoordinate</name></member>
+      <member refid="classcoordinates_1_1_x_y_z_coordinate_1a3b6ac44393c2beae9400509ca89f93cc" prot="package" virt="non-virtual"><scope>coordinates::XYZCoordinate</scope><name>y</name></member>
+      <member refid="classcoordinates_1_1_x_y_z_coordinate_1a4d9238fdadb5568f9dc6b1181664500b" prot="package" virt="non-virtual"><scope>coordinates::XYZCoordinate</scope><name>z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

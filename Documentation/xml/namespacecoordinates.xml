@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespacecoordinates" kind="namespace" language="Java">
+    <compoundname>coordinates</compoundname>
+    <innerclass refid="classcoordinates_1_1_coordinate" prot="public">coordinates::Coordinate</innerclass>
+    <innerclass refid="classcoordinates_1_1_gauss" prot="public">coordinates::Gauss</innerclass>
+    <innerclass refid="classcoordinates_1_1_gauss_krueger" prot="public">coordinates::GaussKrueger</innerclass>
+    <innerclass refid="classcoordinates_1_1_geographic_coordinate" prot="public">coordinates::GeographicCoordinate</innerclass>
+    <innerclass refid="classcoordinates_1_1_geographic_coordinate_interface" prot="public">coordinates::GeographicCoordinateInterface</innerclass>
+    <innerclass refid="classcoordinates_1_1_get_appropriate_coordinate" prot="public">coordinates::GetAppropriateCoordinate</innerclass>
+    <innerclass refid="classcoordinates_1_1_soldner" prot="public">coordinates::Soldner</innerclass>
+    <innerclass refid="classcoordinates_1_1_u_t_m" prot="public">coordinates::UTM</innerclass>
+    <innerclass refid="classcoordinates_1_1_x_y_z_coordinate" prot="public">coordinates::XYZCoordinate</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="coordinates/Coordinate.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

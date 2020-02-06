@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtest_1_1coordinates_1_1_all_tests" kind="class" language="Java" prot="public">
+    <compoundname>test::coordinates::AllTests</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="test/coordinates/AllTests.java" line="10" column="22" bodyfile="test/coordinates/AllTests.java" bodystart="10" bodyend="12"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

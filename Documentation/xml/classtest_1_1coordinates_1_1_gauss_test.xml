@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtest_1_1coordinates_1_1_gauss_test" kind="class" language="Java" prot="public">
+    <compoundname>test::coordinates::GaussTest</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtest_1_1coordinates_1_1_gauss_test_1abcdd8ef6d02de1e64fa094430e77a1c5" prot="private" static="no" mutable="no">
+        <type>final double</type>
+        <definition>final double test.coordinates.GaussTest.RHO</definition>
+        <argsstring></argsstring>
+        <name>RHO</name>
+        <initializer>= 180/Math.PI</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/coordinates/GaussTest.java" line="21" column="22" bodyfile="test/coordinates/GaussTest.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtest_1_1coordinates_1_1_gauss_test_1a34d31e051fa1d22700dd999b9bf71d78" prot="private" static="no" mutable="no">
+        <type>final double</type>
+        <definition>final double test.coordinates.GaussTest.EPSILON_IN_METER</definition>
+        <argsstring></argsstring>
+        <name>EPSILON_IN_METER</name>
+        <initializer>= 0.0004</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/coordinates/GaussTest.java" line="22" column="22" bodyfile="test/coordinates/GaussTest.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtest_1_1coordinates_1_1_gauss_test_1ad0a5b9f9d57dc28bbef8c8725b12e7d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void test.coordinates.GaussTest.testMeridianLength</definition>
+        <argsstring>()</argsstring>
+        <name>testMeridianLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/coordinates/GaussTest.java" line="25" column="13" bodyfile="test/coordinates/GaussTest.java" bodystart="25" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Test class with unit tests to test behavior class Gauss. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="remark"><para>implemented 7.02.2019 by Norbert Rösch </para>
+</simplesect>
+<simplesect kind="remark"><para>this test should be run before <ref refid="classtest_1_1coordinates_1_1_u_t_m_test" kindref="compound">UTMTest</ref> and <ref refid="classtest_1_1coordinates_1_1_gauss_krueger_test" kindref="compound">GaussKruegerTest</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="test/coordinates/GaussTest.java" line="20" column="23" bodyfile="test/coordinates/GaussTest.java" bodystart="20" bodyend="40"/>
+    <listofallmembers>
+      <member refid="classtest_1_1coordinates_1_1_gauss_test_1a34d31e051fa1d22700dd999b9bf71d78" prot="private" virt="non-virtual"><scope>test::coordinates::GaussTest</scope><name>EPSILON_IN_METER</name></member>
+      <member refid="classtest_1_1coordinates_1_1_gauss_test_1abcdd8ef6d02de1e64fa094430e77a1c5" prot="private" virt="non-virtual"><scope>test::coordinates::GaussTest</scope><name>RHO</name></member>
+      <member refid="classtest_1_1coordinates_1_1_gauss_test_1ad0a5b9f9d57dc28bbef8c8725b12e7d7" prot="public" virt="non-virtual"><scope>test::coordinates::GaussTest</scope><name>testMeridianLength</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

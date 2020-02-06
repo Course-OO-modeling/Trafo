@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtest_1_1coordinates_1_1_u_t_m_test" kind="class" language="Java" prot="public">
+    <compoundname>test::coordinates::UTMTest</compoundname>
+    <basecompoundref refid="classcoordinates_1_1_u_t_m" prot="public" virt="non-virtual">coordinates.UTM</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtest_1_1coordinates_1_1_u_t_m_test_1a9fe30b22ec0874591134eeb4f76b5d69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void test.coordinates.UTMTest.testGetAsGeographicInterface</definition>
+        <argsstring>()</argsstring>
+        <name>testGetAsGeographicInterface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/coordinates/UTMTest.java" line="12" column="13" bodyfile="test/coordinates/UTMTest.java" bodystart="12" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classtest_1_1coordinates_1_1_u_t_m_test_1af7708acee9f0dbec4fb9e78925e1170b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void test.coordinates.UTMTest.testGetAsUTM</definition>
+        <argsstring>()</argsstring>
+        <name>testGetAsUTM</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/coordinates/UTMTest.java" line="27" column="13" bodyfile="test/coordinates/UTMTest.java" bodystart="27" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>coordinates.Gauss</label>
+        <link refid="classcoordinates_1_1_gauss"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>coordinates.UTM</label>
+        <link refid="classcoordinates_1_1_u_t_m"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>test.coordinates.UTMTest</label>
+        <link refid="classtest_1_1coordinates_1_1_u_t_m_test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>coordinates.Coordinate</label>
+        <link refid="classcoordinates_1_1_coordinate"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>coordinates.Gauss</label>
+        <link refid="classcoordinates_1_1_gauss"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>coordinates.UTM</label>
+        <link refid="classcoordinates_1_1_u_t_m"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>test.coordinates.UTMTest</label>
+        <link refid="classtest_1_1coordinates_1_1_u_t_m_test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>coordinates.Coordinate</label>
+        <link refid="classcoordinates_1_1_coordinate"/>
+      </node>
+    </collaborationgraph>
+    <location file="test/coordinates/UTMTest.java" line="9" column="25" bodyfile="test/coordinates/UTMTest.java" bodystart="9" bodyend="40"/>
+    <listofallmembers>
+      <member refid="classcoordinates_1_1_gauss_1a9bd37a096f53a9e443570ec5748f95d8" prot="private" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>abszisse</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a1e810f7e3af643a8c0525485d9133276" prot="protected" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>CalculateAbszisseOrdinate</name></member>
+      <member refid="classcoordinates_1_1_u_t_m_1adb4ff0c8fbf9f7829c23fb4ca2abba64" prot="private" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>east</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a08582ecf17604f8330df079ce234008c" prot="private" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>ellipsoidal</name></member>
+      <member refid="classcoordinates_1_1_gauss_1ad11601b119b190bd9d61f71df6b53038" prot="public" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>getAbszisse</name></member>
+      <member refid="classcoordinates_1_1_u_t_m_1a007d51832fcdc5eb721f04f23d4be8f9" prot="public" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>getAsGeographicInterface</name></member>
+      <member refid="classcoordinates_1_1_u_t_m_1a2f86a0eacc36537c221bedb7381aa77b" prot="public" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>getAsTargetCoordinate</name></member>
+      <member refid="classcoordinates_1_1_u_t_m_1a08cf8f5990690f37ae9d9670fbd07948" prot="public" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>getEast</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a5c6271983e9bb69b8d024158397f5882" prot="public" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>getEllipsoidal</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a3bc39fe23752a9bccac68015c799f3fc" prot="public" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>getHeight</name></member>
+      <member refid="classcoordinates_1_1_u_t_m_1a12d9f36ab80910493da069a28cfcb5be" prot="public" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>getNorth</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a751c889d6cc9b2acb5eeb42d888efc0f" prot="public" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>getOrdinate</name></member>
+      <member refid="classcoordinates_1_1_coordinate_1ab0b1d8dc4fe371a2425e0cb505effafd" prot="public" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>getPointid</name></member>
+      <member refid="classcoordinates_1_1_gauss_1ab0d10005ccb914af91c8afc28d2ed836" prot="public" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>getScale</name></member>
+      <member refid="classcoordinates_1_1_u_t_m_1a30934884d4cbb4ee126c2a0b14f5ca39" prot="public" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>getZone</name></member>
+      <member refid="classcoordinates_1_1_gauss_1ad1543fe8a30e7f6dab1d0486bb5a935d" prot="private" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>height</name></member>
+      <member refid="classcoordinates_1_1_u_t_m_1acc60077a37c7b6f1d24c00401e97064d" prot="public" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>init</name></member>
+      <member refid="classcoordinates_1_1_u_t_m_1a5aab8f83eec4a8c79c3f197af6aad15a" prot="public" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>isNorthhem</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a622fa98764e45111e58a44c82f4dc5cd" prot="public" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>meridianLength</name></member>
+      <member refid="classcoordinates_1_1_u_t_m_1a74bc382b61e98b1438c07e101de460e9" prot="private" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>north</name></member>
+      <member refid="classcoordinates_1_1_u_t_m_1adb335a29a61081a69f82fb18047b2533" prot="private" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>northhem</name></member>
+      <member refid="classcoordinates_1_1_gauss_1ab156b1da518d7637dacef40489a0dba4" prot="private" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>ordinate</name></member>
+      <member refid="classcoordinates_1_1_coordinate_1a871c4eb3e8771b3e59f26c8e573d6aa0" prot="private" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>pointid</name></member>
+      <member refid="classcoordinates_1_1_u_t_m_1a40435144851f7e23b573debd797e0e97" prot="public" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>print</name></member>
+      <member refid="classcoordinates_1_1_gauss_1aea6297c71e9258a7dfb80a823048dc0d" prot="private" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>scale</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a82bc0ee0a9fae9bef4e3400615d50c58" prot="public" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>setAbszisse</name></member>
+      <member refid="classcoordinates_1_1_u_t_m_1af6ff720d80ed39a71374b4661e2ae522" prot="public" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>setEast</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a2bfa95e5913df58667cf5c15db228db8" prot="public" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>setEllipsoidal</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a3af44a951b3cb9ea5f5cf143b1cb2253" prot="public" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>setHeight</name></member>
+      <member refid="classcoordinates_1_1_u_t_m_1a6c5f165da723729691b4729e273edfb0" prot="public" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>setNorth</name></member>
+      <member refid="classcoordinates_1_1_u_t_m_1a6702ef8bed154007a7ddb7555bc76fe6" prot="public" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>setNorthhem</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a3afbbdd05c3a68dd778760cb824b0b03" prot="public" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>setOrdinate</name></member>
+      <member refid="classcoordinates_1_1_coordinate_1a14f00383b5a41df79220112a12ef1cbf" prot="public" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>setPointid</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a5f0cc370abdab913a51a7395bc54ff24" prot="public" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>setScale</name></member>
+      <member refid="classcoordinates_1_1_u_t_m_1a4989561b051ee38c85dea9987cd8b0ed" prot="public" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>setZone</name></member>
+      <member refid="classtest_1_1coordinates_1_1_u_t_m_test_1a9fe30b22ec0874591134eeb4f76b5d69" prot="public" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>testGetAsGeographicInterface</name></member>
+      <member refid="classtest_1_1coordinates_1_1_u_t_m_test_1af7708acee9f0dbec4fb9e78925e1170b" prot="public" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>testGetAsUTM</name></member>
+      <member refid="classcoordinates_1_1_u_t_m_1a073084a261396fbd5c408c6af8740b18" prot="public" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>UTM</name></member>
+      <member refid="classcoordinates_1_1_u_t_m_1a895d50db8cc3e81cb4d8ec1142a6939d" prot="private" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>zone</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

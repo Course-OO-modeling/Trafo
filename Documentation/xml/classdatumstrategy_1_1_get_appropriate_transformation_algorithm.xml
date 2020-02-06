@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classdatumstrategy_1_1_get_appropriate_transformation_algorithm" kind="class" language="Java" prot="public">
+    <compoundname>datumstrategy::GetAppropriateTransformationAlgorithm</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classdatumstrategy_1_1_get_appropriate_transformation_algorithm_1a5dae4ffa1ae0ccc9e24ff4d3469b3286" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classdatumstrategy_1_1_transformation_strategy" kindref="compound">TransformationStrategy</ref></type>
+        <definition>static TransformationStrategy datumstrategy.GetAppropriateTransformationAlgorithm.getStrategy</definition>
+        <argsstring>()</argsstring>
+        <name>getStrategy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="datumstrategy/GetAppropriateTransformationAlgorithm.java" line="21" column="42" bodyfile="datumstrategy/GetAppropriateTransformationAlgorithm.java" bodystart="21" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="remark"><para><itemizedlist>
+<listitem>
+<para>adaptions for ControlParms Singleton </para>
+</listitem>
+</itemizedlist>
+</para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="datumstrategy/GetAppropriateTransformationAlgorithm.java" line="19" column="51" bodyfile="datumstrategy/GetAppropriateTransformationAlgorithm.java" bodystart="19" bodyend="33"/>
+    <listofallmembers>
+      <member refid="classdatumstrategy_1_1_get_appropriate_transformation_algorithm_1a5dae4ffa1ae0ccc9e24ff4d3469b3286" prot="public" virt="non-virtual"><scope>datumstrategy::GetAppropriateTransformationAlgorithm</scope><name>getStrategy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

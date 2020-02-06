@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtest_1_1coordinates_1_1_x_y_z_coordinate_test" kind="class" language="Java" prot="public">
+    <compoundname>test::coordinates::XYZCoordinateTest</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtest_1_1coordinates_1_1_x_y_z_coordinate_test_1a825f8a2c4115e500482e33ec52265567" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void test.coordinates.XYZCoordinateTest.testGetAsGeographicInterface</definition>
+        <argsstring>()</argsstring>
+        <name>testGetAsGeographicInterface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para><simplesect kind="remark"><para>got reference data from www.sapos-bw.de/trafoErg_B_X.php</para>
+</simplesect>
+</para>
+        </inbodydescription>
+        <location file="test/coordinates/XYZCoordinateTest.java" line="16" column="13" bodyfile="test/coordinates/XYZCoordinateTest.java" bodystart="16" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classtest_1_1coordinates_1_1_x_y_z_coordinate_test_1adf00bb14850261b98a82ef386137d104" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void test.coordinates.XYZCoordinateTest.testGetAsTargetCoordinate</definition>
+        <argsstring>()</argsstring>
+        <name>testGetAsTargetCoordinate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/coordinates/XYZCoordinateTest.java" line="30" column="13" bodyfile="test/coordinates/XYZCoordinateTest.java" bodystart="30" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="test/coordinates/XYZCoordinateTest.java" line="13" column="31" bodyfile="test/coordinates/XYZCoordinateTest.java" bodystart="13" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classtest_1_1coordinates_1_1_x_y_z_coordinate_test_1a825f8a2c4115e500482e33ec52265567" prot="public" virt="non-virtual"><scope>test::coordinates::XYZCoordinateTest</scope><name>testGetAsGeographicInterface</name></member>
+      <member refid="classtest_1_1coordinates_1_1_x_y_z_coordinate_test_1adf00bb14850261b98a82ef386137d104" prot="public" virt="non-virtual"><scope>test::coordinates::XYZCoordinateTest</scope><name>testGetAsTargetCoordinate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

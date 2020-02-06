@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_geographic_coordinate_interface_test" kind="class" language="Java" prot="package">
+    <compoundname>GeographicCoordinateInterfaceTest</compoundname>
+    <briefdescription>
+<para>test for path &apos;source coordinate to GeographicCoordinateInterface&apos; (and backward) which exists for all coordinates </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="remark"><para>reason: only the Strategy-class communicates with &apos;GeographicCoordinateInterface&apos; </para>
+</simplesect>
+<simplesect kind="author"><para>Norbert Rösch January 2019 </para>
+</simplesect>
+<simplesect kind="version"><para>0.1 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="test/coordinates/GeographicCoordinateTest.java" line="14" column="1"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

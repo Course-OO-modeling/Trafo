@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="_gauss_test_8java" kind="file" language="Java">
+    <compoundname>GaussTest.java</compoundname>
+    <innerclass refid="classtest_1_1coordinates_1_1_gauss_test" prot="public">test::coordinates::GaussTest</innerclass>
+    <innernamespace refid="namespacetest_1_1coordinates">test::coordinates</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">test.coordinates;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>org.junit.Assert.*;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.junit.Test;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespacecoordinates" kindref="compound">coordinates</ref>.<ref refid="classcoordinates_1_1_gauss" kindref="compound">Gauss</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespacecoordinates" kindref="compound">coordinates</ref>.<ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespaceparams" kindref="compound">params</ref>.<ref refid="classparams_1_1_ellipsoid_parms" kindref="compound">EllipsoidParms</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="classtest_1_1coordinates_1_1_gauss_test" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classtest_1_1coordinates_1_1_gauss_test" kindref="compound">GaussTest</ref><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classtest_1_1coordinates_1_1_gauss_test_1abcdd8ef6d02de1e64fa094430e77a1c5" kindref="member">RHO</ref><sp/>=<sp/>180/Math.PI;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classtest_1_1coordinates_1_1_gauss_test_1a34d31e051fa1d22700dd999b9bf71d78" kindref="member">EPSILON_IN_METER</ref><sp/>=<sp/>0.0004;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>@Test</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtest_1_1coordinates_1_1_gauss_test_1ad0a5b9f9d57dc28bbef8c8725b12e7d7" kindref="member">testMeridianLength</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>kennlao<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>hnull<sp/>=<sp/>0.;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classparams_1_1_ellipsoid_parms" kindref="compound">EllipsoidParms</ref><sp/>ell<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classparams_1_1_ellipsoid_parms" kindref="compound">EllipsoidParms</ref>(0.0067192188,<sp/>6398786.849);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ell.<ref refid="classparams_1_1_ellipsoid_parms_1a711a94a4e810fa3acd91cabc94ef8b73" kindref="member">setGK_refmer</ref>(12);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref><sp/>geocoord<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref>();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>geocoord.<ref refid="classcoordinates_1_1_geographic_coordinate_interface_1ab10e03a921d5c7e821dda05d258628db" kindref="member">setLatitude</ref>(48.44595431/<ref refid="classtest_1_1coordinates_1_1_gauss_test_1abcdd8ef6d02de1e64fa094430e77a1c5" kindref="member">RHO</ref>);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kennlao<sp/>=<sp/>(int)<sp/>ell.<ref refid="classparams_1_1_ellipsoid_parms_1aaa87eb361d5f0be95d014842b8201cea" kindref="member">getGK_refmer</ref>()<sp/>/<sp/>3;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>meridian<sp/>arc<sp/>length<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>hnull<sp/>=<sp/><ref refid="classcoordinates_1_1_gauss" kindref="compound">Gauss</ref>.<ref refid="classcoordinates_1_1_gauss_1a622fa98764e45111e58a44c82f4dc5cd" kindref="member">meridianLength</ref>(geocoord.<ref refid="classcoordinates_1_1_geographic_coordinate_interface_1a6c287f3c85afe73a269165862ec267fb" kindref="member">getLatitude</ref>(),<sp/>ell);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assertEquals(kennlao,<sp/>4);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assertEquals(5367467.3856,<sp/>hnull,<sp/><ref refid="classtest_1_1coordinates_1_1_gauss_test_1a34d31e051fa1d22700dd999b9bf71d78" kindref="member">EPSILON_IN_METER</ref>);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="test/coordinates/GaussTest.java"/>
+  </compounddef>
+</doxygen>

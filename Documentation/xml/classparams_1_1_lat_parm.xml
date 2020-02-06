@@ -1,0 +1,481 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classparams_1_1_lat_parm" kind="class" language="Java" prot="public">
+    <compoundname>params::LatParm</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classparams_1_1_lat_parm_1ad4a3a2c6c45ffe5b13b953a639f3771f" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.LatParm.radm</definition>
+        <argsstring></argsstring>
+        <name>radm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>radius of meridian curvature M </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/LatParm.java" line="16" column="20" bodyfile="params/LatParm.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_lat_parm_1ad3b2a94593c3527d6e5bcb7a4f5008d0" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.LatParm.radn</definition>
+        <argsstring></argsstring>
+        <name>radn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>radius of transverse curvature N </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/LatParm.java" line="17" column="20" bodyfile="params/LatParm.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_lat_parm_1ac80005b5ba749048ae964321cfe5760d" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.LatParm.radg</definition>
+        <argsstring></argsstring>
+        <name>radg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>coordinates. Gaussian curvature radius G </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/LatParm.java" line="18" column="20" bodyfile="params/LatParm.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_lat_parm_1a9a38ab3ef2e8fafcf667aa32e714ea33" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.LatParm.tbr</definition>
+        <argsstring></argsstring>
+        <name>tbr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tangent of latitude </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/LatParm.java" line="19" column="20" bodyfile="params/LatParm.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_lat_parm_1ab4fe89614c538fbc5135ff84699ade62" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.LatParm.vbr</definition>
+        <argsstring></argsstring>
+        <name>vbr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>auxiliary value V for the latitude BR </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/LatParm.java" line="20" column="20" bodyfile="params/LatParm.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_lat_parm_1a00ff451cea882b0e828a53836433e3ac" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.LatParm.etabr</definition>
+        <argsstring></argsstring>
+        <name>etabr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>auxiliary value eta2 for the latitude BR </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/LatParm.java" line="21" column="20" bodyfile="params/LatParm.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_lat_parm_1ad93beb21879792881ced00e13af2dc60" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.LatParm.cbr</definition>
+        <argsstring></argsstring>
+        <name>cbr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/LatParm.java" line="22" column="20" bodyfile="params/LatParm.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classparams_1_1_lat_parm_1a52fefff9985ee28085b9d81675289631" prot="package" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.LatParm.vbr2</definition>
+        <argsstring></argsstring>
+        <name>vbr2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/LatParm.java" line="22" column="24" bodyfile="params/LatParm.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_lat_parm_1a56f01ceb263bd4c0693d76de38ef0ec7" prot="package" static="no" mutable="no">
+        <type>double</type>
+        <definition>double params.LatParm.tbr2</definition>
+        <argsstring></argsstring>
+        <name>tbr2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/LatParm.java" line="22" column="29" bodyfile="params/LatParm.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classparams_1_1_lat_parm_1ac972450505dda8d2633ee4c293339f4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>params.LatParm.LatParm</definition>
+        <argsstring>()</argsstring>
+        <name>LatParm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/LatParm.java" line="28" column="12" bodyfile="params/LatParm.java" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_lat_parm_1ab81d2c45f65a3a260dd99fcc49235e8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.LatParm.Constant</definition>
+        <argsstring>(EllipsoidParms ell, double latitude)</argsstring>
+        <name>Constant</name>
+        <param>
+          <type><ref refid="classparams_1_1_ellipsoid_parms" kindref="compound">EllipsoidParms</ref></type>
+          <declname>ell</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>latitude</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/LatParm.java" line="38" column="17" bodyfile="params/LatParm.java" bodystart="38" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_lat_parm_1ab29d1d8f8fdec25662aef30d992b820b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.LatParm.getRadm</definition>
+        <argsstring>()</argsstring>
+        <name>getRadm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/LatParm.java" line="55" column="19" bodyfile="params/LatParm.java" bodystart="55" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_lat_parm_1a00c0204cb9ef92752ffd4a869b780360" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.LatParm.setRadm</definition>
+        <argsstring>(double radm)</argsstring>
+        <name>setRadm</name>
+        <param>
+          <type>double</type>
+          <declname>radm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/LatParm.java" line="59" column="17" bodyfile="params/LatParm.java" bodystart="59" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_lat_parm_1a6d929177720c027458ebdf315f184a16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.LatParm.getRadn</definition>
+        <argsstring>()</argsstring>
+        <name>getRadn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/LatParm.java" line="63" column="19" bodyfile="params/LatParm.java" bodystart="63" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_lat_parm_1a59b9f34911eaf1358f7b5b409d7bf0b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.LatParm.setRadn</definition>
+        <argsstring>(double radn)</argsstring>
+        <name>setRadn</name>
+        <param>
+          <type>double</type>
+          <declname>radn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/LatParm.java" line="67" column="17" bodyfile="params/LatParm.java" bodystart="67" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_lat_parm_1a25b420d545fbfc3b0663f2db9b8d639b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.LatParm.getRadg</definition>
+        <argsstring>()</argsstring>
+        <name>getRadg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/LatParm.java" line="71" column="19" bodyfile="params/LatParm.java" bodystart="71" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_lat_parm_1afb0ecd1622a4d32f82e62c4a7b20b82c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.LatParm.setRadg</definition>
+        <argsstring>(double radg)</argsstring>
+        <name>setRadg</name>
+        <param>
+          <type>double</type>
+          <declname>radg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/LatParm.java" line="75" column="17" bodyfile="params/LatParm.java" bodystart="75" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_lat_parm_1a08d8466c691aff294ec925b2ad5fbca7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.LatParm.getTbr</definition>
+        <argsstring>()</argsstring>
+        <name>getTbr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/LatParm.java" line="79" column="19" bodyfile="params/LatParm.java" bodystart="79" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_lat_parm_1a91313d31ec47399198769d5c8dc7c8ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.LatParm.setTbr</definition>
+        <argsstring>(double tbr)</argsstring>
+        <name>setTbr</name>
+        <param>
+          <type>double</type>
+          <declname>tbr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/LatParm.java" line="83" column="17" bodyfile="params/LatParm.java" bodystart="83" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_lat_parm_1a3ad1b1f03ea01388668de0b1b906eb15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.LatParm.getVbr</definition>
+        <argsstring>()</argsstring>
+        <name>getVbr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/LatParm.java" line="87" column="19" bodyfile="params/LatParm.java" bodystart="87" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_lat_parm_1aaf1c583db5fdaa2c56b0ba680645a005" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.LatParm.setVbr</definition>
+        <argsstring>(double vbr)</argsstring>
+        <name>setVbr</name>
+        <param>
+          <type>double</type>
+          <declname>vbr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/LatParm.java" line="91" column="17" bodyfile="params/LatParm.java" bodystart="91" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_lat_parm_1a3129de4a7b41e7e39f0f302c8635ed08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.LatParm.getEtabr</definition>
+        <argsstring>()</argsstring>
+        <name>getEtabr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/LatParm.java" line="95" column="19" bodyfile="params/LatParm.java" bodystart="95" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_lat_parm_1a3f86420da4799d6bcd4237527fa716f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.LatParm.setEtabr</definition>
+        <argsstring>(double etabr)</argsstring>
+        <name>setEtabr</name>
+        <param>
+          <type>double</type>
+          <declname>etabr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/LatParm.java" line="99" column="17" bodyfile="params/LatParm.java" bodystart="99" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_lat_parm_1a63babf6e5b7aaa6cbfc7c2a4297236df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.LatParm.getCbr</definition>
+        <argsstring>()</argsstring>
+        <name>getCbr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/LatParm.java" line="103" column="19" bodyfile="params/LatParm.java" bodystart="103" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_lat_parm_1a563e6ca04658d03f1fdaaf4a24111433" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.LatParm.setCbr</definition>
+        <argsstring>(double cbr)</argsstring>
+        <name>setCbr</name>
+        <param>
+          <type>double</type>
+          <declname>cbr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/LatParm.java" line="107" column="17" bodyfile="params/LatParm.java" bodystart="107" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_lat_parm_1a03c6d6be6e563232771067e77ce36c83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.LatParm.getVbr2</definition>
+        <argsstring>()</argsstring>
+        <name>getVbr2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/LatParm.java" line="111" column="19" bodyfile="params/LatParm.java" bodystart="111" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_lat_parm_1a005ff41d71ddaec6e5d88bb29f9db65d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.LatParm.setVbr2</definition>
+        <argsstring>(double vbr2)</argsstring>
+        <name>setVbr2</name>
+        <param>
+          <type>double</type>
+          <declname>vbr2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/LatParm.java" line="115" column="17" bodyfile="params/LatParm.java" bodystart="115" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_lat_parm_1a9d722976aed615a2652a439d05e9e808" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double params.LatParm.getTbr2</definition>
+        <argsstring>()</argsstring>
+        <name>getTbr2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/LatParm.java" line="119" column="19" bodyfile="params/LatParm.java" bodystart="119" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_lat_parm_1a4822893eea55552bac1de0e7dbefce3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.LatParm.setTbr2</definition>
+        <argsstring>(double tbr2)</argsstring>
+        <name>setTbr2</name>
+        <param>
+          <type>double</type>
+          <declname>tbr2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/LatParm.java" line="123" column="17" bodyfile="params/LatParm.java" bodystart="123" bodyend="125"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Latitude Parameters. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>unknown </para>
+</simplesect>
+<simplesect kind="remark"><para>add header on 2018-01-06 by Yunhao Huang </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="params/LatParm.java" line="14" column="27" bodyfile="params/LatParm.java" bodystart="14" bodyend="127"/>
+    <listofallmembers>
+      <member refid="classparams_1_1_lat_parm_1ad93beb21879792881ced00e13af2dc60" prot="private" virt="non-virtual"><scope>params::LatParm</scope><name>cbr</name></member>
+      <member refid="classparams_1_1_lat_parm_1ab81d2c45f65a3a260dd99fcc49235e8b" prot="public" virt="non-virtual"><scope>params::LatParm</scope><name>Constant</name></member>
+      <member refid="classparams_1_1_lat_parm_1a00ff451cea882b0e828a53836433e3ac" prot="private" virt="non-virtual"><scope>params::LatParm</scope><name>etabr</name></member>
+      <member refid="classparams_1_1_lat_parm_1a63babf6e5b7aaa6cbfc7c2a4297236df" prot="public" virt="non-virtual"><scope>params::LatParm</scope><name>getCbr</name></member>
+      <member refid="classparams_1_1_lat_parm_1a3129de4a7b41e7e39f0f302c8635ed08" prot="public" virt="non-virtual"><scope>params::LatParm</scope><name>getEtabr</name></member>
+      <member refid="classparams_1_1_lat_parm_1a25b420d545fbfc3b0663f2db9b8d639b" prot="public" virt="non-virtual"><scope>params::LatParm</scope><name>getRadg</name></member>
+      <member refid="classparams_1_1_lat_parm_1ab29d1d8f8fdec25662aef30d992b820b" prot="public" virt="non-virtual"><scope>params::LatParm</scope><name>getRadm</name></member>
+      <member refid="classparams_1_1_lat_parm_1a6d929177720c027458ebdf315f184a16" prot="public" virt="non-virtual"><scope>params::LatParm</scope><name>getRadn</name></member>
+      <member refid="classparams_1_1_lat_parm_1a08d8466c691aff294ec925b2ad5fbca7" prot="public" virt="non-virtual"><scope>params::LatParm</scope><name>getTbr</name></member>
+      <member refid="classparams_1_1_lat_parm_1a9d722976aed615a2652a439d05e9e808" prot="public" virt="non-virtual"><scope>params::LatParm</scope><name>getTbr2</name></member>
+      <member refid="classparams_1_1_lat_parm_1a3ad1b1f03ea01388668de0b1b906eb15" prot="public" virt="non-virtual"><scope>params::LatParm</scope><name>getVbr</name></member>
+      <member refid="classparams_1_1_lat_parm_1a03c6d6be6e563232771067e77ce36c83" prot="public" virt="non-virtual"><scope>params::LatParm</scope><name>getVbr2</name></member>
+      <member refid="classparams_1_1_lat_parm_1ac972450505dda8d2633ee4c293339f4d" prot="public" virt="non-virtual"><scope>params::LatParm</scope><name>LatParm</name></member>
+      <member refid="classparams_1_1_lat_parm_1ac80005b5ba749048ae964321cfe5760d" prot="private" virt="non-virtual"><scope>params::LatParm</scope><name>radg</name></member>
+      <member refid="classparams_1_1_lat_parm_1ad4a3a2c6c45ffe5b13b953a639f3771f" prot="private" virt="non-virtual"><scope>params::LatParm</scope><name>radm</name></member>
+      <member refid="classparams_1_1_lat_parm_1ad3b2a94593c3527d6e5bcb7a4f5008d0" prot="private" virt="non-virtual"><scope>params::LatParm</scope><name>radn</name></member>
+      <member refid="classparams_1_1_lat_parm_1a563e6ca04658d03f1fdaaf4a24111433" prot="public" virt="non-virtual"><scope>params::LatParm</scope><name>setCbr</name></member>
+      <member refid="classparams_1_1_lat_parm_1a3f86420da4799d6bcd4237527fa716f7" prot="public" virt="non-virtual"><scope>params::LatParm</scope><name>setEtabr</name></member>
+      <member refid="classparams_1_1_lat_parm_1afb0ecd1622a4d32f82e62c4a7b20b82c" prot="public" virt="non-virtual"><scope>params::LatParm</scope><name>setRadg</name></member>
+      <member refid="classparams_1_1_lat_parm_1a00c0204cb9ef92752ffd4a869b780360" prot="public" virt="non-virtual"><scope>params::LatParm</scope><name>setRadm</name></member>
+      <member refid="classparams_1_1_lat_parm_1a59b9f34911eaf1358f7b5b409d7bf0b4" prot="public" virt="non-virtual"><scope>params::LatParm</scope><name>setRadn</name></member>
+      <member refid="classparams_1_1_lat_parm_1a91313d31ec47399198769d5c8dc7c8ca" prot="public" virt="non-virtual"><scope>params::LatParm</scope><name>setTbr</name></member>
+      <member refid="classparams_1_1_lat_parm_1a4822893eea55552bac1de0e7dbefce3a" prot="public" virt="non-virtual"><scope>params::LatParm</scope><name>setTbr2</name></member>
+      <member refid="classparams_1_1_lat_parm_1aaf1c583db5fdaa2c56b0ba680645a005" prot="public" virt="non-virtual"><scope>params::LatParm</scope><name>setVbr</name></member>
+      <member refid="classparams_1_1_lat_parm_1a005ff41d71ddaec6e5d88bb29f9db65d" prot="public" virt="non-virtual"><scope>params::LatParm</scope><name>setVbr2</name></member>
+      <member refid="classparams_1_1_lat_parm_1a9a38ab3ef2e8fafcf667aa32e714ea33" prot="private" virt="non-virtual"><scope>params::LatParm</scope><name>tbr</name></member>
+      <member refid="classparams_1_1_lat_parm_1a56f01ceb263bd4c0693d76de38ef0ec7" prot="package" virt="non-virtual"><scope>params::LatParm</scope><name>tbr2</name></member>
+      <member refid="classparams_1_1_lat_parm_1ab4fe89614c538fbc5135ff84699ade62" prot="private" virt="non-virtual"><scope>params::LatParm</scope><name>vbr</name></member>
+      <member refid="classparams_1_1_lat_parm_1a52fefff9985ee28085b9d81675289631" prot="package" virt="non-virtual"><scope>params::LatParm</scope><name>vbr2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

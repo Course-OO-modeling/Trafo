@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespaceparams" kind="namespace" language="Java">
+    <compoundname>params</compoundname>
+    <innerclass refid="classparams_1_1_control_parms" prot="public">params::ControlParms</innerclass>
+    <innerclass refid="classparams_1_1_ellipsoid_parms" prot="public">params::EllipsoidParms</innerclass>
+    <innerclass refid="classparams_1_1_lat_parm" prot="public">params::LatParm</innerclass>
+    <innerclass refid="classparams_1_1_molodensky_parm" prot="public">params::MolodenskyParm</innerclass>
+    <innerclass refid="classparams_1_1_spatial_similarity_transform_parm" prot="public">params::SpatialSimilarityTransformParm</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="params/ControlParms.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

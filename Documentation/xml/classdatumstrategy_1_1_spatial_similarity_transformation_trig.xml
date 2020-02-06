@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classdatumstrategy_1_1_spatial_similarity_transformation_trig" kind="class" language="Java" prot="public">
+    <compoundname>datumstrategy::SpatialSimilarityTransformationTrig</compoundname>
+    <basecompoundref refid="classdatumstrategy_1_1_transformation_strategy" prot="public" virt="non-virtual">datumstrategy.TransformationStrategy</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdatumstrategy_1_1_spatial_similarity_transformation_trig_1a026ecdb781e479e89d09cd51ea9869c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void datumstrategy.SpatialSimilarityTransformationTrig.transform</definition>
+        <argsstring>(GeographicCoordinateInterface geo)</argsstring>
+        <name>transform</name>
+        <reimplements refid="classdatumstrategy_1_1_transformation_strategy_1a0fd1d6fbba01e5222360740e34eae786">transform</reimplements>
+        <param>
+          <type><ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref></type>
+          <declname>geographicCoordinate</declname>
+        </param>
+        <briefdescription>
+<para>abstract method for the transformation of a geographic coordinate </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>geographicCoordinate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- an object of type GeographicCoordinateInterface which is used for input/output for the transformation algorithm </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="datumstrategy/SpatialSimilarityTransformationTrig.java" line="31" column="17" bodyfile="datumstrategy/SpatialSimilarityTransformationTrig.java" bodystart="31" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>datumstrategy.SpatialSimilarityTransformationTrig</label>
+        <link refid="classdatumstrategy_1_1_spatial_similarity_transformation_trig"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>datumstrategy.TransformationStrategy</label>
+        <link refid="classdatumstrategy_1_1_transformation_strategy"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>datumstrategy.SpatialSimilarityTransformationTrig</label>
+        <link refid="classdatumstrategy_1_1_spatial_similarity_transformation_trig"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>datumstrategy.TransformationStrategy</label>
+        <link refid="classdatumstrategy_1_1_transformation_strategy"/>
+      </node>
+    </collaborationgraph>
+    <location file="datumstrategy/SpatialSimilarityTransformationTrig.java" line="28" column="72" bodyfile="datumstrategy/SpatialSimilarityTransformationTrig.java" bodystart="28" bodyend="68"/>
+    <listofallmembers>
+      <member refid="classdatumstrategy_1_1_spatial_similarity_transformation_trig_1a026ecdb781e479e89d09cd51ea9869c0" prot="public" virt="non-virtual"><scope>datumstrategy::SpatialSimilarityTransformationTrig</scope><name>transform</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
