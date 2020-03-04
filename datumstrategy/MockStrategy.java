@@ -1,7 +1,6 @@
 package datumstrategy;
 
 import coordinates.GeographicCoordinateInterface;
-import datumstrategy.TransformationStrategy;
 
 public class MockStrategy extends TransformationStrategy {
 

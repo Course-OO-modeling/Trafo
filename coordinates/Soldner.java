@@ -2,8 +2,6 @@ package coordinates;
 
 import params.EllipsoidParms;
 import params.LatParm;
-import coordinates.GeographicCoordinateInterface;
-import coordinates.Coordinate;
 
 /**
  * @class Soldner

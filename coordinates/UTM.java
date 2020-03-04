@@ -2,8 +2,6 @@ package coordinates;
 
 import params.EllipsoidParms;
 import params.LatParm;
-import coordinates.Gauss;
-import coordinates.GeographicCoordinateInterface;
 
 /**
  * @class UTM
@@ -75,7 +73,7 @@ public class UTM extends Gauss {
 		xg = north;
 		yg = east;
 		/* * * * for southern hemisphere* * * */
-		if (northhem == false)
+		if (!northhem)
 			xg = xg - 1.e+7;
 		xg /= getScale();
 		l0 = ((double) (6 * (zone - 30) - 3)) / RHO;

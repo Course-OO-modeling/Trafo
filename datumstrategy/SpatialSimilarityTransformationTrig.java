@@ -4,7 +4,6 @@ import params.ControlParms;
 import Jama.Matrix;
 import coordinates.GeographicCoordinateInterface;
 import coordinates.XYZCoordinate;
-import datumstrategy.TransformationStrategy;
 
 /**
  * @class SpatialSimilarityTransformationInfin

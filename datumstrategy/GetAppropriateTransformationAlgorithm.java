@@ -11,9 +11,6 @@ package datumstrategy;
  */
 
 import params.ControlParms;
-import datumstrategy.TransformationStrategy;
-import datumstrategy.MolodenskiiTransformationStandard;
-import datumstrategy.SpatialSimilarityTransformationInfin;
 
 public class GetAppropriateTransformationAlgorithm {
 
@@ -23,10 +20,14 @@ public class GetAppropriateTransformationAlgorithm {
 
 		if (control.getKindoftrafo() == null) // kein Wechsel des Datums
 			return new MockStrategy();
-		else if (control.getKindoftrafo() == "mol_stand")
+		else if (control.getKindoftrafo().equals("mol_stand"))
 			return MolodenskiiTransformationStandard.getInstance();
-		else if (control.getKindoftrafo() == "3D_infin")
+		else if (control.getKindoftrafo().equals("mol_abridged"))
+			return MolodenskiiTransformationAbridged.getInstance();
+		else if (control.getKindoftrafo().equals("3D_infin"))
 			return new SpatialSimilarityTransformationInfin();
+		else if (control.getKindoftrafo().equals("3D_trig"))
+			return new SpatialSimilarityTransformationTrig();
 		return null;
 	}
 }

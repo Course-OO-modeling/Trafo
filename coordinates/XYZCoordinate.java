@@ -3,7 +3,6 @@ package coordinates;
 import params.EllipsoidParms;
 import params.ControlParms;
 import params.LatParm;
-import coordinates.Coordinate;
 
 /**
  * @class XYZCoordinate

@@ -18,7 +18,6 @@ package datumstrategy;
 
 import params.ControlParms;
 import coordinates.GeographicCoordinateInterface;
-import datumstrategy.TransformationStrategy;
 
 public class MolodenskiiTransformationStandard extends TransformationStrategy {
 

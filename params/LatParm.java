@@ -2,8 +2,6 @@ package params;
 
 // package Klassen;
 
-import params.EllipsoidParms;
-
 /**
  * @class LatParm
  * @author unknown

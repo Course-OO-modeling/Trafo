@@ -3,7 +3,6 @@ package coordinates;
 import params.ControlParms;
 import params.EllipsoidParms;
 import params.LatParm;
-import coordinates.Gauss;
 
 /**
  * @class GaussKrueger
