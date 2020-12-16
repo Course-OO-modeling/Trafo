@@ -9,7 +9,7 @@ import params.LatParm;
  * @brief Coordinate point relating to a certain Gauss-Krueger reference
  *        meridian
  * @author unknown
- * @remark updated header on 2017-11-29 by Markus Mueller
+ * @remark updated header on 2017-11-29 by Markus Müller
  * @remark change comment of attribute 'hoch' 2017-12-19 by Markus Hillemann
  * @remark change attribute name ilao to centralMeridian 2017-12-19 by Markus
  *         Hillemann

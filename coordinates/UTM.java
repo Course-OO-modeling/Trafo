@@ -7,7 +7,7 @@ import params.LatParm;
  * @class UTM
  * @brief Class UTM extends class Gauss
  * @author unknown
- * @remark updated header on 2017-11-29 by Markus Mueller
+ * @remark updated header on 2017-11-29 by Markus Müller
  * @version 0.1
  * @param east     - easting as double
  * @param north    - Northing as double

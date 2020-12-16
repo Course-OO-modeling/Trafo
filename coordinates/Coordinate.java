@@ -8,15 +8,15 @@ import params.EllipsoidParms;
  *        Coordinate class be used as input for TransformationStrategy which
  *        relies on geographic coordinates as input/output
  * @author unknown on 2016-11
- * @remark updated header on 2017-11-29 by Markus Mueller
+ * @remark updated header on 2017-11-29 by Markus Müller
  * @remark renamed to Coordinate (was Coordinates) on 2016-11-26 by Patrick
- *         Huebner
+ *         Hübner
  * @remark added abstract methods
  *         {@link #getAsGeographicInterface(EllipsoidParms) getAsGeographic} and
  *         {@link #getAsTargetCoordinate(EllipsoidParms, GeographicCoordinateInterface)
  *         fromGeographic} to enable any concrete Coordinate class be used as
  *         input for TransformationStrategy which relies on geographic
- *         coordinates as input/output on 2016-11-26 by Patrick Huebner
+ *         coordinates as input/output on 2016-11-26 by Patrick Hübner
  * @version 0.1
  * @param pointid - string representing the point identification number
  */

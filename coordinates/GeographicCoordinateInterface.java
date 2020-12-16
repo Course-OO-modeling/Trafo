@@ -14,9 +14,9 @@ import params.MolodenskyParm;
  *         GeographicCoordinate (only input coordinate) and
  *         GeographicCoordinateInterface (Interface for strategy) on 2018-01-12
  *         by Johanna Stoetzer
- * @remark updated header on 2017-11-29 by Markus Mueller
+ * @remark updated header on 2017-11-29 by Markus Müller
  * @remark renamed to GeographicCoordinate (was GeographicCoordinates) on
- *         2016-11-26 by Patrick Huebner
+ *         2016-11-26 by Patrick Hübner
  * @version 0.1
  * @param point       number - Point identification number of the
  *                    GeographicCoordinate as long

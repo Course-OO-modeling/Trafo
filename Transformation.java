@@ -18,12 +18,12 @@ import datumstrategy.GetAppropriateTransformationAlgorithm;
 /**
  * @class Transformation
  * @brief Main Transformatin class
- * @author Norbert Roesch
+ * @author Norbert Rösch
  * @version 0.1
  * @date November 2016
  * @warning For educational purposes only
  * @copyright No licence restrictions yet
- * @remark last refactored 26.11.2016 by Patrick Huebner <br/>
+ * @remark last refactored 26.11.2016 by Patrick Hübner <br/>
  *         <ul>
  *         <li>adapted to design changes (TransformationStrategy no accepts
  *         arbitrary Coordinate instances instead of GeographicCoordinates)</li>
