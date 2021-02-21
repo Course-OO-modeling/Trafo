@@ -7,7 +7,7 @@ import params.LatParm;
  * @class Soldner
  * @brief Class Soldner extends class Coordinate
  * @author unknown
- * @remark updated header on 2017-11-29 by Markus Müller
+ * @remark updated header on 2017-11-29 by Markus Mï¿½ller
  * @version 0.1
  * @param l0          - reference longitude as double
  * @param b0          - reference latitude as double
@@ -17,7 +17,7 @@ import params.LatParm;
  * @param ellipsoidal - height above ellipsoid as integer
  */
 
-public final class Soldner extends Coordinate {
+public class Soldner extends Coordinate {
 	private double l0;
 	/** < reference longitude */
 	private double b0;

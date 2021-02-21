@@ -11,13 +11,13 @@ import params.LatParm;
  * @remark 2016-12-04 removed unused comments and variables by David Li
  * @remark 2016-12-04 added new method
  *         calculateRotationMatrix(SpatialSimilarityTransformParm) by David Li
- * @remark 2018-01-29 added constructor with ControlParms by Markus Müller
+ * @remark 2018-01-29 added constructor with ControlParms by Markus Mï¿½ller
  * @version 0.1
  * @param x - x-coordinate as double
  * @param y - y-coordinate as double
  * @param z - z-coordinate as double
  */
-public final class XYZCoordinate extends Coordinate {
+public class XYZCoordinate extends Coordinate {
 
 	private double x, y, z;
 
@@ -79,7 +79,7 @@ public final class XYZCoordinate extends Coordinate {
 	 * @author Michael Loos
 	 * @remark renamed the variable bralt to altitude by David Li 2016-12-04
 	 * @remark renamed the variable eps to maxLonLatDistance by David Li 2016-12-04
-	 * @remark formal changes in summer 2000 by Daniel Müller
+	 * @remark formal changes in summer 2000 by Daniel Mï¿½ller
 	 * @param ell - an object of type EllipsoidParms
 	 * @return geo - returns geographic coordinate consisting of the double values
 	 *         latitude, longitude and ellipsoidal height
@@ -123,11 +123,11 @@ public final class XYZCoordinate extends Coordinate {
 	/**
 	 * @brief Function for transforming geographic coordinates to geocentric
 	 *        coordinates
-	 * @author Michael Loos, 1998-06-06 as of a FORTRAN-Subroutine from Hansjörg
+	 * @author Michael Loos, 1998-06-06 as of a FORTRAN-Subroutine from Hansjï¿½rg
 	 *         Kutterer, 1993-08-12
-	 * @remark formal changes in Summer 2000 by Daniel Müller
-	 * @remark Java-Version in February 2003 by Norbert Rösch
-	 * @brief Algorithm as of G. Schmitt, M. Illner and R. Jäger,
+	 * @remark formal changes in Summer 2000 by Daniel Mï¿½ller
+	 * @remark Java-Version in February 2003 by Norbert Rï¿½sch
+	 * @brief Algorithm as of G. Schmitt, M. Illner and R. Jï¿½ger,
 	 *        "Transformationsprobleme", pp. 125-142 in Mitteilungen des DVW
 	 *        Landesvereins BaWue, Sonderheft "GPS und Integration von GPS in
 	 *        bestehende geodaetische Netze", 1991.
