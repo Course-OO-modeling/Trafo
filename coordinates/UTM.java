@@ -2,12 +2,13 @@ package coordinates;
 
 import params.EllipsoidParms;
 import params.LatParm;
+import params.ControlParms;
 
 /**
  * @class UTM
  * @brief Class UTM extends class Gauss
  * @author unknown
- * @remark updated header on 2017-11-29 by Markus Müller
+ * @remark updated header on 2017-11-29 by Markus MÃ¼ller
  * @version 0.1
  * @param east     - easting as double
  * @param north    - Northing as double
@@ -26,11 +27,12 @@ public class UTM extends Gauss {
 	/** < Hemisphere: 0 => North, 1 => South */
 
 	public UTM() {
+		ControlParms controller = ControlParms.getInstance();
 		setAbszisse(0.);
 		setOrdinate(0.);
-		setHeight(0.);
-		east = 651416.090;
-		north = 5408463.070;
+		setHeight(controller.getSourceCoordinateZ());
+		east = controller.getSourceCoordinateX();
+		north = controller.getSourceCoordinateY();
 		setScale(.9996);
 		zone = 32;
 		northhem = true;
