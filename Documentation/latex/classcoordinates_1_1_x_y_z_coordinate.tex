@@ -1,17 +1,17 @@
-\hypertarget{classcoordinates_1_1_x_y_z_coordinate}{}\doxysection{coordinates.\+X\+Y\+Z\+Coordinate Klassenreferenz}
+\hypertarget{classcoordinates_1_1_x_y_z_coordinate}{}\doxysection{coordinates.\+X\+Y\+Z\+Coordinate Class Reference}
 \label{classcoordinates_1_1_x_y_z_coordinate}\index{coordinates.XYZCoordinate@{coordinates.XYZCoordinate}}
 
 
 Class \mbox{\hyperlink{classcoordinates_1_1_x_y_z_coordinate}{X\+Y\+Z\+Coordinate}}.  
 
 
-Klassendiagramm für coordinates.\+X\+Y\+Z\+Coordinate\+:\begin{figure}[H]
+Inheritance diagram for coordinates.\+X\+Y\+Z\+Coordinate\+:\begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[height=2.000000cm]{classcoordinates_1_1_x_y_z_coordinate}
+\includegraphics[height=3.000000cm]{classcoordinates_1_1_x_y_z_coordinate}
 \end{center}
 \end{figure}
-\doxysubsection*{Öffentliche Methoden}
+\doxysubsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
 \mbox{\hyperlink{classcoordinates_1_1_x_y_z_coordinate_a6876892e552ee2a50333c22eef451700}{X\+Y\+Z\+Coordinate}} ()
@@ -40,31 +40,31 @@ double \mbox{\hyperlink{classcoordinates_1_1_x_y_z_coordinate_a1273b99ae80abff51
 \begin{DoxyCompactList}\small\item\em getter method that returns the z-\/coordinate of the particular \mbox{\hyperlink{classcoordinates_1_1_x_y_z_coordinate}{X\+Y\+Z\+Coordinate}} \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{classcoordinates_1_1_x_y_z_coordinate_a0e32806c394f28e22238765c2fde9eee}{setZ}} (double z)
 \begin{DoxyCompactList}\small\item\em setter method that accepts z-\/coordinate for the particular \mbox{\hyperlink{classcoordinates_1_1_x_y_z_coordinate}{X\+Y\+Z\+Coordinate}} \end{DoxyCompactList}\end{DoxyCompactItemize}
-\doxysubsection*{Private Attribute}
+\doxysubsection*{Private Attributes}
 \begin{DoxyCompactItemize}
 \item 
 double \mbox{\hyperlink{classcoordinates_1_1_x_y_z_coordinate_a93f191f410b19d99a71d3c66ef27df29}{x}}
 \end{DoxyCompactItemize}
 
 
-\doxysubsection{Ausführliche Beschreibung}
+\doxysubsection{Detailed Description}
 Class \mbox{\hyperlink{classcoordinates_1_1_x_y_z_coordinate}{X\+Y\+Z\+Coordinate}}. 
 
-\begin{DoxyAuthor}{Autor}
+\begin{DoxyAuthor}{Author}
 David Li 
 \end{DoxyAuthor}
-\begin{DoxyRemark}{Bemerkungen}
+\begin{DoxyRemark}{Remarks}
 2016-\/12-\/04 removed unused comments and variables by David Li 
 
 2016-\/12-\/04 added new method calculate\+Rotation\+Matrix(\+Spatial\+Similarity\+Transform\+Parm) by David Li 
 
-2018-\/01-\/29 added constructor with Control\+Parms by Markus Mueller 
+2018-\/01-\/29 added constructor with Control\+Parms by Markus Mï¿½ller 
 \end{DoxyRemark}
 \begin{DoxyVersion}{Version}
 0.\+1 
 \end{DoxyVersion}
 
-\begin{DoxyParams}{Parameter}
+\begin{DoxyParams}{Parameters}
 {\em x} & -\/ x-\/coordinate as double \\
 \hline
 {\em y} & -\/ y-\/coordinate as double \\
@@ -74,7 +74,7 @@ David Li
 \end{DoxyParams}
 
 
-\doxysubsection{Beschreibung der Konstruktoren und Destruktoren}
+\doxysubsection{Constructor \& Destructor Documentation}
 \mbox{\Hypertarget{classcoordinates_1_1_x_y_z_coordinate_a6876892e552ee2a50333c22eef451700}\label{classcoordinates_1_1_x_y_z_coordinate_a6876892e552ee2a50333c22eef451700}} 
 \index{coordinates.XYZCoordinate@{coordinates.XYZCoordinate}!XYZCoordinate@{XYZCoordinate}}
 \index{XYZCoordinate@{XYZCoordinate}!coordinates.XYZCoordinate@{coordinates.XYZCoordinate}}
@@ -95,13 +95,13 @@ main constructor to set the coordinates
 
 Constructor for generating a geocentric\+Coordinate. 
 
-\begin{DoxyRemark}{Bemerkungen}
+\begin{DoxyRemark}{Remarks}
 parameters changed to x-\/, y-\/ and z\+Axis (were too inexpressive x1, x2 and x3) by unknown 
 
 2018-\/01-\/25 renamed parameters to x\+Value, y\+Value, z\+Value (were x\+Axis, y\+Axis, z\+Axis before) by Markus MÃ¼ller 
 \end{DoxyRemark}
 
-\begin{DoxyParams}{Parameter}
+\begin{DoxyParams}{Parameters}
 {\em x\+Value} & -\/ x component of X\+YZ coordinate \\
 \hline
 {\em y\+Value} & -\/ y component of X\+YZ coordinate \\
@@ -117,7 +117,7 @@ parameters changed to x-\/, y-\/ and z\+Axis (were too inexpressive x1, x2 and x
 
 
 
-\doxysubsection{Dokumentation der Elementfunktionen}
+\doxysubsection{Member Function Documentation}
 \mbox{\Hypertarget{classcoordinates_1_1_x_y_z_coordinate_add6f4e104b8f7c0dfc2f7d63594abe0d}\label{classcoordinates_1_1_x_y_z_coordinate_add6f4e104b8f7c0dfc2f7d63594abe0d}} 
 \index{coordinates.XYZCoordinate@{coordinates.XYZCoordinate}!getAsGeographicInterface@{getAsGeographicInterface}}
 \index{getAsGeographicInterface@{getAsGeographicInterface}!coordinates.XYZCoordinate@{coordinates.XYZCoordinate}}
@@ -132,27 +132,27 @@ Implemented by Michael Loos on 16.\+06.\+1998, based on a F\+O\+R\+T\+R\+A\+N-\/
 
 =$>$ Needs the function \textquotesingle{}Constant\textquotesingle{} from \mbox{\hyperlink{_lat_parm_8java}{Lat\+Parm.\+java}}! 
 
-\begin{DoxyAuthor}{Autor}
+\begin{DoxyAuthor}{Author}
 Michael Loos 
 \end{DoxyAuthor}
-\begin{DoxyRemark}{Bemerkungen}
+\begin{DoxyRemark}{Remarks}
 renamed the variable bralt to altitude by David Li 2016-\/12-\/04 
 
 renamed the variable eps to max\+Lon\+Lat\+Distance by David Li 2016-\/12-\/04 
 
-formal changes in summer 2000 by Daniel Mueller 
+formal changes in summer 2000 by Daniel Mï¿½ller 
 \end{DoxyRemark}
 
-\begin{DoxyParams}{Parameter}
+\begin{DoxyParams}{Parameters}
 {\em ell} & -\/ an object of type Ellipsoid\+Parms \\
 \hline
 \end{DoxyParams}
-\begin{DoxyReturn}{Rückgabe}
+\begin{DoxyReturn}{Returns}
 geo -\/ returns geographic coordinate consisting of the double values latitude, longitude and ellipsoidal height 
 \end{DoxyReturn}
 
 
-Erneute Implementation von \mbox{\hyperlink{classcoordinates_1_1_coordinate_a97342479914743d999cef4b38f9124ed}{coordinates.\+Coordinate}}.
+Reimplemented from \mbox{\hyperlink{classcoordinates_1_1_coordinate_a97342479914743d999cef4b38f9124ed}{coordinates.\+Coordinate}}.
 
 \mbox{\Hypertarget{classcoordinates_1_1_x_y_z_coordinate_a565677c6fc44b6241255d0733e72e048}\label{classcoordinates_1_1_x_y_z_coordinate_a565677c6fc44b6241255d0733e72e048}} 
 \index{coordinates.XYZCoordinate@{coordinates.XYZCoordinate}!getAsTargetCoordinate@{getAsTargetCoordinate}}
@@ -164,17 +164,17 @@ Erneute Implementation von \mbox{\hyperlink{classcoordinates_1_1_coordinate_a973
 
 Function for transforming geographic coordinates to geocentric coordinates. 
 
-\begin{DoxyAuthor}{Autor}
-Michael Loos, 1998-\/06-\/06 as of a F\+O\+R\+T\+R\+A\+N-\/\+Subroutine from Hansjoerg Kutterer, 1993-\/08-\/12 
+\begin{DoxyAuthor}{Author}
+Michael Loos, 1998-\/06-\/06 as of a F\+O\+R\+T\+R\+A\+N-\/\+Subroutine from Hansjï¿½rg Kutterer, 1993-\/08-\/12 
 \end{DoxyAuthor}
-\begin{DoxyRemark}{Bemerkungen}
-formal changes in Summer 2000 by Daniel Mueller 
+\begin{DoxyRemark}{Remarks}
+formal changes in Summer 2000 by Daniel Mï¿½ller 
 
-Java-\/\+Version in February 2003 by Norbert Roesch
+Java-\/\+Version in February 2003 by Norbert Rï¿½sch
 \end{DoxyRemark}
-Algorithm as of G. Schmitt, M. Illner and R. Jaeger, \char`\"{}\+Transformationsprobleme\char`\"{}, pp. 125-\/142 in Mitteilungen des D\+VW Landesvereins Ba\+Wue, Sonderheft \char`\"{}\+G\+P\+S und Integration
-von G\+P\+S in bestehende geodaetische Netze\char`\"{}, 1991. 
-\begin{DoxyParams}{Parameter}
+Algorithm as of G. Schmitt, M. Illner and R. Jï¿½ger, \char`\"{}\+Transformationsprobleme\char`\"{}, pp. 125-\/142 in Mitteilungen des D\+VW Landesvereins Ba\+Wue, Sonderheft \char`\"{}\+G\+P\+S und Integration von G\+P\+S in
+       bestehende geodaetische Netze\char`\"{}, 1991. 
+\begin{DoxyParams}{Parameters}
 {\em ell} & -\/ an object of type Ellipsoid\+Parms that represents ellipsoidal parameters \\
 \hline
 {\em geocoord} & -\/ an object of type \mbox{\hyperlink{classcoordinates_1_1_geographic_coordinate}{Geographic\+Coordinate}} that represents the geographic coordinate to transform \\
@@ -182,7 +182,7 @@ von G\+P\+S in bestehende geodaetische Netze\char`\"{}, 1991.
 \end{DoxyParams}
 
 
-Erneute Implementation von \mbox{\hyperlink{classcoordinates_1_1_coordinate_a998872a624f0394829f4c405f7a6f803}{coordinates.\+Coordinate}}.
+Reimplemented from \mbox{\hyperlink{classcoordinates_1_1_coordinate_a998872a624f0394829f4c405f7a6f803}{coordinates.\+Coordinate}}.
 
 \mbox{\Hypertarget{classcoordinates_1_1_x_y_z_coordinate_ab9055f02276f40c7c9bd0929544b31d4}\label{classcoordinates_1_1_x_y_z_coordinate_ab9055f02276f40c7c9bd0929544b31d4}} 
 \index{coordinates.XYZCoordinate@{coordinates.XYZCoordinate}!getX@{getX}}
@@ -194,7 +194,7 @@ Erneute Implementation von \mbox{\hyperlink{classcoordinates_1_1_coordinate_a998
 
 getter method that returns the x-\/coordinate of the particular \mbox{\hyperlink{classcoordinates_1_1_x_y_z_coordinate}{X\+Y\+Z\+Coordinate}} 
 
-\begin{DoxyReturn}{Rückgabe}
+\begin{DoxyReturn}{Returns}
 x -\/ returns the x-\/coordinate value of the particular \mbox{\hyperlink{classcoordinates_1_1_coordinate}{Coordinate}} point as double 
 \end{DoxyReturn}
 \mbox{\Hypertarget{classcoordinates_1_1_x_y_z_coordinate_a5b1614c8fb0680235ff866695d56bfd0}\label{classcoordinates_1_1_x_y_z_coordinate_a5b1614c8fb0680235ff866695d56bfd0}} 
@@ -207,7 +207,7 @@ x -\/ returns the x-\/coordinate value of the particular \mbox{\hyperlink{classc
 
 getter method that returns the y-\/coordinate of the particular \mbox{\hyperlink{classcoordinates_1_1_x_y_z_coordinate}{X\+Y\+Z\+Coordinate}} 
 
-\begin{DoxyReturn}{Rückgabe}
+\begin{DoxyReturn}{Returns}
 y -\/ returns the y-\/coordinate value of the particular \mbox{\hyperlink{classcoordinates_1_1_coordinate}{Coordinate}} point as double 
 \end{DoxyReturn}
 \mbox{\Hypertarget{classcoordinates_1_1_x_y_z_coordinate_a1273b99ae80abff51a75b6ced7f3e10f}\label{classcoordinates_1_1_x_y_z_coordinate_a1273b99ae80abff51a75b6ced7f3e10f}} 
@@ -220,7 +220,7 @@ y -\/ returns the y-\/coordinate value of the particular \mbox{\hyperlink{classc
 
 getter method that returns the z-\/coordinate of the particular \mbox{\hyperlink{classcoordinates_1_1_x_y_z_coordinate}{X\+Y\+Z\+Coordinate}} 
 
-\begin{DoxyReturn}{Rückgabe}
+\begin{DoxyReturn}{Returns}
 z -\/ returns the z-\/coordinate value of the particular \mbox{\hyperlink{classcoordinates_1_1_coordinate}{Coordinate}} point as double 
 \end{DoxyReturn}
 \mbox{\Hypertarget{classcoordinates_1_1_x_y_z_coordinate_a88847e65ce05894be77bd2735d15a4ca}\label{classcoordinates_1_1_x_y_z_coordinate_a88847e65ce05894be77bd2735d15a4ca}} 
@@ -241,7 +241,7 @@ abstract methnd that allows the concrete \mbox{\hyperlink{classcoordinates_1_1_c
 
 
 
-Erneute Implementation von \mbox{\hyperlink{classcoordinates_1_1_coordinate_af2882da7117d4a312faf707df681042c}{coordinates.\+Coordinate}}.
+Reimplemented from \mbox{\hyperlink{classcoordinates_1_1_coordinate_af2882da7117d4a312faf707df681042c}{coordinates.\+Coordinate}}.
 
 \mbox{\Hypertarget{classcoordinates_1_1_x_y_z_coordinate_a38d36c730bd53179a0188d6d069f6400}\label{classcoordinates_1_1_x_y_z_coordinate_a38d36c730bd53179a0188d6d069f6400}} 
 \index{coordinates.XYZCoordinate@{coordinates.XYZCoordinate}!setX@{setX}}
@@ -254,7 +254,7 @@ Erneute Implementation von \mbox{\hyperlink{classcoordinates_1_1_coordinate_af28
 setter method that accepts x-\/coordinate for the particular \mbox{\hyperlink{classcoordinates_1_1_x_y_z_coordinate}{X\+Y\+Z\+Coordinate}} 
 
 
-\begin{DoxyParams}{Parameter}
+\begin{DoxyParams}{Parameters}
 {\em x} & -\/ sets a double representing the x-\/coordinate value for the particular \mbox{\hyperlink{classcoordinates_1_1_x_y_z_coordinate}{X\+Y\+Z\+Coordinate}} \\
 \hline
 \end{DoxyParams}
@@ -269,7 +269,7 @@ setter method that accepts x-\/coordinate for the particular \mbox{\hyperlink{cl
 setter method that accepts y-\/coordinate for the particular \mbox{\hyperlink{classcoordinates_1_1_x_y_z_coordinate}{X\+Y\+Z\+Coordinate}} 
 
 
-\begin{DoxyParams}{Parameter}
+\begin{DoxyParams}{Parameters}
 {\em y} & -\/ sets a double representing the y-\/coordinate value for the particular \mbox{\hyperlink{classcoordinates_1_1_x_y_z_coordinate}{X\+Y\+Z\+Coordinate}} \\
 \hline
 \end{DoxyParams}
@@ -284,13 +284,13 @@ setter method that accepts y-\/coordinate for the particular \mbox{\hyperlink{cl
 setter method that accepts z-\/coordinate for the particular \mbox{\hyperlink{classcoordinates_1_1_x_y_z_coordinate}{X\+Y\+Z\+Coordinate}} 
 
 
-\begin{DoxyParams}{Parameter}
+\begin{DoxyParams}{Parameters}
 {\em z} & -\/ sets a double representing the z-\/coordinate value for the particular \mbox{\hyperlink{classcoordinates_1_1_x_y_z_coordinate}{X\+Y\+Z\+Coordinate}} \\
 \hline
 \end{DoxyParams}
 
 
-\doxysubsection{Dokumentation der Datenelemente}
+\doxysubsection{Member Data Documentation}
 \mbox{\Hypertarget{classcoordinates_1_1_x_y_z_coordinate_a93f191f410b19d99a71d3c66ef27df29}\label{classcoordinates_1_1_x_y_z_coordinate_a93f191f410b19d99a71d3c66ef27df29}} 
 \index{coordinates.XYZCoordinate@{coordinates.XYZCoordinate}!x@{x}}
 \index{x@{x}!coordinates.XYZCoordinate@{coordinates.XYZCoordinate}}
@@ -299,6 +299,6 @@ setter method that accepts z-\/coordinate for the particular \mbox{\hyperlink{cl
 
 
 
-Die Dokumentation für diese Klasse wurde erzeugt aufgrund der Datei\+:\begin{DoxyCompactItemize}
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 
 coordinates/\mbox{\hyperlink{_x_y_z_coordinate_8java}{X\+Y\+Z\+Coordinate.\+java}}\end{DoxyCompactItemize}

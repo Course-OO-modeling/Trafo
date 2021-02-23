@@ -35,15 +35,9 @@
   \endgroup%
 }
 
-\newcommand{\DoxyHorRuler}[1]{%
+\newcommand{\DoxyHorRuler}{%
   \setlength{\parskip}{0ex plus 0ex minus 0ex}%
-  \ifthenelse{#1=0}%
-  {%
-    \hrule%
-  }%
-  {%
-    \hrulefilll%
-  }%
+  \hrule%
 }
 \newcommand{\DoxyLabelFont}{}
 \newcommand{\entrylabel}[1]{%
@@ -94,7 +88,7 @@
   \end{alltt}%
   \normalsize%
 }
-% Necessary for redefining not defined characters, i.e. "Replacement Character" in tex output.
+% Necessary for redefining not defined charcaters, i.e. "Replacement Character" in tex output.
 \newlength{\CodeWidthChar}
 \newlength{\CodeHeightChar}
 \settowidth{\CodeWidthChar}{?}

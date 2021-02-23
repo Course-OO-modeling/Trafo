@@ -5,7 +5,7 @@
 %%For: 
 %Magnification: 1.00
 %%Orientation: Portrait
-%%BoundingBox: 0 0 500 233.918129
+%%BoundingBox: 0 0 500 114.942529
 %%Pages: 0
 %%BeginSetup
 %%EndSetup
@@ -19,13 +19,13 @@
 /marginwidth 10 def
 /distx 20 def
 /disty 40 def
-/boundaspect 2.137500 def  % aspect ratio of the BoundingBox (width/height)
+/boundaspect 4.350000 def  % aspect ratio of the BoundingBox (width/height)
 /boundx 500 def
 /boundy boundx boundaspect div def
 /xspacing 0 def
 /yspacing 0 def
 /rows 4 def
-/cols 2 def
+/cols 3 def
 /scalefactor 0 def
 /boxfont /Times-Roman findfont fontheight scalefont def
 
@@ -177,7 +177,9 @@ boxfont setfont
 (coordinates.Coordinate) cw
 (coordinates.GaussKrueger) cw
 (coordinates.UTM) cw
+(test.workflow.GaussKruegerMockTest) cw
 (test.coordinates.UTMTest) cw
+(test.workflow.UTMMockTest) cw
 /boxwidth boxwidth marginwidth 2 mul add def
 /xspacing boxwidth distx add def
 /yspacing boxheight disty add def
@@ -189,27 +191,37 @@ boundx scalefactor div boundy scalefactor div scale
 
 % ----- classes -----
 
- (coordinates.Gauss) 0.500000 2.000000 box
- (coordinates.Coordinate) 0.500000 3.000000 box
+ (coordinates.Gauss) 0.750000 2.000000 box
+ (coordinates.Coordinate) 0.750000 3.000000 box
  (coordinates.GaussKrueger) 0.000000 1.000000 box
- (coordinates.UTM) 1.000000 1.000000 box
+ (coordinates.UTM) 1.500000 1.000000 box
+ (test.workflow.GaussKruegerMockTest) 0.000000 0.000000 box
  (test.coordinates.UTMTest) 1.000000 0.000000 box
+ (test.workflow.UTMMockTest) 2.000000 0.000000 box
 
 % ----- relations -----
 
 solid
-0 0.500000 2.000000 out
+0 0.750000 2.000000 out
 solid
-1 0.500000 3.000000 in
+1 0.750000 3.000000 in
 solid
-1 0.500000 1.250000 out
+1 0.750000 1.250000 out
 solid
-0.000000 1.000000 2.000000 conn
+0.000000 1.500000 2.000000 conn
 solid
 0 0.000000 1.750000 in
 solid
-0 1.000000 1.750000 in
+1 0.000000 0.250000 out
 solid
-1 1.000000 0.250000 out
+0 1.500000 1.750000 in
+solid
+1 1.500000 0.250000 out
+solid
+1.000000 2.000000 1.000000 conn
+solid
+0 0.000000 0.750000 in
 solid
 0 1.000000 0.750000 in
+solid
+0 2.000000 0.750000 in

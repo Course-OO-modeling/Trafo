@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['kindofhoehe_781',['kindofhoehe',['../classparams_1_1_control_parms.html#a639927766fce23759b47659a9abf0e6f',1,'params::ControlParms']]],
-  ['kindoftrafo_782',['kindoftrafo',['../classparams_1_1_control_parms.html#afcfdabbc39158e0ae25e47d76a6dc2a4',1,'params::ControlParms']]]
+  ['kindofhoehe_817',['kindofhoehe',['../classparams_1_1_control_parms.html#a639927766fce23759b47659a9abf0e6f',1,'params::ControlParms']]],
+  ['kindoftrafo_818',['kindoftrafo',['../classparams_1_1_control_parms.html#afcfdabbc39158e0ae25e47d76a6dc2a4',1,'params::ControlParms']]]
 ];

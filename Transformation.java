@@ -11,7 +11,7 @@ import datumstrategy.GetAppropriateTransformationAlgorithm;
  * @mainpage Coordinate Transformation
  * @note For educational purposes only
  * @copyright No licence restrictions yet
- * @version 0.1
+ * @version 0.2
  * <img src="Implementation.png" alt="Screenshot">
  */
 
@@ -19,8 +19,7 @@ import datumstrategy.GetAppropriateTransformationAlgorithm;
  * @class Transformation
  * @brief Main Transformatin class
  * @author Norbert Rösch
- * @version 0.1
- * @date November 2016
+ * @date February 2021
  * @warning For educational purposes only
  * @copyright No licence restrictions yet
  * @remark last refactored 26.11.2016 by Patrick Hübner <br/>

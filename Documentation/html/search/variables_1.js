@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['b0_736',['b0',['../classcoordinates_1_1_soldner.html#a489fa7e9e4c0c09e502bbbf2fb7ad689',1,'coordinates::Soldner']]]
+  ['b0_772',['b0',['../classcoordinates_1_1_soldner.html#a489fa7e9e4c0c09e502bbbf2fb7ad689',1,'coordinates::Soldner']]]
 ];
