@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_e3c07e86621214d96b2f7c39cbb4e1c9" kind="dir">
+    <compoundname>coordinates</compoundname>
+    <innerfile refid="_coordinate_8java">Coordinate.java</innerfile>
+    <innerfile refid="_gauss_8java">Gauss.java</innerfile>
+    <innerfile refid="_gauss_krueger_8java">GaussKrueger.java</innerfile>
+    <innerfile refid="_geographic_coordinate_8java">GeographicCoordinate.java</innerfile>
+    <innerfile refid="_geographic_coordinate_interface_8java">GeographicCoordinateInterface.java</innerfile>
+    <innerfile refid="_get_appropriate_coordinate_8java">GetAppropriateCoordinate.java</innerfile>
+    <innerfile refid="_soldner_8java">Soldner.java</innerfile>
+    <innerfile refid="_u_t_m_8java">UTM.java</innerfile>
+    <innerfile refid="_x_y_z_coordinate_8java">XYZCoordinate.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="coordinates/"/>
+  </compounddef>
+</doxygen>

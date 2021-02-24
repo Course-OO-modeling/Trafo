@@ -9,7 +9,7 @@ import params.LatParm;
  * @class Gauss
  * @brief Class Gauss extends class Coordinate
  * @author unknown
- * @remark updated header on 2017-11-29 by Markus Müller
+ * @remark updated header on 2017-11-29 by Markus MÃ¼ller
  * @version 0.1
  * @param abszisse    - x-value as double
  * @param ordinate    - y-value as double
@@ -38,7 +38,7 @@ public abstract class Gauss extends Coordinate {
 	/**
 	 * @brief CalculateAbszisseOrdinate calculates the abscissa and ordinate
 	 * @author unknown
-	 * @remark updated header 29.11.2017 by Markus Müller
+	 * @remark updated header 29.11.2017 by Markus Mï¿½ller
 	 * @param cdl     - a double
 	 * @param hnull   - a double
 	 * @param latparm - a LatParm object

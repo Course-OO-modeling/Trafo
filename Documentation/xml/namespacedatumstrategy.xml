@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="namespacedatumstrategy" kind="namespace" language="Java">
     <compoundname>datumstrategy</compoundname>
     <innerclass refid="classdatumstrategy_1_1_cardans_transformation" prot="public">datumstrategy::CardansTransformation</innerclass>
@@ -15,6 +15,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="datumstrategy/CardansTransformation.java" line="1" column="19"/>
+    <location file="datumstrategy/CardansTransformation.java" line="1" column="16"/>
   </compounddef>
 </doxygen>

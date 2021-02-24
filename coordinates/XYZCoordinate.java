@@ -11,7 +11,7 @@ import params.LatParm;
  * @remark 2016-12-04 removed unused comments and variables by David Li
  * @remark 2016-12-04 added new method
  *         calculateRotationMatrix(SpatialSimilarityTransformParm) by David Li
- * @remark 2018-01-29 added constructor with ControlParms by Markus M�ller
+ * @remark 2018-01-29 added constructor with ControlParms by Markus Müller
  * @version 0.1
  * @param x - x-coordinate as double
  * @param y - y-coordinate as double

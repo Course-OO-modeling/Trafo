@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="classparams_1_1_control_parms" kind="class" language="Java" prot="public">
     <compoundname>params::ControlParms</compoundname>
     <basecompoundref refid="classparams_1_1_ellipsoid_parms" prot="public" virt="non-virtual">params.EllipsoidParms</basecompoundref>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="19" column="16" bodyfile="params/ControlParms.java" bodystart="19" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="18" column="16" bodyfile="params/ControlParms.java" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_control_parms_1a3af78a8732b0695526059f88e10d7e9e" prot="private" static="no" mutable="no">
         <type>long</type>
@@ -28,59 +28,59 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="20" column="18" bodyfile="params/ControlParms.java" bodystart="20" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="19" column="14" bodyfile="params/ControlParms.java" bodystart="19" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classparams_1_1_control_parms_1af020acb1b072ddea3560e25cac18ac3f" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1a586f588296ba883e9316f08bcdde40ab" prot="private" static="no" mutable="no">
         <type>String</type>
-        <definition>String params.ControlParms.fromprojection</definition>
+        <definition>String params.ControlParms.fromProjection</definition>
         <argsstring></argsstring>
-        <name>fromprojection</name>
+        <name>fromProjection</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="21" column="20" bodyfile="params/ControlParms.java" bodystart="21" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="20" column="16" bodyfile="params/ControlParms.java" bodystart="20" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classparams_1_1_control_parms_1aad346084aae4e796320eae7c950ce914" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1a8af44789f1f15b00296db9f893edd855" prot="private" static="no" mutable="no">
         <type>String</type>
-        <definition>String params.ControlParms.fromdatum</definition>
+        <definition>String params.ControlParms.fromDatum</definition>
         <argsstring></argsstring>
-        <name>fromdatum</name>
+        <name>fromDatum</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="22" column="20" bodyfile="params/ControlParms.java" bodystart="22" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="21" column="16" bodyfile="params/ControlParms.java" bodystart="21" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classparams_1_1_control_parms_1ae0a950871fef34d367d8a70e80fc0fd0" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1a3ea1fec7924bcb1eb7bd17903c12b43f" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double params.ControlParms.fromawert</definition>
+        <definition>double params.ControlParms.fromSemiMajorAxis</definition>
         <argsstring></argsstring>
-        <name>fromawert</name>
+        <name>fromSemiMajorAxis</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="23" column="20" bodyfile="params/ControlParms.java" bodystart="23" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="22" column="16" bodyfile="params/ControlParms.java" bodystart="22" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classparams_1_1_control_parms_1ad4f4af5989abca7c5616feb442c2e7c0" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1a791cdab060332dfb8ea529fcb4a7d472" prot="private" static="no" mutable="no">
         <type>double</type>
-        <definition>double params.ControlParms.frombwert</definition>
+        <definition>double params.ControlParms.fromSemiMinorAxis</definition>
         <argsstring></argsstring>
-        <name>frombwert</name>
+        <name>fromSemiMinorAxis</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="24" column="20" bodyfile="params/ControlParms.java" bodystart="24" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="23" column="16" bodyfile="params/ControlParms.java" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_control_parms_1a2688293d730d637a973567b209289996" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -90,11 +90,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Input coordinate X </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="25" column="20" bodyfile="params/ControlParms.java" bodystart="25" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="24" column="16" bodyfile="params/ControlParms.java" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_control_parms_1a3e2c396bf201d9c84f4efdf8dfef51d1" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -104,11 +103,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Input coordinate Y </para>
+<para>&lt; Input coordinate X </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="26" column="20" bodyfile="params/ControlParms.java" bodystart="26" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="26" column="16" bodyfile="params/ControlParms.java" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_control_parms_1ae3c3b4ee3fb2bef870380e13e573aec2" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -118,11 +117,25 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Input coordinate Z </para>
+<para>&lt; Input coordinate Y </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="27" column="20" bodyfile="params/ControlParms.java" bodystart="27" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="28" column="16" bodyfile="params/ControlParms.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classparams_1_1_control_parms_1a8dbccf6a1948ab1c1c070e61c2f8e56e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int params.ControlParms.zone</definition>
+        <argsstring></argsstring>
+        <name>zone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; Input coordinate Z </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="30" column="13" bodyfile="params/ControlParms.java" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_control_parms_1ad4c562a7ccfd2c0909af99b2555f7c12" prot="private" static="no" mutable="no">
         <type>String</type>
@@ -135,7 +148,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="28" column="20" bodyfile="params/ControlParms.java" bodystart="28" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="31" column="16" bodyfile="params/ControlParms.java" bodystart="31" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_control_parms_1a930769d55920443b555a18d86f79a410" prot="private" static="no" mutable="no">
         <type>String</type>
@@ -148,7 +161,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="29" column="20" bodyfile="params/ControlParms.java" bodystart="29" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="32" column="16" bodyfile="params/ControlParms.java" bodystart="32" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_control_parms_1a15c11042320f3bdcc8da8d2cc885b975" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -161,7 +174,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="30" column="20" bodyfile="params/ControlParms.java" bodystart="30" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="33" column="16" bodyfile="params/ControlParms.java" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_control_parms_1a1d7775bde246e74d651d87ca38e247ba" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -174,7 +187,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="31" column="20" bodyfile="params/ControlParms.java" bodystart="31" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="34" column="16" bodyfile="params/ControlParms.java" bodystart="34" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_control_parms_1a863cdfdf5647ef0c8f9864cae1dfc753" prot="private" static="no" mutable="no">
         <type>boolean</type>
@@ -184,11 +197,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>True/False means with/without datum changement </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="32" column="21" bodyfile="params/ControlParms.java" bodystart="32" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="35" column="17" bodyfile="params/ControlParms.java" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_control_parms_1a1b7d4bdc68c2531026174a04ad715cbf" prot="private" static="no" mutable="no">
         <type>String</type>
@@ -198,11 +210,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Hemisphere </para>
+<para>&lt; True/False means with/without datum changement </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="33" column="20" bodyfile="params/ControlParms.java" bodystart="33" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="37" column="16" bodyfile="params/ControlParms.java" bodystart="37" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_control_parms_1a639927766fce23759b47659a9abf0e6f" prot="private" static="no" mutable="no">
         <type>String</type>
@@ -212,11 +224,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Height calculation </para>
+<para>&lt; Hemisphere </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="34" column="20" bodyfile="params/ControlParms.java" bodystart="34" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="39" column="16" bodyfile="params/ControlParms.java" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_control_parms_1afcfdabbc39158e0ae25e47d76a6dc2a4" prot="private" static="no" mutable="no">
         <type>String</type>
@@ -226,11 +238,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Kind of transformation (e.g. 3D similarity transformation) </para>
+<para>&lt; Height calculation </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="35" column="20" bodyfile="params/ControlParms.java" bodystart="35" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="41" column="16" bodyfile="params/ControlParms.java" bodystart="41" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_control_parms_1ac33290885ff9f6559cb4864a5fbaedb0" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -240,11 +252,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Translation X (For Molodenskii und 3D similarity transformation) </para>
+<para>&lt; Kind of transformation (e.g. 3D similarity transformation) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="36" column="20" bodyfile="params/ControlParms.java" bodystart="36" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="43" column="16" bodyfile="params/ControlParms.java" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_control_parms_1ab6b652d7f1f9ac1dba4a12c2cf2696cb" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -254,11 +266,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Translation Y (For Molodenskii und 3D similarity transformation) </para>
+<para>&lt; Translation X (For Molodenskii und 3D similarity transformation) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="37" column="20" bodyfile="params/ControlParms.java" bodystart="37" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="45" column="16" bodyfile="params/ControlParms.java" bodystart="45" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_control_parms_1aa3bc4f90d701204615fc84404b5c47f0" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -268,11 +280,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Translation Z (For Molodenskii und 3D similarity transformation) </para>
+<para>&lt; Translation Y (For Molodenskii und 3D similarity transformation) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="38" column="20" bodyfile="params/ControlParms.java" bodystart="38" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="47" column="16" bodyfile="params/ControlParms.java" bodystart="47" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_control_parms_1af7874df2feb2be8ca0f3a7f1250ef7fd" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -282,11 +294,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Difference in large semi axis (For Molodenskii-Transformation) </para>
+<para>&lt; Translation Z (For Molodenskii und 3D similarity transformation) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="39" column="20" bodyfile="params/ControlParms.java" bodystart="39" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="49" column="16" bodyfile="params/ControlParms.java" bodystart="49" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_control_parms_1a3dfb56045add56099f7321b470f5d9fe" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -296,11 +308,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Difference flattening (For Molodenskii-Transformation) </para>
+<para>&lt; Difference in large semi axis (For Molodenskii-Transformation) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="40" column="20" bodyfile="params/ControlParms.java" bodystart="40" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="51" column="16" bodyfile="params/ControlParms.java" bodystart="51" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_control_parms_1a08c3a014edb82ee19a2b046a07efbac5" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -310,11 +322,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Rotation X (For 3D similarity transformation) </para>
+<para>&lt; Difference flattening (For Molodenskii-Transformation) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="41" column="20" bodyfile="params/ControlParms.java" bodystart="41" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="53" column="16" bodyfile="params/ControlParms.java" bodystart="53" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_control_parms_1a35defe66635bc8e2aaa05c146dc5e4ac" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -324,11 +336,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Rotation Y (For 3D similarity transformation) </para>
+<para>&lt; Rotation X (For 3D similarity transformation) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="42" column="20" bodyfile="params/ControlParms.java" bodystart="42" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="55" column="16" bodyfile="params/ControlParms.java" bodystart="55" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_control_parms_1ad948128a938b351f23b1d7aee4ae1cb3" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -338,11 +350,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Rotation Z (For 3D similarity transformation) </para>
+<para>&lt; Rotation Y (For 3D similarity transformation) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="43" column="20" bodyfile="params/ControlParms.java" bodystart="43" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="57" column="16" bodyfile="params/ControlParms.java" bodystart="57" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_control_parms_1a0501dbc13102eff28a1e15e005e73c26" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -352,11 +364,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>first Rotation about current Z (For Eulerstransformation) </para>
+<para>&lt; Rotation Z (For 3D similarity transformation) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="45" column="20" bodyfile="params/ControlParms.java" bodystart="45" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="60" column="16" bodyfile="params/ControlParms.java" bodystart="60" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_control_parms_1af114ca71c4fdd82a3f056807591efdb0" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -366,11 +378,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>second Rotation about current X (For Eulerstransformation) </para>
+<para>&lt; first Rotation about current Z (For Eulerstransformation) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="46" column="20" bodyfile="params/ControlParms.java" bodystart="46" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="62" column="16" bodyfile="params/ControlParms.java" bodystart="62" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_control_parms_1a60fdffbd1fadf6b1a7a0372939337131" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -380,11 +392,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>third Rotation about current Z (For Eulerstransformation) </para>
+<para>&lt; second Rotation about current X (For Eulerstransformation) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="47" column="20" bodyfile="params/ControlParms.java" bodystart="47" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="64" column="16" bodyfile="params/ControlParms.java" bodystart="64" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_control_parms_1a7d7e220c8bacb270d2f0760b4230df04" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -394,11 +406,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Scale (For 3D similarity transformation) </para>
+<para>&lt; third Rotation about current Z (For Eulerstransformation) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="49" column="20" bodyfile="params/ControlParms.java" bodystart="49" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="67" column="16" bodyfile="params/ControlParms.java" bodystart="67" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_control_parms_1aeaf9b43a90b6126041788042b28951be" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -408,11 +420,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Currently not used </para>
+<para>&lt; Scale (For 3D similarity transformation) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="50" column="20" bodyfile="params/ControlParms.java" bodystart="50" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="69" column="16" bodyfile="params/ControlParms.java" bodystart="69" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_control_parms_1a90bb6214dd6ee9d4f02aa7cf58d915bb" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -422,11 +434,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Currently not used </para>
+<para>&lt; Currently not used </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="51" column="20" bodyfile="params/ControlParms.java" bodystart="51" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="71" column="16" bodyfile="params/ControlParms.java" bodystart="71" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_control_parms_1a08120c4eed68ad7702c1916abaaa16db" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -436,11 +448,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Currently not used </para>
+<para>&lt; Currently not used </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="52" column="20" bodyfile="params/ControlParms.java" bodystart="52" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="73" column="16" bodyfile="params/ControlParms.java" bodystart="73" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_control_parms_1a8f7f249d73a5315f42f96ad5e844714e" prot="private" static="no" mutable="no">
         <type>String</type>
@@ -450,10 +462,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>&lt; Currently not used </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="53" column="20" bodyfile="params/ControlParms.java" bodystart="53" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="75" column="16" bodyfile="params/ControlParms.java" bodystart="75" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_control_parms_1a46c822bd308f3cf5593519a9b1421a07" prot="private" static="no" mutable="no">
         <type>String</type>
@@ -466,7 +479,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="54" column="20" bodyfile="params/ControlParms.java" bodystart="54" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="76" column="16" bodyfile="params/ControlParms.java" bodystart="76" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_control_parms_1a289a0ed91250fd5f28210158775de95c" prot="private" static="no" mutable="no">
         <type>String</type>
@@ -479,7 +492,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="55" column="20" bodyfile="params/ControlParms.java" bodystart="55" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="77" column="16" bodyfile="params/ControlParms.java" bodystart="77" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_control_parms_1a8ede5bb2ec22052831dcac27853ef668" prot="private" static="no" mutable="no">
         <type>String</type>
@@ -492,7 +505,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="56" column="20" bodyfile="params/ControlParms.java" bodystart="56" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="78" column="16" bodyfile="params/ControlParms.java" bodystart="78" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_control_parms_1a614f382326dedabe279d8c79abf6b507" prot="private" static="no" mutable="no">
         <type>String</type>
@@ -505,7 +518,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="57" column="20" bodyfile="params/ControlParms.java" bodystart="57" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="79" column="16" bodyfile="params/ControlParms.java" bodystart="79" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_control_parms_1a5796bbd6b3b407130074d89b85c183d6" prot="private" static="no" mutable="no">
         <type>String</type>
@@ -518,7 +531,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="58" column="20" bodyfile="params/ControlParms.java" bodystart="58" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="80" column="16" bodyfile="params/ControlParms.java" bodystart="80" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_control_parms_1a780c529e507f496ccb69f6b9b3ddce62" prot="private" static="no" mutable="no">
         <type>String</type>
@@ -531,7 +544,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="59" column="20" bodyfile="params/ControlParms.java" bodystart="59" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="81" column="16" bodyfile="params/ControlParms.java" bodystart="81" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_control_parms_1afeb9c826d60a837625db477d1e836880" prot="private" static="no" mutable="no">
         <type>String</type>
@@ -544,7 +557,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="60" column="20" bodyfile="params/ControlParms.java" bodystart="60" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="82" column="16" bodyfile="params/ControlParms.java" bodystart="82" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-static-attrib">
@@ -557,11 +570,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Singleton </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="62" column="33" bodyfile="params/ControlParms.java" bodystart="62" bodyend="-1"/>
+        <location file="params/ControlParms.java" line="84" column="29" bodyfile="params/ControlParms.java" bodystart="84" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -574,10 +586,11 @@
 <para>private constructor for singleton </para>
         </briefdescription>
         <detaileddescription>
+<para>&lt; Singleton </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="70" column="13" bodyfile="params/ControlParms.java" bodystart="70" bodyend="84"/>
+        <location file="params/ControlParms.java" line="93" column="9" bodyfile="params/ControlParms.java" bodystart="93" bodyend="107"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -593,7 +606,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="89" column="32" bodyfile="params/ControlParms.java" bodystart="89" bodyend="94"/>
+        <location file="params/ControlParms.java" line="112" column="28" bodyfile="params/ControlParms.java" bodystart="112" bodyend="117"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -615,7 +628,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="105" column="17" bodyfile="params/ControlParms.java" bodystart="105" bodyend="118"/>
+        <location file="params/ControlParms.java" line="127" column="13" bodyfile="params/ControlParms.java" bodystart="127" bodyend="140"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a0a9e4c1b1507109c2af9362c76f152b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>String</type>
@@ -632,7 +645,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="129" column="19" bodyfile="params/ControlParms.java" bodystart="129" bodyend="131"/>
+        <location file="params/ControlParms.java" line="149" column="15" bodyfile="params/ControlParms.java" bodystart="149" bodyend="151"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a801da8ace900553603da73d988c16ea6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -660,7 +673,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="137" column="17" bodyfile="params/ControlParms.java" bodystart="137" bodyend="139"/>
+        <location file="params/ControlParms.java" line="157" column="13" bodyfile="params/ControlParms.java" bodystart="157" bodyend="159"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a4849978cd3cad0b731e744d16ff90c97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>long</type>
@@ -677,7 +690,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="145" column="17" bodyfile="params/ControlParms.java" bodystart="145" bodyend="147"/>
+        <location file="params/ControlParms.java" line="167" column="13" bodyfile="params/ControlParms.java" bodystart="167" bodyend="169"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a28dd663a60ecea831af1955e43155f49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -705,7 +718,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="153" column="17" bodyfile="params/ControlParms.java" bodystart="153" bodyend="155"/>
+        <location file="params/ControlParms.java" line="177" column="13" bodyfile="params/ControlParms.java" bodystart="177" bodyend="179"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a040d46279514db25122b3230087da9cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>String</type>
@@ -718,7 +731,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="157" column="19" bodyfile="params/ControlParms.java" bodystart="157" bodyend="159"/>
+        <location file="params/ControlParms.java" line="181" column="15" bodyfile="params/ControlParms.java" bodystart="181" bodyend="183"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1ab7f98c31662cc19a37c38630c7652d16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -735,7 +748,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="161" column="17" bodyfile="params/ControlParms.java" bodystart="161" bodyend="163"/>
+        <location file="params/ControlParms.java" line="185" column="13" bodyfile="params/ControlParms.java" bodystart="185" bodyend="187"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a351a1525bef8a4e648bc2d79f57079a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>String</type>
@@ -748,7 +761,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="165" column="19" bodyfile="params/ControlParms.java" bodystart="165" bodyend="167"/>
+        <location file="params/ControlParms.java" line="189" column="15" bodyfile="params/ControlParms.java" bodystart="189" bodyend="191"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a126be81b5ff3d178bc8c5c932433a6dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -765,7 +778,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="169" column="17" bodyfile="params/ControlParms.java" bodystart="169" bodyend="171"/>
+        <location file="params/ControlParms.java" line="193" column="13" bodyfile="params/ControlParms.java" bodystart="193" bodyend="195"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a059d3a66ef8da8b3735b204026cbdf62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -778,7 +791,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="173" column="19" bodyfile="params/ControlParms.java" bodystart="173" bodyend="175"/>
+        <location file="params/ControlParms.java" line="197" column="15" bodyfile="params/ControlParms.java" bodystart="197" bodyend="199"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a7074fde2b7e5a80c50cb997d78786668" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -795,7 +808,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="177" column="17" bodyfile="params/ControlParms.java" bodystart="177" bodyend="179"/>
+        <location file="params/ControlParms.java" line="201" column="13" bodyfile="params/ControlParms.java" bodystart="201" bodyend="203"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a53c75f21640c052696f9c0c249847706" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -808,7 +821,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="181" column="19" bodyfile="params/ControlParms.java" bodystart="181" bodyend="183"/>
+        <location file="params/ControlParms.java" line="205" column="15" bodyfile="params/ControlParms.java" bodystart="205" bodyend="207"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1aaf0d60a3e1b3362be227d9721537a424" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -825,7 +838,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="185" column="17" bodyfile="params/ControlParms.java" bodystart="185" bodyend="187"/>
+        <location file="params/ControlParms.java" line="209" column="13" bodyfile="params/ControlParms.java" bodystart="209" bodyend="211"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a983d9ff3981b01e4fc538626a50bdd30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -838,7 +851,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="189" column="19" bodyfile="params/ControlParms.java" bodystart="189" bodyend="191"/>
+        <location file="params/ControlParms.java" line="213" column="15" bodyfile="params/ControlParms.java" bodystart="213" bodyend="215"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1af40634625631868be25843439ef54567" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -855,7 +868,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="193" column="17" bodyfile="params/ControlParms.java" bodystart="193" bodyend="195"/>
+        <location file="params/ControlParms.java" line="217" column="13" bodyfile="params/ControlParms.java" bodystart="217" bodyend="219"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a0260c671857a637b51ddc23af52ad71d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -868,7 +881,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="197" column="19" bodyfile="params/ControlParms.java" bodystart="197" bodyend="199"/>
+        <location file="params/ControlParms.java" line="221" column="15" bodyfile="params/ControlParms.java" bodystart="221" bodyend="223"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a54d42ffa9c74db6b5c3ee1d2544c5e21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -885,7 +898,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="201" column="17" bodyfile="params/ControlParms.java" bodystart="201" bodyend="203"/>
+        <location file="params/ControlParms.java" line="225" column="13" bodyfile="params/ControlParms.java" bodystart="225" bodyend="227"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a67542179daef32a9001cee0862832858" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -898,7 +911,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="205" column="19" bodyfile="params/ControlParms.java" bodystart="205" bodyend="207"/>
+        <location file="params/ControlParms.java" line="229" column="15" bodyfile="params/ControlParms.java" bodystart="229" bodyend="231"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1ae0a1b0117d381b3005fd567cb3e0c647" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -915,7 +928,37 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="209" column="17" bodyfile="params/ControlParms.java" bodystart="209" bodyend="211"/>
+        <location file="params/ControlParms.java" line="233" column="13" bodyfile="params/ControlParms.java" bodystart="233" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1aada0ce2530643ecad6f7f1e88ad70576" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int params.ControlParms.getZone</definition>
+        <argsstring>()</argsstring>
+        <name>getZone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="237" column="12" bodyfile="params/ControlParms.java" bodystart="237" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="classparams_1_1_control_parms_1a785eb073d1e886b8a537d60e37b9f67e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void params.ControlParms.setZone</definition>
+        <argsstring>(int zone)</argsstring>
+        <name>setZone</name>
+        <param>
+          <type>int</type>
+          <declname>zone</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="params/ControlParms.java" line="241" column="13" bodyfile="params/ControlParms.java" bodystart="241" bodyend="243"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a2d485a515e99332d5c1712f298ccabc1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>String</type>
@@ -928,7 +971,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="213" column="19" bodyfile="params/ControlParms.java" bodystart="213" bodyend="215"/>
+        <location file="params/ControlParms.java" line="245" column="15" bodyfile="params/ControlParms.java" bodystart="245" bodyend="247"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1aa1c2641c116c78d09adf7fcd36f1e646" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -945,7 +988,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="217" column="17" bodyfile="params/ControlParms.java" bodystart="217" bodyend="219"/>
+        <location file="params/ControlParms.java" line="249" column="13" bodyfile="params/ControlParms.java" bodystart="249" bodyend="251"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a44eaedb52a3f19108a3458ce918e73ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>String</type>
@@ -958,7 +1001,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="221" column="19" bodyfile="params/ControlParms.java" bodystart="221" bodyend="223"/>
+        <location file="params/ControlParms.java" line="253" column="15" bodyfile="params/ControlParms.java" bodystart="253" bodyend="255"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a13d42878222bafbe8d3c48fdd3955220" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -975,7 +1018,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="225" column="17" bodyfile="params/ControlParms.java" bodystart="225" bodyend="227"/>
+        <location file="params/ControlParms.java" line="257" column="13" bodyfile="params/ControlParms.java" bodystart="257" bodyend="259"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a39ce573f000eb18b6cf676e1f43fb0b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -988,7 +1031,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="229" column="19" bodyfile="params/ControlParms.java" bodystart="229" bodyend="231"/>
+        <location file="params/ControlParms.java" line="261" column="15" bodyfile="params/ControlParms.java" bodystart="261" bodyend="263"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a1cbbd11c3436b09ac7063fef1c2149bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1005,7 +1048,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="233" column="17" bodyfile="params/ControlParms.java" bodystart="233" bodyend="235"/>
+        <location file="params/ControlParms.java" line="265" column="13" bodyfile="params/ControlParms.java" bodystart="265" bodyend="267"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1ad2092609e231fabe769def50523a206e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -1018,7 +1061,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="237" column="19" bodyfile="params/ControlParms.java" bodystart="237" bodyend="239"/>
+        <location file="params/ControlParms.java" line="269" column="15" bodyfile="params/ControlParms.java" bodystart="269" bodyend="271"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1af66e9cb53a14ea90d0f61e3d8649be38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1035,7 +1078,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="241" column="17" bodyfile="params/ControlParms.java" bodystart="241" bodyend="243"/>
+        <location file="params/ControlParms.java" line="273" column="13" bodyfile="params/ControlParms.java" bodystart="273" bodyend="275"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1ab1496ac78857153a556b98b357595e1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>boolean</type>
@@ -1048,7 +1091,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="245" column="20" bodyfile="params/ControlParms.java" bodystart="245" bodyend="247"/>
+        <location file="params/ControlParms.java" line="277" column="16" bodyfile="params/ControlParms.java" bodystart="277" bodyend="279"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a5e5239551fb75c863e259c27ddd375b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1065,7 +1108,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="249" column="17" bodyfile="params/ControlParms.java" bodystart="249" bodyend="251"/>
+        <location file="params/ControlParms.java" line="281" column="13" bodyfile="params/ControlParms.java" bodystart="281" bodyend="283"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a29550d5e3b87f28380b8d0db21c49840" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>String</type>
@@ -1078,7 +1121,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="253" column="19" bodyfile="params/ControlParms.java" bodystart="253" bodyend="255"/>
+        <location file="params/ControlParms.java" line="285" column="15" bodyfile="params/ControlParms.java" bodystart="285" bodyend="287"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a58f9db5f3fc7cfae594313291bc3b4e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1095,7 +1138,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="257" column="17" bodyfile="params/ControlParms.java" bodystart="257" bodyend="259"/>
+        <location file="params/ControlParms.java" line="289" column="13" bodyfile="params/ControlParms.java" bodystart="289" bodyend="291"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1af15591462a29b3376f5e6008683d8855" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>String</type>
@@ -1108,7 +1151,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="261" column="19" bodyfile="params/ControlParms.java" bodystart="261" bodyend="263"/>
+        <location file="params/ControlParms.java" line="293" column="15" bodyfile="params/ControlParms.java" bodystart="293" bodyend="295"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1af6c0cee9ad8df502734e0679cdc6b283" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1125,7 +1168,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="265" column="17" bodyfile="params/ControlParms.java" bodystart="265" bodyend="267"/>
+        <location file="params/ControlParms.java" line="297" column="13" bodyfile="params/ControlParms.java" bodystart="297" bodyend="299"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1ab0e48205eade41505b94b657f2140f10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>String</type>
@@ -1138,7 +1181,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="269" column="19" bodyfile="params/ControlParms.java" bodystart="269" bodyend="271"/>
+        <location file="params/ControlParms.java" line="301" column="15" bodyfile="params/ControlParms.java" bodystart="301" bodyend="303"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1ac6f495c9f6f219b55a689cbac7b6da36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1155,7 +1198,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="273" column="17" bodyfile="params/ControlParms.java" bodystart="273" bodyend="275"/>
+        <location file="params/ControlParms.java" line="305" column="13" bodyfile="params/ControlParms.java" bodystart="305" bodyend="307"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a5abf1cdcdffb8d4f7083ddcd0782b89a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -1168,7 +1211,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="277" column="19" bodyfile="params/ControlParms.java" bodystart="277" bodyend="279"/>
+        <location file="params/ControlParms.java" line="309" column="15" bodyfile="params/ControlParms.java" bodystart="309" bodyend="311"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1af79a3047660dd028f9b68cb6726ca185" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1185,7 +1228,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="281" column="17" bodyfile="params/ControlParms.java" bodystart="281" bodyend="283"/>
+        <location file="params/ControlParms.java" line="313" column="13" bodyfile="params/ControlParms.java" bodystart="313" bodyend="315"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a0b3471d9fb26c5e9fcbc7933fa84faf8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -1198,7 +1241,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="285" column="19" bodyfile="params/ControlParms.java" bodystart="285" bodyend="287"/>
+        <location file="params/ControlParms.java" line="317" column="15" bodyfile="params/ControlParms.java" bodystart="317" bodyend="319"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a17584fe9dae43307ba1c060986ca1c7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1215,7 +1258,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="289" column="17" bodyfile="params/ControlParms.java" bodystart="289" bodyend="291"/>
+        <location file="params/ControlParms.java" line="321" column="13" bodyfile="params/ControlParms.java" bodystart="321" bodyend="323"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1afa1b48294cf0a1355ec97eb139eee4d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -1228,7 +1271,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="293" column="19" bodyfile="params/ControlParms.java" bodystart="293" bodyend="295"/>
+        <location file="params/ControlParms.java" line="325" column="15" bodyfile="params/ControlParms.java" bodystart="325" bodyend="327"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a90515ffb3445da1c793b30bd39403d83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1245,7 +1288,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="297" column="17" bodyfile="params/ControlParms.java" bodystart="297" bodyend="299"/>
+        <location file="params/ControlParms.java" line="329" column="13" bodyfile="params/ControlParms.java" bodystart="329" bodyend="331"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a4252f7cdf5b712aa872beaf0af90a0f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -1258,7 +1301,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="301" column="19" bodyfile="params/ControlParms.java" bodystart="301" bodyend="303"/>
+        <location file="params/ControlParms.java" line="333" column="15" bodyfile="params/ControlParms.java" bodystart="333" bodyend="335"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a5dbf6d0fcc824987a05fd389690009ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1275,7 +1318,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="305" column="17" bodyfile="params/ControlParms.java" bodystart="305" bodyend="307"/>
+        <location file="params/ControlParms.java" line="337" column="13" bodyfile="params/ControlParms.java" bodystart="337" bodyend="339"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1aac8835837cbd44642c4f99a2e4432d88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -1288,7 +1331,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="309" column="19" bodyfile="params/ControlParms.java" bodystart="309" bodyend="311"/>
+        <location file="params/ControlParms.java" line="341" column="15" bodyfile="params/ControlParms.java" bodystart="341" bodyend="343"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a6454d68b7f953a28d11b54e141a92e30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1305,7 +1348,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="313" column="17" bodyfile="params/ControlParms.java" bodystart="313" bodyend="315"/>
+        <location file="params/ControlParms.java" line="345" column="13" bodyfile="params/ControlParms.java" bodystart="345" bodyend="347"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a421e53e86089f32021bec5dbcd4954ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -1318,7 +1361,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="317" column="19" bodyfile="params/ControlParms.java" bodystart="317" bodyend="319"/>
+        <location file="params/ControlParms.java" line="349" column="15" bodyfile="params/ControlParms.java" bodystart="349" bodyend="351"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a997a3be490eaf52c7a3a24c7e459debe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1335,7 +1378,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="321" column="17" bodyfile="params/ControlParms.java" bodystart="321" bodyend="323"/>
+        <location file="params/ControlParms.java" line="353" column="13" bodyfile="params/ControlParms.java" bodystart="353" bodyend="355"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a892195e5364a123dbf317acf782eb2e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -1348,7 +1391,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="325" column="19" bodyfile="params/ControlParms.java" bodystart="325" bodyend="327"/>
+        <location file="params/ControlParms.java" line="357" column="15" bodyfile="params/ControlParms.java" bodystart="357" bodyend="359"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a62167ea52e9ae9c67bdd7f01d84d9338" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1365,7 +1408,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="329" column="17" bodyfile="params/ControlParms.java" bodystart="329" bodyend="331"/>
+        <location file="params/ControlParms.java" line="361" column="13" bodyfile="params/ControlParms.java" bodystart="361" bodyend="363"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a3968b56fc06aae0f01a3e3cc0bf5d7fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -1378,7 +1421,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="333" column="19" bodyfile="params/ControlParms.java" bodystart="333" bodyend="335"/>
+        <location file="params/ControlParms.java" line="365" column="15" bodyfile="params/ControlParms.java" bodystart="365" bodyend="367"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a79521a33aa8a2e38aba29e77ce052714" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1395,7 +1438,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="337" column="17" bodyfile="params/ControlParms.java" bodystart="337" bodyend="339"/>
+        <location file="params/ControlParms.java" line="369" column="13" bodyfile="params/ControlParms.java" bodystart="369" bodyend="371"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1afd005a609a5850cce818d703c6d7d0ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -1408,7 +1451,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="341" column="19" bodyfile="params/ControlParms.java" bodystart="341" bodyend="343"/>
+        <location file="params/ControlParms.java" line="373" column="15" bodyfile="params/ControlParms.java" bodystart="373" bodyend="375"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a4c0dc142e134c041a8a4c571051135db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1425,7 +1468,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="345" column="17" bodyfile="params/ControlParms.java" bodystart="345" bodyend="347"/>
+        <location file="params/ControlParms.java" line="377" column="13" bodyfile="params/ControlParms.java" bodystart="377" bodyend="379"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a0f81b48dce0456c2c3e558d816cd6421" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -1438,7 +1481,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="349" column="19" bodyfile="params/ControlParms.java" bodystart="349" bodyend="351"/>
+        <location file="params/ControlParms.java" line="381" column="15" bodyfile="params/ControlParms.java" bodystart="381" bodyend="383"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1aa4ed8164ad987716fb33b950698717ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1455,7 +1498,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="353" column="17" bodyfile="params/ControlParms.java" bodystart="353" bodyend="355"/>
+        <location file="params/ControlParms.java" line="385" column="13" bodyfile="params/ControlParms.java" bodystart="385" bodyend="387"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a1a21b81af2b6f4b8e6b4384fc4fc3147" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -1468,7 +1511,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="357" column="19" bodyfile="params/ControlParms.java" bodystart="357" bodyend="359"/>
+        <location file="params/ControlParms.java" line="389" column="15" bodyfile="params/ControlParms.java" bodystart="389" bodyend="391"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1adb205b83347ef1c8b3996976cb9994d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1485,7 +1528,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="361" column="17" bodyfile="params/ControlParms.java" bodystart="361" bodyend="363"/>
+        <location file="params/ControlParms.java" line="393" column="13" bodyfile="params/ControlParms.java" bodystart="393" bodyend="395"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1aa58394ff038d3975c7978196f501ac20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -1498,7 +1541,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="365" column="19" bodyfile="params/ControlParms.java" bodystart="365" bodyend="367"/>
+        <location file="params/ControlParms.java" line="397" column="15" bodyfile="params/ControlParms.java" bodystart="397" bodyend="399"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1afafdea373a656d6dec1f39d7abfe4bf7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1515,7 +1558,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="369" column="17" bodyfile="params/ControlParms.java" bodystart="369" bodyend="371"/>
+        <location file="params/ControlParms.java" line="401" column="13" bodyfile="params/ControlParms.java" bodystart="401" bodyend="403"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1aa23beea311a95495623a6940fb190361" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -1528,7 +1571,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="373" column="19" bodyfile="params/ControlParms.java" bodystart="373" bodyend="375"/>
+        <location file="params/ControlParms.java" line="405" column="15" bodyfile="params/ControlParms.java" bodystart="405" bodyend="407"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a9cb313fe0bdb0301e97f6270420960ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1545,7 +1588,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="377" column="17" bodyfile="params/ControlParms.java" bodystart="377" bodyend="379"/>
+        <location file="params/ControlParms.java" line="409" column="13" bodyfile="params/ControlParms.java" bodystart="409" bodyend="411"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a055cab8e112537f78077721cc08d1180" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -1558,7 +1601,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="381" column="19" bodyfile="params/ControlParms.java" bodystart="381" bodyend="383"/>
+        <location file="params/ControlParms.java" line="413" column="15" bodyfile="params/ControlParms.java" bodystart="413" bodyend="415"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1abb6dad3385885ee866020022ea8a2686" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1575,7 +1618,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="385" column="17" bodyfile="params/ControlParms.java" bodystart="385" bodyend="387"/>
+        <location file="params/ControlParms.java" line="417" column="13" bodyfile="params/ControlParms.java" bodystart="417" bodyend="419"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a495fb5cc9b4a503506b684a699ecb625" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -1588,7 +1631,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="389" column="19" bodyfile="params/ControlParms.java" bodystart="389" bodyend="391"/>
+        <location file="params/ControlParms.java" line="421" column="15" bodyfile="params/ControlParms.java" bodystart="421" bodyend="423"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a803ea3480b1a8b08dd39b43911e4c649" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1605,7 +1648,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="393" column="17" bodyfile="params/ControlParms.java" bodystart="393" bodyend="395"/>
+        <location file="params/ControlParms.java" line="425" column="13" bodyfile="params/ControlParms.java" bodystart="425" bodyend="427"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1aad161acbe2c3e412ad077e3319c914cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>String</type>
@@ -1618,7 +1661,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="397" column="19" bodyfile="params/ControlParms.java" bodystart="397" bodyend="399"/>
+        <location file="params/ControlParms.java" line="429" column="15" bodyfile="params/ControlParms.java" bodystart="429" bodyend="431"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a609480f3c26381da7f897c481a7f684c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1635,7 +1678,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="401" column="17" bodyfile="params/ControlParms.java" bodystart="401" bodyend="403"/>
+        <location file="params/ControlParms.java" line="433" column="13" bodyfile="params/ControlParms.java" bodystart="433" bodyend="435"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1ac022aba6ce9fc9cc2db653d4b33cf30c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>String</type>
@@ -1648,7 +1691,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="405" column="19" bodyfile="params/ControlParms.java" bodystart="405" bodyend="407"/>
+        <location file="params/ControlParms.java" line="437" column="15" bodyfile="params/ControlParms.java" bodystart="437" bodyend="439"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1acb93361691fe1af23a8d840629f5f796" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1665,7 +1708,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="409" column="17" bodyfile="params/ControlParms.java" bodystart="409" bodyend="411"/>
+        <location file="params/ControlParms.java" line="441" column="13" bodyfile="params/ControlParms.java" bodystart="441" bodyend="443"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1af6ac66a15401db24a578c5ad863df54e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>String</type>
@@ -1678,7 +1721,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="413" column="19" bodyfile="params/ControlParms.java" bodystart="413" bodyend="415"/>
+        <location file="params/ControlParms.java" line="445" column="15" bodyfile="params/ControlParms.java" bodystart="445" bodyend="447"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a80c2c269b374d89c053bfd4ec569bc0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1695,7 +1738,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="417" column="17" bodyfile="params/ControlParms.java" bodystart="417" bodyend="419"/>
+        <location file="params/ControlParms.java" line="449" column="13" bodyfile="params/ControlParms.java" bodystart="449" bodyend="451"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a8700a8ee5b82ed97b607ee070596ad4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>String</type>
@@ -1708,7 +1751,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="421" column="19" bodyfile="params/ControlParms.java" bodystart="421" bodyend="423"/>
+        <location file="params/ControlParms.java" line="453" column="15" bodyfile="params/ControlParms.java" bodystart="453" bodyend="455"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a2a551f64ac811a40f1a1fef83793f94d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1725,7 +1768,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="425" column="17" bodyfile="params/ControlParms.java" bodystart="425" bodyend="427"/>
+        <location file="params/ControlParms.java" line="457" column="13" bodyfile="params/ControlParms.java" bodystart="457" bodyend="459"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a310f3b5a8fa32f4810cebe7354d8b6fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>String</type>
@@ -1738,7 +1781,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="429" column="19" bodyfile="params/ControlParms.java" bodystart="429" bodyend="431"/>
+        <location file="params/ControlParms.java" line="461" column="15" bodyfile="params/ControlParms.java" bodystart="461" bodyend="463"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1ae4add7088c814512790397af2e582997" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1755,7 +1798,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="433" column="17" bodyfile="params/ControlParms.java" bodystart="433" bodyend="435"/>
+        <location file="params/ControlParms.java" line="465" column="13" bodyfile="params/ControlParms.java" bodystart="465" bodyend="467"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a12aec04726c89c78fffbe2f7c0148cfd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>String</type>
@@ -1768,7 +1811,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="437" column="19" bodyfile="params/ControlParms.java" bodystart="437" bodyend="439"/>
+        <location file="params/ControlParms.java" line="469" column="15" bodyfile="params/ControlParms.java" bodystart="469" bodyend="471"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1afea7f5a4ce364f172fc3dbc4daf9ecd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1785,7 +1828,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="441" column="17" bodyfile="params/ControlParms.java" bodystart="441" bodyend="443"/>
+        <location file="params/ControlParms.java" line="473" column="13" bodyfile="params/ControlParms.java" bodystart="473" bodyend="475"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1a3ff4bfa2904c4f485a20f6fb864557b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>String</type>
@@ -1798,7 +1841,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="445" column="19" bodyfile="params/ControlParms.java" bodystart="445" bodyend="447"/>
+        <location file="params/ControlParms.java" line="477" column="15" bodyfile="params/ControlParms.java" bodystart="477" bodyend="479"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1ae77b5d713891b289145e548a5c05d67e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1815,7 +1858,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="449" column="17" bodyfile="params/ControlParms.java" bodystart="449" bodyend="451"/>
+        <location file="params/ControlParms.java" line="481" column="13" bodyfile="params/ControlParms.java" bodystart="481" bodyend="483"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1ab99b444c9b8cfd2b54b384c8e3ad5e7e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>String</type>
@@ -1828,7 +1871,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="453" column="19" bodyfile="params/ControlParms.java" bodystart="453" bodyend="455"/>
+        <location file="params/ControlParms.java" line="485" column="15" bodyfile="params/ControlParms.java" bodystart="485" bodyend="487"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_control_parms_1adb5c016b189b75a4a2e3c1b314769db2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1845,7 +1888,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/ControlParms.java" line="457" column="17" bodyfile="params/ControlParms.java" bodystart="457" bodyend="459"/>
+        <location file="params/ControlParms.java" line="489" column="13" bodyfile="params/ControlParms.java" bodystart="489" bodyend="491"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -1897,7 +1940,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="params/ControlParms.java" line="17" column="41" bodyfile="params/ControlParms.java" bodystart="17" bodyend="461"/>
+    <location file="params/ControlParms.java" line="16" column="41" bodyfile="params/ControlParms.java" bodystart="16" bodyend="496"/>
     <listofallmembers>
       <member refid="classparams_1_1_control_parms_1a614f382326dedabe279d8c79abf6b507" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>ausgabetyp</name></member>
       <member refid="classparams_1_1_ellipsoid_parms_1a8c4aea13fd32cd84761c5fa923a3b56a" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>c</name></member>
@@ -1918,10 +1961,10 @@
       <member refid="classparams_1_1_control_parms_1a46c822bd308f3cf5593519a9b1421a07" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>fileoutput</name></member>
       <member refid="classparams_1_1_ellipsoid_parms_1aa20a57453ee89effbe7a0058103f30a4" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>firstEccentricity</name></member>
       <member refid="classparams_1_1_ellipsoid_parms_1a75cc9d5d8459811e32022f5028626f0c" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>flattening</name></member>
-      <member refid="classparams_1_1_control_parms_1ae0a950871fef34d367d8a70e80fc0fd0" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>fromawert</name></member>
-      <member refid="classparams_1_1_control_parms_1ad4f4af5989abca7c5616feb442c2e7c0" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>frombwert</name></member>
-      <member refid="classparams_1_1_control_parms_1aad346084aae4e796320eae7c950ce914" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>fromdatum</name></member>
-      <member refid="classparams_1_1_control_parms_1af020acb1b072ddea3560e25cac18ac3f" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>fromprojection</name></member>
+      <member refid="classparams_1_1_control_parms_1a8af44789f1f15b00296db9f893edd855" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>fromDatum</name></member>
+      <member refid="classparams_1_1_control_parms_1a586f588296ba883e9316f08bcdde40ab" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>fromProjection</name></member>
+      <member refid="classparams_1_1_control_parms_1a3ea1fec7924bcb1eb7bd17903c12b43f" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>fromSemiMajorAxis</name></member>
+      <member refid="classparams_1_1_control_parms_1a791cdab060332dfb8ea529fcb4a7d472" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>fromSemiMinorAxis</name></member>
       <member refid="classparams_1_1_control_parms_1a310f3b5a8fa32f4810cebe7354d8b6fb" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getAusgabetyp</name></member>
       <member refid="classparams_1_1_ellipsoid_parms_1ac6d2d8e560b2c5f93f1eae7e47da312e" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getC</name></member>
       <member refid="classparams_1_1_control_parms_1a4252f7cdf5b712aa872beaf0af90a0f0" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getDa</name></member>
@@ -1981,6 +2024,7 @@
       <member refid="classparams_1_1_control_parms_1a3ff4bfa2904c4f485a20f6fb864557b4" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getZihoehe</name></member>
       <member refid="classparams_1_1_control_parms_1a12aec04726c89c78fffbe2f7c0148cfd" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getZipkt</name></member>
       <member refid="classparams_1_1_control_parms_1ab99b444c9b8cfd2b54b384c8e3ad5e7e" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getZitausch</name></member>
+      <member refid="classparams_1_1_control_parms_1aada0ce2530643ecad6f7f1e88ad70576" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>getZone</name></member>
       <member refid="classparams_1_1_ellipsoid_parms_1a86b4e7b5eb4b4f2f671e61e75e0dc7f9" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>GK_refmer</name></member>
       <member refid="classparams_1_1_ellipsoid_parms_1a0dc788084fb0dd603ace16e936382883" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>id</name></member>
       <member refid="classparams_1_1_control_parms_1ae1673336e84a96b7c381c651f5e1c57a" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>instance</name></member>
@@ -2061,6 +2105,7 @@
       <member refid="classparams_1_1_control_parms_1ae77b5d713891b289145e548a5c05d67e" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setZihoehe</name></member>
       <member refid="classparams_1_1_control_parms_1afea7f5a4ce364f172fc3dbc4daf9ecd7" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setZipkt</name></member>
       <member refid="classparams_1_1_control_parms_1adb5c016b189b75a4a2e3c1b314769db2" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setZitausch</name></member>
+      <member refid="classparams_1_1_control_parms_1a785eb073d1e886b8a537d60e37b9f67e" prot="public" virt="non-virtual"><scope>params::ControlParms</scope><name>setZone</name></member>
       <member refid="classparams_1_1_ellipsoid_parms_1a600fb2e197a0cce391abf04cbbd2bfa4" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>Soldner_b0</name></member>
       <member refid="classparams_1_1_ellipsoid_parms_1ae589624b96dcf9f152cdd13f5fc2b813" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>Soldner_l0</name></member>
       <member refid="classparams_1_1_control_parms_1a2688293d730d637a973567b209289996" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>sourceCoordinateX</name></member>
@@ -2083,6 +2128,7 @@
       <member refid="classparams_1_1_control_parms_1a780c529e507f496ccb69f6b9b3ddce62" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>zihoehe</name></member>
       <member refid="classparams_1_1_control_parms_1a5796bbd6b3b407130074d89b85c183d6" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>zipkt</name></member>
       <member refid="classparams_1_1_control_parms_1afeb9c826d60a837625db477d1e836880" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>zitausch</name></member>
+      <member refid="classparams_1_1_control_parms_1a8dbccf6a1948ab1c1c070e61c2f8e56e" prot="private" virt="non-virtual"><scope>params::ControlParms</scope><name>zone</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

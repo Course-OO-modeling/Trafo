@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="_get_appropriate_transformation_algorithm_test_8java" kind="file" language="Java">
     <compoundname>GetAppropriateTransformationAlgorithmTest.java</compoundname>
     <innerclass refid="classtest_1_1datumstrategy_1_1_get_appropriate_transformation_algorithm_test" prot="public">test::datumstrategy::GetAppropriateTransformationAlgorithmTest</innerclass>
@@ -32,10 +32,10 @@
 <codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classdatumstrategy_1_1_transformation_strategy" kindref="compound">TransformationStrategy</ref><sp/>dat<sp/>=<sp/><ref refid="classdatumstrategy_1_1_get_appropriate_transformation_algorithm" kindref="compound">GetAppropriateTransformationAlgorithm</ref>.<ref refid="classdatumstrategy_1_1_get_appropriate_transformation_algorithm_1a5dae4ffa1ae0ccc9e24ff4d3469b3286" kindref="member">getStrategy</ref>();</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dat.<ref refid="classdatumstrategy_1_1_transformation_strategy_1a0fd1d6fbba01e5222360740e34eae786" kindref="member">transform</ref>(geographic);</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assertEquals(49.,<sp/>geographic.<ref refid="classcoordinates_1_1_geographic_coordinate_interface_1a6c287f3c85afe73a269165862ec267fb" kindref="member">getLatitude</ref>(),<sp/>0.000000001);</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assertEquals(8.,<sp/>geographic.<ref refid="classcoordinates_1_1_geographic_coordinate_interface_1a4b2903f951a7ec80608cf6eb307a1991" kindref="member">getLongitude</ref>(),0.000000001);</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assertEquals(120.,geographic.<ref refid="classcoordinates_1_1_geographic_coordinate_interface_1aa74362408871d3bf33e69f6e2ffa52b6" kindref="member">getHeight</ref>(),<sp/>0.0001);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assertEquals(8.,<sp/>geographic.<ref refid="classcoordinates_1_1_geographic_coordinate_interface_1a4b2903f951a7ec80608cf6eb307a1991" kindref="member">getLongitude</ref>(),<sp/>0.000000001);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assertEquals(120.,<sp/>geographic.<ref refid="classcoordinates_1_1_geographic_coordinate_interface_1aa74362408871d3bf33e69f6e2ffa52b6" kindref="member">getHeight</ref>(),<sp/>0.0001);</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
 <codeline lineno="28"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="test/datumstrategy/GetAppropriateTransformationAlgorithmTest.java"/>

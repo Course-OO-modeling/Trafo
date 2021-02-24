@@ -17,16 +17,17 @@ public class ControlParms extends EllipsoidParms {
 
 	private String pointid;
 	private long point_number;
-	private String fromprojection;
-	private String fromdatum;
-	private double fromawert;
-	private double frombwert;
+	private String fromProjection;
+	private String fromDatum;
+	private double fromSemiMajorAxis;
+	private double fromSemiMinorAxis;
 	private double sourceCoordinateX;
 	/** < Input coordinate X */
 	private double sourceCoordinateY;
 	/** < Input coordinate Y */
 	private double sourceCoordinateZ;
 	/** < Input coordinate Z */
+	private int zone;
 	private String toprojection;
 	private String todatum;
 	private double toawert;
@@ -94,9 +95,9 @@ public class ControlParms extends EllipsoidParms {
 		sourceCoordinateX = 5366838.384;
 		sourceCoordinateY = 626994.444;
 		sourceCoordinateZ = 0.;
-		fromdatum = "dhdn";
+		fromDatum = "dhdn";
 		todatum = "dhdn";
-		fromprojection = "utm";
+		fromProjection = "utm";
 		toprojection = "xyz";
 		kindoftrafo = "mol_stand";
 		dx = 87; /* +/- 3 m */
@@ -127,9 +128,9 @@ public class ControlParms extends EllipsoidParms {
 	 */
 	public void print() {
 		System.out.println("Output of class params.ControlParms:");
-		System.out.println("input date      : " + fromdatum);
+		System.out.println("input date      : " + fromDatum);
 		System.out.println("target date          : " + todatum);
-		System.out.println("input coordinates: " + fromprojection);
+		System.out.println("input coordinates: " + fromProjection);
 		System.out.println("target coordinates    : " + toprojection);
 		System.out.println("easting         : " + sourceCoordinateX);
 		System.out.println("northing           : " + sourceCoordinateY);
@@ -181,35 +182,35 @@ public class ControlParms extends EllipsoidParms {
 	}
 
 	public String getFromprojection() {
-		return fromprojection;
+		return fromProjection;
 	}
 
 	public void setFromprojection(String fromprojection) {
-		this.fromprojection = fromprojection;
+		this.fromProjection = fromprojection;
 	}
 
 	public String getFromdatum() {
-		return fromdatum;
+		return fromDatum;
 	}
 
 	public void setFromdatum(String fromdatum) {
-		this.fromdatum = fromdatum;
+		this.fromDatum = fromdatum;
 	}
 
 	public double getFromawert() {
-		return fromawert;
+		return fromSemiMajorAxis;
 	}
 
 	public void setFromawert(double fromawert) {
-		this.fromawert = fromawert;
+		this.fromSemiMajorAxis = fromawert;
 	}
 
 	public double getFrombwert() {
-		return frombwert;
+		return fromSemiMinorAxis;
 	}
 
 	public void setFrombwert(double frombwert) {
-		this.frombwert = frombwert;
+		this.fromSemiMinorAxis = frombwert;
 	}
 
 	public double getSourceCoordinateX() {
@@ -236,6 +237,14 @@ public class ControlParms extends EllipsoidParms {
 		this.sourceCoordinateZ = sourceCoordinateZ;
 	}
 
+	public int getZone() {
+		return zone;
+	}
+
+	public void setZone(int zone) {
+		this.sourceCoordinateZ = zone;
+	}
+	
 	public String getToprojection() {
 		return toprojection;
 	}

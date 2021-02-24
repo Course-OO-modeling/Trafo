@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_08525b203c6966e4f60663332d788bd8" kind="dir">
+    <compoundname>datumstrategy</compoundname>
+    <innerfile refid="_cardans_transformation_8java">CardansTransformation.java</innerfile>
+    <innerfile refid="_eulers_transformation_8java">EulersTransformation.java</innerfile>
+    <innerfile refid="_get_appropriate_transformation_algorithm_8java">GetAppropriateTransformationAlgorithm.java</innerfile>
+    <innerfile refid="_mock_strategy_8java">MockStrategy.java</innerfile>
+    <innerfile refid="_molodenskii_transformation_abridged_8java">MolodenskiiTransformationAbridged.java</innerfile>
+    <innerfile refid="_molodenskii_transformation_standard_8java">MolodenskiiTransformationStandard.java</innerfile>
+    <innerfile refid="_spatial_similarity_transformation_infin_8java">SpatialSimilarityTransformationInfin.java</innerfile>
+    <innerfile refid="_spatial_similarity_transformation_trig_8java">SpatialSimilarityTransformationTrig.java</innerfile>
+    <innerfile refid="_transformation_strategy_8java">TransformationStrategy.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="datumstrategy/"/>
+  </compounddef>
+</doxygen>

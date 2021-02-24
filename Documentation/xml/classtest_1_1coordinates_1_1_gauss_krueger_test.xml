@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="classtest_1_1coordinates_1_1_gauss_krueger_test" kind="class" language="Java" prot="public">
     <compoundname>test::coordinates::GaussKruegerTest</compoundname>
       <sectiondef kind="private-attrib">
@@ -8,7 +8,7 @@
         <definition>final double test.coordinates.GaussKruegerTest.RHO</definition>
         <argsstring></argsstring>
         <name>RHO</name>
-        <initializer>= 180/Math.PI</initializer>
+        <initializer>= 180 / Math.PI</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -53,14 +53,14 @@
         <argsstring>()</argsstring>
         <name>getAsGeographic</name>
         <briefdescription>
-<para>tests method getAsGeographic from class GaussKrueger, overwritten from abstract class coordinate expected values and input values are taken from book &quot;Rechenformeln und Rechenbeispiele zur Landesvermessung - Teil 2&quot; from Prof.Dr.-Ing. Albert Schoedlbauer, Robert Wichmann Verlag Karlsruhe, page 88 <linebreak/>
- </para>
+<para>tests method getAsGeographic from class GaussKrueger, overwritten from abstract class coordinate expected values and input values are taken from book &quot;Rechenformeln und Rechenbeispiele zur Landesvermessung -
+       Teil 2&quot; from Prof.Dr.-Ing. Albert Schoedlbauer, Robert Wichmann Verlag Karlsruhe, page 88 </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="test/coordinates/GaussKruegerTest.java" line="32" column="13" bodyfile="test/coordinates/GaussKruegerTest.java" bodystart="32" bodyend="58"/>
+        <location file="test/coordinates/GaussKruegerTest.java" line="34" column="13" bodyfile="test/coordinates/GaussKruegerTest.java" bodystart="34" bodyend="58"/>
       </memberdef>
       <memberdef kind="function" id="classtest_1_1coordinates_1_1_gauss_krueger_test_1a9d6f53566a17ffa437f244668187f1c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>

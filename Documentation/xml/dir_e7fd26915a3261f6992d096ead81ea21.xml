@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_e7fd26915a3261f6992d096ead81ea21" kind="dir">
+    <compoundname>params</compoundname>
+    <innerfile refid="_control_parms_8java">ControlParms.java</innerfile>
+    <innerfile refid="_ellipsoid_parms_8java">EllipsoidParms.java</innerfile>
+    <innerfile refid="_lat_parm_8java">LatParm.java</innerfile>
+    <innerfile refid="_molodensky_parm_8java">MolodenskyParm.java</innerfile>
+    <innerfile refid="_spatial_similarity_transform_parm_8java">SpatialSimilarityTransformParm.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="params/"/>
+  </compounddef>
+</doxygen>

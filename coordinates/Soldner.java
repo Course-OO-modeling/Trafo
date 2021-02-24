@@ -7,7 +7,7 @@ import params.LatParm;
  * @class Soldner
  * @brief Class Soldner extends class Coordinate
  * @author unknown
- * @remark updated header on 2017-11-29 by Markus M�ller
+ * @remark updated header on 2017-11-29 by Markus Müller
  * @version 0.1
  * @param l0          - reference longitude as double
  * @param b0          - reference latitude as double

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="md__r_e_a_d_m_e" kind="page">
+    <compoundname>md_README</compoundname>
+    <title>Trafo</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This is the repository of the course object-oriented modeling in GIS at the Geodetic Institute in Karlsruhe. It contains Java code for several geodetic transformations integrated in a single programm. The course focuses on learning software engineering skills and design patterns such as singleton or factory method (creational patterns). The program is based on a structure design pattern of a Model View Controller.</para>
+<para>This code is open source and everyone is invited to participate to this repository. Please feel free to pick open Issues and send Pull Requests (see section Contributing below).</para>
+<para><heading level="1">Getting Started</heading>
+</para>
+<para>These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.</para>
+<para><heading level="2">Prerequisites</heading>
+</para>
+<para>Java-compiler or -IDE (e.g. Eclipse: <ulink url="https://www.eclipse.org/">https://www.eclipse.org/</ulink>).</para>
+<para>JUnit (at least Version 3 is recommended) to run the implemented tests.</para>
+<para><heading level="2">Installing</heading>
+</para>
+<para>Just clone the repository.</para>
+<para><programlisting><codeline><highlight class="normal">git<sp/>clone<sp/>https://github.com/Course-OO-modeling/Trafo.git</highlight></codeline>
+</programlisting></para>
+<para>And start as a Java project with your favorite compiler/IDE (e.g. Eclipse).</para>
+<para>The project should run without any Errors.</para>
+<para><heading level="1">Running the tests</heading>
+</para>
+<para>Several Unit tests are already implemented.</para>
+<para><heading level="2">Break down into end to end tests (Todo: Delete this section?)</heading>
+</para>
+<para>Explain what these tests test and why</para>
+<para><programlisting><codeline><highlight class="normal">Give<sp/>an<sp/>example</highlight></codeline>
+</programlisting></para>
+<para><heading level="2">And coding style tests (Todo: Delete this section?)</heading>
+</para>
+<para>Explain what these tests test and why</para>
+<para><programlisting><codeline><highlight class="normal">Give<sp/>an<sp/>example</highlight></codeline>
+</programlisting></para>
+<para><heading level="1">Contributing</heading>
+</para>
+<para>When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change and submit pull requests.</para>
+<para><heading level="1">Versioning</heading>
+</para>
+<para>For the versions available, see the <ulink url="https://github.com/Course-OO-modeling/Trafo//tags">tags on this repository</ulink>.</para>
+<para><heading level="1">Authors</heading>
+</para>
+<para><itemizedlist>
+<listitem><para><bold>Norbert RÃ¶sch</bold> - <emphasis>Initial work</emphasis> -</para>
+</listitem><listitem><para><bold>Yunhao Huang</bold></para>
+</listitem><listitem><para><bold>Yucheng Luo</bold></para>
+</listitem><listitem><para><bold>Markus MÃ¼ller</bold></para>
+</listitem><listitem><para><bold>Markus Hillemann</bold></para>
+</listitem><listitem><para><bold>Johanna StÃ¶tzer</bold></para>
+</listitem><listitem><para><bold>Matthias Schnell</bold></para>
+</listitem><listitem><para><bold>Eva Majer</bold></para>
+</listitem></itemizedlist>
+</para>
+<para>See also the list of <ulink url="https://github.com/Course-OO-modeling/Trafo/contributors">contributors</ulink> who participated in this project.</para>
+<para><heading level="1">License</heading>
+</para>
+<para>This project is licensed under the GNU License - see the <ref refid="md__l_i_c_e_n_s_e" kindref="compound">LICENSE.md</ref> file for details</para>
+<para><heading level="1">Acknowledgments</heading>
+</para>
+<para><itemizedlist>
+<listitem><para>We acknowledge all authors and participants who contributed to this project. Thank You. </para>
+</listitem></itemizedlist>
+</para>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

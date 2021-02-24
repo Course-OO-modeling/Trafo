@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classtest_1_1workflow_1_1_gauss_krueger_mock_test" kind="class" language="Java" prot="public">
+    <compoundname>test::workflow::GaussKruegerMockTest</compoundname>
+    <basecompoundref refid="classcoordinates_1_1_gauss_krueger" prot="public" virt="non-virtual">coordinates.GaussKrueger</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtest_1_1workflow_1_1_gauss_krueger_mock_test_1a16bb2f62208744182dd6c8aaa4a2bee2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void test.workflow.GaussKruegerMockTest.testGaussKruegerWorkflow</definition>
+        <argsstring>()</argsstring>
+        <name>testGaussKruegerWorkflow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/workflow/GaussKruegerMockTest.java" line="19" column="13" bodyfile="test/workflow/GaussKruegerMockTest.java" bodystart="19" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>test.workflow.GaussKruegerMockTest</label>
+        <link refid="classtest_1_1workflow_1_1_gauss_krueger_mock_test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>coordinates.Gauss</label>
+        <link refid="classcoordinates_1_1_gauss"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>coordinates.GaussKrueger</label>
+        <link refid="classcoordinates_1_1_gauss_krueger"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>coordinates.Coordinate</label>
+        <link refid="classcoordinates_1_1_coordinate"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>test.workflow.GaussKruegerMockTest</label>
+        <link refid="classtest_1_1workflow_1_1_gauss_krueger_mock_test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>coordinates.Gauss</label>
+        <link refid="classcoordinates_1_1_gauss"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>coordinates.GaussKrueger</label>
+        <link refid="classcoordinates_1_1_gauss_krueger"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>coordinates.Coordinate</label>
+        <link refid="classcoordinates_1_1_coordinate"/>
+      </node>
+    </collaborationgraph>
+    <location file="test/workflow/GaussKruegerMockTest.java" line="16" column="47" bodyfile="test/workflow/GaussKruegerMockTest.java" bodystart="16" bodyend="69"/>
+    <listofallmembers>
+      <member refid="classcoordinates_1_1_gauss_1a9bd37a096f53a9e443570ec5748f95d8" prot="private" virt="non-virtual"><scope>test::workflow::GaussKruegerMockTest</scope><name>abszisse</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a1e810f7e3af643a8c0525485d9133276" prot="protected" virt="non-virtual"><scope>test::workflow::GaussKruegerMockTest</scope><name>CalculateAbszisseOrdinate</name></member>
+      <member refid="classcoordinates_1_1_gauss_krueger_1a8118e7f54b47ed00d9ba473f381392c0" prot="private" virt="non-virtual"><scope>test::workflow::GaussKruegerMockTest</scope><name>centralMeridian</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a08582ecf17604f8330df079ce234008c" prot="private" virt="non-virtual"><scope>test::workflow::GaussKruegerMockTest</scope><name>ellipsoidal</name></member>
+      <member refid="classcoordinates_1_1_gauss_krueger_1a59a320d5d406e0e88df19f2a1c6cc9fc" prot="public" virt="non-virtual"><scope>test::workflow::GaussKruegerMockTest</scope><name>GaussKrueger</name></member>
+      <member refid="classcoordinates_1_1_gauss_1ad11601b119b190bd9d61f71df6b53038" prot="public" virt="non-virtual"><scope>test::workflow::GaussKruegerMockTest</scope><name>getAbszisse</name></member>
+      <member refid="classcoordinates_1_1_gauss_krueger_1a3b7d9043de1a8cbff07dd692244938d5" prot="public" virt="non-virtual"><scope>test::workflow::GaussKruegerMockTest</scope><name>getAsGeographicInterface</name></member>
+      <member refid="classcoordinates_1_1_gauss_krueger_1ab25a4a0c8fadac6c9f1653227427efd7" prot="public" virt="non-virtual"><scope>test::workflow::GaussKruegerMockTest</scope><name>getAsTargetCoordinate</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a5c6271983e9bb69b8d024158397f5882" prot="public" virt="non-virtual"><scope>test::workflow::GaussKruegerMockTest</scope><name>getEllipsoidal</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a3bc39fe23752a9bccac68015c799f3fc" prot="public" virt="non-virtual"><scope>test::workflow::GaussKruegerMockTest</scope><name>getHeight</name></member>
+      <member refid="classcoordinates_1_1_gauss_krueger_1ac6dfe7a78850b5aa7c69e1e5d2a0b3cf" prot="public" virt="non-virtual"><scope>test::workflow::GaussKruegerMockTest</scope><name>getHoch</name></member>
+      <member refid="classcoordinates_1_1_gauss_krueger_1a3052602f8c5575a22cc7a1a63c5cb063" prot="public" virt="non-virtual"><scope>test::workflow::GaussKruegerMockTest</scope><name>getIlao</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a751c889d6cc9b2acb5eeb42d888efc0f" prot="public" virt="non-virtual"><scope>test::workflow::GaussKruegerMockTest</scope><name>getOrdinate</name></member>
+      <member refid="classcoordinates_1_1_coordinate_1ab0b1d8dc4fe371a2425e0cb505effafd" prot="public" virt="non-virtual"><scope>test::workflow::GaussKruegerMockTest</scope><name>getPointid</name></member>
+      <member refid="classcoordinates_1_1_gauss_krueger_1a11b882d972f2068f8447ea07df0bd4db" prot="public" virt="non-virtual"><scope>test::workflow::GaussKruegerMockTest</scope><name>getRechts</name></member>
+      <member refid="classcoordinates_1_1_gauss_1ab0d10005ccb914af91c8afc28d2ed836" prot="public" virt="non-virtual"><scope>test::workflow::GaussKruegerMockTest</scope><name>getScale</name></member>
+      <member refid="classcoordinates_1_1_gauss_1ad1543fe8a30e7f6dab1d0486bb5a935d" prot="private" virt="non-virtual"><scope>test::workflow::GaussKruegerMockTest</scope><name>height</name></member>
+      <member refid="classcoordinates_1_1_gauss_krueger_1ad0effac6a487835234850d6dc8805843" prot="private" virt="non-virtual"><scope>test::workflow::GaussKruegerMockTest</scope><name>hoch</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a622fa98764e45111e58a44c82f4dc5cd" prot="public" virt="non-virtual"><scope>test::workflow::GaussKruegerMockTest</scope><name>meridianLength</name></member>
+      <member refid="classcoordinates_1_1_gauss_1ab156b1da518d7637dacef40489a0dba4" prot="private" virt="non-virtual"><scope>test::workflow::GaussKruegerMockTest</scope><name>ordinate</name></member>
+      <member refid="classcoordinates_1_1_coordinate_1a871c4eb3e8771b3e59f26c8e573d6aa0" prot="private" virt="non-virtual"><scope>test::workflow::GaussKruegerMockTest</scope><name>pointid</name></member>
+      <member refid="classcoordinates_1_1_gauss_krueger_1a68b8bf6307cf0c9732f5034d8cf70df8" prot="public" virt="non-virtual"><scope>test::workflow::GaussKruegerMockTest</scope><name>print</name></member>
+      <member refid="classcoordinates_1_1_gauss_krueger_1a7b3a7878b5c0e9af6afee712997630b7" prot="private" virt="non-virtual"><scope>test::workflow::GaussKruegerMockTest</scope><name>rechts</name></member>
+      <member refid="classcoordinates_1_1_gauss_1aea6297c71e9258a7dfb80a823048dc0d" prot="private" virt="non-virtual"><scope>test::workflow::GaussKruegerMockTest</scope><name>scale</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a82bc0ee0a9fae9bef4e3400615d50c58" prot="public" virt="non-virtual"><scope>test::workflow::GaussKruegerMockTest</scope><name>setAbszisse</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a2bfa95e5913df58667cf5c15db228db8" prot="public" virt="non-virtual"><scope>test::workflow::GaussKruegerMockTest</scope><name>setEllipsoidal</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a3af44a951b3cb9ea5f5cf143b1cb2253" prot="public" virt="non-virtual"><scope>test::workflow::GaussKruegerMockTest</scope><name>setHeight</name></member>
+      <member refid="classcoordinates_1_1_gauss_krueger_1acf100c94ccd6ce16857ec83876578aa5" prot="public" virt="non-virtual"><scope>test::workflow::GaussKruegerMockTest</scope><name>setHoch</name></member>
+      <member refid="classcoordinates_1_1_gauss_krueger_1a9dc35489df5fd3430d61f0d47ca27b82" prot="public" virt="non-virtual"><scope>test::workflow::GaussKruegerMockTest</scope><name>setIlao</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a3afbbdd05c3a68dd778760cb824b0b03" prot="public" virt="non-virtual"><scope>test::workflow::GaussKruegerMockTest</scope><name>setOrdinate</name></member>
+      <member refid="classcoordinates_1_1_coordinate_1a14f00383b5a41df79220112a12ef1cbf" prot="public" virt="non-virtual"><scope>test::workflow::GaussKruegerMockTest</scope><name>setPointid</name></member>
+      <member refid="classcoordinates_1_1_gauss_krueger_1aae6034f16ac245dac1c1d84722048894" prot="public" virt="non-virtual"><scope>test::workflow::GaussKruegerMockTest</scope><name>setRechts</name></member>
+      <member refid="classcoordinates_1_1_gauss_1a5f0cc370abdab913a51a7395bc54ff24" prot="public" virt="non-virtual"><scope>test::workflow::GaussKruegerMockTest</scope><name>setScale</name></member>
+      <member refid="classtest_1_1workflow_1_1_gauss_krueger_mock_test_1a16bb2f62208744182dd6c8aaa4a2bee2" prot="public" virt="non-virtual"><scope>test::workflow::GaussKruegerMockTest</scope><name>testGaussKruegerWorkflow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

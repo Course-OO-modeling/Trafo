@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="classcoordinates_1_1_soldner" kind="class" language="Java" prot="public">
     <compoundname>coordinates::Soldner</compoundname>
     <basecompoundref refid="classcoordinates_1_1_coordinate" prot="public" virt="non-virtual">coordinates.Coordinate</basecompoundref>
+    <derivedcompoundref refid="classtest_1_1workflow_1_1_soldner_mock_test" prot="public" virt="non-virtual">test.workflow.SoldnerMockTest</derivedcompoundref>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classcoordinates_1_1_soldner_1a4d8a0b1f4fce55f1d8be6433a2160b17" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -12,11 +13,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>reference longitude </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Soldner.java" line="23" column="20" bodyfile="coordinates/Soldner.java" bodystart="23" bodyend="-1"/>
+        <location file="coordinates/Soldner.java" line="21" column="16" bodyfile="coordinates/Soldner.java" bodystart="21" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classcoordinates_1_1_soldner_1a489fa7e9e4c0c09e502bbbf2fb7ad689" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -26,11 +26,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>reference latitude </para>
+<para>&lt; reference longitude </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Soldner.java" line="24" column="20" bodyfile="coordinates/Soldner.java" bodystart="24" bodyend="-1"/>
+        <location file="coordinates/Soldner.java" line="23" column="16" bodyfile="coordinates/Soldner.java" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classcoordinates_1_1_soldner_1ab1bec5d8a11e84c0cdc3154fd1abf843" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -40,11 +40,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>x-value </para>
+<para>&lt; reference latitude </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Soldner.java" line="25" column="20" bodyfile="coordinates/Soldner.java" bodystart="25" bodyend="-1"/>
+        <location file="coordinates/Soldner.java" line="25" column="16" bodyfile="coordinates/Soldner.java" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classcoordinates_1_1_soldner_1ab13e1d9275b47a0754ed33c572dba57a" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -54,11 +54,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>y-value </para>
+<para>&lt; x-value </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Soldner.java" line="26" column="20" bodyfile="coordinates/Soldner.java" bodystart="26" bodyend="-1"/>
+        <location file="coordinates/Soldner.java" line="27" column="16" bodyfile="coordinates/Soldner.java" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classcoordinates_1_1_soldner_1a4db9877edcf2391422fe532bd7131856" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -68,11 +68,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Height </para>
+<para>&lt; y-value </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Soldner.java" line="27" column="20" bodyfile="coordinates/Soldner.java" bodystart="27" bodyend="-1"/>
+        <location file="coordinates/Soldner.java" line="29" column="16" bodyfile="coordinates/Soldner.java" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classcoordinates_1_1_soldner_1abef9061e0e316de4bba8f5e99292a2b5" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -82,11 +82,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Height above ellipsoid: 0 =&gt; no height (not defined), 1 =&gt; ellispsoidal, 2 =&gt; geoid </para>
+<para>&lt; Height </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Soldner.java" line="28" column="17" bodyfile="coordinates/Soldner.java" bodystart="28" bodyend="-1"/>
+        <location file="coordinates/Soldner.java" line="31" column="13" bodyfile="coordinates/Soldner.java" bodystart="31" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -122,10 +122,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>&lt; Height above ellipsoid: 0 =&gt; no height (not defined), 1 =&gt; ellispsoidal, 2 =&gt; geoid </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Soldner.java" line="35" column="12" bodyfile="coordinates/Soldner.java" bodystart="35" bodyend="42"/>
+        <location file="coordinates/Soldner.java" line="41" column="8" bodyfile="coordinates/Soldner.java" bodystart="41" bodyend="48"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_soldner_1a92132f86c35d526b8419f8bde4e0bc0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -146,7 +147,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Soldner.java" line="44" column="12" bodyfile="coordinates/Soldner.java" bodystart="44" bodyend="50"/>
+        <location file="coordinates/Soldner.java" line="50" column="8" bodyfile="coordinates/Soldner.java" bodystart="50" bodyend="56"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_soldner_1a01998c873e25c1fbefb3aba8d1d24cdd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -159,7 +160,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Soldner.java" line="53" column="12" bodyfile="coordinates/Soldner.java" bodystart="53" bodyend="59"/>
+        <location file="coordinates/Soldner.java" line="58" column="8" bodyfile="coordinates/Soldner.java" bodystart="58" bodyend="64"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_soldner_1a672aec8c4424e5a066f272d4864e8813" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -174,7 +175,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Soldner.java" line="69" column="17" bodyfile="coordinates/Soldner.java" bodystart="69" bodyend="77"/>
+        <location file="coordinates/Soldner.java" line="73" column="13" bodyfile="coordinates/Soldner.java" bodystart="73" bodyend="81"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_soldner_1ab87732c40411256ffd5cfba0ad4bd2cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref></type>
@@ -205,7 +206,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Soldner.java" line="84" column="42" bodyfile="coordinates/Soldner.java" bodystart="84" bodyend="115"/>
+        <location file="coordinates/Soldner.java" line="88" column="38" bodyfile="coordinates/Soldner.java" bodystart="88" bodyend="119"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_soldner_1a5681bdb4c77cb4e6e483abca00758a48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -246,7 +247,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Soldner.java" line="122" column="17" bodyfile="coordinates/Soldner.java" bodystart="122" bodyend="161"/>
+        <location file="coordinates/Soldner.java" line="128" column="13" bodyfile="coordinates/Soldner.java" bodystart="128" bodyend="167"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_soldner_1a58e4fa59465e0953f6302ea668f2d270" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -263,7 +264,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Soldner.java" line="171" column="23" bodyfile="coordinates/Soldner.java" bodystart="171" bodyend="173"/>
+        <location file="coordinates/Soldner.java" line="178" column="15" bodyfile="coordinates/Soldner.java" bodystart="178" bodyend="180"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_soldner_1abc6b1143ff0485b110cdc7b33f712ed3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -291,7 +292,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Soldner.java" line="179" column="21" bodyfile="coordinates/Soldner.java" bodystart="179" bodyend="181"/>
+        <location file="coordinates/Soldner.java" line="188" column="13" bodyfile="coordinates/Soldner.java" bodystart="188" bodyend="190"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_soldner_1a6ab74bfedc2b81db5ec9b40228b5a51c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -308,7 +309,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Soldner.java" line="187" column="23" bodyfile="coordinates/Soldner.java" bodystart="187" bodyend="189"/>
+        <location file="coordinates/Soldner.java" line="198" column="15" bodyfile="coordinates/Soldner.java" bodystart="198" bodyend="200"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_soldner_1a597b8292c312c36e547df97285e55d4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -336,7 +337,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Soldner.java" line="195" column="21" bodyfile="coordinates/Soldner.java" bodystart="195" bodyend="197"/>
+        <location file="coordinates/Soldner.java" line="208" column="13" bodyfile="coordinates/Soldner.java" bodystart="208" bodyend="210"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_soldner_1a1bb5f8b49d0f2858f22028f3532d1ee3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -353,7 +354,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Soldner.java" line="203" column="23" bodyfile="coordinates/Soldner.java" bodystart="203" bodyend="205"/>
+        <location file="coordinates/Soldner.java" line="218" column="15" bodyfile="coordinates/Soldner.java" bodystart="218" bodyend="220"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_soldner_1ab1de539c6b4d0855debaa87339edbedd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -381,7 +382,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Soldner.java" line="211" column="21" bodyfile="coordinates/Soldner.java" bodystart="211" bodyend="213"/>
+        <location file="coordinates/Soldner.java" line="228" column="13" bodyfile="coordinates/Soldner.java" bodystart="228" bodyend="230"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_soldner_1abb044e1be4724e6cd0ee72083a6245d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -398,7 +399,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Soldner.java" line="219" column="23" bodyfile="coordinates/Soldner.java" bodystart="219" bodyend="221"/>
+        <location file="coordinates/Soldner.java" line="238" column="15" bodyfile="coordinates/Soldner.java" bodystart="238" bodyend="240"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_soldner_1a991dbfcef201d4740613960da3794bf6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -426,7 +427,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Soldner.java" line="227" column="21" bodyfile="coordinates/Soldner.java" bodystart="227" bodyend="229"/>
+        <location file="coordinates/Soldner.java" line="248" column="13" bodyfile="coordinates/Soldner.java" bodystart="248" bodyend="250"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_soldner_1a0b9ff78b3e7f94bef19549746c67ea92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -443,7 +444,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Soldner.java" line="235" column="23" bodyfile="coordinates/Soldner.java" bodystart="235" bodyend="237"/>
+        <location file="coordinates/Soldner.java" line="258" column="15" bodyfile="coordinates/Soldner.java" bodystart="258" bodyend="260"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_soldner_1afc305a8276613f55b9aa79638a514789" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -471,7 +472,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Soldner.java" line="243" column="21" bodyfile="coordinates/Soldner.java" bodystart="243" bodyend="245"/>
+        <location file="coordinates/Soldner.java" line="268" column="13" bodyfile="coordinates/Soldner.java" bodystart="268" bodyend="270"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_soldner_1ace54cd7d0157cf876c22e7877fc65c01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -488,7 +489,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Soldner.java" line="251" column="20" bodyfile="coordinates/Soldner.java" bodystart="251" bodyend="253"/>
+        <location file="coordinates/Soldner.java" line="278" column="12" bodyfile="coordinates/Soldner.java" bodystart="278" bodyend="280"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_soldner_1abf6ceb3d9b6edd741fdd05580b0593fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -516,7 +517,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Soldner.java" line="259" column="21" bodyfile="coordinates/Soldner.java" bodystart="259" bodyend="261"/>
+        <location file="coordinates/Soldner.java" line="288" column="13" bodyfile="coordinates/Soldner.java" bodystart="288" bodyend="290"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -525,7 +526,7 @@
     <detaileddescription>
 <para><simplesect kind="author"><para>unknown </para>
 </simplesect>
-<simplesect kind="remark"><para>updated header on 2017-11-29 by Markus Mueller </para>
+<simplesect kind="remark"><para>updated header on 2017-11-29 by Markus MÃ¼ller </para>
 </simplesect>
 <simplesect kind="version"><para>0.1 </para>
 </simplesect>
@@ -581,6 +582,12 @@
 </para>
     </detaileddescription>
     <inheritancegraph>
+      <node id="3">
+        <label>test.workflow.SoldnerMockTest</label>
+        <link refid="classtest_1_1workflow_1_1_soldner_mock_test"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="1">
         <label>coordinates.Soldner</label>
         <link refid="classcoordinates_1_1_soldner"/>
@@ -604,7 +611,7 @@
         <link refid="classcoordinates_1_1_coordinate"/>
       </node>
     </collaborationgraph>
-    <location file="coordinates/Soldner.java" line="22" column="38" bodyfile="coordinates/Soldner.java" bodystart="22" bodyend="263"/>
+    <location file="coordinates/Soldner.java" line="20" column="32" bodyfile="coordinates/Soldner.java" bodystart="20" bodyend="295"/>
     <listofallmembers>
       <member refid="classcoordinates_1_1_soldner_1ab1bec5d8a11e84c0cdc3154fd1abf843" prot="private" virt="non-virtual"><scope>coordinates::Soldner</scope><name>abszisse</name></member>
       <member refid="classcoordinates_1_1_soldner_1a489fa7e9e4c0c09e502bbbf2fb7ad689" prot="private" virt="non-virtual"><scope>coordinates::Soldner</scope><name>b0</name></member>

@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="classcoordinates_1_1_gauss_krueger" kind="class" language="Java" prot="public">
     <compoundname>coordinates::GaussKrueger</compoundname>
     <basecompoundref refid="classcoordinates_1_1_gauss" prot="public" virt="non-virtual">coordinates.Gauss</basecompoundref>
+    <derivedcompoundref refid="classtest_1_1workflow_1_1_gauss_krueger_mock_test" prot="public" virt="non-virtual">test.workflow.GaussKruegerMockTest</derivedcompoundref>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classcoordinates_1_1_gauss_krueger_1a7b3a7878b5c0e9af6afee712997630b7" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -12,11 +13,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>&apos;rechts&apos; is the official term used by the German survey admistration (&apos;easting&apos;) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GaussKrueger.java" line="24" column="20" bodyfile="coordinates/GaussKrueger.java" bodystart="24" bodyend="-1"/>
+        <location file="coordinates/GaussKrueger.java" line="23" column="16" bodyfile="coordinates/GaussKrueger.java" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classcoordinates_1_1_gauss_krueger_1ad0effac6a487835234850d6dc8805843" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -26,11 +26,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>&apos;hoch&apos; is the official term used by the German survey admistration (&apos;northing&apos;) </para>
+<para>&lt; &apos;rechts&apos; is the official term used by the German survey admistration (&apos;easting&apos;) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GaussKrueger.java" line="25" column="20" bodyfile="coordinates/GaussKrueger.java" bodystart="25" bodyend="-1"/>
+        <location file="coordinates/GaussKrueger.java" line="28" column="16" bodyfile="coordinates/GaussKrueger.java" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classcoordinates_1_1_gauss_krueger_1a8118e7f54b47ed00d9ba473f381392c0" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -40,11 +40,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>central meridian </para>
+<para>&lt; &apos;hoch&apos; is the official term used by the German survey admistration (&apos;northing&apos;) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GaussKrueger.java" line="26" column="17" bodyfile="coordinates/GaussKrueger.java" bodystart="26" bodyend="-1"/>
+        <location file="coordinates/GaussKrueger.java" line="33" column="13" bodyfile="coordinates/GaussKrueger.java" bodystart="33" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -57,10 +57,11 @@
 <para>main constructor to set the coordinates and reference meridian </para>
         </briefdescription>
         <detaileddescription>
+<para>&lt; central meridian </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GaussKrueger.java" line="35" column="12" bodyfile="coordinates/GaussKrueger.java" bodystart="35" bodyend="44"/>
+        <location file="coordinates/GaussKrueger.java" line="42" column="8" bodyfile="coordinates/GaussKrueger.java" bodystart="42" bodyend="51"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_gauss_krueger_1a68b8bf6307cf0c9732f5034d8cf70df8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -75,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GaussKrueger.java" line="54" column="17" bodyfile="coordinates/GaussKrueger.java" bodystart="54" bodyend="59"/>
+        <location file="coordinates/GaussKrueger.java" line="60" column="13" bodyfile="coordinates/GaussKrueger.java" bodystart="60" bodyend="65"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_gauss_krueger_1a3b7d9043de1a8cbff07dd692244938d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref></type>
@@ -106,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GaussKrueger.java" line="67" column="42" bodyfile="coordinates/GaussKrueger.java" bodystart="67" bodyend="84"/>
+        <location file="coordinates/GaussKrueger.java" line="77" column="38" bodyfile="coordinates/GaussKrueger.java" bodystart="77" bodyend="94"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_gauss_krueger_1ab25a4a0c8fadac6c9f1653227427efd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -147,7 +148,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GaussKrueger.java" line="93" column="17" bodyfile="coordinates/GaussKrueger.java" bodystart="93" bodyend="118"/>
+        <location file="coordinates/GaussKrueger.java" line="109" column="13" bodyfile="coordinates/GaussKrueger.java" bodystart="109" bodyend="134"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_gauss_krueger_1a11b882d972f2068f8447ea07df0bd4db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -164,7 +165,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GaussKrueger.java" line="129" column="19" bodyfile="coordinates/GaussKrueger.java" bodystart="129" bodyend="131"/>
+        <location file="coordinates/GaussKrueger.java" line="145" column="15" bodyfile="coordinates/GaussKrueger.java" bodystart="145" bodyend="147"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_gauss_krueger_1aae6034f16ac245dac1c1d84722048894" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -192,7 +193,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GaussKrueger.java" line="137" column="17" bodyfile="coordinates/GaussKrueger.java" bodystart="137" bodyend="139"/>
+        <location file="coordinates/GaussKrueger.java" line="155" column="13" bodyfile="coordinates/GaussKrueger.java" bodystart="155" bodyend="157"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_gauss_krueger_1ac6dfe7a78850b5aa7c69e1e5d2a0b3cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -209,7 +210,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GaussKrueger.java" line="145" column="19" bodyfile="coordinates/GaussKrueger.java" bodystart="145" bodyend="147"/>
+        <location file="coordinates/GaussKrueger.java" line="164" column="15" bodyfile="coordinates/GaussKrueger.java" bodystart="164" bodyend="166"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_gauss_krueger_1acf100c94ccd6ce16857ec83876578aa5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -237,7 +238,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GaussKrueger.java" line="153" column="17" bodyfile="coordinates/GaussKrueger.java" bodystart="153" bodyend="155"/>
+        <location file="coordinates/GaussKrueger.java" line="174" column="13" bodyfile="coordinates/GaussKrueger.java" bodystart="174" bodyend="176"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_gauss_krueger_1a3052602f8c5575a22cc7a1a63c5cb063" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -254,7 +255,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GaussKrueger.java" line="161" column="16" bodyfile="coordinates/GaussKrueger.java" bodystart="161" bodyend="163"/>
+        <location file="coordinates/GaussKrueger.java" line="184" column="12" bodyfile="coordinates/GaussKrueger.java" bodystart="184" bodyend="186"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_gauss_krueger_1a9dc35489df5fd3430d61f0d47ca27b82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -282,7 +283,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GaussKrueger.java" line="169" column="17" bodyfile="coordinates/GaussKrueger.java" bodystart="169" bodyend="171"/>
+        <location file="coordinates/GaussKrueger.java" line="194" column="13" bodyfile="coordinates/GaussKrueger.java" bodystart="194" bodyend="196"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -291,7 +292,7 @@
     <detaileddescription>
 <para><simplesect kind="author"><para>unknown </para>
 </simplesect>
-<simplesect kind="remark"><para>updated header on 2017-11-29 by Markus Mueller </para>
+<simplesect kind="remark"><para>updated header on 2017-11-29 by Markus MÃ¼ller </para>
 </simplesect>
 <simplesect kind="remark"><para>change comment of attribute &apos;hoch&apos; 2017-12-19 by Markus Hillemann </para>
 </simplesect>
@@ -327,6 +328,12 @@
 </para>
     </detaileddescription>
     <inheritancegraph>
+      <node id="4">
+        <label>test.workflow.GaussKruegerMockTest</label>
+        <link refid="classtest_1_1workflow_1_1_gauss_krueger_mock_test"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
         <label>coordinates.Gauss</label>
         <link refid="classcoordinates_1_1_gauss"/>
@@ -362,7 +369,7 @@
         <link refid="classcoordinates_1_1_coordinate"/>
       </node>
     </collaborationgraph>
-    <location file="coordinates/GaussKrueger.java" line="21" column="32" bodyfile="coordinates/GaussKrueger.java" bodystart="21" bodyend="173"/>
+    <location file="coordinates/GaussKrueger.java" line="21" column="32" bodyfile="coordinates/GaussKrueger.java" bodystart="21" bodyend="201"/>
     <listofallmembers>
       <member refid="classcoordinates_1_1_gauss_1a9bd37a096f53a9e443570ec5748f95d8" prot="private" virt="non-virtual"><scope>coordinates::GaussKrueger</scope><name>abszisse</name></member>
       <member refid="classcoordinates_1_1_gauss_1a1e810f7e3af643a8c0525485d9133276" prot="protected" virt="non-virtual"><scope>coordinates::GaussKrueger</scope><name>CalculateAbszisseOrdinate</name></member>

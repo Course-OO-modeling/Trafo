@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="classparams_1_1_spatial_similarity_transform_parm" kind="class" language="Java" prot="public">
     <compoundname>params::SpatialSimilarityTransformParm</compoundname>
       <sectiondef kind="private-attrib">
@@ -14,7 +14,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/SpatialSimilarityTransformParm.java" line="12" column="20" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="12" bodyend="-1"/>
+        <location file="params/SpatialSimilarityTransformParm.java" line="12" column="16" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="12" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_spatial_similarity_transform_parm_1a4f23eb3e8b5fc1b10958fd60b6484a77" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -27,7 +27,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/SpatialSimilarityTransformParm.java" line="13" column="20" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="13" bodyend="-1"/>
+        <location file="params/SpatialSimilarityTransformParm.java" line="13" column="16" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="13" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_spatial_similarity_transform_parm_1af481ab8897e883489a144acfb6257220" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -40,7 +40,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/SpatialSimilarityTransformParm.java" line="14" column="20" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="14" bodyend="-1"/>
+        <location file="params/SpatialSimilarityTransformParm.java" line="14" column="16" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_spatial_similarity_transform_parm_1a79c758206551aee1178f8bdab3ecb488" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/SpatialSimilarityTransformParm.java" line="15" column="17" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="15" bodyend="-1"/>
+        <location file="params/SpatialSimilarityTransformParm.java" line="15" column="13" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="15" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="package-attrib">
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/SpatialSimilarityTransformParm.java" line="12" column="27" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="12" bodyend="-1"/>
+        <location file="params/SpatialSimilarityTransformParm.java" line="12" column="23" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="12" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_spatial_similarity_transform_parm_1a00d66e8addc643f393cc091bb3f077a6" prot="package" static="no" mutable="no">
         <type>double</type>
@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/SpatialSimilarityTransformParm.java" line="12" column="34" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="12" bodyend="-1"/>
+        <location file="params/SpatialSimilarityTransformParm.java" line="12" column="30" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="12" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_spatial_similarity_transform_parm_1a1b22cc4115a083b88f4b18ebdf15c7bb" prot="package" static="no" mutable="no">
         <type>double</type>
@@ -94,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/SpatialSimilarityTransformParm.java" line="13" column="26" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="13" bodyend="-1"/>
+        <location file="params/SpatialSimilarityTransformParm.java" line="13" column="22" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="13" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_spatial_similarity_transform_parm_1a39658a6676a9e89a3f84d0f338c559c2" prot="package" static="no" mutable="no">
         <type>double</type>
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/SpatialSimilarityTransformParm.java" line="13" column="31" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="13" bodyend="-1"/>
+        <location file="params/SpatialSimilarityTransformParm.java" line="13" column="27" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="13" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -122,7 +122,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/SpatialSimilarityTransformParm.java" line="22" column="12" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="22" bodyend="32"/>
+        <location file="params/SpatialSimilarityTransformParm.java" line="20" column="8" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="20" bodyend="30"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_spatial_similarity_transform_parm_1a37fd744ccbc74031df2da8f098815332" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -135,7 +135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/SpatialSimilarityTransformParm.java" line="38" column="19" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="38" bodyend="40"/>
+        <location file="params/SpatialSimilarityTransformParm.java" line="35" column="15" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="35" bodyend="37"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_spatial_similarity_transform_parm_1aba92ce1ddf711516948e45ac4f324d2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -152,7 +152,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/SpatialSimilarityTransformParm.java" line="42" column="17" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="42" bodyend="44"/>
+        <location file="params/SpatialSimilarityTransformParm.java" line="39" column="13" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="39" bodyend="41"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_spatial_similarity_transform_parm_1aad089a34d066807c564cd52d38a6eb1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -165,7 +165,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/SpatialSimilarityTransformParm.java" line="46" column="19" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="46" bodyend="48"/>
+        <location file="params/SpatialSimilarityTransformParm.java" line="43" column="15" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="43" bodyend="45"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_spatial_similarity_transform_parm_1a95abfe42f6dbacca540045bd351e2f8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -182,7 +182,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/SpatialSimilarityTransformParm.java" line="50" column="17" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="50" bodyend="52"/>
+        <location file="params/SpatialSimilarityTransformParm.java" line="47" column="13" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="47" bodyend="49"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_spatial_similarity_transform_parm_1a1a1bdcbebcd6d163e10ca26adfdc38af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -195,7 +195,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/SpatialSimilarityTransformParm.java" line="54" column="19" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="54" bodyend="56"/>
+        <location file="params/SpatialSimilarityTransformParm.java" line="51" column="15" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="51" bodyend="53"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_spatial_similarity_transform_parm_1ae24da150263352bbf42c86eb994b3e92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -212,7 +212,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/SpatialSimilarityTransformParm.java" line="58" column="17" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="58" bodyend="60"/>
+        <location file="params/SpatialSimilarityTransformParm.java" line="55" column="13" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="55" bodyend="57"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_spatial_similarity_transform_parm_1a216da0bc2f6cbb4ed137e2146527b42b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -225,7 +225,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/SpatialSimilarityTransformParm.java" line="62" column="19" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="62" bodyend="64"/>
+        <location file="params/SpatialSimilarityTransformParm.java" line="59" column="15" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="59" bodyend="61"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_spatial_similarity_transform_parm_1ae5ed35054bccb93612ed02174c83ad2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -242,7 +242,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/SpatialSimilarityTransformParm.java" line="66" column="17" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="66" bodyend="68"/>
+        <location file="params/SpatialSimilarityTransformParm.java" line="63" column="13" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="63" bodyend="65"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_spatial_similarity_transform_parm_1ae9e8e3926d4f2909d772f3bd6018ea99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -255,7 +255,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/SpatialSimilarityTransformParm.java" line="70" column="19" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="70" bodyend="72"/>
+        <location file="params/SpatialSimilarityTransformParm.java" line="67" column="15" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="67" bodyend="69"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_spatial_similarity_transform_parm_1a2a5a2416faca1d1afa482d65737f9b21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -272,7 +272,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/SpatialSimilarityTransformParm.java" line="74" column="17" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="74" bodyend="76"/>
+        <location file="params/SpatialSimilarityTransformParm.java" line="71" column="13" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="71" bodyend="73"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_spatial_similarity_transform_parm_1aab854337ef47999b9bdd44f7a319fd77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -285,7 +285,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/SpatialSimilarityTransformParm.java" line="78" column="19" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="78" bodyend="80"/>
+        <location file="params/SpatialSimilarityTransformParm.java" line="75" column="15" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="75" bodyend="77"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_spatial_similarity_transform_parm_1aaab95d6e73a61147ff22c52971cdf728" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -302,7 +302,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/SpatialSimilarityTransformParm.java" line="82" column="17" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="82" bodyend="84"/>
+        <location file="params/SpatialSimilarityTransformParm.java" line="79" column="13" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="79" bodyend="81"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_spatial_similarity_transform_parm_1a570ac3a9dd6a2448e4eeffac47cdca6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -315,7 +315,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/SpatialSimilarityTransformParm.java" line="86" column="19" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="86" bodyend="88"/>
+        <location file="params/SpatialSimilarityTransformParm.java" line="83" column="15" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="83" bodyend="85"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_spatial_similarity_transform_parm_1a73755392f0f98c4cdd20de9770935f22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -332,7 +332,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/SpatialSimilarityTransformParm.java" line="90" column="17" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="90" bodyend="92"/>
+        <location file="params/SpatialSimilarityTransformParm.java" line="87" column="13" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="87" bodyend="89"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_spatial_similarity_transform_parm_1ad59a530af9a3860239c9cfc5ea37b738" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -345,7 +345,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/SpatialSimilarityTransformParm.java" line="94" column="16" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="94" bodyend="96"/>
+        <location file="params/SpatialSimilarityTransformParm.java" line="91" column="12" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="91" bodyend="93"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_spatial_similarity_transform_parm_1a527f9a94419840c4a7bb60db5bf99acb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -362,7 +362,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/SpatialSimilarityTransformParm.java" line="98" column="17" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="98" bodyend="100"/>
+        <location file="params/SpatialSimilarityTransformParm.java" line="95" column="13" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="95" bodyend="97"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -375,7 +375,7 @@
 </simplesect>
 </para>
     </detaileddescription>
-    <location file="params/SpatialSimilarityTransformParm.java" line="11" column="44" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="11" bodyend="102"/>
+    <location file="params/SpatialSimilarityTransformParm.java" line="11" column="44" bodyfile="params/SpatialSimilarityTransformParm.java" bodystart="11" bodyend="101"/>
     <listofallmembers>
       <member refid="classparams_1_1_spatial_similarity_transform_parm_1a4f23eb3e8b5fc1b10958fd60b6484a77" prot="private" virt="non-virtual"><scope>params::SpatialSimilarityTransformParm</scope><name>alpha</name></member>
       <member refid="classparams_1_1_spatial_similarity_transform_parm_1a1b22cc4115a083b88f4b18ebdf15c7bb" prot="package" virt="non-virtual"><scope>params::SpatialSimilarityTransformParm</scope><name>beta</name></member>

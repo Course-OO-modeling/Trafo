@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="classdatumstrategy_1_1_spatial_similarity_transformation_trig" kind="class" language="Java" prot="public">
     <compoundname>datumstrategy::SpatialSimilarityTransformationTrig</compoundname>
     <basecompoundref refid="classdatumstrategy_1_1_transformation_strategy" prot="public" virt="non-virtual">datumstrategy.TransformationStrategy</basecompoundref>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="datumstrategy/SpatialSimilarityTransformationTrig.java" line="31" column="17" bodyfile="datumstrategy/SpatialSimilarityTransformationTrig.java" bodystart="31" bodyend="67"/>
+        <location file="datumstrategy/SpatialSimilarityTransformationTrig.java" line="37" column="13" bodyfile="datumstrategy/SpatialSimilarityTransformationTrig.java" bodystart="37" bodyend="82"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -62,7 +62,7 @@
         <link refid="classdatumstrategy_1_1_transformation_strategy"/>
       </node>
     </collaborationgraph>
-    <location file="datumstrategy/SpatialSimilarityTransformationTrig.java" line="28" column="72" bodyfile="datumstrategy/SpatialSimilarityTransformationTrig.java" bodystart="28" bodyend="68"/>
+    <location file="datumstrategy/SpatialSimilarityTransformationTrig.java" line="34" column="72" bodyfile="datumstrategy/SpatialSimilarityTransformationTrig.java" bodystart="34" bodyend="83"/>
     <listofallmembers>
       <member refid="classdatumstrategy_1_1_spatial_similarity_transformation_trig_1a026ecdb781e479e89d09cd51ea9869c0" prot="public" virt="non-virtual"><scope>datumstrategy::SpatialSimilarityTransformationTrig</scope><name>transform</name></member>
     </listofallmembers>

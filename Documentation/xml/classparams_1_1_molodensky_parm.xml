@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="classparams_1_1_molodensky_parm" kind="class" language="Java" prot="public">
     <compoundname>params::MolodenskyParm</compoundname>
       <sectiondef kind="private-attrib">
@@ -14,7 +14,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/MolodenskyParm.java" line="12" column="20" bodyfile="params/MolodenskyParm.java" bodystart="12" bodyend="-1"/>
+        <location file="params/MolodenskyParm.java" line="12" column="16" bodyfile="params/MolodenskyParm.java" bodystart="12" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_molodensky_parm_1a1c88f8e58b8c4c702938f7ca54730dfb" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -27,7 +27,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/MolodenskyParm.java" line="13" column="20" bodyfile="params/MolodenskyParm.java" bodystart="13" bodyend="-1"/>
+        <location file="params/MolodenskyParm.java" line="13" column="16" bodyfile="params/MolodenskyParm.java" bodystart="13" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="package-attrib">
@@ -42,7 +42,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/MolodenskyParm.java" line="12" column="27" bodyfile="params/MolodenskyParm.java" bodystart="12" bodyend="-1"/>
+        <location file="params/MolodenskyParm.java" line="12" column="23" bodyfile="params/MolodenskyParm.java" bodystart="12" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_molodensky_parm_1a9621ac79f19f314e86f8f52b233af51e" prot="package" static="no" mutable="no">
         <type>double</type>
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/MolodenskyParm.java" line="12" column="34" bodyfile="params/MolodenskyParm.java" bodystart="12" bodyend="-1"/>
+        <location file="params/MolodenskyParm.java" line="12" column="30" bodyfile="params/MolodenskyParm.java" bodystart="12" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_molodensky_parm_1a62bb8c414dbb36ff451cffa72927fbff" prot="package" static="no" mutable="no">
         <type>double</type>
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/MolodenskyParm.java" line="13" column="23" bodyfile="params/MolodenskyParm.java" bodystart="13" bodyend="-1"/>
+        <location file="params/MolodenskyParm.java" line="13" column="19" bodyfile="params/MolodenskyParm.java" bodystart="13" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/MolodenskyParm.java" line="23" column="12" bodyfile="params/MolodenskyParm.java" bodystart="23" bodyend="29"/>
+        <location file="params/MolodenskyParm.java" line="23" column="8" bodyfile="params/MolodenskyParm.java" bodystart="23" bodyend="29"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_molodensky_parm_1ae36f49d94cce595bbcc54f415b067090" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -100,7 +100,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/MolodenskyParm.java" line="35" column="19" bodyfile="params/MolodenskyParm.java" bodystart="35" bodyend="37"/>
+        <location file="params/MolodenskyParm.java" line="34" column="15" bodyfile="params/MolodenskyParm.java" bodystart="34" bodyend="36"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_molodensky_parm_1a9a411659ba7a29544f291e1df02a6dff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/MolodenskyParm.java" line="39" column="17" bodyfile="params/MolodenskyParm.java" bodystart="39" bodyend="41"/>
+        <location file="params/MolodenskyParm.java" line="38" column="13" bodyfile="params/MolodenskyParm.java" bodystart="38" bodyend="40"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_molodensky_parm_1aa5b210eca194d5b29d094af041b58c4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -130,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/MolodenskyParm.java" line="43" column="19" bodyfile="params/MolodenskyParm.java" bodystart="43" bodyend="45"/>
+        <location file="params/MolodenskyParm.java" line="42" column="15" bodyfile="params/MolodenskyParm.java" bodystart="42" bodyend="44"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_molodensky_parm_1a70a7882c10ac21dcae11c3485686a346" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -147,7 +147,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/MolodenskyParm.java" line="47" column="17" bodyfile="params/MolodenskyParm.java" bodystart="47" bodyend="49"/>
+        <location file="params/MolodenskyParm.java" line="46" column="13" bodyfile="params/MolodenskyParm.java" bodystart="46" bodyend="48"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_molodensky_parm_1ab2aad11feb07ccae05114a4824f99b1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -160,7 +160,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/MolodenskyParm.java" line="51" column="19" bodyfile="params/MolodenskyParm.java" bodystart="51" bodyend="53"/>
+        <location file="params/MolodenskyParm.java" line="50" column="15" bodyfile="params/MolodenskyParm.java" bodystart="50" bodyend="52"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_molodensky_parm_1a1268b870dd08c2807b791e0ca4899585" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -177,7 +177,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/MolodenskyParm.java" line="55" column="17" bodyfile="params/MolodenskyParm.java" bodystart="55" bodyend="57"/>
+        <location file="params/MolodenskyParm.java" line="54" column="13" bodyfile="params/MolodenskyParm.java" bodystart="54" bodyend="56"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_molodensky_parm_1a16e2ec3bd6a408184f8495ca52345b28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -190,7 +190,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/MolodenskyParm.java" line="59" column="19" bodyfile="params/MolodenskyParm.java" bodystart="59" bodyend="61"/>
+        <location file="params/MolodenskyParm.java" line="58" column="15" bodyfile="params/MolodenskyParm.java" bodystart="58" bodyend="60"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_molodensky_parm_1abacc786b70e541407bce9adfc1334a21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -207,7 +207,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/MolodenskyParm.java" line="63" column="17" bodyfile="params/MolodenskyParm.java" bodystart="63" bodyend="65"/>
+        <location file="params/MolodenskyParm.java" line="62" column="13" bodyfile="params/MolodenskyParm.java" bodystart="62" bodyend="64"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_molodensky_parm_1a1bfa75066b9281ce813c952bb4a777eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -220,7 +220,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/MolodenskyParm.java" line="67" column="19" bodyfile="params/MolodenskyParm.java" bodystart="67" bodyend="69"/>
+        <location file="params/MolodenskyParm.java" line="66" column="15" bodyfile="params/MolodenskyParm.java" bodystart="66" bodyend="68"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_molodensky_parm_1a67e79048894ac79ae6ed2f3161cbd659" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -237,7 +237,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/MolodenskyParm.java" line="71" column="17" bodyfile="params/MolodenskyParm.java" bodystart="71" bodyend="73"/>
+        <location file="params/MolodenskyParm.java" line="70" column="13" bodyfile="params/MolodenskyParm.java" bodystart="70" bodyend="72"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

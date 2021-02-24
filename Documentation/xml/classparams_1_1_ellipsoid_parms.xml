@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="classparams_1_1_ellipsoid_parms" kind="class" language="Java" prot="public">
     <compoundname>params::EllipsoidParms</compoundname>
     <derivedcompoundref refid="classparams_1_1_control_parms" prot="public" virt="non-virtual">params.ControlParms</derivedcompoundref>
@@ -12,11 +12,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>ID </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="14" column="20" bodyfile="params/EllipsoidParms.java" bodystart="14" bodyend="-1"/>
+        <location file="params/EllipsoidParms.java" line="14" column="16" bodyfile="params/EllipsoidParms.java" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1a8c4aea13fd32cd84761c5fa923a3b56a" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -26,11 +25,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Radius of curvature </para>
+<para>&lt; ID </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="15" column="20" bodyfile="params/EllipsoidParms.java" bodystart="15" bodyend="-1"/>
+        <location file="params/EllipsoidParms.java" line="16" column="16" bodyfile="params/EllipsoidParms.java" bodystart="16" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1adcc0bf7ab5ecf57524183e296d356e44" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -40,10 +39,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>&lt; Radius of curvature </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="16" column="20" bodyfile="params/EllipsoidParms.java" bodystart="16" bodyend="-1"/>
+        <location file="params/EllipsoidParms.java" line="18" column="16" bodyfile="params/EllipsoidParms.java" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1ade0c44ec7d1b96b92e0596e2ffd36ff9" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="17" column="20" bodyfile="params/EllipsoidParms.java" bodystart="17" bodyend="-1"/>
+        <location file="params/EllipsoidParms.java" line="19" column="16" bodyfile="params/EllipsoidParms.java" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1ac6a5a05c596ba1581bbda76fe87ee43b" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -69,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="18" column="20" bodyfile="params/EllipsoidParms.java" bodystart="18" bodyend="-1"/>
+        <location file="params/EllipsoidParms.java" line="20" column="16" bodyfile="params/EllipsoidParms.java" bodystart="20" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1a75cc9d5d8459811e32022f5028626f0c" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="19" column="20" bodyfile="params/EllipsoidParms.java" bodystart="19" bodyend="-1"/>
+        <location file="params/EllipsoidParms.java" line="21" column="16" bodyfile="params/EllipsoidParms.java" bodystart="21" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1aa20a57453ee89effbe7a0058103f30a4" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="20" column="20" bodyfile="params/EllipsoidParms.java" bodystart="20" bodyend="-1"/>
+        <location file="params/EllipsoidParms.java" line="22" column="16" bodyfile="params/EllipsoidParms.java" bodystart="22" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1a1b4082c660ebfbb0e6ee77a6d3b24944" prot="private" static="no" mutable="no">
         <type>String</type>
@@ -105,11 +105,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>ID (if change of datum) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="22" column="20" bodyfile="params/EllipsoidParms.java" bodystart="22" bodyend="-1"/>
+        <location file="params/EllipsoidParms.java" line="24" column="16" bodyfile="params/EllipsoidParms.java" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1a54bfe0d39a76ddebbd5a39f372171633" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -119,11 +118,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Radius of curvature (if change of datum) </para>
+<para>&lt; ID (if change of datum) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="23" column="20" bodyfile="params/EllipsoidParms.java" bodystart="23" bodyend="-1"/>
+        <location file="params/EllipsoidParms.java" line="26" column="16" bodyfile="params/EllipsoidParms.java" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1a83a125728bc8d0f2d1935148ab97867d" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -133,11 +132,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Second eccentricity (if change of datum) </para>
+<para>&lt; Radius of curvature (if change of datum) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="24" column="20" bodyfile="params/EllipsoidParms.java" bodystart="24" bodyend="-1"/>
+        <location file="params/EllipsoidParms.java" line="28" column="16" bodyfile="params/EllipsoidParms.java" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1a6778e1b5d14507d1485a5e49a0935b8a" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -147,11 +146,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Semi-major axis (if change of datum) </para>
+<para>&lt; Second eccentricity (if change of datum) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="25" column="20" bodyfile="params/EllipsoidParms.java" bodystart="25" bodyend="-1"/>
+        <location file="params/EllipsoidParms.java" line="30" column="16" bodyfile="params/EllipsoidParms.java" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1a440e25ee5cdf6444267c3f4dec8d5c4d" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -161,11 +160,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Semi-minor axis (if change of datum) </para>
+<para>&lt; Semi-major axis (if change of datum) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="26" column="20" bodyfile="params/EllipsoidParms.java" bodystart="26" bodyend="-1"/>
+        <location file="params/EllipsoidParms.java" line="32" column="16" bodyfile="params/EllipsoidParms.java" bodystart="32" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1a97a668f9510e875e9542e7ec9d66b2ed" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -175,11 +174,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Flattening (if change of datum) </para>
+<para>&lt; Semi-minor axis (if change of datum) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="27" column="20" bodyfile="params/EllipsoidParms.java" bodystart="27" bodyend="-1"/>
+        <location file="params/EllipsoidParms.java" line="34" column="16" bodyfile="params/EllipsoidParms.java" bodystart="34" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1a185fd33e0e636da454abd7d6526d19d6" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -189,11 +188,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>First eccentricity (if change of datum) </para>
+<para>&lt; Flattening (if change of datum) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="28" column="20" bodyfile="params/EllipsoidParms.java" bodystart="28" bodyend="-1"/>
+        <location file="params/EllipsoidParms.java" line="36" column="16" bodyfile="params/EllipsoidParms.java" bodystart="36" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1a0828d1c17e1154e96745e1a327d4065c" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -203,11 +202,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Radius N (only if necessary) </para>
+<para>&lt; First eccentricity (if change of datum) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="30" column="20" bodyfile="params/EllipsoidParms.java" bodystart="30" bodyend="-1"/>
+        <location file="params/EllipsoidParms.java" line="39" column="16" bodyfile="params/EllipsoidParms.java" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1a883bc11eefefe2015268f12f6f392d02" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -217,11 +216,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Radius M (only if necessary) </para>
+<para>&lt; Radius N (only if necessary) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="31" column="20" bodyfile="params/EllipsoidParms.java" bodystart="31" bodyend="-1"/>
+        <location file="params/EllipsoidParms.java" line="41" column="16" bodyfile="params/EllipsoidParms.java" bodystart="41" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1ae589624b96dcf9f152cdd13f5fc2b813" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -231,11 +230,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Parameters for converting geographic coordinates -&gt; <ref refid="classcoordinates_1_1_soldner" kindref="compound">coordinates.Soldner</ref> </para>
+<para>&lt; Radius M (only if necessary) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="33" column="20" bodyfile="params/EllipsoidParms.java" bodystart="33" bodyend="-1"/>
+        <location file="params/EllipsoidParms.java" line="44" column="16" bodyfile="params/EllipsoidParms.java" bodystart="44" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1a600fb2e197a0cce391abf04cbbd2bfa4" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -245,11 +244,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Parameters for converting geographic coordinates -&gt; <ref refid="classcoordinates_1_1_soldner" kindref="compound">coordinates.Soldner</ref> </para>
+<para>&lt; Parameters for converting geographic coordinates -&gt; <ref refid="classcoordinates_1_1_soldner" kindref="compound">coordinates.Soldner</ref> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="34" column="20" bodyfile="params/EllipsoidParms.java" bodystart="34" bodyend="-1"/>
+        <location file="params/EllipsoidParms.java" line="46" column="16" bodyfile="params/EllipsoidParms.java" bodystart="46" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classparams_1_1_ellipsoid_parms_1a86b4e7b5eb4b4f2f671e61e75e0dc7f9" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -259,11 +258,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Parameters for converting geographic coordinates -&gt; <ref refid="classcoordinates_1_1_gauss_krueger" kindref="compound">coordinates.GaussKrueger</ref> </para>
+<para>&lt; Parameters for converting geographic coordinates -&gt; <ref refid="classcoordinates_1_1_soldner" kindref="compound">coordinates.Soldner</ref> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="36" column="20" bodyfile="params/EllipsoidParms.java" bodystart="36" bodyend="-1"/>
+        <location file="params/EllipsoidParms.java" line="49" column="16" bodyfile="params/EllipsoidParms.java" bodystart="49" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -276,10 +275,11 @@
 <para>Constructor for the class <ref refid="classparams_1_1_ellipsoid_parms" kindref="compound">params.EllipsoidParms</ref>. </para>
         </briefdescription>
         <detaileddescription>
+<para>&lt; Parameters for converting geographic coordinates -&gt; <ref refid="classcoordinates_1_1_gauss_krueger" kindref="compound">coordinates.GaussKrueger</ref> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="45" column="12" bodyfile="params/EllipsoidParms.java" bodystart="45" bodyend="53"/>
+        <location file="params/EllipsoidParms.java" line="62" column="8" bodyfile="params/EllipsoidParms.java" bodystart="62" bodyend="70"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a76412304312a0a253086d195874110c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -298,11 +298,12 @@
 <para>General constructor for the class <ref refid="classparams_1_1_ellipsoid_parms" kindref="compound">params.EllipsoidParms</ref>. </para>
         </briefdescription>
         <detaileddescription>
-<para>Transfer of two shape parameters </para>
+<para><verbatim>   Transfer of two shape parameters
+</verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="60" column="12" bodyfile="params/EllipsoidParms.java" bodystart="60" bodyend="68"/>
+        <location file="params/EllipsoidParms.java" line="77" column="8" bodyfile="params/EllipsoidParms.java" bodystart="77" bodyend="85"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1ad33cde2be306e100c10b186416864d36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -319,7 +320,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="73" column="17" bodyfile="params/EllipsoidParms.java" bodystart="73" bodyend="81"/>
+        <location file="params/EllipsoidParms.java" line="89" column="13" bodyfile="params/EllipsoidParms.java" bodystart="89" bodyend="97"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a8b38d69a8ce2fe13c763c4dec003caa3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -333,7 +334,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="83" column="17" bodyfile="params/EllipsoidParms.java" bodystart="83" bodyend="92"/>
+        <location file="params/EllipsoidParms.java" line="99" column="13" bodyfile="params/EllipsoidParms.java" bodystart="99" bodyend="108"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1aba1d562097bdfbdca02d1297bb7eef40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>String</type>
@@ -346,7 +347,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="99" column="19" bodyfile="params/EllipsoidParms.java" bodystart="99" bodyend="101"/>
+        <location file="params/EllipsoidParms.java" line="113" column="15" bodyfile="params/EllipsoidParms.java" bodystart="113" bodyend="115"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a39defb526e42409be9d233cc5f51d17c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -363,7 +364,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="103" column="17" bodyfile="params/EllipsoidParms.java" bodystart="103" bodyend="105"/>
+        <location file="params/EllipsoidParms.java" line="117" column="13" bodyfile="params/EllipsoidParms.java" bodystart="117" bodyend="119"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1ac6d2d8e560b2c5f93f1eae7e47da312e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -376,7 +377,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="107" column="19" bodyfile="params/EllipsoidParms.java" bodystart="107" bodyend="109"/>
+        <location file="params/EllipsoidParms.java" line="121" column="15" bodyfile="params/EllipsoidParms.java" bodystart="121" bodyend="123"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a290c9540675e92d4fe57b6d8c99a6864" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -393,7 +394,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="111" column="17" bodyfile="params/EllipsoidParms.java" bodystart="111" bodyend="113"/>
+        <location file="params/EllipsoidParms.java" line="125" column="13" bodyfile="params/EllipsoidParms.java" bodystart="125" bodyend="127"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a247439302e5081a009d1316d777f87e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -406,7 +407,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="115" column="19" bodyfile="params/EllipsoidParms.java" bodystart="115" bodyend="117"/>
+        <location file="params/EllipsoidParms.java" line="129" column="15" bodyfile="params/EllipsoidParms.java" bodystart="129" bodyend="131"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a1053dddae8b704f666d40407be5f90ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -423,7 +424,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="119" column="17" bodyfile="params/EllipsoidParms.java" bodystart="119" bodyend="121"/>
+        <location file="params/EllipsoidParms.java" line="133" column="13" bodyfile="params/EllipsoidParms.java" bodystart="133" bodyend="135"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a068f04b524a696a0d328089a90de728b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -436,7 +437,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="123" column="19" bodyfile="params/EllipsoidParms.java" bodystart="123" bodyend="125"/>
+        <location file="params/EllipsoidParms.java" line="137" column="15" bodyfile="params/EllipsoidParms.java" bodystart="137" bodyend="139"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1ac8c7b6c628123f8e7bbe9a3433d73255" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -453,7 +454,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="127" column="17" bodyfile="params/EllipsoidParms.java" bodystart="127" bodyend="129"/>
+        <location file="params/EllipsoidParms.java" line="141" column="13" bodyfile="params/EllipsoidParms.java" bodystart="141" bodyend="143"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a5542f3e4c1e37c27f616afefc66f7d6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -466,7 +467,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="131" column="19" bodyfile="params/EllipsoidParms.java" bodystart="131" bodyend="133"/>
+        <location file="params/EllipsoidParms.java" line="145" column="15" bodyfile="params/EllipsoidParms.java" bodystart="145" bodyend="147"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a1bb1c00f1745417ba061a4ff458d2ead" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -483,7 +484,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="135" column="17" bodyfile="params/EllipsoidParms.java" bodystart="135" bodyend="137"/>
+        <location file="params/EllipsoidParms.java" line="149" column="13" bodyfile="params/EllipsoidParms.java" bodystart="149" bodyend="151"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a59e492be1d59af1f0ac89c82f4bf12ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -496,7 +497,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="139" column="19" bodyfile="params/EllipsoidParms.java" bodystart="139" bodyend="141"/>
+        <location file="params/EllipsoidParms.java" line="153" column="15" bodyfile="params/EllipsoidParms.java" bodystart="153" bodyend="155"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1aecd855e7bf03309adf8edc75042b7383" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -513,7 +514,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="143" column="17" bodyfile="params/EllipsoidParms.java" bodystart="143" bodyend="145"/>
+        <location file="params/EllipsoidParms.java" line="157" column="13" bodyfile="params/EllipsoidParms.java" bodystart="157" bodyend="159"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1acf91ad0a9927986a49f095d6f771e3e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -526,7 +527,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="147" column="19" bodyfile="params/EllipsoidParms.java" bodystart="147" bodyend="149"/>
+        <location file="params/EllipsoidParms.java" line="161" column="15" bodyfile="params/EllipsoidParms.java" bodystart="161" bodyend="163"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a27962849b946e3ba291ab15856083ced" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -543,7 +544,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="151" column="17" bodyfile="params/EllipsoidParms.java" bodystart="151" bodyend="153"/>
+        <location file="params/EllipsoidParms.java" line="165" column="13" bodyfile="params/EllipsoidParms.java" bodystart="165" bodyend="167"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a3bb0244d95115ff0163ce7f6679b8036" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>String</type>
@@ -556,7 +557,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="155" column="19" bodyfile="params/EllipsoidParms.java" bodystart="155" bodyend="157"/>
+        <location file="params/EllipsoidParms.java" line="169" column="15" bodyfile="params/EllipsoidParms.java" bodystart="169" bodyend="171"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a1ff0ff030ab98abd9e1cb14f7f2d55d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -573,7 +574,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="159" column="17" bodyfile="params/EllipsoidParms.java" bodystart="159" bodyend="161"/>
+        <location file="params/EllipsoidParms.java" line="173" column="13" bodyfile="params/EllipsoidParms.java" bodystart="173" bodyend="175"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1ab17b1913708fbd2fc66fc7b3d33383bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -586,7 +587,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="163" column="19" bodyfile="params/EllipsoidParms.java" bodystart="163" bodyend="165"/>
+        <location file="params/EllipsoidParms.java" line="177" column="15" bodyfile="params/EllipsoidParms.java" bodystart="177" bodyend="179"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a9f7db01c2f444ead5d5e36cb73563bd0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -603,7 +604,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="167" column="17" bodyfile="params/EllipsoidParms.java" bodystart="167" bodyend="169"/>
+        <location file="params/EllipsoidParms.java" line="181" column="13" bodyfile="params/EllipsoidParms.java" bodystart="181" bodyend="183"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a575681020e0d8f808fc078e56051c198" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -616,7 +617,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="171" column="19" bodyfile="params/EllipsoidParms.java" bodystart="171" bodyend="173"/>
+        <location file="params/EllipsoidParms.java" line="185" column="15" bodyfile="params/EllipsoidParms.java" bodystart="185" bodyend="187"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1aeeff1d0b99befdcc75383e3e9f475c58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -633,7 +634,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="175" column="17" bodyfile="params/EllipsoidParms.java" bodystart="175" bodyend="177"/>
+        <location file="params/EllipsoidParms.java" line="189" column="13" bodyfile="params/EllipsoidParms.java" bodystart="189" bodyend="191"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1ab9fb994a17b8b561d22be1de0b31f287" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -646,7 +647,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="179" column="19" bodyfile="params/EllipsoidParms.java" bodystart="179" bodyend="181"/>
+        <location file="params/EllipsoidParms.java" line="193" column="15" bodyfile="params/EllipsoidParms.java" bodystart="193" bodyend="195"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1afa3004dc536f9098e902be0dfe5c1a5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -663,7 +664,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="183" column="17" bodyfile="params/EllipsoidParms.java" bodystart="183" bodyend="185"/>
+        <location file="params/EllipsoidParms.java" line="197" column="13" bodyfile="params/EllipsoidParms.java" bodystart="197" bodyend="199"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1ade69e57694ce4b388c6c75078875aee8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -676,7 +677,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="187" column="19" bodyfile="params/EllipsoidParms.java" bodystart="187" bodyend="189"/>
+        <location file="params/EllipsoidParms.java" line="201" column="15" bodyfile="params/EllipsoidParms.java" bodystart="201" bodyend="203"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a0f7664b1d2c2c20aec2b059e62cbe00f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -693,7 +694,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="191" column="17" bodyfile="params/EllipsoidParms.java" bodystart="191" bodyend="193"/>
+        <location file="params/EllipsoidParms.java" line="205" column="13" bodyfile="params/EllipsoidParms.java" bodystart="205" bodyend="207"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a60fccf6eb2260e97082bb6789204f141" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -706,7 +707,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="195" column="19" bodyfile="params/EllipsoidParms.java" bodystart="195" bodyend="197"/>
+        <location file="params/EllipsoidParms.java" line="209" column="15" bodyfile="params/EllipsoidParms.java" bodystart="209" bodyend="211"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a4dfc1bf7517139c222bbc4f5704eeeb1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -723,7 +724,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="199" column="17" bodyfile="params/EllipsoidParms.java" bodystart="199" bodyend="201"/>
+        <location file="params/EllipsoidParms.java" line="213" column="13" bodyfile="params/EllipsoidParms.java" bodystart="213" bodyend="215"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1ad150fd728cb5c16bba1716b5c17547ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -736,7 +737,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="203" column="19" bodyfile="params/EllipsoidParms.java" bodystart="203" bodyend="205"/>
+        <location file="params/EllipsoidParms.java" line="217" column="15" bodyfile="params/EllipsoidParms.java" bodystart="217" bodyend="219"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1ac2a0d6cf273845316fd87f9a2cc47ff9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -753,7 +754,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="207" column="17" bodyfile="params/EllipsoidParms.java" bodystart="207" bodyend="209"/>
+        <location file="params/EllipsoidParms.java" line="221" column="13" bodyfile="params/EllipsoidParms.java" bodystart="221" bodyend="223"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1abb15b257c76e9880ed28c854a4731c0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -766,7 +767,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="211" column="19" bodyfile="params/EllipsoidParms.java" bodystart="211" bodyend="213"/>
+        <location file="params/EllipsoidParms.java" line="225" column="15" bodyfile="params/EllipsoidParms.java" bodystart="225" bodyend="227"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a498387541756991907783083c45a457c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -783,7 +784,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="215" column="17" bodyfile="params/EllipsoidParms.java" bodystart="215" bodyend="217"/>
+        <location file="params/EllipsoidParms.java" line="229" column="13" bodyfile="params/EllipsoidParms.java" bodystart="229" bodyend="231"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1aceac84961ab929328c39afc3357519c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -796,7 +797,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="219" column="19" bodyfile="params/EllipsoidParms.java" bodystart="219" bodyend="221"/>
+        <location file="params/EllipsoidParms.java" line="233" column="15" bodyfile="params/EllipsoidParms.java" bodystart="233" bodyend="235"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1ad33bd8b9852b20794f1c5b5cd024e51c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -813,7 +814,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="223" column="17" bodyfile="params/EllipsoidParms.java" bodystart="223" bodyend="225"/>
+        <location file="params/EllipsoidParms.java" line="237" column="13" bodyfile="params/EllipsoidParms.java" bodystart="237" bodyend="239"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1afe6b1d0500228058310947eedeee20b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -826,7 +827,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="227" column="19" bodyfile="params/EllipsoidParms.java" bodystart="227" bodyend="229"/>
+        <location file="params/EllipsoidParms.java" line="241" column="15" bodyfile="params/EllipsoidParms.java" bodystart="241" bodyend="243"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a44b6361a151c89c4eb9425a9a19e6766" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -843,7 +844,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="231" column="17" bodyfile="params/EllipsoidParms.java" bodystart="231" bodyend="233"/>
+        <location file="params/EllipsoidParms.java" line="245" column="13" bodyfile="params/EllipsoidParms.java" bodystart="245" bodyend="247"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a2d57a7d2449fb7bbf6fbc0f66ae85848" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -856,7 +857,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="235" column="19" bodyfile="params/EllipsoidParms.java" bodystart="235" bodyend="237"/>
+        <location file="params/EllipsoidParms.java" line="249" column="15" bodyfile="params/EllipsoidParms.java" bodystart="249" bodyend="251"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a0ab99cecabf398adc130b15c8f3e23c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -873,7 +874,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="239" column="17" bodyfile="params/EllipsoidParms.java" bodystart="239" bodyend="241"/>
+        <location file="params/EllipsoidParms.java" line="253" column="13" bodyfile="params/EllipsoidParms.java" bodystart="253" bodyend="255"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1aaa87eb361d5f0be95d014842b8201cea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -886,7 +887,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="243" column="19" bodyfile="params/EllipsoidParms.java" bodystart="243" bodyend="245"/>
+        <location file="params/EllipsoidParms.java" line="257" column="15" bodyfile="params/EllipsoidParms.java" bodystart="257" bodyend="259"/>
       </memberdef>
       <memberdef kind="function" id="classparams_1_1_ellipsoid_parms_1a711a94a4e810fa3acd91cabc94ef8b73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -903,7 +904,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="params/EllipsoidParms.java" line="247" column="17" bodyfile="params/EllipsoidParms.java" bodystart="247" bodyend="249"/>
+        <location file="params/EllipsoidParms.java" line="261" column="13" bodyfile="params/EllipsoidParms.java" bodystart="261" bodyend="263"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -928,7 +929,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="params/EllipsoidParms.java" line="13" column="28" bodyfile="params/EllipsoidParms.java" bodystart="13" bodyend="251"/>
+    <location file="params/EllipsoidParms.java" line="13" column="28" bodyfile="params/EllipsoidParms.java" bodystart="13" bodyend="268"/>
     <listofallmembers>
       <member refid="classparams_1_1_ellipsoid_parms_1a8c4aea13fd32cd84761c5fa923a3b56a" prot="private" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>c</name></member>
       <member refid="classparams_1_1_ellipsoid_parms_1ad33cde2be306e100c10b186416864d36" prot="public" virt="non-virtual"><scope>params::EllipsoidParms</scope><name>calculatelongitudeParms</name></member>

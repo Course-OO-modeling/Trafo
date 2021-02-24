@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_29fc6908b28e330b6e5ae67384a318c2" kind="dir">
+    <compoundname>test/workflow</compoundname>
+    <innerfile refid="_gauss_krueger_mock_test_8java">GaussKruegerMockTest.java</innerfile>
+    <innerfile refid="_soldner_mock_test_8java">SoldnerMockTest.java</innerfile>
+    <innerfile refid="_u_t_m_mock_test_8java">UTMMockTest.java</innerfile>
+    <innerfile refid="_x_y_z_coordinate_mock_test_8java">XYZCoordinateMockTest.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="test/workflow/"/>
+  </compounddef>
+</doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_infin_test" kind="class" language="Java" prot="public">
     <compoundname>test::datumstrategy::SpatialSimilarityTransformationInfinTest</compoundname>
       <sectiondef kind="private-attrib">
@@ -8,7 +8,7 @@
         <definition>final double test.datumstrategy.SpatialSimilarityTransformationInfinTest.RHO</definition>
         <argsstring></argsstring>
         <name>RHO</name>
-        <initializer>= 180/Math.PI</initializer>
+        <initializer>= 180 / Math.PI</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -65,9 +65,14 @@
 <para>Tests the Spatial Similarity <ref refid="class_transformation" kindref="compound">Transformation</ref> as a Datum Strategy. Input values and expected values were calculated by hand. </para>
     </briefdescription>
     <detaileddescription>
+<para>Tests the Spatial Similarity <ref refid="class_transformation" kindref="compound">Transformation</ref> as infinitesimal implementation against a trigonometric implementation and against the standard Molodenskii transformation.</para>
 <para><simplesect kind="author"><para>Steven Landgraf </para>
 </simplesect>
 <simplesect kind="date"><para>December 2019 </para>
+</simplesect>
+<simplesect kind="version"><para>0.1</para>
+</simplesect>
+<simplesect kind="date"><para>January 2021 </para>
 </simplesect>
 <simplesect kind="version"><para>0.1 </para>
 </simplesect>

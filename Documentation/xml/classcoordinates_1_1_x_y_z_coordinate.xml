@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="classcoordinates_1_1_x_y_z_coordinate" kind="class" language="Java" prot="public">
     <compoundname>coordinates::XYZCoordinate</compoundname>
     <basecompoundref refid="classcoordinates_1_1_coordinate" prot="public" virt="non-virtual">coordinates.Coordinate</basecompoundref>
+    <derivedcompoundref refid="classtest_1_1workflow_1_1_x_y_z_coordinate_mock_test" prot="public" virt="non-virtual">test.workflow.XYZCoordinateMockTest</derivedcompoundref>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classcoordinates_1_1_x_y_z_coordinate_1a93f191f410b19d99a71d3c66ef27df29" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -15,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/XYZCoordinate.java" line="22" column="20" bodyfile="coordinates/XYZCoordinate.java" bodystart="22" bodyend="-1"/>
+        <location file="coordinates/XYZCoordinate.java" line="22" column="16" bodyfile="coordinates/XYZCoordinate.java" bodystart="22" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="package-attrib">
@@ -30,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/XYZCoordinate.java" line="22" column="22" bodyfile="coordinates/XYZCoordinate.java" bodystart="22" bodyend="-1"/>
+        <location file="coordinates/XYZCoordinate.java" line="22" column="18" bodyfile="coordinates/XYZCoordinate.java" bodystart="22" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classcoordinates_1_1_x_y_z_coordinate_1a4d9238fdadb5568f9dc6b1181664500b" prot="package" static="no" mutable="no">
         <type>double</type>
@@ -43,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/XYZCoordinate.java" line="22" column="24" bodyfile="coordinates/XYZCoordinate.java" bodystart="22" bodyend="-1"/>
+        <location file="coordinates/XYZCoordinate.java" line="22" column="20" bodyfile="coordinates/XYZCoordinate.java" bodystart="22" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -59,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/XYZCoordinate.java" line="32" column="12" bodyfile="coordinates/XYZCoordinate.java" bodystart="32" bodyend="37"/>
+        <location file="coordinates/XYZCoordinate.java" line="30" column="8" bodyfile="coordinates/XYZCoordinate.java" bodystart="30" bodyend="35"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_x_y_z_coordinate_1a88847e65ce05894be77bd2735d15a4ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -72,7 +73,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/XYZCoordinate.java" line="39" column="17" bodyfile="coordinates/XYZCoordinate.java" bodystart="39" bodyend="43"/>
+        <location file="coordinates/XYZCoordinate.java" line="37" column="13" bodyfile="coordinates/XYZCoordinate.java" bodystart="37" bodyend="41"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_x_y_z_coordinate_1ac635db09dd4c2e8415c8d83a199d754c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -128,7 +129,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/XYZCoordinate.java" line="54" column="8" bodyfile="coordinates/XYZCoordinate.java" bodystart="54" bodyend="59"/>
+        <location file="coordinates/XYZCoordinate.java" line="53" column="8" bodyfile="coordinates/XYZCoordinate.java" bodystart="53" bodyend="57"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_x_y_z_coordinate_1afc0aea9eb642ba760263fe7bedfbf89b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -149,7 +150,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/XYZCoordinate.java" line="61" column="8" bodyfile="coordinates/XYZCoordinate.java" bodystart="61" bodyend="66"/>
+        <location file="coordinates/XYZCoordinate.java" line="59" column="8" bodyfile="coordinates/XYZCoordinate.java" bodystart="59" bodyend="63"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_x_y_z_coordinate_1add6f4e104b8f7c0dfc2f7d63594abe0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref></type>
@@ -173,7 +174,7 @@
 </simplesect>
 <simplesect kind="remark"><para>renamed the variable eps to maxLonLatDistance by David Li 2016-12-04 </para>
 </simplesect>
-<simplesect kind="remark"><para>formal changes in summer 2000 by Daniel Mueller </para>
+<simplesect kind="remark"><para>formal changes in summer 2000 by Daniel Mï¿½ller </para>
 </simplesect>
 <parameterlist kind="param"><parameteritem>
 <parameternamelist>
@@ -190,7 +191,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/XYZCoordinate.java" line="84" column="42" bodyfile="coordinates/XYZCoordinate.java" bodystart="84" bodyend="114"/>
+        <location file="coordinates/XYZCoordinate.java" line="86" column="38" bodyfile="coordinates/XYZCoordinate.java" bodystart="86" bodyend="119"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_x_y_z_coordinate_1a565677c6fc44b6241255d0733e72e048" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -210,14 +211,14 @@
 <para>Function for transforming geographic coordinates to geocentric coordinates. </para>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="author"><para>Michael Loos, 1998-06-06 as of a FORTRAN-Subroutine from Hansjoerg Kutterer, 1993-08-12 </para>
+<para><simplesect kind="author"><para>Michael Loos, 1998-06-06 as of a FORTRAN-Subroutine from Hansjï¿½rg Kutterer, 1993-08-12 </para>
 </simplesect>
-<simplesect kind="remark"><para>formal changes in Summer 2000 by Daniel Mueller </para>
+<simplesect kind="remark"><para>formal changes in Summer 2000 by Daniel Mï¿½ller </para>
 </simplesect>
-<simplesect kind="remark"><para>Java-Version in February 2003 by Norbert Roesch</para>
+<simplesect kind="remark"><para>Java-Version in February 2003 by Norbert Rï¿½sch</para>
 </simplesect>
-Algorithm as of G. Schmitt, M. Illner and R. Jaeger, &quot;Transformationsprobleme&quot;, pp. 125-142 in Mitteilungen des DVW Landesvereins BaWue, Sonderheft &quot;GPS und Integration
-von GPS in bestehende geodaetische Netze&quot;, 1991. <parameterlist kind="param"><parameteritem>
+Algorithm as of G. Schmitt, M. Illner and R. Jï¿½ger, &quot;Transformationsprobleme&quot;, pp. 125-142 in Mitteilungen des DVW Landesvereins BaWue, Sonderheft &quot;GPS und Integration von GPS in
+       bestehende geodaetische Netze&quot;, 1991. <parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>ell</parametername>
 </parameternamelist>
@@ -238,7 +239,7 @@ von GPS in bestehende geodaetische Netze&quot;, 1991. <parameterlist kind="param
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/XYZCoordinate.java" line="129" column="17" bodyfile="coordinates/XYZCoordinate.java" bodystart="129" bodyend="138"/>
+        <location file="coordinates/XYZCoordinate.java" line="138" column="13" bodyfile="coordinates/XYZCoordinate.java" bodystart="138" bodyend="150"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_x_y_z_coordinate_1a4ff7f1c0dee75f3c60dc735c26129761" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -253,7 +254,7 @@ von GPS in bestehende geodaetische Netze&quot;, 1991. <parameterlist kind="param
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/XYZCoordinate.java" line="140" column="17" bodyfile="coordinates/XYZCoordinate.java" bodystart="140" bodyend="145"/>
+        <location file="coordinates/XYZCoordinate.java" line="152" column="13" bodyfile="coordinates/XYZCoordinate.java" bodystart="152" bodyend="157"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_x_y_z_coordinate_1ab9055f02276f40c7c9bd0929544b31d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -270,7 +271,7 @@ von GPS in bestehende geodaetische Netze&quot;, 1991. <parameterlist kind="param
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/XYZCoordinate.java" line="157" column="23" bodyfile="coordinates/XYZCoordinate.java" bodystart="157" bodyend="159"/>
+        <location file="coordinates/XYZCoordinate.java" line="168" column="15" bodyfile="coordinates/XYZCoordinate.java" bodystart="168" bodyend="170"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_x_y_z_coordinate_1a38d36c730bd53179a0188d6d069f6400" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -298,7 +299,7 @@ von GPS in bestehende geodaetische Netze&quot;, 1991. <parameterlist kind="param
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/XYZCoordinate.java" line="165" column="21" bodyfile="coordinates/XYZCoordinate.java" bodystart="165" bodyend="167"/>
+        <location file="coordinates/XYZCoordinate.java" line="178" column="13" bodyfile="coordinates/XYZCoordinate.java" bodystart="178" bodyend="180"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_x_y_z_coordinate_1a5b1614c8fb0680235ff866695d56bfd0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -315,7 +316,7 @@ von GPS in bestehende geodaetische Netze&quot;, 1991. <parameterlist kind="param
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/XYZCoordinate.java" line="173" column="23" bodyfile="coordinates/XYZCoordinate.java" bodystart="173" bodyend="175"/>
+        <location file="coordinates/XYZCoordinate.java" line="188" column="15" bodyfile="coordinates/XYZCoordinate.java" bodystart="188" bodyend="190"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_x_y_z_coordinate_1ae2af422b072d32e47eeef02520c74402" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -343,7 +344,7 @@ von GPS in bestehende geodaetische Netze&quot;, 1991. <parameterlist kind="param
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/XYZCoordinate.java" line="181" column="21" bodyfile="coordinates/XYZCoordinate.java" bodystart="181" bodyend="183"/>
+        <location file="coordinates/XYZCoordinate.java" line="198" column="13" bodyfile="coordinates/XYZCoordinate.java" bodystart="198" bodyend="200"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_x_y_z_coordinate_1a1273b99ae80abff51a75b6ced7f3e10f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -360,7 +361,7 @@ von GPS in bestehende geodaetische Netze&quot;, 1991. <parameterlist kind="param
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/XYZCoordinate.java" line="189" column="23" bodyfile="coordinates/XYZCoordinate.java" bodystart="189" bodyend="191"/>
+        <location file="coordinates/XYZCoordinate.java" line="208" column="15" bodyfile="coordinates/XYZCoordinate.java" bodystart="208" bodyend="210"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_x_y_z_coordinate_1a0e32806c394f28e22238765c2fde9eee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -388,7 +389,7 @@ von GPS in bestehende geodaetische Netze&quot;, 1991. <parameterlist kind="param
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/XYZCoordinate.java" line="197" column="21" bodyfile="coordinates/XYZCoordinate.java" bodystart="197" bodyend="199"/>
+        <location file="coordinates/XYZCoordinate.java" line="218" column="13" bodyfile="coordinates/XYZCoordinate.java" bodystart="218" bodyend="220"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -401,7 +402,7 @@ von GPS in bestehende geodaetische Netze&quot;, 1991. <parameterlist kind="param
 </simplesect>
 <simplesect kind="remark"><para>2016-12-04 added new method calculateRotationMatrix(SpatialSimilarityTransformParm) by David Li </para>
 </simplesect>
-<simplesect kind="remark"><para>2018-01-29 added constructor with ControlParms by Markus Mueller </para>
+<simplesect kind="remark"><para>2018-01-29 added constructor with ControlParms by Markus MÃ¼ller </para>
 </simplesect>
 <simplesect kind="version"><para>0.1 </para>
 </simplesect>
@@ -433,6 +434,12 @@ von GPS in bestehende geodaetische Netze&quot;, 1991. <parameterlist kind="param
 </para>
     </detaileddescription>
     <inheritancegraph>
+      <node id="3">
+        <label>test.workflow.XYZCoordinateMockTest</label>
+        <link refid="classtest_1_1workflow_1_1_x_y_z_coordinate_mock_test"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
         <label>coordinates.Coordinate</label>
         <link refid="classcoordinates_1_1_coordinate"/>
@@ -456,7 +463,7 @@ von GPS in bestehende geodaetische Netze&quot;, 1991. <parameterlist kind="param
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="coordinates/XYZCoordinate.java" line="20" column="44" bodyfile="coordinates/XYZCoordinate.java" bodystart="20" bodyend="202"/>
+    <location file="coordinates/XYZCoordinate.java" line="20" column="38" bodyfile="coordinates/XYZCoordinate.java" bodystart="20" bodyend="225"/>
     <listofallmembers>
       <member refid="classcoordinates_1_1_x_y_z_coordinate_1add6f4e104b8f7c0dfc2f7d63594abe0d" prot="public" virt="non-virtual"><scope>coordinates::XYZCoordinate</scope><name>getAsGeographicInterface</name></member>
       <member refid="classcoordinates_1_1_x_y_z_coordinate_1a565677c6fc44b6241255d0733e72e048" prot="public" virt="non-virtual"><scope>coordinates::XYZCoordinate</scope><name>getAsTargetCoordinate</name></member>

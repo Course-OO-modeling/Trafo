@@ -5,9 +5,9 @@ import coordinates.GeographicCoordinateInterface;
 public class MockStrategy extends TransformationStrategy {
 
 	/**
-	 * @class MocStrategy
+	 * @class MockStrategy
 	 * @brief contains the implementation of the MockStrategy
-	 * @author Stütz, Huang, Weisbrich
+	 * @author StÃ¼tz, Huang, Weisbrich
 	 * @remark
 	 * @version 0.1
 	 */

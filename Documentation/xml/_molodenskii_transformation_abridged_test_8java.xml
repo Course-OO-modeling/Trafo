@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="_molodenskii_transformation_abridged_test_8java" kind="file" language="Java">
     <compoundname>MolodenskiiTransformationAbridgedTest.java</compoundname>
     <innerclass refid="classtest_1_1datumstrategy_1_1_molodenskii_transformation_abridged_test" prot="public">test::datumstrategy::MolodenskiiTransformationAbridgedTest</innerclass>
@@ -32,7 +32,7 @@
 <codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classparams_1_1_control_parms" kindref="compound">ControlParms</ref><sp/>control<sp/>=<sp/><ref refid="classparams_1_1_control_parms" kindref="compound">ControlParms</ref>.<ref refid="classparams_1_1_control_parms_1a34463dd11453c5f45660efaabbe826f7" kindref="member">getInstance</ref>();</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
 <codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>control.<ref refid="classparams_1_1_control_parms_1ac6f495c9f6f219b55a689cbac7b6da36" kindref="member">setKindoftrafo</ref>(</highlight><highlight class="stringliteral">&quot;mol_abridged&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//control.setKindoftrafo(&quot;mol_stand&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>control.setKindoftrafo(&quot;mol_stand&quot;);</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
 <codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>From<sp/>Projection:<sp/>Australian<sp/>Geodetic<sp/>Datum<sp/>1966<sp/>(AGD66)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>control.<ref refid="classparams_1_1_ellipsoid_parms_1a39defb526e42409be9d233cc5f51d17c" kindref="member">setId</ref>(</highlight><highlight class="stringliteral">&quot;AGD66&quot;</highlight><highlight class="normal">);</highlight></codeline>

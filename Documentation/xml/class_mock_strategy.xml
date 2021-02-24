@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_mock_strategy" kind="class" language="Java" prot="package">
+    <compoundname>MockStrategy</compoundname>
+    <briefdescription>
+<para>contains the implementation of the MockStrategy </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>StÃ¼tz, Huang, Weisbrich </para>
+</simplesect>
+<simplesect kind="remark"><para></para>
+</simplesect>
+<simplesect kind="version"><para>0.1 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="datumstrategy/MockStrategy.java" line="7" column="1"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

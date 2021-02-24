@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="_all_tests_8java" kind="file" language="Java">
     <compoundname>AllTests.java</compoundname>
     <innerclass refid="classtest_1_1coordinates_1_1_all_tests" prot="public">test::coordinates::AllTests</innerclass>

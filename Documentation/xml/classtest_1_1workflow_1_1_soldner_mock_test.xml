@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classtest_1_1workflow_1_1_soldner_mock_test" kind="class" language="Java" prot="public">
+    <compoundname>test::workflow::SoldnerMockTest</compoundname>
+    <basecompoundref refid="classcoordinates_1_1_soldner" prot="public" virt="non-virtual">coordinates.Soldner</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtest_1_1workflow_1_1_soldner_mock_test_1ac31cdc57d153376f4f66883a614e0d04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void test.workflow.SoldnerMockTest.testSoldnerWorkflow</definition>
+        <argsstring>()</argsstring>
+        <name>testSoldnerWorkflow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/workflow/SoldnerMockTest.java" line="18" column="13" bodyfile="test/workflow/SoldnerMockTest.java" bodystart="18" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>test.workflow.SoldnerMockTest</label>
+        <link refid="classtest_1_1workflow_1_1_soldner_mock_test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>coordinates.Soldner</label>
+        <link refid="classcoordinates_1_1_soldner"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>coordinates.Coordinate</label>
+        <link refid="classcoordinates_1_1_coordinate"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>test.workflow.SoldnerMockTest</label>
+        <link refid="classtest_1_1workflow_1_1_soldner_mock_test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>coordinates.Soldner</label>
+        <link refid="classcoordinates_1_1_soldner"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>coordinates.Coordinate</label>
+        <link refid="classcoordinates_1_1_coordinate"/>
+      </node>
+    </collaborationgraph>
+    <location file="test/workflow/SoldnerMockTest.java" line="15" column="37" bodyfile="test/workflow/SoldnerMockTest.java" bodystart="15" bodyend="61"/>
+    <listofallmembers>
+      <member refid="classcoordinates_1_1_soldner_1ab1bec5d8a11e84c0cdc3154fd1abf843" prot="private" virt="non-virtual"><scope>test::workflow::SoldnerMockTest</scope><name>abszisse</name></member>
+      <member refid="classcoordinates_1_1_soldner_1a489fa7e9e4c0c09e502bbbf2fb7ad689" prot="private" virt="non-virtual"><scope>test::workflow::SoldnerMockTest</scope><name>b0</name></member>
+      <member refid="classcoordinates_1_1_soldner_1abef9061e0e316de4bba8f5e99292a2b5" prot="private" virt="non-virtual"><scope>test::workflow::SoldnerMockTest</scope><name>ellipsoidal</name></member>
+      <member refid="classcoordinates_1_1_soldner_1a1bb5f8b49d0f2858f22028f3532d1ee3" prot="public" virt="non-virtual"><scope>test::workflow::SoldnerMockTest</scope><name>getAbszisse</name></member>
+      <member refid="classcoordinates_1_1_soldner_1ab87732c40411256ffd5cfba0ad4bd2cc" prot="public" virt="non-virtual"><scope>test::workflow::SoldnerMockTest</scope><name>getAsGeographicInterface</name></member>
+      <member refid="classcoordinates_1_1_soldner_1a5681bdb4c77cb4e6e483abca00758a48" prot="public" virt="non-virtual"><scope>test::workflow::SoldnerMockTest</scope><name>getAsTargetCoordinate</name></member>
+      <member refid="classcoordinates_1_1_soldner_1a6ab74bfedc2b81db5ec9b40228b5a51c" prot="public" virt="non-virtual"><scope>test::workflow::SoldnerMockTest</scope><name>getB0</name></member>
+      <member refid="classcoordinates_1_1_soldner_1ace54cd7d0157cf876c22e7877fc65c01" prot="public" virt="non-virtual"><scope>test::workflow::SoldnerMockTest</scope><name>getEllipsoidal</name></member>
+      <member refid="classcoordinates_1_1_soldner_1a0b9ff78b3e7f94bef19549746c67ea92" prot="public" virt="non-virtual"><scope>test::workflow::SoldnerMockTest</scope><name>getHeight</name></member>
+      <member refid="classcoordinates_1_1_soldner_1a58e4fa59465e0953f6302ea668f2d270" prot="public" virt="non-virtual"><scope>test::workflow::SoldnerMockTest</scope><name>getL0</name></member>
+      <member refid="classcoordinates_1_1_soldner_1abb044e1be4724e6cd0ee72083a6245d0" prot="public" virt="non-virtual"><scope>test::workflow::SoldnerMockTest</scope><name>getOrdinate</name></member>
+      <member refid="classcoordinates_1_1_coordinate_1ab0b1d8dc4fe371a2425e0cb505effafd" prot="public" virt="non-virtual"><scope>test::workflow::SoldnerMockTest</scope><name>getPointid</name></member>
+      <member refid="classcoordinates_1_1_soldner_1a4db9877edcf2391422fe532bd7131856" prot="private" virt="non-virtual"><scope>test::workflow::SoldnerMockTest</scope><name>height</name></member>
+      <member refid="classcoordinates_1_1_soldner_1a4d8a0b1f4fce55f1d8be6433a2160b17" prot="private" virt="non-virtual"><scope>test::workflow::SoldnerMockTest</scope><name>l0</name></member>
+      <member refid="classcoordinates_1_1_soldner_1ab13e1d9275b47a0754ed33c572dba57a" prot="private" virt="non-virtual"><scope>test::workflow::SoldnerMockTest</scope><name>ordinate</name></member>
+      <member refid="classcoordinates_1_1_coordinate_1a871c4eb3e8771b3e59f26c8e573d6aa0" prot="private" virt="non-virtual"><scope>test::workflow::SoldnerMockTest</scope><name>pointid</name></member>
+      <member refid="classcoordinates_1_1_soldner_1a672aec8c4424e5a066f272d4864e8813" prot="public" virt="non-virtual"><scope>test::workflow::SoldnerMockTest</scope><name>print</name></member>
+      <member refid="classcoordinates_1_1_soldner_1ab1de539c6b4d0855debaa87339edbedd" prot="public" virt="non-virtual"><scope>test::workflow::SoldnerMockTest</scope><name>setAbszisse</name></member>
+      <member refid="classcoordinates_1_1_soldner_1a597b8292c312c36e547df97285e55d4a" prot="public" virt="non-virtual"><scope>test::workflow::SoldnerMockTest</scope><name>setB0</name></member>
+      <member refid="classcoordinates_1_1_soldner_1abf6ceb3d9b6edd741fdd05580b0593fa" prot="public" virt="non-virtual"><scope>test::workflow::SoldnerMockTest</scope><name>setEllipsoidal</name></member>
+      <member refid="classcoordinates_1_1_soldner_1afc305a8276613f55b9aa79638a514789" prot="public" virt="non-virtual"><scope>test::workflow::SoldnerMockTest</scope><name>setHeight</name></member>
+      <member refid="classcoordinates_1_1_soldner_1abc6b1143ff0485b110cdc7b33f712ed3" prot="public" virt="non-virtual"><scope>test::workflow::SoldnerMockTest</scope><name>setL0</name></member>
+      <member refid="classcoordinates_1_1_soldner_1a991dbfcef201d4740613960da3794bf6" prot="public" virt="non-virtual"><scope>test::workflow::SoldnerMockTest</scope><name>setOrdinate</name></member>
+      <member refid="classcoordinates_1_1_coordinate_1a14f00383b5a41df79220112a12ef1cbf" prot="public" virt="non-virtual"><scope>test::workflow::SoldnerMockTest</scope><name>setPointid</name></member>
+      <member refid="classcoordinates_1_1_soldner_1ab3e2a2c0566f9f12fa5d9c3460440a1a" prot="public" virt="non-virtual"><scope>test::workflow::SoldnerMockTest</scope><name>Soldner</name></member>
+      <member refid="classcoordinates_1_1_soldner_1a92132f86c35d526b8419f8bde4e0bc0e" prot="public" virt="non-virtual"><scope>test::workflow::SoldnerMockTest</scope><name>Soldner</name></member>
+      <member refid="classcoordinates_1_1_soldner_1a01998c873e25c1fbefb3aba8d1d24cdd" prot="public" virt="non-virtual"><scope>test::workflow::SoldnerMockTest</scope><name>Soldner</name></member>
+      <member refid="classtest_1_1workflow_1_1_soldner_mock_test_1ac31cdc57d153376f4f66883a614e0d04" prot="public" virt="non-virtual"><scope>test::workflow::SoldnerMockTest</scope><name>testSoldnerWorkflow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

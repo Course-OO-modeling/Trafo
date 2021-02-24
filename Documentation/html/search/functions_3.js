@@ -103,5 +103,5 @@ var searchData=
   ['getzihoehe_635',['getZihoehe',['../classparams_1_1_control_parms.html#a3ff4bfa2904c4f485a20f6fb864557b4',1,'params::ControlParms']]],
   ['getzipkt_636',['getZipkt',['../classparams_1_1_control_parms.html#a12aec04726c89c78fffbe2f7c0148cfd',1,'params::ControlParms']]],
   ['getzitausch_637',['getZitausch',['../classparams_1_1_control_parms.html#ab99b444c9b8cfd2b54b384c8e3ad5e7e',1,'params::ControlParms']]],
-  ['getzone_638',['getZone',['../classcoordinates_1_1_u_t_m.html#a30934884d4cbb4ee126c2a0b14f5ca39',1,'coordinates::UTM']]]
+  ['getzone_638',['getZone',['../classcoordinates_1_1_u_t_m.html#a30934884d4cbb4ee126c2a0b14f5ca39',1,'coordinates.UTM.getZone()'],['../classparams_1_1_control_parms.html#aada0ce2530643ecad6f7f1e88ad70576',1,'params.ControlParms.getZone()']]]
 ];

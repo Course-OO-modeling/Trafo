@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="classdatumstrategy_1_1_cardans_transformation" kind="class" language="Java" prot="public">
     <compoundname>datumstrategy::CardansTransformation</compoundname>
     <basecompoundref refid="classdatumstrategy_1_1_transformation_strategy" prot="public" virt="non-virtual">datumstrategy.TransformationStrategy</basecompoundref>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="datumstrategy/CardansTransformation.java" line="26" column="16" bodyfile="datumstrategy/CardansTransformation.java" bodystart="26" bodyend="-1"/>
+        <location file="datumstrategy/CardansTransformation.java" line="30" column="16" bodyfile="datumstrategy/CardansTransformation.java" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classdatumstrategy_1_1_cardans_transformation_1a432075c182e72c4513c507e68207270e" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="datumstrategy/CardansTransformation.java" line="27" column="16" bodyfile="datumstrategy/CardansTransformation.java" bodystart="27" bodyend="-1"/>
+        <location file="datumstrategy/CardansTransformation.java" line="31" column="16" bodyfile="datumstrategy/CardansTransformation.java" bodystart="31" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classdatumstrategy_1_1_cardans_transformation_1a07926f1115857a14d2ccd9ac05ddb17b" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="datumstrategy/CardansTransformation.java" line="28" column="16" bodyfile="datumstrategy/CardansTransformation.java" bodystart="28" bodyend="-1"/>
+        <location file="datumstrategy/CardansTransformation.java" line="32" column="16" bodyfile="datumstrategy/CardansTransformation.java" bodystart="32" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classdatumstrategy_1_1_cardans_transformation_1a50920df59cf915ff50950f21e974551b" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="datumstrategy/CardansTransformation.java" line="29" column="16" bodyfile="datumstrategy/CardansTransformation.java" bodystart="29" bodyend="-1"/>
+        <location file="datumstrategy/CardansTransformation.java" line="33" column="16" bodyfile="datumstrategy/CardansTransformation.java" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classdatumstrategy_1_1_cardans_transformation_1a99129fc5d3eeef62bdaa85d944d1fe90" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="datumstrategy/CardansTransformation.java" line="30" column="16" bodyfile="datumstrategy/CardansTransformation.java" bodystart="30" bodyend="-1"/>
+        <location file="datumstrategy/CardansTransformation.java" line="34" column="16" bodyfile="datumstrategy/CardansTransformation.java" bodystart="34" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classdatumstrategy_1_1_cardans_transformation_1a7d122d0c257e3f729d0ee4899c00fa83" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -80,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="datumstrategy/CardansTransformation.java" line="31" column="16" bodyfile="datumstrategy/CardansTransformation.java" bodystart="31" bodyend="-1"/>
+        <location file="datumstrategy/CardansTransformation.java" line="35" column="16" bodyfile="datumstrategy/CardansTransformation.java" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classdatumstrategy_1_1_cardans_transformation_1ac04153c0bcafda4b5fec06aae13af1fa" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -93,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="datumstrategy/CardansTransformation.java" line="32" column="16" bodyfile="datumstrategy/CardansTransformation.java" bodystart="32" bodyend="-1"/>
+        <location file="datumstrategy/CardansTransformation.java" line="36" column="16" bodyfile="datumstrategy/CardansTransformation.java" bodystart="36" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classdatumstrategy_1_1_cardans_transformation_1a53aec6feed61d2e32caeb429c832ab6b" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -106,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="datumstrategy/CardansTransformation.java" line="33" column="16" bodyfile="datumstrategy/CardansTransformation.java" bodystart="33" bodyend="-1"/>
+        <location file="datumstrategy/CardansTransformation.java" line="37" column="16" bodyfile="datumstrategy/CardansTransformation.java" bodystart="37" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classdatumstrategy_1_1_cardans_transformation_1ace8c836c980cd25298796b2cde125c6b" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -119,7 +119,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="datumstrategy/CardansTransformation.java" line="34" column="16" bodyfile="datumstrategy/CardansTransformation.java" bodystart="34" bodyend="-1"/>
+        <location file="datumstrategy/CardansTransformation.java" line="38" column="16" bodyfile="datumstrategy/CardansTransformation.java" bodystart="38" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -137,22 +137,38 @@
 <para>Use Cardan&apos;s Rotation to transform the geographic coordinate. </para>
         </briefdescription>
         <detaileddescription>
-<para>Translation : Cartesian coordinates are used. Rotation : rotate with principle of conventional Cardan&apos;s Rotation (Wx,Wy,Wz). Algorithm explanation : Rotate first about X-axis ,after first step rotate about current Y-axis ,at end rotate about current Z-axis.</para>
+<para><verbatim>   Translation : Cartesian coordinates are used. Rotation : rotate with
+   principle of conventional Cardan&apos;s Rotation (Wx,Wy,Wz). Algorithm
+   explanation : Rotate first about X-axis ,after first step rotate about
+   current Y-axis ,at end rotate about current Z-axis.
+</verbatim></para>
 <para><simplesect kind="author"><para>Yucheng Luo </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="datumstrategy/CardansTransformation.java" line="46" column="17" bodyfile="datumstrategy/CardansTransformation.java" bodystart="46" bodyend="79"/>
+        <location file="datumstrategy/CardansTransformation.java" line="51" column="13" bodyfile="datumstrategy/CardansTransformation.java" bodystart="51" bodyend="91"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
 <para>Algorithmic realization of Translation and the Cardan&apos;s Rotation. </para>
     </briefdescription>
     <detaileddescription>
-<para>The method takes all needed parameters from the class ControlParms that extends the class EllipsoidParms. Needed parameter for the <ref refid="class_transformation" kindref="compound">Transformation</ref>: 3 translation-, 1 scale- and 3 rotation -parameters. The start coordinates are taken from the class GeographicCoordinate and have to be converted into cartesian coordinates to realize the transformation. The Cardan&apos;s Rotation is done with trigonometric funtion. After the <ref refid="class_transformation" kindref="compound">Transformation</ref>, the new coordinates are converted into ellipsoidal coordinates by an iterative process.</para>
-<para>source of cardan&apos;s rotation: <ulink url="http://www.itm.uni-stuttgart.de/courses/madyn/Merkblaetter/M08.pdf">http://www.itm.uni-stuttgart.de/courses/madyn/Merkblaetter/M08.pdf</ulink> (in Germany) Concept explanation : <ulink url="http://n.ethz.ch/~roclaudi/download/4.Semster/glossarium%20h%F7ge.pdf">http://n.ethz.ch/~roclaudi/download/4.Semster/glossarium%20h%F7ge.pdf</ulink> <simplesect kind="author"><para>Yucheng Luo </para>
+<para><verbatim>   The method takes all needed parameters from the class ControlParms
+   that extends the class EllipsoidParms. Needed parameter for the
+   Transformation: 3 translation-, 1 scale- and 3 rotation -parameters.
+   The start coordinates are taken from the class GeographicCoordinate
+   and have to be converted into cartesian coordinates to realize the
+   transformation. The Cardan&apos;s Rotation is done with trigonometric
+   funtion. After the Transformation, the new coordinates are converted
+   into ellipsoidal coordinates by an iterative process.
+
+   source of cardan&apos;s rotation:
+   http://www.itm.uni-stuttgart.de/courses/madyn/Merkblaetter/M08.pdf (in
+   Germany) Concept explanation :
+   http://n.ethz.ch/~roclaudi/download/4.Semster/glossarium%20h%F7ge.pdf
+</verbatim> <simplesect kind="author"><para>Yucheng Luo </para>
 </simplesect>
 <simplesect kind="remark"><para>Cardan&apos;s rotation matrix added on 01.02.2018 by Yucheng Luo </para>
 </simplesect>
@@ -184,7 +200,7 @@
         <link refid="classdatumstrategy_1_1_transformation_strategy"/>
       </node>
     </collaborationgraph>
-    <location file="datumstrategy/CardansTransformation.java" line="25" column="58" bodyfile="datumstrategy/CardansTransformation.java" bodystart="25" bodyend="80"/>
+    <location file="datumstrategy/CardansTransformation.java" line="29" column="58" bodyfile="datumstrategy/CardansTransformation.java" bodystart="29" bodyend="92"/>
     <listofallmembers>
       <member refid="classdatumstrategy_1_1_cardans_transformation_1a046bfbee5b4f44c7a610dda57535fd48" prot="private" virt="non-virtual"><scope>datumstrategy::CardansTransformation</scope><name>e1</name></member>
       <member refid="classdatumstrategy_1_1_cardans_transformation_1a432075c182e72c4513c507e68207270e" prot="private" virt="non-virtual"><scope>datumstrategy::CardansTransformation</scope><name>e2</name></member>

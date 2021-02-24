@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="classcoordinates_1_1_coordinate" kind="class" language="Java" prot="public" abstract="yes">
     <compoundname>coordinates::Coordinate</compoundname>
     <derivedcompoundref refid="classcoordinates_1_1_gauss" prot="public" virt="non-virtual">coordinates.Gauss</derivedcompoundref>
@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Coordinate.java" line="17" column="20" bodyfile="coordinates/Coordinate.java" bodystart="17" bodyend="-1"/>
+        <location file="coordinates/Coordinate.java" line="24" column="16" bodyfile="coordinates/Coordinate.java" bodystart="24" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Coordinate.java" line="23" column="51"/>
+        <location file="coordinates/Coordinate.java" line="33" column="47"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_coordinate_1a998872a624f0394829f4c405f7a6f803" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>abstract void</type>
@@ -102,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Coordinate.java" line="30" column="26"/>
+        <location file="coordinates/Coordinate.java" line="45" column="22"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_coordinate_1af2882da7117d4a312faf707df681042c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>abstract void</type>
@@ -123,7 +123,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Coordinate.java" line="34" column="26"/>
+        <location file="coordinates/Coordinate.java" line="52" column="22"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_coordinate_1ab0b1d8dc4fe371a2425e0cb505effafd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>String</type>
@@ -140,7 +140,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Coordinate.java" line="43" column="19" bodyfile="coordinates/Coordinate.java" bodystart="43" bodyend="45"/>
+        <location file="coordinates/Coordinate.java" line="61" column="15" bodyfile="coordinates/Coordinate.java" bodystart="61" bodyend="63"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_coordinate_1a14f00383b5a41df79220112a12ef1cbf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -168,23 +168,22 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Coordinate.java" line="51" column="17" bodyfile="coordinates/Coordinate.java" bodystart="51" bodyend="53"/>
+        <location file="coordinates/Coordinate.java" line="69" column="13" bodyfile="coordinates/Coordinate.java" bodystart="69" bodyend="71"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Abstract class that represents a coordinate. Enables any concrete <ref refid="classcoordinates_1_1_coordinate" kindref="compound">Coordinate</ref> class be used as input for TransformationStrategy which relies on geographic coordinates as input/output <linebreak/>
- </para>
+<para>Abstract class that represents a coordinate. Enables any concrete <ref refid="classcoordinates_1_1_coordinate" kindref="compound">Coordinate</ref> class be used as input for TransformationStrategy which relies on geographic coordinates as input/output. </para>
     </briefdescription>
     <detaileddescription>
-<para><simplesect kind="author"><para>unknown </para>
+<para><simplesect kind="author"><para>unknown on 2016-11 </para>
 </simplesect>
-<simplesect kind="remark"><para>updated header on 2017-11-29 by Markus Mueller </para>
+<simplesect kind="remark"><para>updated header on 2017-11-29 by Markus MÃ¼ller </para>
 </simplesect>
-<simplesect kind="remark"><para>renamed to <ref refid="classcoordinates_1_1_coordinate" kindref="compound">Coordinate</ref> (was Coordinates) on 2016-11-26 by Patrick Huebner </para>
+<simplesect kind="remark"><para>renamed to <ref refid="classcoordinates_1_1_coordinate" kindref="compound">Coordinate</ref> (was Coordinates) on 2016-11-26 by Patrick HÃ¼bner </para>
 </simplesect>
-<simplesect kind="remark"><para>added abstract methods <ref refid="classcoordinates_1_1_coordinate_1a97342479914743d999cef4b38f9124ed" kindref="member">getAsGeographic</ref> and <ref refid="classcoordinates_1_1_coordinate_1a998872a624f0394829f4c405f7a6f803" kindref="member">fromGeographic</ref> to enable any concrete <ref refid="classcoordinates_1_1_coordinate" kindref="compound">Coordinate</ref> class be used as input for TransformationStrategy which relies on geographic coordinates as input/output on 2016-11-26 by Patrick Huebner </para>
+<simplesect kind="remark"><para>added abstract methods <ref refid="classcoordinates_1_1_coordinate_1a97342479914743d999cef4b38f9124ed" kindref="member">getAsGeographic</ref> and <ref refid="classcoordinates_1_1_coordinate_1a998872a624f0394829f4c405f7a6f803" kindref="member">fromGeographic</ref> to enable any concrete <ref refid="classcoordinates_1_1_coordinate" kindref="compound">Coordinate</ref> class be used as input for TransformationStrategy which relies on geographic coordinates as input/output on 2016-11-26 by Patrick Hï¿½bner </para>
 </simplesect>
-<simplesect kind="version"><para>0.1 </para>
+<simplesect kind="version"><para>0.2 </para>
 </simplesect>
 <parameterlist kind="param"><parameteritem>
 <parameternamelist>
@@ -198,16 +197,34 @@
 </para>
     </detaileddescription>
     <inheritancegraph>
+      <node id="13">
+        <label>test.workflow.XYZCoordinateMockTest</label>
+        <link refid="classtest_1_1workflow_1_1_x_y_z_coordinate_mock_test"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>test.workflow.GaussKruegerMockTest</label>
+        <link refid="classtest_1_1workflow_1_1_gauss_krueger_mock_test"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="2">
         <label>coordinates.Gauss</label>
         <link refid="classcoordinates_1_1_gauss"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="7">
+      <node id="9">
         <label>coordinates.GeographicCoordinateInterface</label>
         <link refid="classcoordinates_1_1_geographic_coordinate_interface"/>
         <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>test.workflow.SoldnerMockTest</label>
+        <link refid="classtest_1_1workflow_1_1_soldner_mock_test"/>
+        <childnode refid="10" relation="public-inheritance">
         </childnode>
       </node>
       <node id="3">
@@ -216,42 +233,48 @@
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="6">
+      <node id="8">
         <label>coordinates.GeographicCoordinate</label>
         <link refid="classcoordinates_1_1_geographic_coordinate"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="8">
+      <node id="10">
         <label>coordinates.Soldner</label>
         <link refid="classcoordinates_1_1_soldner"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="4">
+      <node id="5">
         <label>coordinates.UTM</label>
         <link refid="classcoordinates_1_1_u_t_m"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="5">
+      <node id="6">
         <label>test.coordinates.UTMTest</label>
         <link refid="classtest_1_1coordinates_1_1_u_t_m_test"/>
-        <childnode refid="4" relation="public-inheritance">
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>test.workflow.UTMMockTest</label>
+        <link refid="classtest_1_1workflow_1_1_u_t_m_mock_test"/>
+        <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
       <node id="1">
         <label>coordinates.Coordinate</label>
         <link refid="classcoordinates_1_1_coordinate"/>
       </node>
-      <node id="9">
+      <node id="12">
         <label>coordinates.XYZCoordinate</label>
         <link refid="classcoordinates_1_1_x_y_z_coordinate"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="coordinates/Coordinate.java" line="16" column="33" bodyfile="coordinates/Coordinate.java" bodystart="16" bodyend="54"/>
+    <location file="coordinates/Coordinate.java" line="23" column="33" bodyfile="coordinates/Coordinate.java" bodystart="23" bodyend="73"/>
     <listofallmembers>
       <member refid="classcoordinates_1_1_coordinate_1a97342479914743d999cef4b38f9124ed" prot="public" virt="non-virtual"><scope>coordinates::Coordinate</scope><name>getAsGeographicInterface</name></member>
       <member refid="classcoordinates_1_1_coordinate_1a998872a624f0394829f4c405f7a6f803" prot="public" virt="non-virtual"><scope>coordinates::Coordinate</scope><name>getAsTargetCoordinate</name></member>

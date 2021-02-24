@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="classtest_1_1coordinates_1_1_geographic_coordinate_test" kind="class" language="Java" prot="public">
     <compoundname>test::coordinates::GeographicCoordinateTest</compoundname>
       <sectiondef kind="private-static-attrib">
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="test/coordinates/GeographicCoordinateTest.java" line="24" column="13" bodyfile="test/coordinates/GeographicCoordinateTest.java" bodystart="24" bodyend="31"/>
+        <location file="test/coordinates/GeographicCoordinateTest.java" line="26" column="13" bodyfile="test/coordinates/GeographicCoordinateTest.java" bodystart="26" bodyend="33"/>
       </memberdef>
       <memberdef kind="function" id="classtest_1_1coordinates_1_1_geographic_coordinate_test_1a0b163bb72f3d29aa3067d42c6247ded7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -43,14 +43,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="test/coordinates/GeographicCoordinateTest.java" line="34" column="13" bodyfile="test/coordinates/GeographicCoordinateTest.java" bodystart="34" bodyend="41"/>
+        <location file="test/coordinates/GeographicCoordinateTest.java" line="36" column="13" bodyfile="test/coordinates/GeographicCoordinateTest.java" bodystart="36" bodyend="43"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="test/coordinates/GeographicCoordinateTest.java" line="10" column="38" bodyfile="test/coordinates/GeographicCoordinateTest.java" bodystart="10" bodyend="43"/>
+    <location file="test/coordinates/GeographicCoordinateTest.java" line="10" column="38" bodyfile="test/coordinates/GeographicCoordinateTest.java" bodystart="10" bodyend="45"/>
     <listofallmembers>
       <member refid="classtest_1_1coordinates_1_1_geographic_coordinate_test_1abd685d9d9cb8e98ac046ac39db09a72c" prot="private" virt="non-virtual"><scope>test::coordinates::GeographicCoordinateTest</scope><name>EPSILONFORDEGREE</name></member>
       <member refid="classtest_1_1coordinates_1_1_geographic_coordinate_test_1a0b163bb72f3d29aa3067d42c6247ded7" prot="public" virt="non-virtual"><scope>test::coordinates::GeographicCoordinateTest</scope><name>testFromGeographicInterface</name></member>

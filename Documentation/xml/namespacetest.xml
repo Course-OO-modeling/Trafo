@@ -1,10 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="namespacetest" kind="namespace" language="Java">
     <compoundname>test</compoundname>
     <innernamespace refid="namespacetest_1_1coordinates">test::coordinates</innernamespace>
     <innernamespace refid="namespacetest_1_1datumstrategy">test::datumstrategy</innernamespace>
     <innernamespace refid="namespacetest_1_1params">test::params</innernamespace>
+    <innernamespace refid="namespacetest_1_1workflow">test::workflow</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

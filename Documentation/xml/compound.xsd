@@ -196,7 +196,7 @@
     <xsd:attribute name="readonly" type="DoxBool" use="optional"/>
     <xsd:attribute name="bound" type="DoxBool" use="optional"/>
     <xsd:attribute name="removable" type="DoxBool" use="optional"/>
-    <xsd:attribute name="constrained" type="DoxBool" use="optional"/>
+    <xsd:attribute name="contrained" type="DoxBool" use="optional"/>
     <xsd:attribute name="transient" type="DoxBool" use="optional"/>
     <xsd:attribute name="maybevoid" type="DoxBool" use="optional"/>
     <xsd:attribute name="maybedefault" type="DoxBool" use="optional"/>
@@ -410,7 +410,6 @@
     <xsd:choice>
       <xsd:element name="ulink" type="docURLLink" />
       <xsd:element name="bold" type="docMarkupType" />
-      <xsd:element name="s" type="docMarkupType" />
       <xsd:element name="strike" type="docMarkupType" />
       <xsd:element name="underline" type="docMarkupType" />
       <xsd:element name="emphasis" type="docMarkupType" />
@@ -420,7 +419,7 @@
       <xsd:element name="center" type="docMarkupType" />
       <xsd:element name="small" type="docMarkupType" />
       <xsd:element name="del" type="docMarkupType" />
-      <xsd:element name="ins" type="docMarkupType" />
+      <xsd:element name="inc" type="docMarkupType" />
       <xsd:element name="htmlonly" type="docHtmlOnlyType" />
       <xsd:element name="manonly" type="xsd:string" />
       <xsd:element name="xmlonly" type="xsd:string" />
@@ -1013,7 +1012,7 @@
       <xsd:enumeration value="PHP" />
       <xsd:enumeration value="Objective-C" />
       <xsd:enumeration value="C++" />
-      <xsd:enumeration value="JavaScript" />
+      <xsd:enumeration value="Javascript" />
       <xsd:enumeration value="Python" />
       <xsd:enumeration value="Fortran" />
       <xsd:enumeration value="VHDL" />

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="classtest_1_1coordinates_1_1_u_t_m_test" kind="class" language="Java" prot="public">
     <compoundname>test::coordinates::UTMTest</compoundname>
     <basecompoundref refid="classcoordinates_1_1_u_t_m" prot="public" virt="non-virtual">coordinates.UTM</basecompoundref>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="test/coordinates/UTMTest.java" line="12" column="13" bodyfile="test/coordinates/UTMTest.java" bodystart="12" bodyend="25"/>
+        <location file="test/coordinates/UTMTest.java" line="13" column="13" bodyfile="test/coordinates/UTMTest.java" bodystart="13" bodyend="26"/>
       </memberdef>
       <memberdef kind="function" id="classtest_1_1coordinates_1_1_u_t_m_test_1af7708acee9f0dbec4fb9e78925e1170b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="test/coordinates/UTMTest.java" line="27" column="13" bodyfile="test/coordinates/UTMTest.java" bodystart="27" bodyend="39"/>
+        <location file="test/coordinates/UTMTest.java" line="29" column="13" bodyfile="test/coordinates/UTMTest.java" bodystart="29" bodyend="41"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -83,7 +83,7 @@
         <link refid="classcoordinates_1_1_coordinate"/>
       </node>
     </collaborationgraph>
-    <location file="test/coordinates/UTMTest.java" line="9" column="25" bodyfile="test/coordinates/UTMTest.java" bodystart="9" bodyend="40"/>
+    <location file="test/coordinates/UTMTest.java" line="10" column="25" bodyfile="test/coordinates/UTMTest.java" bodystart="10" bodyend="42"/>
     <listofallmembers>
       <member refid="classcoordinates_1_1_gauss_1a9bd37a096f53a9e443570ec5748f95d8" prot="private" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>abszisse</name></member>
       <member refid="classcoordinates_1_1_gauss_1a1e810f7e3af643a8c0525485d9133276" prot="protected" virt="non-virtual"><scope>test::coordinates::UTMTest</scope><name>CalculateAbszisseOrdinate</name></member>

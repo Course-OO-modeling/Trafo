@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="classcoordinates_1_1_geographic_coordinate" kind="class" language="Java" prot="public">
     <compoundname>coordinates::GeographicCoordinate</compoundname>
     <basecompoundref refid="classcoordinates_1_1_coordinate" prot="public" virt="non-virtual">coordinates.Coordinate</basecompoundref>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GeographicCoordinate.java" line="23" column="18" bodyfile="coordinates/GeographicCoordinate.java" bodystart="23" bodyend="-1"/>
+        <location file="coordinates/GeographicCoordinate.java" line="28" column="14" bodyfile="coordinates/GeographicCoordinate.java" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classcoordinates_1_1_geographic_coordinate_1a1ffbbfc5c01ab766af1d32bcc8cb42ad" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GeographicCoordinate.java" line="24" column="20" bodyfile="coordinates/GeographicCoordinate.java" bodystart="24" bodyend="-1"/>
+        <location file="coordinates/GeographicCoordinate.java" line="29" column="16" bodyfile="coordinates/GeographicCoordinate.java" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classcoordinates_1_1_geographic_coordinate_1a07a18abcc3cd691d4d8821a875dabbd6" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GeographicCoordinate.java" line="25" column="20" bodyfile="coordinates/GeographicCoordinate.java" bodystart="25" bodyend="-1"/>
+        <location file="coordinates/GeographicCoordinate.java" line="30" column="16" bodyfile="coordinates/GeographicCoordinate.java" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classcoordinates_1_1_geographic_coordinate_1a928334b65b117d99cd724d2c0b9b7ee0" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GeographicCoordinate.java" line="26" column="20" bodyfile="coordinates/GeographicCoordinate.java" bodystart="26" bodyend="-1"/>
+        <location file="coordinates/GeographicCoordinate.java" line="31" column="16" bodyfile="coordinates/GeographicCoordinate.java" bodystart="31" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classcoordinates_1_1_geographic_coordinate_1ab14ea3abf8e94174e4eff69ab983282e" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -64,11 +64,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Height above ellipsoid: 0 =&gt; no height (not defined), 1 =&gt; ellipsoidal, 2 =&gt; geoid </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GeographicCoordinate.java" line="27" column="17" bodyfile="coordinates/GeographicCoordinate.java" bodystart="27" bodyend="-1"/>
+        <location file="coordinates/GeographicCoordinate.java" line="32" column="13" bodyfile="coordinates/GeographicCoordinate.java" bodystart="32" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-static-attrib">
@@ -81,10 +80,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>&lt; Height above ellipsoid: 0 =&gt; no height (not defined), 1 =&gt; ellipsoidal, 2 =&gt; geoid </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GeographicCoordinate.java" line="30" column="41" bodyfile="coordinates/GeographicCoordinate.java" bodystart="30" bodyend="-1"/>
+        <location file="coordinates/GeographicCoordinate.java" line="38" column="37" bodyfile="coordinates/GeographicCoordinate.java" bodystart="38" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -99,7 +99,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GeographicCoordinate.java" line="39" column="12" bodyfile="coordinates/GeographicCoordinate.java" bodystart="39" bodyend="44"/>
+        <location file="coordinates/GeographicCoordinate.java" line="43" column="8" bodyfile="coordinates/GeographicCoordinate.java" bodystart="43" bodyend="47"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_1ae6e385071fe5663e16b344571b0131d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -120,7 +120,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GeographicCoordinate.java" line="46" column="12" bodyfile="coordinates/GeographicCoordinate.java" bodystart="46" bodyend="51"/>
+        <location file="coordinates/GeographicCoordinate.java" line="49" column="8" bodyfile="coordinates/GeographicCoordinate.java" bodystart="49" bodyend="53"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_1a41a98dc4f0a463d9b1584856da4ca9d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -145,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GeographicCoordinate.java" line="53" column="12" bodyfile="coordinates/GeographicCoordinate.java" bodystart="53" bodyend="58"/>
+        <location file="coordinates/GeographicCoordinate.java" line="55" column="8" bodyfile="coordinates/GeographicCoordinate.java" bodystart="55" bodyend="59"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_1a1cbf537f61d51979a831b2f018d28897" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -160,7 +160,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GeographicCoordinate.java" line="127" column="17" bodyfile="coordinates/GeographicCoordinate.java" bodystart="127" bodyend="135"/>
+        <location file="coordinates/GeographicCoordinate.java" line="134" column="13" bodyfile="coordinates/GeographicCoordinate.java" bodystart="134" bodyend="142"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_1ae316c889f13670bd69d621858495e2f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref></type>
@@ -189,7 +189,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GeographicCoordinate.java" line="142" column="38" bodyfile="coordinates/GeographicCoordinate.java" bodystart="142" bodyend="152"/>
+        <location file="coordinates/GeographicCoordinate.java" line="154" column="38" bodyfile="coordinates/GeographicCoordinate.java" bodystart="154" bodyend="164"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_1a31aa30555bf11a9965ff717946430cce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -230,7 +230,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GeographicCoordinate.java" line="160" column="13" bodyfile="coordinates/GeographicCoordinate.java" bodystart="160" bodyend="167"/>
+        <location file="coordinates/GeographicCoordinate.java" line="178" column="13" bodyfile="coordinates/GeographicCoordinate.java" bodystart="178" bodyend="185"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_1a68208a97e0db4620dce1163bafdcab06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>long</type>
@@ -247,7 +247,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GeographicCoordinate.java" line="178" column="17" bodyfile="coordinates/GeographicCoordinate.java" bodystart="178" bodyend="180"/>
+        <location file="coordinates/GeographicCoordinate.java" line="196" column="13" bodyfile="coordinates/GeographicCoordinate.java" bodystart="196" bodyend="198"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_1a60674b3195f4470485e62005e90eb141" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -275,7 +275,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GeographicCoordinate.java" line="186" column="17" bodyfile="coordinates/GeographicCoordinate.java" bodystart="186" bodyend="188"/>
+        <location file="coordinates/GeographicCoordinate.java" line="206" column="13" bodyfile="coordinates/GeographicCoordinate.java" bodystart="206" bodyend="208"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_1a1f6aea00058a08a23191930436cb5ef7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -292,7 +292,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GeographicCoordinate.java" line="194" column="19" bodyfile="coordinates/GeographicCoordinate.java" bodystart="194" bodyend="196"/>
+        <location file="coordinates/GeographicCoordinate.java" line="215" column="15" bodyfile="coordinates/GeographicCoordinate.java" bodystart="215" bodyend="217"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_1a72cfb2c3bcafcee1eff0da6b8e9da8fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -320,7 +320,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GeographicCoordinate.java" line="202" column="17" bodyfile="coordinates/GeographicCoordinate.java" bodystart="202" bodyend="204"/>
+        <location file="coordinates/GeographicCoordinate.java" line="223" column="13" bodyfile="coordinates/GeographicCoordinate.java" bodystart="223" bodyend="225"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_1a7c030f592a3644f178c07d79b89382a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -337,7 +337,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GeographicCoordinate.java" line="210" column="19" bodyfile="coordinates/GeographicCoordinate.java" bodystart="210" bodyend="212"/>
+        <location file="coordinates/GeographicCoordinate.java" line="232" column="15" bodyfile="coordinates/GeographicCoordinate.java" bodystart="232" bodyend="234"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_1a8baf5c2c81a9cd60ca73f74d63509775" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -365,7 +365,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GeographicCoordinate.java" line="218" column="17" bodyfile="coordinates/GeographicCoordinate.java" bodystart="218" bodyend="220"/>
+        <location file="coordinates/GeographicCoordinate.java" line="240" column="13" bodyfile="coordinates/GeographicCoordinate.java" bodystart="240" bodyend="242"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_1aea53916d3d136bf18262dc096c468104" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -382,7 +382,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GeographicCoordinate.java" line="226" column="19" bodyfile="coordinates/GeographicCoordinate.java" bodystart="226" bodyend="228"/>
+        <location file="coordinates/GeographicCoordinate.java" line="248" column="15" bodyfile="coordinates/GeographicCoordinate.java" bodystart="248" bodyend="250"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_1ab4d53507e2fb93d1e16bffffcf21ecb4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -410,7 +410,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GeographicCoordinate.java" line="234" column="17" bodyfile="coordinates/GeographicCoordinate.java" bodystart="234" bodyend="236"/>
+        <location file="coordinates/GeographicCoordinate.java" line="256" column="13" bodyfile="coordinates/GeographicCoordinate.java" bodystart="256" bodyend="258"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_1a1e330f3f407a29251d66204401e80e85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -427,7 +427,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GeographicCoordinate.java" line="242" column="16" bodyfile="coordinates/GeographicCoordinate.java" bodystart="242" bodyend="244"/>
+        <location file="coordinates/GeographicCoordinate.java" line="265" column="12" bodyfile="coordinates/GeographicCoordinate.java" bodystart="265" bodyend="267"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_1a1c76ad1e5e1cd8c9ff738d3cdf1c4d0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -455,7 +455,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GeographicCoordinate.java" line="250" column="17" bodyfile="coordinates/GeographicCoordinate.java" bodystart="250" bodyend="252"/>
+        <location file="coordinates/GeographicCoordinate.java" line="273" column="13" bodyfile="coordinates/GeographicCoordinate.java" bodystart="273" bodyend="275"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -471,7 +471,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GeographicCoordinate.java" line="69" column="18" bodyfile="coordinates/GeographicCoordinate.java" bodystart="69" bodyend="78"/>
+        <location file="coordinates/GeographicCoordinate.java" line="68" column="14" bodyfile="coordinates/GeographicCoordinate.java" bodystart="68" bodyend="77"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -513,7 +513,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GeographicCoordinate.java" line="85" column="40" bodyfile="coordinates/GeographicCoordinate.java" bodystart="85" bodyend="97"/>
+        <location file="coordinates/GeographicCoordinate.java" line="88" column="36" bodyfile="coordinates/GeographicCoordinate.java" bodystart="88" bodyend="100"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_geographic_coordinate_1afa986233325df2fb8a8b47d4ddeaee46" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref></type>
@@ -565,7 +565,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/GeographicCoordinate.java" line="105" column="40" bodyfile="coordinates/GeographicCoordinate.java" bodystart="105" bodyend="117"/>
+        <location file="coordinates/GeographicCoordinate.java" line="113" column="36" bodyfile="coordinates/GeographicCoordinate.java" bodystart="113" bodyend="125"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -577,9 +577,9 @@
 </simplesect>
 <simplesect kind="remark"><para>Split former class <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> into <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> (only input coordinate) and <ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref> (Interface for strategy) on 2018-01-12 by Johanna Stoetzer </para>
 </simplesect>
-<simplesect kind="remark"><para>updated header on 2017-11-29 by Markus Mueller </para>
+<simplesect kind="remark"><para>updated header on 2017-11-29 by Markus MÃ¼ller </para>
 </simplesect>
-<simplesect kind="remark"><para>renamed to <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> (was GeographicCoordinates) on 2016-11-26 by Patrick Huebner </para>
+<simplesect kind="remark"><para>renamed to <ref refid="classcoordinates_1_1_geographic_coordinate" kindref="compound">GeographicCoordinate</ref> (was GeographicCoordinates) on 2016-11-26 by Patrick HÃ¼bner </para>
 </simplesect>
 <simplesect kind="version"><para>0.1 </para>
 </simplesect>
@@ -653,7 +653,7 @@
         <link refid="classcoordinates_1_1_coordinate"/>
       </node>
     </collaborationgraph>
-    <location file="coordinates/GeographicCoordinate.java" line="21" column="51" bodyfile="coordinates/GeographicCoordinate.java" bodystart="21" bodyend="253"/>
+    <location file="coordinates/GeographicCoordinate.java" line="26" column="51" bodyfile="coordinates/GeographicCoordinate.java" bodystart="26" bodyend="280"/>
     <listofallmembers>
       <member refid="classcoordinates_1_1_geographic_coordinate_1ab14ea3abf8e94174e4eff69ab983282e" prot="private" virt="non-virtual"><scope>coordinates::GeographicCoordinate</scope><name>ellipsoidal</name></member>
       <member refid="classcoordinates_1_1_geographic_coordinate_1a418ad8644fdc6d927a1eb8d57aeac922" prot="public" virt="non-virtual"><scope>coordinates::GeographicCoordinate</scope><name>GeographicCoordinate</name></member>

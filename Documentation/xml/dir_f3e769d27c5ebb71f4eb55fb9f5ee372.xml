@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_f3e769d27c5ebb71f4eb55fb9f5ee372" kind="dir">
+    <compoundname>test/datumstrategy</compoundname>
+    <innerfile refid="_get_appropriate_transformation_algorithm_test_8java">GetAppropriateTransformationAlgorithmTest.java</innerfile>
+    <innerfile refid="_mock_strategy_test_8java">MockStrategyTest.java</innerfile>
+    <innerfile refid="_molodenskii_transformation_abridged_test_8java">MolodenskiiTransformationAbridgedTest.java</innerfile>
+    <innerfile refid="_molodenskii_transformation_standard_test_8java">MolodenskiiTransformationStandardTest.java</innerfile>
+    <innerfile refid="_spatial_similarity_transformation_infin_test_8java">SpatialSimilarityTransformationInfinTest.java</innerfile>
+    <innerfile refid="_spatial_similarity_transformation_trig_test_8java">SpatialSimilarityTransformationTrigTest.java</innerfile>
+    <innerfile refid="_transformation_comparison_test_8java">TransformationComparisonTest.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="test/datumstrategy/"/>
+  </compounddef>
+</doxygen>

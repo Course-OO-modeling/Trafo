@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="classcoordinates_1_1_gauss" kind="class" language="Java" prot="public" abstract="yes">
     <compoundname>coordinates::Gauss</compoundname>
     <basecompoundref refid="classcoordinates_1_1_coordinate" prot="public" virt="non-virtual">coordinates.Coordinate</basecompoundref>
@@ -14,11 +14,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>x-value </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Gauss.java" line="23" column="20" bodyfile="coordinates/Gauss.java" bodystart="23" bodyend="-1"/>
+        <location file="coordinates/Gauss.java" line="22" column="16" bodyfile="coordinates/Gauss.java" bodystart="22" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classcoordinates_1_1_gauss_1ab156b1da518d7637dacef40489a0dba4" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -28,11 +27,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>y-value </para>
+<para>&lt; x-value </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Gauss.java" line="24" column="20" bodyfile="coordinates/Gauss.java" bodystart="24" bodyend="-1"/>
+        <location file="coordinates/Gauss.java" line="24" column="16" bodyfile="coordinates/Gauss.java" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classcoordinates_1_1_gauss_1aea6297c71e9258a7dfb80a823048dc0d" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -42,11 +41,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>scale of central meridian </para>
+<para>&lt; y-value </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Gauss.java" line="25" column="20" bodyfile="coordinates/Gauss.java" bodystart="25" bodyend="-1"/>
+        <location file="coordinates/Gauss.java" line="26" column="16" bodyfile="coordinates/Gauss.java" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classcoordinates_1_1_gauss_1ad1543fe8a30e7f6dab1d0486bb5a935d" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -56,11 +55,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Height </para>
+<para>&lt; scale of central meridian </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Gauss.java" line="26" column="20" bodyfile="coordinates/Gauss.java" bodystart="26" bodyend="-1"/>
+        <location file="coordinates/Gauss.java" line="28" column="16" bodyfile="coordinates/Gauss.java" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classcoordinates_1_1_gauss_1a08582ecf17604f8330df079ce234008c" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -70,11 +69,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Height above ellipsoid:, 0 =&gt; no height, 1 =&gt; ellipsoidal, 2 =&gt; geoid </para>
+<para>&lt; Height </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Gauss.java" line="27" column="17" bodyfile="coordinates/Gauss.java" bodystart="27" bodyend="-1"/>
+        <location file="coordinates/Gauss.java" line="30" column="13" bodyfile="coordinates/Gauss.java" bodystart="30" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
@@ -99,9 +98,9 @@
 <para>CalculateAbszisseOrdinate calculates the abscissa and ordinate. </para>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="author"><para>unknown </para>
+<para>&lt; Height above ellipsoid:, 0 =&gt; no height, 1 =&gt; ellipsoidal, 2 =&gt; geoid <simplesect kind="author"><para>unknown </para>
 </simplesect>
-<simplesect kind="remark"><para>updated header 29.11.2017 by Markus Mueller </para>
+<simplesect kind="remark"><para>updated header 29.11.2017 by Markus Mï¿½ller </para>
 </simplesect>
 <parameterlist kind="param"><parameteritem>
 <parameternamelist>
@@ -132,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Gauss.java" line="41" column="20" bodyfile="coordinates/Gauss.java" bodystart="41" bodyend="54"/>
+        <location file="coordinates/Gauss.java" line="45" column="16" bodyfile="coordinates/Gauss.java" bodystart="45" bodyend="60"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -151,7 +150,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Gauss.java" line="60" column="26"/>
+        <location file="coordinates/Gauss.java" line="66" column="22"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_gauss_1adb944679772bf8b4101b075247dd0fd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>abstract <ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref></type>
@@ -182,7 +181,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Gauss.java" line="62" column="51"/>
+        <location file="coordinates/Gauss.java" line="68" column="47"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_gauss_1ad11601b119b190bd9d61f71df6b53038" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -199,7 +198,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Gauss.java" line="73" column="19" bodyfile="coordinates/Gauss.java" bodystart="73" bodyend="75"/>
+        <location file="coordinates/Gauss.java" line="79" column="15" bodyfile="coordinates/Gauss.java" bodystart="79" bodyend="81"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_gauss_1a82bc0ee0a9fae9bef4e3400615d50c58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -227,7 +226,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Gauss.java" line="81" column="17" bodyfile="coordinates/Gauss.java" bodystart="81" bodyend="83"/>
+        <location file="coordinates/Gauss.java" line="89" column="13" bodyfile="coordinates/Gauss.java" bodystart="89" bodyend="91"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_gauss_1a751c889d6cc9b2acb5eeb42d888efc0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -244,7 +243,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Gauss.java" line="89" column="19" bodyfile="coordinates/Gauss.java" bodystart="89" bodyend="91"/>
+        <location file="coordinates/Gauss.java" line="99" column="15" bodyfile="coordinates/Gauss.java" bodystart="99" bodyend="101"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_gauss_1a3afbbdd05c3a68dd778760cb824b0b03" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -272,7 +271,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Gauss.java" line="97" column="17" bodyfile="coordinates/Gauss.java" bodystart="97" bodyend="99"/>
+        <location file="coordinates/Gauss.java" line="109" column="13" bodyfile="coordinates/Gauss.java" bodystart="109" bodyend="111"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_gauss_1ab0d10005ccb914af91c8afc28d2ed836" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -289,7 +288,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Gauss.java" line="105" column="19" bodyfile="coordinates/Gauss.java" bodystart="105" bodyend="107"/>
+        <location file="coordinates/Gauss.java" line="119" column="15" bodyfile="coordinates/Gauss.java" bodystart="119" bodyend="121"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_gauss_1a5f0cc370abdab913a51a7395bc54ff24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -317,7 +316,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Gauss.java" line="113" column="17" bodyfile="coordinates/Gauss.java" bodystart="113" bodyend="115"/>
+        <location file="coordinates/Gauss.java" line="129" column="13" bodyfile="coordinates/Gauss.java" bodystart="129" bodyend="131"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_gauss_1a3bc39fe23752a9bccac68015c799f3fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -334,7 +333,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Gauss.java" line="121" column="19" bodyfile="coordinates/Gauss.java" bodystart="121" bodyend="123"/>
+        <location file="coordinates/Gauss.java" line="139" column="15" bodyfile="coordinates/Gauss.java" bodystart="139" bodyend="141"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_gauss_1a3af44a951b3cb9ea5f5cf143b1cb2253" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -362,7 +361,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Gauss.java" line="129" column="17" bodyfile="coordinates/Gauss.java" bodystart="129" bodyend="131"/>
+        <location file="coordinates/Gauss.java" line="149" column="13" bodyfile="coordinates/Gauss.java" bodystart="149" bodyend="151"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_gauss_1a5c6271983e9bb69b8d024158397f5882" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -379,7 +378,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Gauss.java" line="137" column="16" bodyfile="coordinates/Gauss.java" bodystart="137" bodyend="139"/>
+        <location file="coordinates/Gauss.java" line="159" column="12" bodyfile="coordinates/Gauss.java" bodystart="159" bodyend="161"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_gauss_1a2bfa95e5913df58667cf5c15db228db8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -407,7 +406,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Gauss.java" line="145" column="17" bodyfile="coordinates/Gauss.java" bodystart="145" bodyend="147"/>
+        <location file="coordinates/Gauss.java" line="169" column="13" bodyfile="coordinates/Gauss.java" bodystart="169" bodyend="171"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -430,7 +429,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/Gauss.java" line="149" column="22" bodyfile="coordinates/Gauss.java" bodystart="149" bodyend="183"/>
+        <location file="coordinates/Gauss.java" line="173" column="22" bodyfile="coordinates/Gauss.java" bodystart="173" bodyend="209"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -439,7 +438,7 @@
     <detaileddescription>
 <para><simplesect kind="author"><para>unknown </para>
 </simplesect>
-<simplesect kind="remark"><para>updated header on 2017-11-29 by Markus Mueller </para>
+<simplesect kind="remark"><para>updated header on 2017-11-29 by Markus MÃ¼ller </para>
 </simplesect>
 <simplesect kind="version"><para>0.1 </para>
 </simplesect>
@@ -487,6 +486,12 @@
 </para>
     </detaileddescription>
     <inheritancegraph>
+      <node id="4">
+        <label>test.workflow.GaussKruegerMockTest</label>
+        <link refid="classtest_1_1workflow_1_1_gauss_krueger_mock_test"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="1">
         <label>coordinates.Gauss</label>
         <link refid="classcoordinates_1_1_gauss"/>
@@ -499,16 +504,22 @@
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="4">
+      <node id="5">
         <label>coordinates.UTM</label>
         <link refid="classcoordinates_1_1_u_t_m"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="5">
+      <node id="6">
         <label>test.coordinates.UTMTest</label>
         <link refid="classtest_1_1coordinates_1_1_u_t_m_test"/>
-        <childnode refid="4" relation="public-inheritance">
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>test.workflow.UTMMockTest</label>
+        <link refid="classtest_1_1workflow_1_1_u_t_m_mock_test"/>
+        <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
       <node id="2">
@@ -528,7 +539,7 @@
         <link refid="classcoordinates_1_1_coordinate"/>
       </node>
     </collaborationgraph>
-    <location file="coordinates/Gauss.java" line="22" column="39" bodyfile="coordinates/Gauss.java" bodystart="22" bodyend="187"/>
+    <location file="coordinates/Gauss.java" line="21" column="39" bodyfile="coordinates/Gauss.java" bodystart="21" bodyend="213"/>
     <listofallmembers>
       <member refid="classcoordinates_1_1_gauss_1a9bd37a096f53a9e443570ec5748f95d8" prot="private" virt="non-virtual"><scope>coordinates::Gauss</scope><name>abszisse</name></member>
       <member refid="classcoordinates_1_1_gauss_1a1e810f7e3af643a8c0525485d9133276" prot="protected" virt="non-virtual"><scope>coordinates::Gauss</scope><name>CalculateAbszisseOrdinate</name></member>

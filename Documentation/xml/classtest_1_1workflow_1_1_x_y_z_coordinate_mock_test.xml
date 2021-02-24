@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classtest_1_1workflow_1_1_x_y_z_coordinate_mock_test" kind="class" language="Java" prot="public">
+    <compoundname>test::workflow::XYZCoordinateMockTest</compoundname>
+    <basecompoundref refid="classcoordinates_1_1_x_y_z_coordinate" prot="public" virt="non-virtual">coordinates.XYZCoordinate</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtest_1_1workflow_1_1_x_y_z_coordinate_mock_test_1a67118a6a32dd2e4465146294b82289ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void test.workflow.XYZCoordinateMockTest.testXYZCoordinateWorkflow</definition>
+        <argsstring>()</argsstring>
+        <name>testXYZCoordinateWorkflow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/workflow/XYZCoordinateMockTest.java" line="17" column="13" bodyfile="test/workflow/XYZCoordinateMockTest.java" bodystart="17" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>test.workflow.XYZCoordinateMockTest</label>
+        <link refid="classtest_1_1workflow_1_1_x_y_z_coordinate_mock_test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>coordinates.Coordinate</label>
+        <link refid="classcoordinates_1_1_coordinate"/>
+      </node>
+      <node id="2">
+        <label>coordinates.XYZCoordinate</label>
+        <link refid="classcoordinates_1_1_x_y_z_coordinate"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>test.workflow.XYZCoordinateMockTest</label>
+        <link refid="classtest_1_1workflow_1_1_x_y_z_coordinate_mock_test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>coordinates.Coordinate</label>
+        <link refid="classcoordinates_1_1_coordinate"/>
+      </node>
+      <node id="2">
+        <label>coordinates.XYZCoordinate</label>
+        <link refid="classcoordinates_1_1_x_y_z_coordinate"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="test/workflow/XYZCoordinateMockTest.java" line="14" column="49" bodyfile="test/workflow/XYZCoordinateMockTest.java" bodystart="14" bodyend="60"/>
+    <listofallmembers>
+      <member refid="classcoordinates_1_1_x_y_z_coordinate_1add6f4e104b8f7c0dfc2f7d63594abe0d" prot="public" virt="non-virtual"><scope>test::workflow::XYZCoordinateMockTest</scope><name>getAsGeographicInterface</name></member>
+      <member refid="classcoordinates_1_1_x_y_z_coordinate_1a565677c6fc44b6241255d0733e72e048" prot="public" virt="non-virtual"><scope>test::workflow::XYZCoordinateMockTest</scope><name>getAsTargetCoordinate</name></member>
+      <member refid="classcoordinates_1_1_coordinate_1ab0b1d8dc4fe371a2425e0cb505effafd" prot="public" virt="non-virtual"><scope>test::workflow::XYZCoordinateMockTest</scope><name>getPointid</name></member>
+      <member refid="classcoordinates_1_1_x_y_z_coordinate_1ab9055f02276f40c7c9bd0929544b31d4" prot="public" virt="non-virtual"><scope>test::workflow::XYZCoordinateMockTest</scope><name>getX</name></member>
+      <member refid="classcoordinates_1_1_x_y_z_coordinate_1a5b1614c8fb0680235ff866695d56bfd0" prot="public" virt="non-virtual"><scope>test::workflow::XYZCoordinateMockTest</scope><name>getY</name></member>
+      <member refid="classcoordinates_1_1_x_y_z_coordinate_1a1273b99ae80abff51a75b6ced7f3e10f" prot="public" virt="non-virtual"><scope>test::workflow::XYZCoordinateMockTest</scope><name>getZ</name></member>
+      <member refid="classcoordinates_1_1_x_y_z_coordinate_1a88847e65ce05894be77bd2735d15a4ca" prot="public" virt="non-virtual"><scope>test::workflow::XYZCoordinateMockTest</scope><name>init</name></member>
+      <member refid="classcoordinates_1_1_coordinate_1a871c4eb3e8771b3e59f26c8e573d6aa0" prot="private" virt="non-virtual"><scope>test::workflow::XYZCoordinateMockTest</scope><name>pointid</name></member>
+      <member refid="classcoordinates_1_1_x_y_z_coordinate_1a4ff7f1c0dee75f3c60dc735c26129761" prot="public" virt="non-virtual"><scope>test::workflow::XYZCoordinateMockTest</scope><name>print</name></member>
+      <member refid="classcoordinates_1_1_coordinate_1a14f00383b5a41df79220112a12ef1cbf" prot="public" virt="non-virtual"><scope>test::workflow::XYZCoordinateMockTest</scope><name>setPointid</name></member>
+      <member refid="classcoordinates_1_1_x_y_z_coordinate_1a38d36c730bd53179a0188d6d069f6400" prot="public" virt="non-virtual"><scope>test::workflow::XYZCoordinateMockTest</scope><name>setX</name></member>
+      <member refid="classcoordinates_1_1_x_y_z_coordinate_1ae2af422b072d32e47eeef02520c74402" prot="public" virt="non-virtual"><scope>test::workflow::XYZCoordinateMockTest</scope><name>setY</name></member>
+      <member refid="classcoordinates_1_1_x_y_z_coordinate_1a0e32806c394f28e22238765c2fde9eee" prot="public" virt="non-virtual"><scope>test::workflow::XYZCoordinateMockTest</scope><name>setZ</name></member>
+      <member refid="classtest_1_1workflow_1_1_x_y_z_coordinate_mock_test_1a67118a6a32dd2e4465146294b82289ac" prot="public" virt="non-virtual"><scope>test::workflow::XYZCoordinateMockTest</scope><name>testXYZCoordinateWorkflow</name></member>
+      <member refid="classcoordinates_1_1_x_y_z_coordinate_1a93f191f410b19d99a71d3c66ef27df29" prot="private" virt="non-virtual"><scope>test::workflow::XYZCoordinateMockTest</scope><name>x</name></member>
+      <member refid="classcoordinates_1_1_x_y_z_coordinate_1a6876892e552ee2a50333c22eef451700" prot="public" virt="non-virtual"><scope>test::workflow::XYZCoordinateMockTest</scope><name>XYZCoordinate</name></member>
+      <member refid="classcoordinates_1_1_x_y_z_coordinate_1ac635db09dd4c2e8415c8d83a199d754c" prot="public" virt="non-virtual"><scope>test::workflow::XYZCoordinateMockTest</scope><name>XYZCoordinate</name></member>
+      <member refid="classcoordinates_1_1_x_y_z_coordinate_1afc0aea9eb642ba760263fe7bedfbf89b" prot="public" virt="non-virtual"><scope>test::workflow::XYZCoordinateMockTest</scope><name>XYZCoordinate</name></member>
+      <member refid="classcoordinates_1_1_x_y_z_coordinate_1a3b6ac44393c2beae9400509ca89f93cc" prot="package" virt="non-virtual"><scope>test::workflow::XYZCoordinateMockTest</scope><name>y</name></member>
+      <member refid="classcoordinates_1_1_x_y_z_coordinate_1a4d9238fdadb5568f9dc6b1181664500b" prot="package" virt="non-virtual"><scope>test::workflow::XYZCoordinateMockTest</scope><name>z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

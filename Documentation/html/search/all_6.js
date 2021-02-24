@@ -122,6 +122,6 @@ var searchData=
   ['getzihoehe_186',['getZihoehe',['../classparams_1_1_control_parms.html#a3ff4bfa2904c4f485a20f6fb864557b4',1,'params::ControlParms']]],
   ['getzipkt_187',['getZipkt',['../classparams_1_1_control_parms.html#a12aec04726c89c78fffbe2f7c0148cfd',1,'params::ControlParms']]],
   ['getzitausch_188',['getZitausch',['../classparams_1_1_control_parms.html#ab99b444c9b8cfd2b54b384c8e3ad5e7e',1,'params::ControlParms']]],
-  ['getzone_189',['getZone',['../classcoordinates_1_1_u_t_m.html#a30934884d4cbb4ee126c2a0b14f5ca39',1,'coordinates::UTM']]],
+  ['getzone_189',['getZone',['../classcoordinates_1_1_u_t_m.html#a30934884d4cbb4ee126c2a0b14f5ca39',1,'coordinates.UTM.getZone()'],['../classparams_1_1_control_parms.html#aada0ce2530643ecad6f7f1e88ad70576',1,'params.ControlParms.getZone()']]],
   ['gk_5frefmer_190',['GK_refmer',['../classparams_1_1_ellipsoid_parms.html#a86b4e7b5eb4b4f2f671e61e75e0dc7f9',1,'params::EllipsoidParms']]]
 ];

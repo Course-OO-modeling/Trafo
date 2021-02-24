@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="_lat_parm_test_8java" kind="file" language="Java">
     <compoundname>LatParmTest.java</compoundname>
     <innerclass refid="classtest_1_1params_1_1_lat_parm_test" prot="public">test::params::LatParmTest</innerclass>
@@ -24,7 +24,7 @@
 <codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtest_1_1params_1_1_lat_parm_test_1a86997d211c22da67b66dccea5af09e90" kindref="member">test</ref>()<sp/>{</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classparams_1_1_ellipsoid_parms" kindref="compound">EllipsoidParms</ref><sp/>ell<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classparams_1_1_ellipsoid_parms" kindref="compound">EllipsoidParms</ref>(0.00673949677548,<sp/>6399593.6259);</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classparams_1_1_lat_parm" kindref="compound">LatParm</ref><sp/>result<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classparams_1_1_lat_parm" kindref="compound">LatParm</ref>();</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>result.<ref refid="classparams_1_1_lat_parm_1ab81d2c45f65a3a260dd99fcc49235e8b" kindref="member">Constant</ref>(ell,<sp/>49./(180./Math.PI));</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>result.<ref refid="classparams_1_1_lat_parm_1ab81d2c45f65a3a260dd99fcc49235e8b" kindref="member">Constant</ref>(ell,<sp/>49.<sp/>/<sp/>(180.<sp/>/<sp/>Math.PI));</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assertEquals(6381083.5688,<sp/>result.<ref refid="classparams_1_1_lat_parm_1a25b420d545fbfc3b0663f2db9b8d639b" kindref="member">getRadg</ref>(),<sp/>0.001);</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assertEquals(6371848.6282,<sp/>result.<ref refid="classparams_1_1_lat_parm_1ab29d1d8f8fdec25662aef30d992b820b" kindref="member">getRadm</ref>(),<sp/>0.001);</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>

@@ -11,9 +11,9 @@ import params.EllipsoidParms;
  * @remark Split former class GeographicCoordinate into GeographicCoordinate
  *         (only input coordinate) and GeographicCoordinateInterface (Interface
  *         for strategy) on 2018-01-12 by Johanna Stoetzer
- * @remark updated header on 2017-11-29 by Markus Müller
+ * @remark updated header on 2017-11-29 by Markus MÃ¼ller
  * @remark renamed to GeographicCoordinate (was GeographicCoordinates) on
- *         2016-11-26 by Patrick Hübner
+ *         2016-11-26 by Patrick HÃ¼bner
  * @version 0.1
  * @param point       number - Point identification number of the
  *                    GeographicCoordinate as long

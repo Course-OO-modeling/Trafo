@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="classtest_1_1datumstrategy_1_1_mock_strategy_test" kind="class" language="Java" prot="public">
     <compoundname>test::datumstrategy::MockStrategyTest</compoundname>
       <sectiondef kind="private-attrib">
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="test/datumstrategy/MockStrategyTest.java" line="23" column="22" bodyfile="test/datumstrategy/MockStrategyTest.java" bodystart="23" bodyend="-1"/>
+        <location file="test/datumstrategy/MockStrategyTest.java" line="24" column="22" bodyfile="test/datumstrategy/MockStrategyTest.java" bodystart="24" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -28,13 +28,14 @@
 <para>Test method &quot;testTransformGaussKruegerStrip3ToStrip4&quot; to test the transition of a Gauss-Krueger-coordinate from the third to the fourth strip without changing the geodetic datum (DHDN). </para>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="remark"><para>Expected values and input values for this test are taken from Prof.Dr.-Ing. Albert Schoedlbauer, &quot;Rechenformeln und Rechenbeispiele zur Landesvermessung - Teil 2&quot;, Robert Wichmann Verlag Karlsruhe, page 153 </para>
+<para><simplesect kind="remark"><para>Expected values and input values for this test are taken from Prof.Dr.-Ing. Albert Schoedlbauer, &quot;Rechenformeln und Rechenbeispiele
+        zur Landesvermessung - Teil 2&quot;, Robert Wichmann Verlag Karlsruhe, page 153 </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="test/datumstrategy/MockStrategyTest.java" line="33" column="13" bodyfile="test/datumstrategy/MockStrategyTest.java" bodystart="33" bodyend="66"/>
+        <location file="test/datumstrategy/MockStrategyTest.java" line="37" column="13" bodyfile="test/datumstrategy/MockStrategyTest.java" bodystart="37" bodyend="71"/>
       </memberdef>
       <memberdef kind="function" id="classtest_1_1datumstrategy_1_1_mock_strategy_test_1a47ca9d2fa0cd85efb7d206c4c6c311fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -45,13 +46,14 @@
 <para>Test method &quot;testTransformGaussKruegerStrip4ToStrip3&quot; to test the transition of a Gauss-Krueger-coordinate from the fourth to the third strip without changing the geodetic datum (DHDN). </para>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="remark"><para>Expected values and input values for this test are taken from Prof.Dr.-Ing. Albert Schoedlbauer, &quot;Rechenformeln und Rechenbeispiele zur Landesvermessung - Teil 2&quot;, Robert Wichmann Verlag Karlsruhe, page 154 </para>
+<para><simplesect kind="remark"><para>Expected values and input values for this test are taken from Prof.Dr.-Ing. Albert Schoedlbauer, &quot;Rechenformeln und Rechenbeispiele
+        zur Landesvermessung - Teil 2&quot;, Robert Wichmann Verlag Karlsruhe, page 154 </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="test/datumstrategy/MockStrategyTest.java" line="77" column="13" bodyfile="test/datumstrategy/MockStrategyTest.java" bodystart="77" bodyend="110"/>
+        <location file="test/datumstrategy/MockStrategyTest.java" line="84" column="13" bodyfile="test/datumstrategy/MockStrategyTest.java" bodystart="84" bodyend="118"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -64,7 +66,7 @@
 </simplesect>
 </para>
     </detaileddescription>
-    <location file="test/datumstrategy/MockStrategyTest.java" line="22" column="30" bodyfile="test/datumstrategy/MockStrategyTest.java" bodystart="22" bodyend="111"/>
+    <location file="test/datumstrategy/MockStrategyTest.java" line="23" column="30" bodyfile="test/datumstrategy/MockStrategyTest.java" bodystart="23" bodyend="119"/>
     <listofallmembers>
       <member refid="classtest_1_1datumstrategy_1_1_mock_strategy_test_1a22c23073602efc489f11cef72e4e31ff" prot="private" virt="non-virtual"><scope>test::datumstrategy::MockStrategyTest</scope><name>EPSILON_IN_METER</name></member>
       <member refid="classtest_1_1datumstrategy_1_1_mock_strategy_test_1a55919249fc0fe25fb14af6dafe1103e9" prot="public" virt="non-virtual"><scope>test::datumstrategy::MockStrategyTest</scope><name>testTransformGaussKruegerStrip3ToStrip4</name></member>

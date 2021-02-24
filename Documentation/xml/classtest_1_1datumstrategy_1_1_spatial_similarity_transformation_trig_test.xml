@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_trig_test" kind="class" language="Java" prot="public">
     <compoundname>test::datumstrategy::SpatialSimilarityTransformationTrigTest</compoundname>
       <sectiondef kind="private-attrib">
@@ -8,14 +8,14 @@
         <definition>final double test.datumstrategy.SpatialSimilarityTransformationTrigTest.RHO</definition>
         <argsstring></argsstring>
         <name>RHO</name>
-        <initializer>= 180/Math.PI</initializer>
+        <initializer>= 180 / Math.PI</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="test/datumstrategy/SpatialSimilarityTransformationTrigTest.java" line="63" column="22" bodyfile="test/datumstrategy/SpatialSimilarityTransformationTrigTest.java" bodystart="63" bodyend="-1"/>
+        <location file="test/datumstrategy/SpatialSimilarityTransformationTrigTest.java" line="22" column="22" bodyfile="test/datumstrategy/SpatialSimilarityTransformationTrigTest.java" bodystart="22" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_trig_test_1a5eb06f4f83b6d03070341107520f3eed" prot="private" static="no" mutable="no">
         <type>final double</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="test/datumstrategy/SpatialSimilarityTransformationTrigTest.java" line="64" column="22" bodyfile="test/datumstrategy/SpatialSimilarityTransformationTrigTest.java" bodystart="64" bodyend="-1"/>
+        <location file="test/datumstrategy/SpatialSimilarityTransformationTrigTest.java" line="23" column="22" bodyfile="test/datumstrategy/SpatialSimilarityTransformationTrigTest.java" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_trig_test_1a634fa20b244fa32474282e106a0f207d" prot="private" static="no" mutable="no">
         <type>final double</type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="test/datumstrategy/SpatialSimilarityTransformationTrigTest.java" line="65" column="22" bodyfile="test/datumstrategy/SpatialSimilarityTransformationTrigTest.java" bodystart="65" bodyend="-1"/>
+        <location file="test/datumstrategy/SpatialSimilarityTransformationTrigTest.java" line="24" column="22" bodyfile="test/datumstrategy/SpatialSimilarityTransformationTrigTest.java" bodystart="24" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -58,43 +58,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="test/datumstrategy/SpatialSimilarityTransformationTrigTest.java" line="68" column="13" bodyfile="test/datumstrategy/SpatialSimilarityTransformationTrigTest.java" bodystart="68" bodyend="96"/>
+        <location file="test/datumstrategy/SpatialSimilarityTransformationTrigTest.java" line="27" column="13" bodyfile="test/datumstrategy/SpatialSimilarityTransformationTrigTest.java" bodystart="27" bodyend="55"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
 <para>Tests the Spatial Similarity <ref refid="class_transformation" kindref="compound">Transformation</ref> as a Datum Strategy. Input values and expected values were calculated by hand. </para>
     </briefdescription>
     <detaileddescription>
-<para>public class <ref refid="classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_trig_test" kindref="compound">SpatialSimilarityTransformationTrigTest</ref> {</para>
-<para>private final double RHO = 180/Math.PI; private final double EPSILON_IN_METER = 0.001; private final double EPSILON_IN_RAD = 0.00000001;</para>
-<para>@Test public void <ref refid="classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_trig_test_1aaba8cd634d7c737b2f4cd7860230c356" kindref="member">testTransform()</ref> { <linebreak/>
- <verbatim>ControlParms control = ControlParms.getInstance();
-control.setKindoftrafo(&quot;3D_trig&quot;);
-control.setDx(100);
-control.setDy(100);
-control.setDz(100);
-control.setWx(60/RHO);
-control.setWy(60/RHO);
-control.setWz(0);
-control.setMassstab(1.1);
-
-final double expectedLatitude = (45.41306469)/RHO;
-final double expectedLongitude = (84.06362314)/RHO;
-final double expectedHeight = 635482.79430;
-
-GeographicCoordinateInterface testCoordinate = GeographicCoordinateInterface.getInstance();
-
-testCoordinate.setLatitude(49.0/RHO);
-testCoordinate.setLongitude(8.5/RHO);
-testCoordinate.setHeight(120.);
-
-TransformationStrategy dat = GetAppropriateTransformationAlgorithm.getStrategy();
-dat.transform(testCoordinate);
-
-assertEquals(expectedLatitude, testCoordinate.getLatitude(), EPSILON_IN_RAD);
-assertEquals(expectedLongitude, testCoordinate.getLongitude(), EPSILON_IN_RAD);
-assertEquals(expectedHeight, testCoordinate.getHeight(), EPSILON_IN_METER);
-</verbatim> } }</para>
 <para><simplesect kind="author"><para>Wentao Lu </para>
 </simplesect>
 <simplesect kind="date"><para>Jan 2020 </para>
@@ -103,7 +73,7 @@ assertEquals(expectedHeight, testCoordinate.getHeight(), EPSILON_IN_METER);
 </simplesect>
 </para>
     </detaileddescription>
-    <location file="test/datumstrategy/SpatialSimilarityTransformationTrigTest.java" line="61" column="58" bodyfile="test/datumstrategy/SpatialSimilarityTransformationTrigTest.java" bodystart="61" bodyend="97"/>
+    <location file="test/datumstrategy/SpatialSimilarityTransformationTrigTest.java" line="20" column="53" bodyfile="test/datumstrategy/SpatialSimilarityTransformationTrigTest.java" bodystart="20" bodyend="56"/>
     <listofallmembers>
       <member refid="classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_trig_test_1a5eb06f4f83b6d03070341107520f3eed" prot="private" virt="non-virtual"><scope>test::datumstrategy::SpatialSimilarityTransformationTrigTest</scope><name>EPSILON_IN_METER</name></member>
       <member refid="classtest_1_1datumstrategy_1_1_spatial_similarity_transformation_trig_test_1a634fa20b244fa32474282e106a0f207d" prot="private" virt="non-virtual"><scope>test::datumstrategy::SpatialSimilarityTransformationTrigTest</scope><name>EPSILON_IN_RAD</name></member>

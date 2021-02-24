@@ -1,9 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="classcoordinates_1_1_u_t_m" kind="class" language="Java" prot="public">
     <compoundname>coordinates::UTM</compoundname>
     <basecompoundref refid="classcoordinates_1_1_gauss" prot="public" virt="non-virtual">coordinates.Gauss</basecompoundref>
     <derivedcompoundref refid="classtest_1_1coordinates_1_1_u_t_m_test" prot="public" virt="non-virtual">test.coordinates.UTMTest</derivedcompoundref>
+    <derivedcompoundref refid="classtest_1_1workflow_1_1_u_t_m_mock_test" prot="public" virt="non-virtual">test.workflow.UTMMockTest</derivedcompoundref>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classcoordinates_1_1_u_t_m_1adb4ff0c8fbf9f7829c23fb4ca2abba64" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -13,11 +14,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Easting </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/UTM.java" line="20" column="20" bodyfile="coordinates/UTM.java" bodystart="20" bodyend="-1"/>
+        <location file="coordinates/UTM.java" line="19" column="16" bodyfile="coordinates/UTM.java" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classcoordinates_1_1_u_t_m_1a74bc382b61e98b1438c07e101de460e9" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -27,11 +27,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Northing </para>
+<para>&lt; Easting </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/UTM.java" line="21" column="20" bodyfile="coordinates/UTM.java" bodystart="21" bodyend="-1"/>
+        <location file="coordinates/UTM.java" line="21" column="16" bodyfile="coordinates/UTM.java" bodystart="21" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classcoordinates_1_1_u_t_m_1a895d50db8cc3e81cb4d8ec1142a6939d" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -41,11 +41,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><ref refid="classcoordinates_1_1_u_t_m" kindref="compound">coordinates.UTM</ref>-Zone </para>
+<para>&lt; Northing </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/UTM.java" line="22" column="17" bodyfile="coordinates/UTM.java" bodystart="22" bodyend="-1"/>
+        <location file="coordinates/UTM.java" line="23" column="13" bodyfile="coordinates/UTM.java" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classcoordinates_1_1_u_t_m_1adb335a29a61081a69f82fb18047b2533" prot="private" static="no" mutable="no">
         <type>boolean</type>
@@ -55,11 +55,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Hemisphere: 0 =&gt; North, 1 =&gt; South </para>
+<para>&lt; <ref refid="classcoordinates_1_1_u_t_m" kindref="compound">coordinates.UTM</ref>-Zone </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/UTM.java" line="23" column="21" bodyfile="coordinates/UTM.java" bodystart="23" bodyend="-1"/>
+        <location file="coordinates/UTM.java" line="25" column="17" bodyfile="coordinates/UTM.java" bodystart="25" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -71,10 +71,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>&lt; Hemisphere: 0 =&gt; North, 1 =&gt; South </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/UTM.java" line="25" column="12" bodyfile="coordinates/UTM.java" bodystart="25" bodyend="34"/>
+        <location file="coordinates/UTM.java" line="29" column="8" bodyfile="coordinates/UTM.java" bodystart="29" bodyend="39"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_u_t_m_1acc60077a37c7b6f1d24c00401e97064d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -87,7 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/UTM.java" line="36" column="17" bodyfile="coordinates/UTM.java" bodystart="36" bodyend="45"/>
+        <location file="coordinates/UTM.java" line="41" column="13" bodyfile="coordinates/UTM.java" bodystart="41" bodyend="50"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_u_t_m_1a40435144851f7e23b573debd797e0e97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -102,7 +103,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/UTM.java" line="50" column="17" bodyfile="coordinates/UTM.java" bodystart="50" bodyend="57"/>
+        <location file="coordinates/UTM.java" line="55" column="13" bodyfile="coordinates/UTM.java" bodystart="55" bodyend="62"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_u_t_m_1a007d51832fcdc5eb721f04f23d4be8f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classcoordinates_1_1_geographic_coordinate_interface" kindref="compound">GeographicCoordinateInterface</ref></type>
@@ -133,7 +134,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/UTM.java" line="65" column="42" bodyfile="coordinates/UTM.java" bodystart="65" bodyend="83"/>
+        <location file="coordinates/UTM.java" line="70" column="38" bodyfile="coordinates/UTM.java" bodystart="70" bodyend="88"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_u_t_m_1a2f86a0eacc36537c221bedb7381aa77b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -174,7 +175,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/UTM.java" line="91" column="17" bodyfile="coordinates/UTM.java" bodystart="91" bodyend="117"/>
+        <location file="coordinates/UTM.java" line="97" column="13" bodyfile="coordinates/UTM.java" bodystart="97" bodyend="123"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_u_t_m_1a08cf8f5990690f37ae9d9670fbd07948" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -187,7 +188,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/UTM.java" line="119" column="15" bodyfile="coordinates/UTM.java" bodystart="119" bodyend="121"/>
+        <location file="coordinates/UTM.java" line="125" column="15" bodyfile="coordinates/UTM.java" bodystart="125" bodyend="127"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_u_t_m_1af6ff720d80ed39a71374b4661e2ae522" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -204,7 +205,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/UTM.java" line="123" column="13" bodyfile="coordinates/UTM.java" bodystart="123" bodyend="125"/>
+        <location file="coordinates/UTM.java" line="129" column="13" bodyfile="coordinates/UTM.java" bodystart="129" bodyend="131"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_u_t_m_1a12d9f36ab80910493da069a28cfcb5be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -217,7 +218,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/UTM.java" line="127" column="15" bodyfile="coordinates/UTM.java" bodystart="127" bodyend="129"/>
+        <location file="coordinates/UTM.java" line="133" column="15" bodyfile="coordinates/UTM.java" bodystart="133" bodyend="135"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_u_t_m_1a6c5f165da723729691b4729e273edfb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -234,7 +235,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/UTM.java" line="131" column="13" bodyfile="coordinates/UTM.java" bodystart="131" bodyend="133"/>
+        <location file="coordinates/UTM.java" line="137" column="13" bodyfile="coordinates/UTM.java" bodystart="137" bodyend="139"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_u_t_m_1a30934884d4cbb4ee126c2a0b14f5ca39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -247,7 +248,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/UTM.java" line="135" column="12" bodyfile="coordinates/UTM.java" bodystart="135" bodyend="137"/>
+        <location file="coordinates/UTM.java" line="141" column="12" bodyfile="coordinates/UTM.java" bodystart="141" bodyend="143"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_u_t_m_1a4989561b051ee38c85dea9987cd8b0ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -264,7 +265,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/UTM.java" line="139" column="13" bodyfile="coordinates/UTM.java" bodystart="139" bodyend="141"/>
+        <location file="coordinates/UTM.java" line="145" column="13" bodyfile="coordinates/UTM.java" bodystart="145" bodyend="147"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_u_t_m_1a5aab8f83eec4a8c79c3f197af6aad15a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>boolean</type>
@@ -277,7 +278,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/UTM.java" line="143" column="16" bodyfile="coordinates/UTM.java" bodystart="143" bodyend="145"/>
+        <location file="coordinates/UTM.java" line="149" column="16" bodyfile="coordinates/UTM.java" bodystart="149" bodyend="151"/>
       </memberdef>
       <memberdef kind="function" id="classcoordinates_1_1_u_t_m_1a6702ef8bed154007a7ddb7555bc76fe6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -294,7 +295,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="coordinates/UTM.java" line="147" column="13" bodyfile="coordinates/UTM.java" bodystart="147" bodyend="149"/>
+        <location file="coordinates/UTM.java" line="153" column="13" bodyfile="coordinates/UTM.java" bodystart="153" bodyend="155"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -303,7 +304,7 @@
     <detaileddescription>
 <para><simplesect kind="author"><para>unknown </para>
 </simplesect>
-<simplesect kind="remark"><para>updated header on 2017-11-29 by Markus Mueller </para>
+<simplesect kind="remark"><para>updated header on 2017-11-29 by Markus MÃ¼ller </para>
 </simplesect>
 <simplesect kind="version"><para>0.1 </para>
 </simplesect>
@@ -361,6 +362,12 @@
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="5">
+        <label>test.workflow.UTMMockTest</label>
+        <link refid="classtest_1_1workflow_1_1_u_t_m_mock_test"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
         <label>coordinates.Coordinate</label>
         <link refid="classcoordinates_1_1_coordinate"/>
@@ -384,7 +391,7 @@
         <link refid="classcoordinates_1_1_coordinate"/>
       </node>
     </collaborationgraph>
-    <location file="coordinates/UTM.java" line="19" column="23" bodyfile="coordinates/UTM.java" bodystart="19" bodyend="151"/>
+    <location file="coordinates/UTM.java" line="18" column="23" bodyfile="coordinates/UTM.java" bodystart="18" bodyend="157"/>
     <listofallmembers>
       <member refid="classcoordinates_1_1_gauss_1a9bd37a096f53a9e443570ec5748f95d8" prot="private" virt="non-virtual"><scope>coordinates::UTM</scope><name>abszisse</name></member>
       <member refid="classcoordinates_1_1_gauss_1a1e810f7e3af643a8c0525485d9133276" prot="protected" virt="non-virtual"><scope>coordinates::UTM</scope><name>CalculateAbszisseOrdinate</name></member>

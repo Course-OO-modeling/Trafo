@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classtest_1_1datumstrategy_1_1_transformation_comparison_test" kind="class" language="Java" prot="public">
+    <compoundname>test::datumstrategy::TransformationComparisonTest</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtest_1_1datumstrategy_1_1_transformation_comparison_test_1a38565c04c1233ed8004de5de0f492021" prot="private" static="no" mutable="no">
+        <type>final double</type>
+        <definition>final double test.datumstrategy.TransformationComparisonTest.RHO</definition>
+        <argsstring></argsstring>
+        <name>RHO</name>
+        <initializer>= 180 / Math.PI</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/datumstrategy/TransformationComparisonTest.java" line="21" column="22" bodyfile="test/datumstrategy/TransformationComparisonTest.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtest_1_1datumstrategy_1_1_transformation_comparison_test_1aa9a85d8d35c717b4b012536e58112b12" prot="private" static="no" mutable="no">
+        <type>final double</type>
+        <definition>final double test.datumstrategy.TransformationComparisonTest.EPSILON_IN_METER</definition>
+        <argsstring></argsstring>
+        <name>EPSILON_IN_METER</name>
+        <initializer>= 0.1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/datumstrategy/TransformationComparisonTest.java" line="22" column="22" bodyfile="test/datumstrategy/TransformationComparisonTest.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtest_1_1datumstrategy_1_1_transformation_comparison_test_1a01e5b77cdb1730d9c184044744b1cb2e" prot="private" static="no" mutable="no">
+        <type>final double</type>
+        <definition>final double test.datumstrategy.TransformationComparisonTest.EPSILON_IN_RAD</definition>
+        <argsstring></argsstring>
+        <name>EPSILON_IN_RAD</name>
+        <initializer>= 0.001 / <ref refid="classtest_1_1datumstrategy_1_1_transformation_comparison_test_1a38565c04c1233ed8004de5de0f492021" kindref="member">RHO</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/datumstrategy/TransformationComparisonTest.java" line="23" column="22" bodyfile="test/datumstrategy/TransformationComparisonTest.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtest_1_1datumstrategy_1_1_transformation_comparison_test_1aca29062104de9f84ff35d237858d14f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void test.datumstrategy.TransformationComparisonTest.testTransform</definition>
+        <argsstring>()</argsstring>
+        <name>testTransform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test/datumstrategy/TransformationComparisonTest.java" line="26" column="13" bodyfile="test/datumstrategy/TransformationComparisonTest.java" bodystart="26" bodyend="95"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="test/datumstrategy/TransformationComparisonTest.java" line="19" column="42" bodyfile="test/datumstrategy/TransformationComparisonTest.java" bodystart="19" bodyend="96"/>
+    <listofallmembers>
+      <member refid="classtest_1_1datumstrategy_1_1_transformation_comparison_test_1aa9a85d8d35c717b4b012536e58112b12" prot="private" virt="non-virtual"><scope>test::datumstrategy::TransformationComparisonTest</scope><name>EPSILON_IN_METER</name></member>
+      <member refid="classtest_1_1datumstrategy_1_1_transformation_comparison_test_1a01e5b77cdb1730d9c184044744b1cb2e" prot="private" virt="non-virtual"><scope>test::datumstrategy::TransformationComparisonTest</scope><name>EPSILON_IN_RAD</name></member>
+      <member refid="classtest_1_1datumstrategy_1_1_transformation_comparison_test_1a38565c04c1233ed8004de5de0f492021" prot="private" virt="non-virtual"><scope>test::datumstrategy::TransformationComparisonTest</scope><name>RHO</name></member>
+      <member refid="classtest_1_1datumstrategy_1_1_transformation_comparison_test_1aca29062104de9f84ff35d237858d14f8" prot="public" virt="non-virtual"><scope>test::datumstrategy::TransformationComparisonTest</scope><name>testTransform</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

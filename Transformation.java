@@ -10,7 +10,7 @@ import datumstrategy.GetAppropriateTransformationAlgorithm;
 /**
  * @mainpage Coordinate Transformation
  * @note For educational purposes only
- * @copyright No licence restrictions yet
+ * @copyright Free software delivered without any warranty
  * @version 0.2
  * <img src="Implementation.png" alt="Screenshot">
  */

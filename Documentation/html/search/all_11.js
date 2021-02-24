@@ -96,7 +96,7 @@ var searchData=
   ['setzihoehe_342',['setZihoehe',['../classparams_1_1_control_parms.html#ae77b5d713891b289145e548a5c05d67e',1,'params::ControlParms']]],
   ['setzipkt_343',['setZipkt',['../classparams_1_1_control_parms.html#afea7f5a4ce364f172fc3dbc4daf9ecd7',1,'params::ControlParms']]],
   ['setzitausch_344',['setZitausch',['../classparams_1_1_control_parms.html#adb5c016b189b75a4a2e3c1b314769db2',1,'params::ControlParms']]],
-  ['setzone_345',['setZone',['../classcoordinates_1_1_u_t_m.html#a4989561b051ee38c85dea9987cd8b0ed',1,'coordinates::UTM']]],
+  ['setzone_345',['setZone',['../classcoordinates_1_1_u_t_m.html#a4989561b051ee38c85dea9987cd8b0ed',1,'coordinates.UTM.setZone()'],['../classparams_1_1_control_parms.html#a785eb073d1e886b8a537d60e37b9f67e',1,'params.ControlParms.setZone()']]],
   ['soldner_346',['Soldner',['../classcoordinates_1_1_soldner.html',1,'coordinates.Soldner'],['../classcoordinates_1_1_soldner.html#ab3e2a2c0566f9f12fa5d9c3460440a1a',1,'coordinates.Soldner.Soldner(double l0, double b0, double abszisse, double ordinate, double height, int ellipsoidal)'],['../classcoordinates_1_1_soldner.html#a92132f86c35d526b8419f8bde4e0bc0e',1,'coordinates.Soldner.Soldner(double l0, double b0)'],['../classcoordinates_1_1_soldner.html#a01998c873e25c1fbefb3aba8d1d24cdd',1,'coordinates.Soldner.Soldner()']]],
   ['soldner_2ejava_347',['Soldner.java',['../_soldner_8java.html',1,'']]],
   ['soldner_5fb0_348',['Soldner_b0',['../classparams_1_1_ellipsoid_parms.html#a600fb2e197a0cce391abf04cbbd2bfa4',1,'params::EllipsoidParms']]],

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="namespacetest_1_1coordinates" kind="namespace" language="Java">
     <compoundname>test::coordinates</compoundname>
     <innerclass refid="classtest_1_1coordinates_1_1_all_tests" prot="public">test::coordinates::AllTests</innerclass>
@@ -13,6 +13,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="test/coordinates/AllTests.java" line="1" column="15"/>
+    <location file="test/coordinates/AllTests.java" line="1" column="16"/>
   </compounddef>
 </doxygen>

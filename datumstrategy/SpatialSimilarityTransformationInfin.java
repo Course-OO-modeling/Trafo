@@ -20,7 +20,7 @@ import Jama.Matrix;
  *        cartesian coordinates are converted into ellipsoidal coordinates by an
  *        iterative process.
  * 
- *        source of conversions: Geodaetische Flaechenkoordinaten, Uebung2,
+ *        source of conversions: Geodätische Flaechenkoordinaten, Uebung2,
  *        kart2geo.pdf, 20.11.2014 source of 7-Param-Transformation:
  *        https://de.wikipedia.org/wiki/Helmert-Transformation
  * @author Andreas Eppler
