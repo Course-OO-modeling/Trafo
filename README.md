@@ -59,13 +59,10 @@ For the versions available, see the [tags on this repository](https://github.com
 ## Authors
 
 * **Norbert Rösch** - *Initial work* -
-* **Yunhao Huang**
-* **Yucheng Luo**
-* **Markus Müller**
-* **Markus Hillemann**
-* **Johanna Stötzer**
-* **Matthias Schnell**
-* **Eva Majer**
+
+Contributions done by
+
+Yunhao Huang, Yucheng Luo, Markus Müller, Markus Hillemann, Johanna Stötzer, Matthias Schnell, Eva Majer et al. (see below)
 
 See also the list of [contributors](https://github.com/Course-OO-modeling/Trafo/contributors) who participated in this project.
 
