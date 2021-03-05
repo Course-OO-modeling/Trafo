@@ -22,7 +22,7 @@ import coordinates.GeographicCoordinateInterface;
  *        {@link #transform(GeographicCoordinateInterface)
  *        transform(GeographicCoordinateInterface)} that performs the
  *        transformation with geographic coordinates as input/output
- * @remark last refactored 26.11.2016 by Patrick Huebner <br/>
+ * @remark last refactored 26.11.2016 by Patrick HÃ¼bner <br/>
  *         <ul>
  *         <li>changed from interface to abstract class</li>
  *         <li>renamed to TransformationStrategy</li>
@@ -33,7 +33,7 @@ import coordinates.GeographicCoordinateInterface;
  *         transform(GeographicCoordinateInterface)}</li>
  *         </ul>
  * @remark last refactored 11.12.2017 by Eva Majer <br/>
- * @remark last refactored 21.01.2019 by Norbert Rösch (now only object of
+ * @remark last refactored 21.01.2019 by Norbert Rï¿½sch (now only object of
  *         GeographicCoordinateInterface are allowed to communicate with the
  *         different strategies
  *         <ul>

@@ -13,7 +13,7 @@ public class LatParmTest {
 	public void test() {
 		/**
 		 * @brief Test based on parameters of GRS 80
-		 * @author N. Roesch
+		 * @author Norbert Rösch
 		 * @date 18.01.2017
 		 */
 		EllipsoidParms ell = new EllipsoidParms(0.00673949677548, 6399593.6259);

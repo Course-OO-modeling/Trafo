@@ -13,7 +13,7 @@ import params.EllipsoidParms;
  * 
  * @brief Test class with unit tests to test behavior class Gauss
  * 
- * @remark implemented 7.02.2019 by Norbert Rösch
+ * @remark implemented 7.02.2019 by Norbert RÃ¶sch
  * @remark this test should be run before UTMTest and GaussKruegerTest
  */
 

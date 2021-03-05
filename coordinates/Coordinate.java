@@ -16,7 +16,7 @@ import params.EllipsoidParms;
  *         {@link #getAsTargetCoordinate(EllipsoidParms, GeographicCoordinateInterface)
  *         fromGeographic} to enable any concrete Coordinate class be used as
  *         input for TransformationStrategy which relies on geographic
- *         coordinates as input/output on 2016-11-26 by Patrick H�bner
+ *         coordinates as input/output on 2016-11-26 by Patrick Hübner
  * @version 0.2
  * @param pointid - string representing the point identification number
  */

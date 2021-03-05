@@ -10,7 +10,7 @@ import params.EllipsoidParms;
  * @author unknown as of 2016-11
  * @remark Split former class GeographicCoordinate into GeographicCoordinate
  *         (only input coordinate) and GeographicCoordinateInterface (Interface
- *         for strategy) on 2018-01-12 by Johanna Stoetzer
+ *         for strategy) on 2018-01-12 by Johanna Stötzer
  * @remark updated header on 2017-11-29 by Markus Müller
  * @remark renamed to GeographicCoordinate (was GeographicCoordinates) on
  *         2016-11-26 by Patrick Hübner
