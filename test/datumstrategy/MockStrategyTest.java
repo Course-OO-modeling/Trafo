@@ -54,7 +54,7 @@ public class MockStrategyTest {
 
 		// Perform mock strategy for the transformation
 		ControlParms control = ControlParms.getInstance();
-		control.setKindoftrafo(null);
+		control.setKindoftrafo("none");
 		TransformationStrategy datumDhdnToDhdn = GetAppropriateTransformationAlgorithm.getStrategy();
 		datumDhdnToDhdn.transform(resultGeographicCoordinateInterface);
 
@@ -99,7 +99,7 @@ public class MockStrategyTest {
 
 		// Perform mock strategy for the transformation
 		ControlParms control = ControlParms.getInstance();
-		control.setKindoftrafo(null);
+		control.setKindoftrafo("none");
 		TransformationStrategy datumDhdnToDhdn = GetAppropriateTransformationAlgorithm.getStrategy();
 		datumDhdnToDhdn.transform(resultGeographicCoordinateInterface);
 

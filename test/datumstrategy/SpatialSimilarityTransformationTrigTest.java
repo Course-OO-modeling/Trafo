@@ -27,7 +27,7 @@ public class SpatialSimilarityTransformationTrigTest {
 	public void testTransform() {
 
 		ControlParms control = ControlParms.getInstance();
-		control.setKindoftrafo("3D_trig");
+		control.setKindoftrafo("3DTrig");
 		control.setDx(100);
 		control.setDy(100);
 		control.setDz(100);
