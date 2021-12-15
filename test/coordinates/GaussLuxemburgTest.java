@@ -12,15 +12,18 @@ public class GaussLuxemburgTest {
 
 	@Test
 	public void testGetAsGeographicInterface() {
-		double resultLongitude = 49.57156;
-		double resultLatitude = 5.93075;
+		final double RHO = 180./ Math.PI;
+		final double EpsilonInMeter = 0.1;
+		final double resultLongitude = 49.571556353;
+		final double resultLatitude = 5.930748120;
 		GaussLuxemburg testCoordinate = new GaussLuxemburg();
+		// Hayford 1924
 		EllipsoidParms ellipsoidParameters = new EllipsoidParms(0.006768170197, 6378388.0);
 		GeographicCoordinateInterface resultGeographicCoordinateInterface = testCoordinate
 				.getAsGeographicInterface(ellipsoidParameters);
-		assertEquals(resultLongitude, resultGeographicCoordinateInterface.getLongitude(),0.1);
-		assertEquals(resultLatitude, resultGeographicCoordinateInterface.getLatitude(),0.1);
-		fail("Not yet implemented");
+		assertEquals(resultLongitude, resultGeographicCoordinateInterface.getLongitude(),EpsilonInMeter);
+		assertEquals(resultLatitude, resultGeographicCoordinateInterface.getLatitude(),EpsilonInMeter);
+		fail("Not yet finished");
 	}
 
 	@Test

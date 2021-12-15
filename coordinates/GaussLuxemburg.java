@@ -20,14 +20,14 @@ public class GaussLuxemburg extends Gauss {
 	 */
 	@Override
 	public void print() {
-		System.out.println("Gauss-Krueger coordinate:");
+		System.out.println("Gauss-Luxemburg coordinate:");
 		System.out.println("Rechts: " + east);
 		System.out.println("Hoch  : " + north);
 		System.out.println("Height  : " + getHeight());
 	} // end print
 	
 	/**
-	 * @brief transforms the coordinates of the current GaussKrueger instance into
+	 * @brief transforms the coordinates of the current GaussLuxemburg instance into
 	 *        geographic coordinates
 	 * @param ell - an object of type EllipsoidParams that stores information about
 	 *            the reference ellipsoid used for the geographic coordinates
@@ -42,12 +42,13 @@ public class GaussLuxemburg extends Gauss {
 		final double RHO = 180. / Math.PI;
 		GeographicCoordinateInterface geographic = GetAppropriateCoordinate.getGeographicCoordinateInterface();
 
-		/*xg = hoch;
-		kennlao = (int) ((rechts) / 1e+6);
+		xg = north;
+		yg = east;
+		/* kennlao = (int) ((rechts) / 1e+6);
 		lao = 3 * kennlao;
 		l0 = lao / RHO;
 
-		yg = rechts - kennlao * 1e+6 - 5e+5;
+		yg = east;
 
 		geographic.GeographicLongitudeLatitude(xg, yg, ell, 1., l0);
 		geographic.setHeight(this.getHeight());*/
