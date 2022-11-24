@@ -99,7 +99,7 @@ public class ControlParms extends EllipsoidParms {
 		todatum = "dhdn";
 		fromProjection = "utm";
 		toprojection = "xyz";
-		kindoftrafo = "mol_stand";
+		kindoftrafo = "molStandard";
 		dx = 87; /* +/- 3 m */
 		dy = 98; /* +/- 8 m */
 		dz = 121;/* +/- 5 m */
