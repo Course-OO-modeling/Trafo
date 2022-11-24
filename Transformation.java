@@ -57,11 +57,11 @@ public class Transformation {
 		 **/
 		geographic = sourceCoord.getAsGeographicInterface(control);
 		/* Change of datum is invoked */
-		TransformationStrategy dat = GetAppropriateTransformationAlgorithm.getStrategy();
+		TransformationStrategy kindOfGeodeticTransformation = GetAppropriateTransformationAlgorithm.getStrategy();
 		/* Define users' output coordinate system */
 		Coordinate targetCoord = GetAppropriateCoordinate.getCoord(control.getToprojection());
 		/* Perform change of datum */
-		dat.transform(geographic);
+		kindOfGeodeticTransformation.transform(geographic);
 		/* Transformation back from geographic to plane */
 		targetCoord.getAsTargetCoordinate(control, geographic);
 	} // end main

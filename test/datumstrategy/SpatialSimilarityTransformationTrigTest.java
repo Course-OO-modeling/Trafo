@@ -20,8 +20,8 @@ import datumstrategy.GetAppropriateTransformationAlgorithm;
 public class SpatialSimilarityTransformationTrigTest {
 
 	private final double RHO = 180 / Math.PI;
-	private final double EPSILON_IN_METER = 0.001;
-	private final double EPSILON_IN_RAD = 0.00000001;
+	private final double EPSILON_IN_METER = 0.005;
+	private final double EPSILON_IN_RAD = 0.0000001;
 
 	@Test
 	public void testTransform() {
