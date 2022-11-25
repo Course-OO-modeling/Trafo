@@ -7,7 +7,7 @@ import params.EllipsoidParms;
 import params.LatParm;
 
 /**
- * @author Norbert Rösch
+ * @author Norbert Rï¿½sch
  *
  */
 public class GaussLuxemburg extends Gauss {
@@ -37,24 +37,9 @@ public class GaussLuxemburg extends Gauss {
 	 */
 	@Override
 	public GeographicCoordinateInterface getAsGeographicInterface(EllipsoidParms ell) {
-		double lao, kennlao;
-		double xg, yg, l0;
-		final double RHO = 180. / Math.PI;
 		GeographicCoordinateInterface geographic = GetAppropriateCoordinate.getGeographicCoordinateInterface();
-
-		xg = north;
-		yg = east;
-		/* kennlao = (int) ((rechts) / 1e+6);
-		lao = 3 * kennlao;
-		l0 = lao / RHO;
-
-		yg = east;
-
-		geographic.GeographicLongitudeLatitude(xg, yg, ell, 1., l0);
-		geographic.setHeight(this.getHeight());*/
-
 		return geographic;
-	} // end gauss2geographic
+	}
 	
 	/**
 	 * @brief transforms geographic coordinates into GaussKrueger coordinates and
