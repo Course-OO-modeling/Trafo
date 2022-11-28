@@ -64,5 +64,7 @@ public class Transformation {
 		kindOfGeodeticTransformation.transform(geographic);
 		/* Transformation back from geographic to plane */
 		targetCoord.getAsTargetCoordinate(control, geographic);
+		/* Print result */
+		targetCoord.print();
 	} // end main
 } // end class Transformation
