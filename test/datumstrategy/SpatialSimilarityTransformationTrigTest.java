@@ -19,7 +19,7 @@ import datumstrategy.GetAppropriateTransformationAlgorithm;
 
 public class SpatialSimilarityTransformationTrigTest {
 
-	private final double RHO = 180 / Math.PI;
+	private final double RHO = 180. / Math.PI;
 	private final double EPSILON_IN_METER = 0.005;
 	private final double EPSILON_IN_RAD = 0.0000001;
 
@@ -28,12 +28,12 @@ public class SpatialSimilarityTransformationTrigTest {
 
 		ControlParms control = ControlParms.getInstance();
 		control.setKindoftrafo("3DTrig");
-		control.setDx(100);
-		control.setDy(100);
-		control.setDz(100);
-		control.setWx(60 / RHO);
-		control.setWy(60 / RHO);
-		control.setWz(0);
+		control.setDx(100.);
+		control.setDy(100.);
+		control.setDz(100.);
+		control.setWx(60. / RHO);
+		control.setWy(60. / RHO);
+		control.setWz(0.);
 		control.setMassstab(1.1);
 
 		final double expectedLatitude = (45.41306469) / RHO;
