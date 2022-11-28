@@ -3,7 +3,6 @@ package test.coordinates;
 import static org.junit.Assert.*;
 import org.junit.Test;
 
-import coordinates.GaussKrueger;
 import coordinates.GaussLuxemburg;
 import coordinates.GeographicCoordinateInterface;
 import params.EllipsoidParms;
@@ -12,7 +11,6 @@ public class GaussLuxemburgTest {
 
 	@Test
 	public void testGetAsGeographicInterface() {
-		final double RHO = 180./ Math.PI;
 		final double EpsilonInMeter = 0.1;
 		final double resultLongitude = 49.571556353;
 		final double resultLatitude = 5.930748120;
