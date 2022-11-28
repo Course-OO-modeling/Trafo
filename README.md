@@ -28,24 +28,7 @@ The project should run without any Errors.
 
 ## Running the tests
 
-Several Unit tests are already implemented. 
-
-### Break down into end to end tests (Todo: Delete this section?)
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests (Todo: Delete this section?)
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
+Several Unit tests - all located in the 'test'-package - are already implemented. In general these tests are self-explanatory.
 
 ## Contributing
 
