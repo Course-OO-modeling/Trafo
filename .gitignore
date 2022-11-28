@@ -69,6 +69,7 @@ local.properties
 
 # BlueJ files
 *.ctxt
+README.md
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
