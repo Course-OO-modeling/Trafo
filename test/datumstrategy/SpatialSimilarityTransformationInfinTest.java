@@ -19,7 +19,7 @@ import datumstrategy.GetAppropriateTransformationAlgorithm;
 
 public class SpatialSimilarityTransformationInfinTest {
 
-	private final double RHO = 180 / Math.PI;
+	private final double RHO = 180. / Math.PI;
 	private final double EPSILON_IN_METER = 0.001;
 	private final double EPSILON_IN_RAD = 0.00000001;
 
@@ -28,12 +28,12 @@ public class SpatialSimilarityTransformationInfinTest {
 
 		ControlParms control = ControlParms.getInstance();
 		control.setKindoftrafo("3DInfin");
-		control.setDx(100);
-		control.setDy(100);
-		control.setDz(100);
-		control.setWx(1 / RHO);
-		control.setWy(1 / RHO);
-		control.setWz(0);
+		control.setDx(100.);
+		control.setDy(100.);
+		control.setDz(100.);
+		control.setWx(1. / RHO);
+		control.setWy(1. / RHO);
+		control.setWz(0.);
 		control.setMassstab(1.1);
 
 		final double expectedLatitude = (45.68278397) / RHO;
@@ -42,8 +42,8 @@ public class SpatialSimilarityTransformationInfinTest {
 
 		GeographicCoordinateInterface testCoordinate = GeographicCoordinateInterface.getInstance();
 
-		testCoordinate.setLatitude(45 / RHO);
-		testCoordinate.setLongitude(15 / RHO);
+		testCoordinate.setLatitude(45. / RHO);
+		testCoordinate.setLongitude(15. / RHO);
 		testCoordinate.setHeight(0.);
 
 		TransformationStrategy dat = GetAppropriateTransformationAlgorithm.getStrategy();

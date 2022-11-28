@@ -18,7 +18,7 @@ import datumstrategy.GetAppropriateTransformationAlgorithm;
 
 public class TransformationComparisonTest {
 
-	private final double RHO = 180 / Math.PI;
+	private final double RHO = 180. / Math.PI;
 	private final double EPSILON_IN_METER = 0.1;
 	private final double EPSILON_IN_RAD = 0.001 / RHO;
 
@@ -42,8 +42,8 @@ public class TransformationComparisonTest {
 		control.setKindoftrafo("3DInfin");
 		GeographicCoordinateInterface infCoordinate = GeographicCoordinateInterface.getInstance();
 
-		infCoordinate.setLatitude(45 / RHO);
-		infCoordinate.setLongitude(15 / RHO);
+		infCoordinate.setLatitude(45. / RHO);
+		infCoordinate.setLongitude(15. / RHO);
 		infCoordinate.setHeight(0.);
 
 		TransformationStrategy datInf = GetAppropriateTransformationAlgorithm.getStrategy();
@@ -59,8 +59,8 @@ public class TransformationComparisonTest {
 		control.setKindoftrafo("3DTrig");
 		GeographicCoordinateInterface trigCoordinate = GeographicCoordinateInterface.getInstance();
 
-		trigCoordinate.setLatitude(45 / RHO);
-		trigCoordinate.setLongitude(15 / RHO);
+		trigCoordinate.setLatitude(45. / RHO);
+		trigCoordinate.setLongitude(15. / RHO);
 		trigCoordinate.setHeight(0.);
 
 		TransformationStrategy datTrig = GetAppropriateTransformationAlgorithm.getStrategy();
@@ -76,8 +76,8 @@ public class TransformationComparisonTest {
 		control.setKindoftrafo("molStandard");
 		GeographicCoordinateInterface molCoordinate = GeographicCoordinateInterface.getInstance();
 
-		molCoordinate.setLatitude(45 / RHO);
-		molCoordinate.setLongitude(15 / RHO);
+		molCoordinate.setLatitude(45. / RHO);
+		molCoordinate.setLongitude(15. / RHO);
 		molCoordinate.setHeight(0.);
 
 		TransformationStrategy dat = GetAppropriateTransformationAlgorithm.getStrategy();
