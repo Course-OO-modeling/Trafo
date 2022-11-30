@@ -72,14 +72,6 @@ public class ControlParms extends EllipsoidParms {
 	/** < Currently not used */
 	private double destinationCoordinateZ;
 	/** < Currently not used */
-	private String fileinput;
-	private String fileoutput;
-	private String qupkt;
-	private String qutausch;
-	private String ausgabetyp;
-	private String zipkt;
-	private String zihoehe;
-	private String zitausch;
 
 	private static ControlParms instance = null;
 
@@ -428,69 +420,4 @@ public class ControlParms extends EllipsoidParms {
 	public void setDestinationCoordinateZ(double destinationCoordinateZ) {
 		this.destinationCoordinateZ = destinationCoordinateZ;
 	}
-
-	public String getFileinput() {
-		return fileinput;
-	}
-
-	public void setFileinput(String fileinput) {
-		this.fileinput = fileinput;
-	}
-
-	public String getFileoutput() {
-		return fileoutput;
-	}
-
-	public void setFileoutput(String fileoutput) {
-		this.fileoutput = fileoutput;
-	}
-
-	public String getQupkt() {
-		return qupkt;
-	}
-
-	public void setQupkt(String qupkt) {
-		this.qupkt = qupkt;
-	}
-
-	public String getQutausch() {
-		return qutausch;
-	}
-
-	public void setQutausch(String qutausch) {
-		this.qutausch = qutausch;
-	}
-
-	public String getAusgabetyp() {
-		return ausgabetyp;
-	}
-
-	public void setAusgabetyp(String ausgabetyp) {
-		this.ausgabetyp = ausgabetyp;
-	}
-
-	public String getZipkt() {
-		return zipkt;
-	}
-
-	public void setZipkt(String zipkt) {
-		this.zipkt = zipkt;
-	}
-
-	public String getZihoehe() {
-		return zihoehe;
-	}
-
-	public void setZihoehe(String zihoehe) {
-		this.zihoehe = zihoehe;
-	}
-
-	public String getZitausch() {
-		return zitausch;
-	}
-
-	public void setZitausch(String zitausch) {
-		this.zitausch = zitausch;
-	}
-
 }
