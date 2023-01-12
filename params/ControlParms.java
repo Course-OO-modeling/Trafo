@@ -38,7 +38,7 @@ public class ControlParms extends EllipsoidParms {
 	/** < Hemisphere */
 	private String kindofhoehe;
 	/** < Height calculation */
-	private String kindoftrafo;
+	private String kindOfTrafo;
 	/** < Kind of transformation (e.g. 3D similarity transformation) */
 	private double dx;
 	/** < Translation X (For Molodenskii und 3D similarity transformation) */
@@ -91,7 +91,7 @@ public class ControlParms extends EllipsoidParms {
 		todatum = "dhdn";
 		fromProjection = "utm";
 		toprojection = "xyz";
-		kindoftrafo = "molStandard";
+		kindOfTrafo = "molStandard";
 		dx = 87; /* +/- 3 m */
 		dy = 98; /* +/- 8 m */
 		dz = 121;/* +/- 5 m */
@@ -294,11 +294,11 @@ public class ControlParms extends EllipsoidParms {
 	}
 
 	public String getKindoftrafo() {
-		return kindoftrafo;
+		return kindOfTrafo;
 	}
 
-	public void setKindoftrafo(String kindoftrafo) {
-		this.kindoftrafo = kindoftrafo;
+	public void setKindoftrafo(String kindOfTrafo) {
+		this.kindOfTrafo = kindOfTrafo;
 	}
 
 	public double getDx() {

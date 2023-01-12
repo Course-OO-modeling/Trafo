@@ -28,11 +28,7 @@ public class GaussKruegerMockTest extends GaussKrueger {
 		controller.setSourceCoordinateX(3456510.7); // Karlsruhe Schlossturm
 		controller.setSourceCoordinateY(5430912.4);
 		controller.setSourceCoordinateZ(0.0);
-		controller.setDx(0);
-		controller.setDy(0);
-		controller.setDz(0);
-		controller.setDa(0);
-		controller.setDf(0);
+		controller.setKindoftrafo("none");
 		
 		// set reference meridian in ellipsoid parameters (needed for getAsTargetCoordinate)
 		EllipsoidParms ell = new EllipsoidParms(0.0067394968, 6399593.626);
