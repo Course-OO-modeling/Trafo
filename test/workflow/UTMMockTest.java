@@ -27,11 +27,7 @@ public class UTMMockTest extends UTM {
 		controller.setSourceCoordinateX(456451.0); // Karlsruhe Schlossturm
 		controller.setSourceCoordinateY(5429179.7);
 		controller.setSourceCoordinateZ(0.0);
-		controller.setDx(0);
-		controller.setDy(0);
-		controller.setDz(0);
-		controller.setDa(0);
-		controller.setDf(0);
+		controller.setKindOfTrafo("none");
 		
 		// get source UTM-coordinates
 		Coordinate sourceCoord = GetAppropriateCoordinate.getCoord("utm");

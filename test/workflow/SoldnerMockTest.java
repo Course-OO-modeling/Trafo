@@ -27,11 +27,7 @@ public class SoldnerMockTest extends Soldner {
 		controller.setSourceCoordinateX(-341625.6); // Karlsruhe Schlossturm
 		controller.setSourceCoordinateY(-355439.0);
 		controller.setSourceCoordinateZ(0.0);
-		controller.setDx(0);
-		controller.setDy(0);
-		controller.setDz(0);
-		controller.setDa(0);
-		controller.setDf(0);
+		controller.setKindOfTrafo("none");
 		
 		// get source Soldner-coordinates
 		Coordinate sourceCoord = GetAppropriateCoordinate.getCoord("soldner");

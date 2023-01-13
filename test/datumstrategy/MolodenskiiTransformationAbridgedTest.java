@@ -33,7 +33,7 @@ public class MolodenskiiTransformationAbridgedTest {
 
 		ControlParms control = ControlParms.getInstance();
 
-		control.setKindoftrafo("molAbridged");
+		control.setKindOfTrafo("molAbridged");
 		// control.setKindoftrafo("mol_stand");
 
 		// From Projection: Australian Geodetic Datum 1966 (AGD66)

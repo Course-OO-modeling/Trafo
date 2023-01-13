@@ -18,7 +18,7 @@ public class GetAppropriateTransformationAlgorithm {
 
 		ControlParms control = ControlParms.getInstance();
 		
-		switch(control.getKindoftrafo()){
+		switch(control.getKindOfTrafo()){
 		case "none": // no change of geodetic datum
 			return new MockStrategy();
 		case "molStandard":

@@ -28,15 +28,15 @@ public class ControlParms extends EllipsoidParms {
 	private double sourceCoordinateZ;
 	/** < Input coordinate Z */
 	private int zone;
-	private String toprojection;
-	private String todatum;
+	private String toProjection;
+	private String toDatum;
 	private double toawert;
 	private double tobwert;
 	private boolean changedatum;
 	/** < True/False means with/without datum changement */
 	private String northhem;
 	/** < Hemisphere */
-	private String kindofhoehe;
+	private String kindOfHoehe;
 	/** < Height calculation */
 	private String kindOfTrafo;
 	/** < Kind of transformation (e.g. 3D similarity transformation) */
@@ -88,9 +88,9 @@ public class ControlParms extends EllipsoidParms {
 		sourceCoordinateY = 626994.444;
 		sourceCoordinateZ = 0.;
 		fromDatum = "dhdn";
-		todatum = "dhdn";
+		toDatum = "dhdn";
 		fromProjection = "utm";
-		toprojection = "xyz";
+		toProjection = "xyz";
 		kindOfTrafo = "molStandard";
 		dx = 87; /* +/- 3 m */
 		dy = 98; /* +/- 8 m */
@@ -121,9 +121,9 @@ public class ControlParms extends EllipsoidParms {
 	public void print() {
 		System.out.println("Output of class params.ControlParms:");
 		System.out.println("input date      : " + fromDatum);
-		System.out.println("target date          : " + todatum);
+		System.out.println("target date          : " + toDatum);
 		System.out.println("input coordinates: " + fromProjection);
-		System.out.println("target coordinates    : " + toprojection);
+		System.out.println("target coordinates    : " + toProjection);
 		System.out.println("easting         : " + sourceCoordinateX);
 		System.out.println("northing           : " + sourceCoordinateY);
 		System.out.println("height               : " + sourceCoordinateZ);
@@ -238,19 +238,19 @@ public class ControlParms extends EllipsoidParms {
 	}
 	
 	public String getToprojection() {
-		return toprojection;
+		return toProjection;
 	}
 
 	public void setToprojection(String toprojection) {
-		this.toprojection = toprojection;
+		this.toProjection = toprojection;
 	}
 
 	public String getTodatum() {
-		return todatum;
+		return toDatum;
 	}
 
 	public void setTodatum(String todatum) {
-		this.todatum = todatum;
+		this.toDatum = todatum;
 	}
 
 	public double getToawert() {
@@ -285,19 +285,19 @@ public class ControlParms extends EllipsoidParms {
 		this.northhem = northhem;
 	}
 
-	public String getKindofhoehe() {
-		return kindofhoehe;
+	public String getKindOfHoehe() {
+		return kindOfHoehe;
 	}
 
-	public void setKindofhoehe(String kindofhoehe) {
-		this.kindofhoehe = kindofhoehe;
+	public void setKindOfHoehe(String kindofhoehe) {
+		this.kindOfHoehe = kindofhoehe;
 	}
 
-	public String getKindoftrafo() {
+	public String getKindOfTrafo() {
 		return kindOfTrafo;
 	}
 
-	public void setKindoftrafo(String kindOfTrafo) {
+	public void setKindOfTrafo(String kindOfTrafo) {
 		this.kindOfTrafo = kindOfTrafo;
 	}
 

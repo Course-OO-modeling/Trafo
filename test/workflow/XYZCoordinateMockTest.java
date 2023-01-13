@@ -26,11 +26,7 @@ public class XYZCoordinateMockTest extends XYZCoordinate {
 		controller.setSourceCoordinateX(4146218.97725); // Karlsruhe Schlossturm
 		controller.setSourceCoordinateY(612630.07091);
 		controller.setSourceCoordinateZ(4791601.92917);
-		controller.setDx(0);
-		controller.setDy(0);
-		controller.setDz(0);
-		controller.setDa(0);
-		controller.setDf(0);
+		controller.setKindOfTrafo("none");
 		
 		// get source xyz-coordinates
 		Coordinate sourceCoord = GetAppropriateCoordinate.getCoord("xyz");

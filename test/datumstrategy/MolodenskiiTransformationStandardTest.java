@@ -27,7 +27,7 @@ public class MolodenskiiTransformationStandardTest {
 	public void testTransform() {
 
 		ControlParms control = ControlParms.getInstance();
-		control.setKindoftrafo("molStandard");
+		control.setKindOfTrafo("molStandard");
 		control.setDx(100);
 		control.setDy(100);
 		control.setDz(100);

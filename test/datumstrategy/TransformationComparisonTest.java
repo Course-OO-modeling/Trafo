@@ -39,7 +39,7 @@ public class TransformationComparisonTest {
 		
 
 		// ----- do infinitesimal transformation
-		control.setKindoftrafo("3DInfin");
+		control.setKindOfTrafo("3DInfin");
 		GeographicCoordinateInterface infCoordinate = GeographicCoordinateInterface.getInstance();
 
 		infCoordinate.setLatitude(45. / RHO);
@@ -56,7 +56,7 @@ public class TransformationComparisonTest {
 		
 		
 		// ----- do trigonometric transformation
-		control.setKindoftrafo("3DTrig");
+		control.setKindOfTrafo("3DTrig");
 		GeographicCoordinateInterface trigCoordinate = GeographicCoordinateInterface.getInstance();
 
 		trigCoordinate.setLatitude(45. / RHO);
@@ -73,7 +73,7 @@ public class TransformationComparisonTest {
 		
 		
 		// ----- do Molodenskii transformation
-		control.setKindoftrafo("molStandard");
+		control.setKindOfTrafo("molStandard");
 		GeographicCoordinateInterface molCoordinate = GeographicCoordinateInterface.getInstance();
 
 		molCoordinate.setLatitude(45. / RHO);

@@ -15,7 +15,7 @@ public class GetAppropriateTransformationAlgorithmTest {
 	@Test
 	public void testSpatialSimilarityTransformationInfin() {
 		ControlParms control = ControlParms.getInstance();
-		control.setKindoftrafo("none");
+		control.setKindOfTrafo("none");
 		GeographicCoordinateInterface geographic = new GeographicCoordinateInterface();
 		geographic.setHeight(120.);
 		geographic.setLatitude(49.);
@@ -30,7 +30,7 @@ public class GetAppropriateTransformationAlgorithmTest {
 	@Test
 	public void testGetAppropriateTrafoNone() {
 		ControlParms control = ControlParms.getInstance();
-		control.setKindoftrafo("none");
+		control.setKindOfTrafo("none");
 		TransformationStrategy strategy = GetAppropriateTransformationAlgorithm.getStrategy();
 		assertTrue(strategy instanceof MockStrategy);
 	}
@@ -38,7 +38,7 @@ public class GetAppropriateTransformationAlgorithmTest {
 	@Test
 	public void testGetAppropriateTrafoMolodenskiiStandard() {
 		ControlParms control = ControlParms.getInstance();
-		control.setKindoftrafo("molStandard");
+		control.setKindOfTrafo("molStandard");
 		TransformationStrategy strategy = GetAppropriateTransformationAlgorithm.getStrategy();
 		assertTrue(strategy instanceof MolodenskiiTransformationStandard);
 	}
@@ -46,7 +46,7 @@ public class GetAppropriateTransformationAlgorithmTest {
 	@Test
 	public void testGetAppropriateTrafoMolodenskiiAbridged() {
 		ControlParms control = ControlParms.getInstance();
-		control.setKindoftrafo("molAbridged");
+		control.setKindOfTrafo("molAbridged");
 		TransformationStrategy strategy = GetAppropriateTransformationAlgorithm.getStrategy();
 		assertTrue(strategy instanceof MolodenskiiTransformationAbridged);
 	}
@@ -54,7 +54,7 @@ public class GetAppropriateTransformationAlgorithmTest {
 	@Test
 	public void testGetAppropriateTrafo3DInfin() {
 		ControlParms control = ControlParms.getInstance();
-		control.setKindoftrafo("3DInfin");
+		control.setKindOfTrafo("3DInfin");
 		TransformationStrategy strategy = GetAppropriateTransformationAlgorithm.getStrategy();
 		assertTrue(strategy instanceof SpatialSimilarityTransformationInfin);
 	}
@@ -62,7 +62,7 @@ public class GetAppropriateTransformationAlgorithmTest {
 	@Test
 	public void testGetAppropriateTrafo3DTrig() {
 		ControlParms control = ControlParms.getInstance();
-		control.setKindoftrafo("3DTrig");
+		control.setKindOfTrafo("3DTrig");
 		TransformationStrategy strategy = GetAppropriateTransformationAlgorithm.getStrategy();
 		assertTrue(strategy instanceof SpatialSimilarityTransformationTrig);
 	}
@@ -70,7 +70,7 @@ public class GetAppropriateTransformationAlgorithmTest {
 	@Test
 	public void testGetAppropriateTrafoXyzwv() {
 		ControlParms control = ControlParms.getInstance();
-		control.setKindoftrafo("xyzwv");
+		control.setKindOfTrafo("xyzwv");
 		TransformationStrategy strategy = GetAppropriateTransformationAlgorithm.getStrategy();
 		assertTrue(strategy == null);
 	}

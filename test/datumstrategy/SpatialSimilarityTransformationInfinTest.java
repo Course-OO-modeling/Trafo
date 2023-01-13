@@ -27,7 +27,7 @@ public class SpatialSimilarityTransformationInfinTest {
 	public void testTransform() {
 
 		ControlParms control = ControlParms.getInstance();
-		control.setKindoftrafo("3DInfin");
+		control.setKindOfTrafo("3DInfin");
 		control.setDx(100.);
 		control.setDy(100.);
 		control.setDz(100.);
