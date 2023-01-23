@@ -12,22 +12,27 @@ import datumstrategy.TransformationStrategy;
 import params.ControlParms;
 
 
-public class UTMMockTest extends UTM {
+public class UTM3DTrigPathTest extends UTM {
 	
 	@Test
 	public void testUTMWorkflow() {
 		/* 
-		 * Test path: UTM --> Geo --> Mock strategy --> Geo --> UTM
+		 * Test path: for UTM --> Geo --> spatial similarity transformation 
+		 * Geo --> UTM
 		 */
 		
 		// get instance of controller
 		ControlParms controller = ControlParms.getInstance();
 		
 		// set values for coordinates and transformation in controller
-		controller.setSourceCoordinateX(456451.0); // Karlsruhe Schlossturm
+		controller.setSourceCoordinateX(456451.0); // Karlsruhe (tower of the castle)
 		controller.setSourceCoordinateY(5429179.7);
 		controller.setSourceCoordinateZ(0.0);
-		controller.setKindOfTrafo("none");
+		controller.setKindOfTrafo("3DTrig");
+		controller.setDx(0.);
+		controller.setDy(0.);
+		controller.setDz(0.);
+		controller.setScaleFactor(1.);
 		
 		// get source UTM-coordinates
 		Coordinate sourceCoord = GetAppropriateCoordinate.getCoord("utm");

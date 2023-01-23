@@ -13,22 +13,27 @@ import params.ControlParms;
 import params.EllipsoidParms;
 
 
-public class GaussKruegerMockTest extends GaussKrueger {
+public class GaussKrueger3DTrigPathTest extends GaussKrueger {
 	
 	@Test
 	public void testGaussKruegerWorkflow() {
 		/* 
-		 * Test path: GK --> Geo --> Mock strategy --> Geo --> GK
+		 * Test path: for GK --> Geo --> spatial similarity transformation 
+		 * Geo --> GK
 		 */
 		
 		// get instance of controller
 		ControlParms controller = ControlParms.getInstance();
 		
 		// set values for coordinates and transformation in controller
-		controller.setSourceCoordinateX(3456510.7); // Karlsruhe Schlossturm
+		controller.setSourceCoordinateX(3456510.7); // Karlsruhe (tower of the castle)
 		controller.setSourceCoordinateY(5430912.4);
 		controller.setSourceCoordinateZ(0.0);
-		controller.setKindOfTrafo("none");
+		controller.setKindOfTrafo("3DTrig");
+		controller.setDx(0.);
+		controller.setDy(0.);
+		controller.setDz(0.);
+		controller.setScaleFactor(1.);
 		
 		// set reference meridian in ellipsoid parameters (needed for getAsTargetCoordinate)
 		EllipsoidParms ell = new EllipsoidParms(0.0067394968, 6399593.626);
