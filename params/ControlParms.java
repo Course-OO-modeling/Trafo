@@ -66,12 +66,15 @@ public class ControlParms extends EllipsoidParms {
 
 	private double massstab;
 	/** < Scale (For 3D similarity transformation) */
-	private double destinationCoordinateX;
-	/** < Currently not used */
-	private double destinationCoordinateY;
-	/** < Currently not used */
-	private double destinationCoordinateZ;
-	/** < Currently not used */
+	/*
+	 * private double destinationCoordinateX;
+	 *//** < Currently not used */
+	/*
+	 * private double destinationCoordinateY;
+	 *//** < Currently not used */
+	/*
+	 * private double destinationCoordinateZ;
+	 *//** < Currently not used */
 
 	private static ControlParms instance = null;
 
@@ -236,7 +239,7 @@ public class ControlParms extends EllipsoidParms {
 	public void setZone(int zone) {
 		this.sourceCoordinateZ = zone;
 	}
-	
+
 	public String getToprojection() {
 		return toProjection;
 	}
@@ -397,27 +400,20 @@ public class ControlParms extends EllipsoidParms {
 		this.massstab = massstab;
 	}
 
-	public double getDestinationCoordinateX() {
-		return destinationCoordinateX;
-	}
-
-	public void setDestinationCoordinateX(double destinationCoordinateX) {
-		this.destinationCoordinateX = destinationCoordinateX;
-	}
-
-	public double getDestinationCoordinateY() {
-		return destinationCoordinateY;
-	}
-
-	public void setDestinationCoordinateY(double destinationCoordinateY) {
-		this.destinationCoordinateY = destinationCoordinateY;
-	}
-
-	public double getDestinationCoordinateZ() {
-		return destinationCoordinateZ;
-	}
-
-	public void setDestinationCoordinateZ(double destinationCoordinateZ) {
-		this.destinationCoordinateZ = destinationCoordinateZ;
-	}
+	/*
+	 * public double getDestinationCoordinateX() { return destinationCoordinateX; }
+	 * 
+	 * public void setDestinationCoordinateX(double destinationCoordinateX) {
+	 * this.destinationCoordinateX = destinationCoordinateX; }
+	 * 
+	 * public double getDestinationCoordinateY() { return destinationCoordinateY; }
+	 * 
+	 * public void setDestinationCoordinateY(double destinationCoordinateY) {
+	 * this.destinationCoordinateY = destinationCoordinateY; }
+	 * 
+	 * public double getDestinationCoordinateZ() { return destinationCoordinateZ; }
+	 * 
+	 * public void setDestinationCoordinateZ(double destinationCoordinateZ) {
+	 * this.destinationCoordinateZ = destinationCoordinateZ; }
+	 */
 }
