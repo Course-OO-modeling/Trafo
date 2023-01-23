@@ -78,11 +78,11 @@ public class CardansTransformation extends TransformationStrategy {
 		e9 = Math.cos(control.getWx()) * Math.cos(control.getWy());
 
 		XYZDestination.setX(control.getDx()
-				+ control.getMassstab() * (XYZSource.getX() * e1 + XYZSource.getY() * e2 + XYZSource.getZ() * e3));
+				+ control.getScaleFactor() * (XYZSource.getX() * e1 + XYZSource.getY() * e2 + XYZSource.getZ() * e3));
 		XYZDestination.setY(control.getDy()
-				+ control.getMassstab() * (XYZSource.getX() * e4 + XYZSource.getY() * e5 + XYZSource.getZ() * e6));
+				+ control.getScaleFactor() * (XYZSource.getX() * e4 + XYZSource.getY() * e5 + XYZSource.getZ() * e6));
 		XYZDestination.setZ(control.getDz()
-				+ control.getMassstab() * (XYZSource.getX() * e7 + XYZSource.getY() * e8 + XYZSource.getZ() * e9));
+				+ control.getScaleFactor() * (XYZSource.getX() * e7 + XYZSource.getY() * e8 + XYZSource.getZ() * e9));
 
 		// Conversion Cartesian --> Ellipsoidal
 		geo = XYZDestination.getAsGeographicInterface(control);

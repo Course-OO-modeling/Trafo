@@ -34,7 +34,7 @@ public class SpatialSimilarityTransformationTrigTest {
 		control.setWx(60. / RHO);
 		control.setWy(60. / RHO);
 		control.setWz(0.);
-		control.setMassstab(1.1);
+		control.setScaleFactor(1.1);
 
 		final double expectedLatitude = (45.41306469) / RHO;
 		final double expectedLongitude = (84.06362314) / RHO;

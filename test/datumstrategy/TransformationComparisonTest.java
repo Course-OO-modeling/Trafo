@@ -35,7 +35,7 @@ public class TransformationComparisonTest {
 		control.setWz(0);
 		control.setDf(0);
 		control.setDa(0);
-		control.setMassstab(1.0);
+		control.setScaleFactor(1.0);
 		
 
 		// ----- do infinitesimal transformation

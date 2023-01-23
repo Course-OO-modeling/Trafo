@@ -70,7 +70,7 @@ public class SpatialSimilarityTransformationTrig extends TransformationStrategy 
 		Matrix rotation = new Matrix(anglesOfRotation);
 		Matrix source = new Matrix(sourceCoord, 3);
 
-		destination = translation.plus(rotation.times(control.getMassstab()).times(source));
+		destination = translation.plus(rotation.times(control.getScaleFactor()).times(source));
 
 		XYZDestination.setX(destination.get(0, 0));
 		XYZDestination.setY(destination.get(1, 0));

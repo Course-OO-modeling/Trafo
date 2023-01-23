@@ -34,7 +34,7 @@ public class SpatialSimilarityTransformationInfinTest {
 		control.setWx(1. / RHO);
 		control.setWy(1. / RHO);
 		control.setWz(0.);
-		control.setMassstab(1.1);
+		control.setScaleFactor(1.1);
 
 		final double expectedLatitude = (45.68278397) / RHO;
 		final double expectedLongitude = (16.23227418) / RHO;

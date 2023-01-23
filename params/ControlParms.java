@@ -64,17 +64,8 @@ public class ControlParms extends EllipsoidParms {
 	private double Rz3;
 	/** < third Rotation about current Z (For Eulerstransformation) */
 
-	private double massstab;
+	private double scaleFactor;
 	/** < Scale (For 3D similarity transformation) */
-	/*
-	 * private double destinationCoordinateX;
-	 *//** < Currently not used */
-	/*
-	 * private double destinationCoordinateY;
-	 *//** < Currently not used */
-	/*
-	 * private double destinationCoordinateZ;
-	 *//** < Currently not used */
 
 	private static ControlParms instance = null;
 
@@ -392,28 +383,11 @@ public class ControlParms extends EllipsoidParms {
 		this.Rz3 = Rz3;
 	}
 
-	public double getMassstab() {
-		return massstab;
+	public double getScaleFactor() {
+		return scaleFactor;
 	}
 
-	public void setMassstab(double massstab) {
-		this.massstab = massstab;
+	public void setScaleFactor(double scaleFactor) {
+		this.scaleFactor = scaleFactor;
 	}
-
-	/*
-	 * public double getDestinationCoordinateX() { return destinationCoordinateX; }
-	 * 
-	 * public void setDestinationCoordinateX(double destinationCoordinateX) {
-	 * this.destinationCoordinateX = destinationCoordinateX; }
-	 * 
-	 * public double getDestinationCoordinateY() { return destinationCoordinateY; }
-	 * 
-	 * public void setDestinationCoordinateY(double destinationCoordinateY) {
-	 * this.destinationCoordinateY = destinationCoordinateY; }
-	 * 
-	 * public double getDestinationCoordinateZ() { return destinationCoordinateZ; }
-	 * 
-	 * public void setDestinationCoordinateZ(double destinationCoordinateZ) {
-	 * this.destinationCoordinateZ = destinationCoordinateZ; }
-	 */
 }
